@@ -1,0 +1,152 @@
+{
+  "AT": {
+    "ÖVP": "?",
+    "SPÖ": "?",
+    "FPÖ": "?",
+    "Grüne": "?",
+    "SPÖ - Social Democratic Party of Austria (Sozialdemokratische Partei Österreichs)": "?",
+    "ÖVP - Austrian Peoples Party (Österreichische Volkspartei)": "?",
+    "FPÖ - Freedom Party of Austria (Freiheitliche Partei Österreichs)": "?",
+    "Grüne - The Greens - The Green Alternative (Die Grünen - Dei Grüne Alternative)": "?",
+    "MARTIN - Hans-Peter Martin's List (Liste Dr. Hans-Peter Martin - für echte Kontrolle in Brüssel)": "?",
+    "GRÜNE": "?",
+    "MARTIN": "?"
+  },
+  "BE": {
+    "Electorate": "?",
+    "Votes": "?",
+    "Valid votes": "?"
+  },
+  "BG": {
+    "Electorate": "?",
+    "Votes": "?",
+    "Valid": "?",
+    "Lider (PP Lider)": "?",
+    "Citizens for European Development of Bulgaria (Grazhdani za evropeysko razvitie na Balgariya)": "?",
+    "Movement for Rights and Freedoms (Dvizhenie za prava i svobodi)": "?",
+    "National Union Attack (Natsionalen Sayuz Ataka)": "?",
+    "Coalition for Bulgaria (Koalicija za Balgarija)": "?",
+    "The National Movement for Stability and Progress (Nacionalno dviženie za stabilnost i vazhod) former National Movement Simeon II (Nacionalno Dviženie Simeon Vtori), acronym the same.": "?",
+    "The Blue Coalition (Sinyata koalitsia)": "?"
+  },
+  "CY": {
+    "DISY": "?",
+    "AKEL": "?",
+    "DIKO": "?",
+    "GTE": "?",
+    "EDEK": "?"
+  },
+  "CZ": {
+    "Electorate": "?",
+    "Votes (Envelopes submitted)": "?",
+    "Valid votes": "?",
+    "Votes": "?"
+  },
+  "DE": {
+    "CDU/CSU": "?",
+    "SPD": "?",
+    "Electorate": "?",
+    "Votes": "?",
+    "Valid votes": "?",
+    "CDU": "?"
+  },
+  "DK": {
+    "Electorate": "?",
+    "Votes": "?",
+    "Valid votes": "?",
+    "Social Democrats (Socialdemokraterna)": "?"
+  },
+  "EE": {
+    "KESK": "?",
+    "Tar": "?",
+    "Electorate": "?",
+    "Votes": "?",
+    "Valid votes": "?",
+    "SDE": "?"
+  },
+  "FI": {
+    "Electorate": "?",
+    "Votes": "?",
+    "Valid votes": "?",
+    "Voters": "?"
+  },
+  "FR": {
+    "Electorate": "?",
+    "Votes": "?",
+    "Valid votes": "?",
+    "Abstentions": "?"
+  },
+  "GR": {
+    "PASOK": "?",
+    "ND": "?",
+    "Electorate": "?",
+    "Votes": "?",
+    "Valid votes": "?",
+    "Voters": "?"
+  },
+  "HU": {
+    "FIDESZ": "?",
+    "MSZP": "?",
+    "Electorate": "?",
+    "Votes": "?",
+    "Valid votes": "?",
+    "FIDESZ-KDNP": "?"
+  },
+  "IE": {
+    "Fianna Fáil": "?",
+    "Electorate": "?",
+    "Votes": "?",
+    "Valid votes": "?",
+    "FG": "?",
+    "Fine Gael": "?"
+  },
+  "LA": {
+    "VA-TB/LNNK": "?",
+    "Electorate": "?",
+    "Votes": "?",
+    "Valid votes": "?"
+  },
+  "LT": {
+    "DP": "?",
+    "Electorate": "?",
+    "Votes": "?",
+    "Valid votes": "?"
+  },
+  "LU": {
+    "LSAP": "?",
+    "Greng": "?",
+    "CSV": "?",
+    "DP": "?",
+    "Electorate": "?",
+    "Votes": "?",
+    "Valid votes": "?",
+    "ADR": "?",
+    "Gréng": "?"
+  },
+  "MT": {
+    "MLP": "?",
+    "PN": "?",
+    "Electorate": "?",
+    "Votes": "?",
+    "Valid votes": "?"
+  },
+  "NL": {
+    "CDA": "?",
+    "Electorate": "?",
+    "Votes": "?",
+    "Valid votes": "?"
+  },
+  "RO": {
+    "PD": "?",
+    "PNL": "?",
+    "PSD": "?",
+    "Valid votes": "?",
+    "Electorate": "?",
+    "Votes": "?"
+  },
+  "SK": {
+    "Electorate": "?",
+    "Votes": "?",
+    "Valid votes": "?"
+  }
+}

@@ -4,7 +4,7 @@ require! {
 }
 columns = fs.readFileSync "#__dirname/../data/columns.json" |> JSON.parse
 (err, files) <~ fs.readdir "#__dirname/../data/download"
-# files.length = 1
+countryParties = {}
 output = {}
 <~ async.each files, (file, cb) ->
     (err, fileData) <~ fs.readFile "#__dirname/../data/download/#file"
@@ -26,7 +26,12 @@ output = {}
             continue if not votes
             total += votes
             col.sum += votes
+    cols.forEach (col) -> col.percent = col.sum / total
+    validParties = cols.filter -> it.percent > 0.05
+    countryParties[file.substr 0, 2] ?= {}
+    validParties.forEach -> countryParties[file.substr 0, 2][it.name] = "?"
     output[file.substr 0, 8] = {total, cols}
     cb!
 fs.writeFile "#__dirname/../data/parties.json" JSON.stringify output, yes, 2
+fs.writeFile "#__dirname/../data/validParties.json" JSON.stringify countryParties, yes, 2
 

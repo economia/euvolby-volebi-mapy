@@ -1,132 +1,111 @@
 {
-  "ATEP1996": {
-    "total": 15065776,
-    "cols": [
-      {
-        "name": "NUTS 3",
-        "sum": 0
-      },
-      {
-        "name": "Year",
-        "sum": 0
-      },
-      {
-        "name": "SPÖ - Social Democratic Party of Austria (Sozialdemokratische Partei Österreichs)",
-        "sum": 4396588
-      },
-      {
-        "name": "ÖVP - Austrian Peoples Party (Österreichische Volkspartei)",
-        "sum": 4459844
-      },
-      {
-        "name": "FPÖ - Freedom Party of Austria (Freiheitliche Partei Österreichs)",
-        "sum": 4161608
-      },
-      {
-        "name": "LIF - Liberal Forum (Liberals Forum)",
-        "sum": 636816
-      },
-      {
-        "name": "Grüne - The Greens - The Green Alternative (Die Grünen - Dei Grüne Alternative)",
-        "sum": 1017852
-      },
-      {
-        "name": "N - The Neutrals (Die Neutralen)",
-        "sum": 193320
-      },
-      {
-        "name": "Forum Handicap",
-        "sum": 129636
-      },
-      {
-        "name": "KPÖ - Communist Party of Austria (Kommunistische Partei Österreichs)",
-        "sum": 70112
-      }
-    ]
-  },
-  "ATEP2004": {
-    "total": 10002440,
-    "cols": [
-      {
-        "name": "NUTS ID",
-        "sum": 0
-      },
-      {
-        "name": "NUTS Name",
-        "sum": 0
-      },
-      {
-        "name": "Year",
-        "sum": 0
-      },
-      {
-        "name": "SPÖ",
-        "sum": 3334068
-      },
-      {
-        "name": "ÖVP",
-        "sum": 3270864
-      },
-      {
-        "name": "FPÖ",
-        "sum": 630888
-      },
-      {
-        "name": "GRÜNE",
-        "sum": 1289716
-      },
-      {
-        "name": "LINKE",
-        "sum": 78120
-      },
-      {
-        "name": "MARTIN",
-        "sum": 1398784
-      }
-    ]
-  },
   "ATEP1999": {
     "total": 11205412,
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "ÖVP",
-        "sum": 3436700
+        "sum": 3436700,
+        "percent": 0.3067000124582657
       },
       {
         "name": "SPÖ",
-        "sum": 3553352
+        "sum": 3553352,
+        "percent": 0.31711033918253073
       },
       {
         "name": "FPÖ",
-        "sum": 2622076
+        "sum": 2622076,
+        "percent": 0.23400085601493278
       },
       {
         "name": "Grüne",
-        "sum": 1041092
+        "sum": 1041092,
+        "percent": 0.0929097475398495
       },
       {
         "name": "LIF",
-        "sum": 297868
+        "sum": 297868,
+        "percent": 0.026582512093263504
       },
       {
         "name": "CSA",
-        "sum": 172336
+        "sum": 172336,
+        "percent": 0.015379711160999702
       },
       {
         "name": "KPÖ",
-        "sum": 81988
+        "sum": 81988,
+        "percent": 0.007316821550158084
+      }
+    ]
+  },
+  "ATEP1996": {
+    "total": 15065776,
+    "cols": [
+      {
+        "name": "NUTS 3",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "SPÖ - Social Democratic Party of Austria (Sozialdemokratische Partei Österreichs)",
+        "sum": 4396588,
+        "percent": 0.2918261893711947
+      },
+      {
+        "name": "ÖVP - Austrian Peoples Party (Österreichische Volkspartei)",
+        "sum": 4459844,
+        "percent": 0.29602484465453355
+      },
+      {
+        "name": "FPÖ - Freedom Party of Austria (Freiheitliche Partei Österreichs)",
+        "sum": 4161608,
+        "percent": 0.27622924965829837
+      },
+      {
+        "name": "LIF - Liberal Forum (Liberals Forum)",
+        "sum": 636816,
+        "percent": 0.042269047409174275
+      },
+      {
+        "name": "Grüne - The Greens - The Green Alternative (Die Grünen - Dei Grüne Alternative)",
+        "sum": 1017852,
+        "percent": 0.06756054251702667
+      },
+      {
+        "name": "N - The Neutrals (Die Neutralen)",
+        "sum": 193320,
+        "percent": 0.012831731999732374
+      },
+      {
+        "name": "Forum Handicap",
+        "sum": 129636,
+        "percent": 0.008604667957362436
+      },
+      {
+        "name": "KPÖ - Communist Party of Austria (Kommunistische Partei Österreichs)",
+        "sum": 70112,
+        "percent": 0.004653726432677613
       }
     ]
   },
@@ -135,43 +114,53 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "SPÖ - Social Democratic Party of Austria (Sozialdemokratische Partei Österreichs)",
-        "sum": 2735125
+        "sum": 2735125,
+        "percent": 0.23749801587508332
       },
       {
         "name": "ÖVP - Austrian Peoples Party (Österreichische Volkspartei)",
-        "sum": 3450878
+        "sum": 3450878,
+        "percent": 0.29964871003225657
       },
       {
         "name": "MARTIN - Hans-Peter Martin's List (Liste Dr. Hans-Peter Martin - für echte Kontrolle in Brüssel)",
-        "sum": 2033214
+        "sum": 2033214,
+        "percent": 0.17654925857115913
       },
       {
         "name": "Grüne - The Greens - The Green Alternative (Die Grünen - Dei Grüne Alternative)",
-        "sum": 1148624
+        "sum": 1148624,
+        "percent": 0.0997380086783974
       },
       {
         "name": "FPÖ - Freedom Party of Austria (Freiheitliche Partei Österreichs)",
-        "sum": 1462472
+        "sum": 1462472,
+        "percent": 0.12699024661500474
       },
       {
         "name": "KPÖ - Communist Party of Austria (Kommunistische Partei Österreichs)",
-        "sum": 76354
+        "sum": 76354,
+        "percent": 0.006630016362735199
       },
       {
         "name": "JuLis - Young Liberals Austria (Junge Liberale Österreich). Youth movement of the Liberal Forum (LIF)",
-        "sum": 83402
+        "sum": 83402,
+        "percent": 0.0072420125295968914
       },
       {
         "name": "BZÖ - Alliance for the Future of Austria (Bündnis Zukunft Österreich)",
-        "sum": 526343
+        "sum": 526343,
+        "percent": 0.04570373133576673
       }
     ]
   },
@@ -180,139 +169,223 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "CVP",
-        "sum": 3039798
+        "sum": 3039798,
+        "percent": 0.038594725482233146
       },
       {
         "name": "PS",
-        "sum": 2040426
+        "sum": 2040426,
+        "percent": 0.025906221840007477
       },
       {
         "name": "VLD",
-        "sum": 2035263
+        "sum": 2035263,
+        "percent": 0.025840669929102618
       },
       {
         "name": "SP",
-        "sum": 1954113
+        "sum": 1954113,
+        "percent": 0.024810350818134316
       },
       {
         "name": "PRL-FDF",
-        "sum": 1625172
+        "sum": 1625172,
+        "percent": 0.02063395896747475
       },
       {
         "name": "VLAAMS BLOK",
-        "sum": 1391757
+        "sum": 1391757,
+        "percent": 0.01767041078156389
       },
       {
         "name": "PSC",
-        "sum": 1260594
+        "sum": 1260594,
+        "percent": 0.016005102764904185
       },
       {
         "name": "AGALEV",
-        "sum": 1188594
+        "sum": 1188594,
+        "percent": 0.015090956418758556
       },
       {
         "name": "ECOLO",
-        "sum": 889719
+        "sum": 889719,
+        "percent": 0.011296296846476967
       },
       {
         "name": "VU",
-        "sum": 786129
+        "sum": 786129,
+        "percent": 0.009981068790959946
       },
       {
         "name": "FN",
-        "sum": 527196
+        "sum": 527196,
+        "percent": 0.006693531904202643
       },
       {
         "name": "WOW",
-        "sum": 382512
+        "sum": 382512,
+        "percent": 0.004856554821623005
       },
       {
         "name": "AGIR",
-        "sum": 128751
+        "sum": 128751,
+        "percent": 0.0016346841140638293
       },
       {
         "name": "PVDA-PTB",
-        "sum": 125448
+        "sum": 125448,
+        "percent": 0.0015927476504343984
       },
       {
         "name": "GU",
-        "sum": 107931
+        "sum": 107931,
+        "percent": 0.0013703434623033852
       },
       {
         "name": "BEB",
-        "sum": 72396
+        "sum": 72396,
+        "percent": 0.0009191741510494285
       },
       {
         "name": "NWP",
-        "sum": 59790
+        "sum": 59790,
+        "percent": 0.0007591223616117649
       },
       {
         "name": "PTB-PVDA",
-        "sum": 52362
+        "sum": 52362,
+        "percent": 0.0006648129302344077
       },
       {
         "name": "RGB",
-        "sum": 46647
+        "sum": 46647,
+        "percent": 0.0005922525640090985
       },
       {
         "name": "SUD",
-        "sum": 42162
+        "sum": 42162,
+        "percent": 0.0005353088645304437
       },
       {
         "name": "CSP-EVP",
-        "sum": 35997
+        "sum": 35997,
+        "percent": 0.0004570350836417244
       },
       {
         "name": "LETD",
-        "sum": 26466
+        "sum": 26466,
+        "percent": 0.00033602496107069696
       },
       {
         "name": "PFF",
-        "sum": 23070
+        "sum": 23070,
+        "percent": 0.00029290772507749486
       },
       {
         "name": "PH-HP",
-        "sum": 19155
+        "sum": 19155,
+        "percent": 0.00024320101750582634
       },
       {
         "name": "PDB",
-        "sum": 17835
+        "sum": 17835,
+        "percent": 0.00022644166782648985
       },
       {
         "name": "SP",
-        "sum": 14460
+        "sum": 14460,
+        "percent": 0.00018359105785091355
       },
       {
         "name": "JUROPA",
-        "sum": 5907
+        "sum": 5907,
+        "percent": 0.00007499808981503086
       },
       {
         "name": "PAB",
-        "sum": 615
+        "sum": 615,
+        "percent": 0.000007808333373327235
       },
       {
         "name": "Electorate",
-        "sum": 21633933
+        "sum": 21633933,
+        "percent": 0.2746747333987405
       },
       {
         "name": "Votes",
-        "sum": 19613904
+        "sum": 19613904,
+        "percent": 0.24902748160070987
       },
       {
         "name": "Valid votes",
-        "sum": 17900265
+        "sum": 17900265,
+        "percent": 0.22727030339983978
       },
       {
         "name": "Invalid votes",
-        "sum": 1713639
+        "sum": 1713639,
+        "percent": 0.0217571782008701
+      }
+    ]
+  },
+  "ATEP2004": {
+    "total": 10002440,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "SPÖ",
+        "sum": 3334068,
+        "percent": 0.3333254685856651
+      },
+      {
+        "name": "ÖVP",
+        "sum": 3270864,
+        "percent": 0.3270066103870656
+      },
+      {
+        "name": "FPÖ",
+        "sum": 630888,
+        "percent": 0.06307341008793854
+      },
+      {
+        "name": "GRÜNE",
+        "sum": 1289716,
+        "percent": 0.1289401386061801
+      },
+      {
+        "name": "LINKE",
+        "sum": 78120,
+        "percent": 0.007810094336981777
+      },
+      {
+        "name": "MARTIN",
+        "sum": 1398784,
+        "percent": 0.13984427799616894
       }
     ]
   },
@@ -321,91 +394,113 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "GERB",
-        "sum": 1680004
+        "sum": 1680004,
+        "percent": 0.03349377611361955
       },
       {
         "name": "PES - BSP and DSH",
-        "sum": 1659144
+        "sum": 1659144,
+        "percent": 0.0330778960503994
       },
       {
         "name": "DPS",
-        "sum": 1570600
+        "sum": 1570600,
+        "percent": 0.031312618758080855
       },
       {
         "name": "ATAKA",
-        "sum": 1100948
+        "sum": 1100948,
+        "percent": 0.02194929644497109
       },
       {
         "name": "NDSV",
-        "sum": 485592
+        "sum": 485592,
+        "percent": 0.009681113694113076
       },
       {
         "name": "SDS",
-        "sum": 367484
+        "sum": 367484,
+        "percent": 0.007326427092636307
       },
       {
         "name": "DSB",
-        "sum": 337400
+        "sum": 337400,
+        "percent": 0.006726650686983624
       },
       {
         "name": "PBSD+PDS",
-        "sum": 150580
+        "sum": 150580,
+        "percent": 0.003002071904107866
       },
       {
         "name": "ZNS",
-        "sum": 119008
+        "sum": 119008,
+        "percent": 0.0023726296531017994
       },
       {
         "name": "KPB",
-        "sum": 75952
+        "sum": 75952,
+        "percent": 0.0015142340633603445
       },
       {
         "name": "SSD",
-        "sum": 57568
+        "sum": 57568,
+        "percent": 0.0011477173288330564
       },
       {
         "name": "ZP",
-        "sum": 39904
+        "sum": 39904,
+        "percent": 0.0007955550356057929
       },
       {
         "name": "GSNB",
-        "sum": 37592
+        "sum": 37592,
+        "percent": 0.0007494613296534925
       },
       {
         "name": "RZS",
-        "sum": 36588
+        "sum": 36588,
+        "percent": 0.0007294448587295698
       },
       {
         "name": "Serkedzhieva",
-        "sum": 21292
+        "sum": 21292,
+        "percent": 0.00042449272800016395
       },
       {
         "name": "Ivanov",
-        "sum": 11128
+        "sum": 11128,
+        "percent": 0.00022185586498148715
       },
       {
         "name": "Electorate",
-        "sum": 26764320
+        "sum": 26764320,
+        "percent": 0.5335928616320378
       },
       {
         "name": "Votes",
-        "sum": 7821804
+        "sum": 7821804,
+        "percent": 0.15594114774763265
       },
       {
         "name": "Valid",
-        "sum": 7750784
+        "sum": 7750784,
+        "percent": 0.15452524160717748
       },
       {
         "name": "Invalid",
-        "sum": 71000
+        "sum": 71000,
+        "percent": 0.0014155074059746214
       }
     ]
   },
@@ -414,67 +509,83 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Order, Lawfulness, Justice (Red, zakonnost i spravedlivost)",
-        "sum": 481120
+        "sum": 481120,
+        "percent": 0.046684536271338534
       },
       {
         "name": "Lider (PP Lider)",
-        "sum": 587936
+        "sum": 587936,
+        "percent": 0.05704921748675111
       },
       {
         "name": "Citizens for European Development of Bulgaria (Grazhdani za evropeysko razvitie na Balgariya)",
-        "sum": 2510772
+        "sum": 2510772,
+        "percent": 0.24362784025411788
       },
       {
         "name": "Movement for Rights and Freedoms (Dvizhenie za prava i svobodi)",
-        "sum": 1456788
+        "sum": 1456788,
+        "percent": 0.14135656847699268
       },
       {
         "name": "National Union Attack (Natsionalen Sayuz Ataka)",
-        "sum": 1232208
+        "sum": 1232208,
+        "percent": 0.11956488832273345
       },
       {
         "name": "Coalition for Bulgaria (Koalicija za Balgarija)",
-        "sum": 1906472
+        "sum": 1906472,
+        "percent": 0.18499077409854364
       },
       {
         "name": "Union of the Patriotic Forces \"Defense\" (SAIUZ NA PATRIOTICHNITE SILI \"ZASHTITA\")",
-        "sum": 47616
+        "sum": 47616,
+        "percent": 0.0046203252392252574
       },
       {
         "name": "The National Movement for Stability and Progress (Nacionalno dviženie za stabilnost i vazhod) former National Movement Simeon II (Nacionalno Dviženie Simeon Vtori), acronym the same.",
-        "sum": 820584
+        "sum": 820584,
+        "percent": 0.07962376020884615
       },
       {
         "name": "Bulgarian Social democracy (Bulgarska Sotsialdemokratsia)",
-        "sum": 56528
+        "sum": 56528,
+        "percent": 0.00548508369293778
       },
       {
         "name": "Bulgarian New Democracy (Bulgarska nova Demokratsia)",
-        "sum": 46716
+        "sum": 46716,
+        "percent": 0.004532995503100788
       },
       {
         "name": "The Blue Coalition (Sinyata koalitsia)",
-        "sum": 819268
+        "sum": 819268,
+        "percent": 0.07949606472802415
       },
       {
         "name": "The Greens (Zelenite)",
-        "sum": 73776
+        "sum": 73776,
+        "percent": 0.007158709569243166
       },
       {
         "name": "NEXT IMRO - Bulgarian National Movement, Agrarian People's Union, St. George's Day Movement, United National Party (NAPRED VMRO - Bulgarsko natsionalno dvizhenie, Zemedelski naroden suiuz, Dvizhenie Gerg'ovden, Edinna Narodna Partiia)",
-        "sum": 231724
+        "sum": 231724,
+        "percent": 0.022484884193007256
       },
       {
         "name": "Initiative Committee Chavdar Ivanov Nikolov  (Initsiativen komitet Chavdar Ivanov Nikolov)",
-        "sum": 34260
+        "sum": 34260,
+        "percent": 0.0033243519551381323
       }
     ]
   },
@@ -483,55 +594,68 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "DISY",
-        "sum": 377420
+        "sum": 377420,
+        "percent": 0.28227350509172283
       },
       {
         "name": "AKEL",
-        "sum": 372848
+        "sum": 372848,
+        "percent": 0.27885409312288345
       },
       {
         "name": "DIKO",
-        "sum": 228484
+        "sum": 228484,
+        "percent": 0.17088384170785118
       },
       {
         "name": "GTE",
-        "sum": 144448
+        "sum": 144448,
+        "percent": 0.10803307525697943
       },
       {
         "name": "EDEK",
-        "sum": 144300
+        "sum": 144300,
+        "percent": 0.10792238563069154
       },
       {
         "name": "UN, D-MPM, EC",
-        "sum": 26136
+        "sum": 26136,
+        "percent": 0.019547189680136898
       },
       {
         "name": "NO",
-        "sum": 22004
+        "sum": 22004,
+        "percent": 0.016456854978639895
       },
       {
         "name": "KOP",
-        "sum": 11488
+        "sum": 11488,
+        "percent": 0.008591908289157204
       },
       {
         "name": "LASOK",
-        "sum": 3232
+        "sum": 3232,
+        "percent": 0.002417222109205787
       },
       {
         "name": "Individual candidates",
-        "sum": 6712
+        "sum": 6712,
+        "percent": 0.00501992413273182
       }
     ]
   },
@@ -540,155 +664,193 @@
     "cols": [
       {
         "name": "Region no",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Region name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "SNK-ED",
-        "sum": 1029112
+        "sum": 1029112,
+        "percent": 0.016810142250270124
       },
       {
         "name": "KC",
-        "sum": 18128
+        "sum": 18128,
+        "percent": 0.00029611379394361043
       },
       {
         "name": "HOB",
-        "sum": 13464
+        "sum": 13464,
+        "percent": 0.0002199291770552058
       },
       {
         "name": "CSSD",
-        "sum": 819612
+        "sum": 819612,
+        "percent": 0.013388041641753666
       },
       {
         "name": "NK",
-        "sum": 11776
+        "sum": 11776,
+        "percent": 0.00019235635687775578
       },
       {
         "name": "ODS",
-        "sum": 2803768
+        "sum": 2803768,
+        "percent": 0.045798454314744524
       },
       {
         "name": "SproOS",
-        "sum": 21652
+        "sum": 21652,
+        "percent": 0.0003536769564467704
       },
       {
         "name": "SDS",
-        "sum": 6836
+        "sum": 6836,
+        "percent": 0.00011166338787502874
       },
       {
         "name": "SZ",
-        "sum": 295728
+        "sum": 295728,
+        "percent": 0.004830601282841794
       },
       {
         "name": "HA",
-        "sum": 15908
+        "sum": 15908,
+        "percent": 0.0002598509617197129
       },
       {
         "name": "KS",
-        "sum": 19944
+        "sum": 19944,
+        "percent": 0.00032577744408712305
       },
       {
         "name": "SN",
-        "sum": 46756
+        "sum": 46756,
+        "percent": 0.0007637409835407905
       },
       {
         "name": "SORC",
-        "sum": 10340
+        "sum": 10340,
+        "percent": 0.0001688998581959914
       },
       {
         "name": "MDS",
-        "sum": 17464
+        "sum": 17464,
+        "percent": 0.0002852676134946609
       },
       {
         "name": "VOS",
-        "sum": 3492
+        "sum": 3492,
+        "percent": 0.00005704045501164429
       },
       {
         "name": "DS",
-        "sum": 17156
+        "sum": 17156,
+        "percent": 0.0002802365538888229
       },
       {
         "name": "SP",
-        "sum": 6868
+        "sum": 6868,
+        "percent": 0.00011218609536654439
       },
       {
         "name": "BPS",
-        "sum": 55116
+        "sum": 55116,
+        "percent": 0.0009002983156992516
       },
       {
         "name": "ZME",
-        "sum": 37172
+        "sum": 37172,
+        "percent": 0.0006071900898318561
       },
       {
         "name": "KDU-CSL",
-        "sum": 893532
+        "sum": 893532,
+        "percent": 0.014595495947154796
       },
       {
         "name": "PB",
-        "sum": 110016
+        "sum": 110016,
+        "percent": 0.0017970683558307726
       },
       {
         "name": "SZR",
-        "sum": 25264
+        "sum": 25264,
+        "percent": 0.0004126775645515983
       },
       {
         "name": "ULD",
-        "sum": 158620
+        "sum": 158620,
+        "percent": 0.0025909956970065913
       },
       {
         "name": "KSCM",
-        "sum": 1891448
+        "sum": 1891448,
+        "percent": 0.03089606373163361
       },
       {
         "name": "SV-SOS",
-        "sum": 46936
+        "sum": 46936,
+        "percent": 0.0007666812131805659
       },
       {
         "name": "SZZJ",
-        "sum": 47804
+        "sum": 47804,
+        "percent": 0.0007808596538879277
       },
       {
         "name": "NEI",
-        "sum": 67048
+        "sum": 67048,
+        "percent": 0.001095202871598146
       },
       {
         "name": "SVOB",
-        "sum": 5200
+        "sum": 5200,
+        "percent": 0.00008493996737129161
       },
       {
         "name": "VKOFD",
-        "sum": 8120
+        "sum": 8120,
+        "percent": 0.00013263702597209382
       },
       {
         "name": "RMS",
-        "sum": 63068
+        "sum": 63068,
+        "percent": 0.0010301911273408882
       },
       {
         "name": "Ind.",
-        "sum": 764100
+        "sum": 764100,
+        "percent": 0.012481274820846908
       },
       {
         "name": "Electorate",
-        "sum": 33133940
+        "sum": 33133940,
+        "percent": 0.5412299581696796
       },
       {
         "name": "Votes (Envelopes submitted)",
-        "sum": 9377160
+        "sum": 9377160,
+        "percent": 0.15317224316065017
       },
       {
         "name": "Valid votes",
-        "sum": 9331448
+        "sum": 9331448,
+        "percent": 0.15242555550902007
       },
       {
         "name": "Invalid votes",
-        "sum": 45712
+        "sum": 45712,
+        "percent": 0.0007466876516300928
       }
     ]
   },
@@ -697,159 +859,198 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "ODS",
-        "sum": 2967784
+        "sum": 2967784,
+        "percent": 0.04786030173794565
       },
       {
         "name": "CSSD",
-        "sum": 2112528
+        "sum": 2112528,
+        "percent": 0.03406791987215338
       },
       {
         "name": "KSCM",
-        "sum": 1338308
+        "sum": 1338308,
+        "percent": 0.021582374154691365
       },
       {
         "name": "KDU-CSL",
-        "sum": 721804
+        "sum": 721804,
+        "percent": 0.011640253211034266
       },
       {
         "name": "Suv.",
-        "sum": 402056
+        "sum": 402056,
+        "percent": 0.006483801205057873
       },
       {
         "name": "EDS",
-        "sum": 272608
+        "sum": 272608,
+        "percent": 0.004396243505651991
       },
       {
         "name": "VV",
-        "sum": 226544
+        "sum": 226544,
+        "percent": 0.003653387240082553
       },
       {
         "name": "SN-VA",
-        "sum": 215936
+        "sum": 215936,
+        "percent": 0.003482316137591223
       },
       {
         "name": "SZ",
-        "sum": 194484
+        "sum": 194484,
+        "percent": 0.003136368052123275
       },
       {
         "name": "SNK ED",
-        "sum": 156664
+        "sum": 156664,
+        "percent": 0.0025264595777433657
       },
       {
         "name": "SSO",
-        "sum": 119384
+        "sum": 119384,
+        "percent": 0.0019252594739653907
       },
       {
         "name": "DS",
-        "sum": 101472
+        "sum": 101472,
+        "percent": 0.0016363995957767886
       },
       {
         "name": "PB",
-        "sum": 94448
+        "sum": 94448,
+        "percent": 0.001523126271502741
       },
       {
         "name": "Lib.",
-        "sum": 88972
+        "sum": 88972,
+        "percent": 0.001434816942954238
       },
       {
         "name": "SDZ",
-        "sum": 68244
+        "sum": 68244,
+        "percent": 0.0011005445247377716
       },
       {
         "name": "DSZ",
-        "sum": 59044
+        "sum": 59044,
+        "percent": 0.0009521796922603744
       },
       {
         "name": "NEZ (Ind.)",
-        "sum": 51296
+        "sum": 51296,
+        "percent": 0.0008272307007348446
       },
       {
         "name": "M",
-        "sum": 36344
+        "sum": 36344,
+        "percent": 0.0005861055947346224
       },
       {
         "name": "SPR-RSC",
-        "sum": 29968
+        "sum": 29968,
+        "percent": 0.00048328231518289576
       },
       {
         "name": "NHZ-UE",
-        "sum": 27616
+        "sum": 27616,
+        "percent": 0.00044535252322780466
       },
       {
         "name": "NS",
-        "sum": 25052
+        "sum": 25052,
+        "percent": 0.0004040038894808431
       },
       {
         "name": "HS",
-        "sum": 18336
+        "sum": 18336,
+        "percent": 0.0002956975617723431
       },
       {
         "name": "SS-CR",
-        "sum": 18176
+        "sum": 18176,
+        "percent": 0.0002931173038162144
       },
       {
         "name": "KC",
-        "sum": 17796
+        "sum": 17796,
+        "percent": 0.0002869891911704089
       },
       {
         "name": "Zeleni",
-        "sum": 14868
+        "sum": 14868,
+        "percent": 0.00023977047057325461
       },
       {
         "name": "BPS",
-        "sum": 14844
+        "sum": 14844,
+        "percent": 0.00023938343187983533
       },
       {
         "name": "CSNSa",
-        "sum": 13076
+        "sum": 13076,
+        "percent": 0.00021087158146461377
       },
       {
         "name": "Lib.CZ",
-        "sum": 7100
+        "sum": 7100,
+        "percent": 0.00011449894680320875
       },
       {
         "name": "SD-SN",
-        "sum": 6004
+        "sum": 6004,
+        "percent": 0.00009682417980372752
       },
       {
         "name": "SSD",
-        "sum": 5692
+        "sum": 5692,
+        "percent": 0.00009179267678927666
       },
       {
         "name": "SDSvo",
-        "sum": 3944
+        "sum": 3944,
+        "percent": 0.00006360335861857118
       },
       {
         "name": "CSNS",
-        "sum": 3164
+        "sum": 3164,
+        "percent": 0.000051024601082444016
       },
       {
         "name": "LaP",
-        "sum": 2180
+        "sum": 2180,
+        "percent": 0.00003515601465225283
       },
       {
         "name": "Electorate",
-        "sum": 33605496
+        "sum": 33605496,
+        "percent": 0.5419428026478091
       },
       {
         "name": "Votes",
-        "sum": 9484036
+        "sum": 9484036,
+        "percent": 0.15294537090756574
       },
       {
         "name": "Valid votes",
-        "sum": 9435736
+        "sum": 9435736,
+        "percent": 0.1521664555370594
       },
       {
         "name": "Invalid votes",
-        "sum": 48300
+        "sum": 48300,
+        "percent": 0.0007789153705063356
       }
     ]
   },
@@ -858,135 +1059,168 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "CDU/CSU",
-        "sum": 54957788
+        "sum": 54957788,
+        "percent": 0.08067341194778574
       },
       {
         "name": "SPD",
-        "sum": 45558788
+        "sum": 45558788,
+        "percent": 0.06687647021320868
       },
       {
         "name": "B90/GRÜ",
-        "sum": 14253072
+        "sum": 14253072,
+        "percent": 0.020922311301492892
       },
       {
         "name": "PDS",
-        "sum": 6681264
+        "sum": 6681264,
+        "percent": 0.009807533793097909
       },
       {
         "name": "FDP",
-        "sum": 5771428
+        "sum": 5771428,
+        "percent": 0.00847197104386707
       },
       {
         "name": "REP",
-        "sum": 5548280
+        "sum": 5548280,
+        "percent": 0.008144408542091626
       },
       {
         "name": "BFB",
-        "sum": 1542704
+        "sum": 1542704,
+        "percent": 0.0022645597618575343
       },
       {
         "name": "Graue",
-        "sum": 1103464
+        "sum": 1103464,
+        "percent": 0.0016197923730400402
       },
       {
         "name": "ÖDP",
-        "sum": 1095104
+        "sum": 1095104,
+        "percent": 0.0016075205959466192
       },
       {
         "name": "APD",
-        "sum": 925060
+        "sum": 925060,
+        "percent": 0.001357910301200963
       },
       {
         "name": "STATT",
-        "sum": 674952
+        "sum": 674952,
+        "percent": 0.0009907727862151561
       },
       {
         "name": "PASS",
-        "sum": 508416
+        "sum": 508416,
+        "percent": 0.0007463119405177922
       },
       {
         "name": "BP",
-        "sum": 443112
+        "sum": 443112,
+        "percent": 0.0006504511592607627
       },
       {
         "name": "Forum",
-        "sum": 430460
+        "sum": 430460,
+        "percent": 0.0006318790870375614
       },
       {
         "name": "PBC",
-        "sum": 372840
+        "sum": 372840,
+        "percent": 0.0005472977717118534
       },
       {
         "name": "Natur",
-        "sum": 368124
+        "sum": 368124,
+        "percent": 0.0005403750802318804
       },
       {
         "name": "DSU",
-        "sum": 322472
+        "sum": 322472,
+        "percent": 0.00047336178263991197
       },
       {
         "name": "NPD",
-        "sum": 308908
+        "sum": 308908,
+        "percent": 0.00045345097109742837
       },
       {
         "name": "CM",
-        "sum": 267064
+        "sum": 267064,
+        "percent": 0.0003920274973298316
       },
       {
         "name": "CL",
-        "sum": 160460
+        "sum": 160460,
+        "percent": 0.00023554178856582982
       },
       {
         "name": "Autonome",
-        "sum": 150688
+        "sum": 150688,
+        "percent": 0.00022119731419299366
       },
       {
         "name": "BüSo",
-        "sum": 95404
+        "sum": 95404,
+        "percent": 0.00014004505045702622
       },
       {
         "name": "PEAD",
-        "sum": 51968
+        "sum": 51968,
+        "percent": 0.00007628465454436648
       },
       {
         "name": "BSA",
-        "sum": 42712
+        "sum": 42712,
+        "percent": 0.00006269762478638741
       },
       {
         "name": "FAMILIE",
-        "sum": 11124
+        "sum": 11124,
+        "percent": 0.00001632909669703534
       },
       {
         "name": "Other",
-        "sum": 7332332
+        "sum": 7332332,
+        "percent": 0.01076324687547344
       },
       {
         "name": "Electorate",
-        "sum": 241895708
+        "sum": 241895708,
+        "percent": 0.3550825608171364
       },
       {
         "name": "Votes",
-        "sum": 145182116
+        "sum": 145182116,
+        "percent": 0.21311513941425764
       },
       {
         "name": "Valid votes",
-        "sum": 141645656
+        "sum": 141645656,
+        "percent": 0.2079239134788749
       },
       {
         "name": "Invalid votes",
-        "sum": 3536460
+        "sum": 3536460,
+        "percent": 0.005191225935382741
       }
     ]
   },
@@ -995,321 +1229,148 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "CDU/CSU",
-        "sum": 52672924
+        "sum": 52672924,
+        "percent": 0.09222480963401225
       },
       {
         "name": "SPD",
-        "sum": 33228340
+        "sum": 33228340,
+        "percent": 0.058179366137984564
       },
       {
         "name": "B90/GRÜ",
-        "sum": 6965976
+        "sum": 6965976,
+        "percent": 0.012196699209542613
       },
       {
         "name": "PDS",
-        "sum": 6270980
+        "sum": 6270980,
+        "percent": 0.010979833523551837
       },
       {
         "name": "FDP",
-        "sum": 3281484
+        "sum": 3281484,
+        "percent": 0.005745537066008659
       },
       {
         "name": "REP",
-        "sum": 1844152
+        "sum": 1844152,
+        "percent": 0.003228918279459537
       },
       {
         "name": "MUT",
-        "sum": 740744
+        "sum": 740744,
+        "percent": 0.0012969656741960399
       },
       {
         "name": "Graue",
-        "sum": 448568
+        "sum": 448568,
+        "percent": 0.0007853958972907903
       },
       {
         "name": "NPD",
-        "sum": 430648
+        "sum": 430648,
+        "percent": 0.0007540198417552842
       },
       {
         "name": "Frauen",
-        "sum": 400512
+        "sum": 400512,
+        "percent": 0.0007012548412185644
       },
       {
         "name": "ÖDP",
-        "sum": 400192
+        "sum": 400192,
+        "percent": 0.0007006945545125733
       },
       {
         "name": "APD",
-        "sum": 391936
+        "sum": 391936,
+        "percent": 0.0006862391574980008
       },
       {
         "name": "PASS",
-        "sum": 285720
+        "sum": 285720,
+        "percent": 0.0005002659926118774
       },
       {
         "name": "PBC",
-        "sum": 274928
+        "sum": 274928,
+        "percent": 0.0004813703234523248
       },
       {
         "name": "Natur",
-        "sum": 152556
+        "sum": 152556,
+        "percent": 0.00026710968349747153
       },
       {
         "name": "ASP",
-        "sum": 136116
+        "sum": 136116,
+        "percent": 0.0002383249539771745
       },
       {
         "name": "CM",
-        "sum": 122984
+        "sum": 122984,
+        "percent": 0.00021533218828006135
       },
       {
         "name": "BP",
-        "sum": 59800
+        "sum": 59800,
+        "percent": 0.0001047035781821023
       },
       {
         "name": "HP",
-        "sum": 46020
+        "sum": 46020,
+        "percent": 0.00008057623190535699
       },
       {
         "name": "BüSo",
-        "sum": 37724
+        "sum": 37724,
+        "percent": 0.00006605079905253557
       },
       {
         "name": "ZENT",
-        "sum": 28320
+        "sum": 28320,
+        "percent": 0.000049585373480219686
       },
       {
         "name": "FAMILIE",
-        "sum": 16468
+        "sum": 16468,
+        "percent": 0.000028833754607071247
       },
       {
         "name": "Electorate",
-        "sum": 243147616
+        "sum": 243147616,
+        "percent": 0.42572617761952825
       },
       {
         "name": "Votes",
-        "sum": 109875728
+        "sum": 109875728,
+        "percent": 0.19238096784219744
       },
       {
         "name": "Valid votes",
-        "sum": 108237092
+        "sum": 108237092,
+        "percent": 0.1895118866960769
       },
       {
         "name": "Invalid votes",
-        "sum": 1638636
-      }
-    ]
-  },
-  "DKEP1994": {
-    "total": 41101836,
-    "cols": [
-      {
-        "name": "NUTS ID",
-        "sum": 0
-      },
-      {
-        "name": "NUTS Name",
-        "sum": 0
-      },
-      {
-        "name": "Year",
-        "sum": 0
-      },
-      {
-        "name": "Social Democrats",
-        "sum": 1316808
-      },
-      {
-        "name": "Social Liberals",
-        "sum": 705920
-      },
-      {
-        "name": "Conservative",
-        "sum": 1475560
-      },
-      {
-        "name": "Centre Democrats",
-        "sum": 73460
-      },
-      {
-        "name": "Socialist People's Party",
-        "sum": 714172
-      },
-      {
-        "name": "The June Movement",
-        "sum": 1266748
-      },
-      {
-        "name": "Peoople's Movement against EC",
-        "sum": 858940
-      },
-      {
-        "name": "Christian People's Party",
-        "sum": 91944
-      },
-      {
-        "name": "Liberal Party",
-        "sum": 1577448
-      },
-      {
-        "name": "Progressive Party",
-        "sum": 238748
-      },
-      {
-        "name": "Electorate",
-        "sum": 15871848
-      },
-      {
-        "name": "Votes",
-        "sum": 8455120
-      },
-      {
-        "name": "Valid votes",
-        "sum": 8319748
-      },
-      {
-        "name": "Invalid votes",
-        "sum": 135372
-      }
-    ]
-  },
-  "DEEP2004": {
-    "total": 566587608,
-    "cols": [
-      {
-        "name": "NUTS ID",
-        "sum": 0
-      },
-      {
-        "name": "NUTS Name",
-        "sum": 0
-      },
-      {
-        "name": "Year",
-        "sum": 0
-      },
-      {
-        "name": "CDU/CSU",
-        "sum": 45907588
-      },
-      {
-        "name": "SPD",
-        "sum": 22191884
-      },
-      {
-        "name": "B90/GRÜ",
-        "sum": 12318912
-      },
-      {
-        "name": "PDS",
-        "sum": 6316436
-      },
-      {
-        "name": "FDP",
-        "sum": 6261724
-      },
-      {
-        "name": "REP",
-        "sum": 1942648
-      },
-      {
-        "name": "MUT",
-        "sum": 1325552
-      },
-      {
-        "name": "Graue",
-        "sum": 1257608
-      },
-      {
-        "name": "FAMILIE",
-        "sum": 1073872
-      },
-      {
-        "name": "NPD",
-        "sum": 966972
-      },
-      {
-        "name": "ÖDP",
-        "sum": 582148
-      },
-      {
-        "name": "Frauen",
-        "sum": 581248
-      },
-      {
-        "name": "DE",
-        "sum": 540060
-      },
-      {
-        "name": "PBC",
-        "sum": 394604
-      },
-      {
-        "name": "AUK",
-        "sum": 281204
-      },
-      {
-        "name": "DP",
-        "sum": 248020
-      },
-      {
-        "name": "CM",
-        "sum": 184148
-      },
-      {
-        "name": "AUFBRUCH",
-        "sum": 172512
-      },
-      {
-        "name": "DKP",
-        "sum": 148640
-      },
-      {
-        "name": "BP",
-        "sum": 140608
-      },
-      {
-        "name": "ZENT",
-        "sum": 107212
-      },
-      {
-        "name": "PSG",
-        "sum": 103180
-      },
-      {
-        "name": "BüSo",
-        "sum": 87932
-      },
-      {
-        "name": "Other",
-        "sum": 4538488
-      },
-      {
-        "name": "Electorate",
-        "sum": 246729576
-      },
-      {
-        "name": "Votes",
-        "sum": 106092416
-      },
-      {
-        "name": "Valid votes",
-        "sum": 103134712
-      },
-      {
-        "name": "Invalid votes",
-        "sum": 2957704
+        "sum": 1638636,
+        "percent": 0.002869081146120525
       }
     ]
   },
@@ -1318,155 +1379,283 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "CDU",
-        "sum": 32285564
+        "sum": 32285564,
+        "percent": 0.056679705550869534
       },
       {
         "name": "SPD",
-        "sum": 21890264
+        "sum": 21890264,
+        "percent": 0.03842998430973049
       },
       {
         "name": "GRÜNE",
-        "sum": 12778036
+        "sum": 12778036,
+        "percent": 0.022432791262324264
       },
       {
         "name": "CSU",
-        "sum": 7587048
+        "sum": 7587048,
+        "percent": 0.013319626277562122
       },
       {
         "name": "DIE LINKE",
-        "sum": 7876956
+        "sum": 7876956,
+        "percent": 0.013828581303927511
       },
       {
         "name": "FDP",
-        "sum": 11552336
+        "sum": 11552336,
+        "percent": 0.020280983875787643
       },
       {
         "name": "REP",
-        "sum": 1391548
+        "sum": 1391548,
+        "percent": 0.0024429658685814317
       },
       {
         "name": "Die Tierschutzpartei",
-        "sum": 1158776
+        "sum": 1158776,
+        "percent": 0.0020343173338837877
       },
       {
         "name": "FAMILIE",
-        "sum": 1008484
+        "sum": 1008484,
+        "percent": 0.001770468565231294
       },
       {
         "name": "ödp",
-        "sum": 539572
+        "sum": 539572,
+        "percent": 0.0009472587216842108
       },
       {
         "name": "DIE FRAUEN",
-        "sum": 346652
+        "sum": 346652,
+        "percent": 0.0006085733329180815
       },
       {
         "name": "Volksabstimmung",
-        "sum": 278624
+        "sum": 278624,
+        "percent": 0.0004891451262677485
       },
       {
         "name": "PBC",
-        "sum": 322752
+        "sum": 322752,
+        "percent": 0.0005666151077910314
       },
       {
         "name": "CM",
-        "sum": 159812
+        "sum": 159812,
+        "percent": 0.00028056183573238995
       },
       {
         "name": "AUFBRUCH",
-        "sum": 124052
+        "sum": 124052,
+        "percent": 0.00021778249972639375
       },
       {
         "name": "DKP",
-        "sum": 102460
+        "sum": 102460,
+        "percent": 0.00017987614002165465
       },
       {
         "name": "BP",
-        "sum": 223116
+        "sum": 223116,
+        "percent": 0.00039169670951660646
       },
       {
         "name": "PSG",
-        "sum": 38584
+        "sum": 38584,
+        "percent": 0.00006773707775322587
       },
       {
         "name": "BüSo",
-        "sum": 43636
+        "sum": 43636,
+        "percent": 0.00007660623898091862
       },
       {
         "name": "50Plus",
-        "sum": 274312
+        "sum": 274312,
+        "percent": 0.00048157509000214846
       },
       {
         "name": "AUF",
-        "sum": 151576
+        "sum": 151576,
+        "percent": 0.00026610292601915214
       },
       {
         "name": "DVU",
-        "sum": 446780
+        "sum": 446780,
+        "percent": 0.0007843554737348708
       },
       {
         "name": "DIE GRAUEN",
-        "sum": 231100
+        "sum": 231100,
+        "percent": 0.00040571321451302354
       },
       {
         "name": "DIE VIOLETTEN",
-        "sum": 185420
+        "sum": 185420,
+        "percent": 0.0003255185817178919
       },
       {
         "name": "EDE",
-        "sum": 47088
+        "sum": 47088,
+        "percent": 0.00008266648137165406
       },
       {
         "name": "FBI",
-        "sum": 123540
+        "sum": 123540,
+        "percent": 0.0002168836456985674
       },
       {
         "name": "VOLKSENTSCHEIDE",
-        "sum": 159984
+        "sum": 159984,
+        "percent": 0.00028086379450736285
       },
       {
         "name": "FW FREIE WÄHLER",
-        "sum": 1770316
+        "sum": 1770316,
+        "percent": 0.003107921224854339
       },
       {
         "name": "Newropeans",
-        "sum": 58832
+        "sum": 58832,
+        "percent": 0.00010328394563492081
       },
       {
         "name": "PIRATEN",
-        "sum": 917856
+        "sum": 917856,
+        "percent": 0.0016113643800089387
       },
       {
         "name": "RRP",
-        "sum": 408696
+        "sum": 408696,
+        "percent": 0.0007174961831181942
       },
       {
         "name": "RENTNER",
-        "sum": 850004
+        "sum": 850004,
+        "percent": 0.0014922451544306708
       },
       {
         "name": "Electorate",
-        "sum": 248891492
+        "sum": 248891492,
+        "percent": 0.4369475001482582
       },
       {
         "name": "Votes",
-        "sum": 107694456
+        "sum": 107694456,
+        "percent": 0.18906561630891983
       },
       {
         "name": "Invalid votes",
-        "sum": 2360680
+        "sum": 2360680,
+        "percent": 0.0041443490750177605
       },
       {
         "name": "Valid votes",
-        "sum": 105333776
+        "sum": 105333776,
+        "percent": 0.18492126723390206
+      }
+    ]
+  },
+  "DKEP1994": {
+    "total": 41101836,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "Social Democrats",
+        "sum": 1316808,
+        "percent": 0.03203769291473987
+      },
+      {
+        "name": "Social Liberals",
+        "sum": 705920,
+        "percent": 0.01717490187056364
+      },
+      {
+        "name": "Conservative",
+        "sum": 1475560,
+        "percent": 0.035900099450545224
+      },
+      {
+        "name": "Centre Democrats",
+        "sum": 73460,
+        "percent": 0.0017872680918682075
+      },
+      {
+        "name": "Socialist People's Party",
+        "sum": 714172,
+        "percent": 0.01737567149068475
+      },
+      {
+        "name": "The June Movement",
+        "sum": 1266748,
+        "percent": 0.030819742456273728
+      },
+      {
+        "name": "Peoople's Movement against EC",
+        "sum": 858940,
+        "percent": 0.020897849915998887
+      },
+      {
+        "name": "Christian People's Party",
+        "sum": 91944,
+        "percent": 0.002236980362629056
+      },
+      {
+        "name": "Liberal Party",
+        "sum": 1577448,
+        "percent": 0.03837901547755677
+      },
+      {
+        "name": "Progressive Party",
+        "sum": 238748,
+        "percent": 0.0058086942880118545
+      },
+      {
+        "name": "Electorate",
+        "sum": 15871848,
+        "percent": 0.38615910004604176
+      },
+      {
+        "name": "Votes",
+        "sum": 8455120,
+        "percent": 0.20571149181754314
+      },
+      {
+        "name": "Valid votes",
+        "sum": 8319748,
+        "percent": 0.202417916318872
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 135372,
+        "percent": 0.0032935754986711543
       }
     ]
   },
@@ -1475,152 +1664,103 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Social Democrats",
-        "sum": 1297024
+        "sum": 1297024,
+        "percent": 0.032169811395631055
       },
       {
         "name": "Social Liberals",
-        "sum": 720356
+        "sum": 720356,
+        "percent": 0.01786683720402337
       },
       {
         "name": "Conservatives",
-        "sum": 667536
+        "sum": 667536,
+        "percent": 0.01655675393808748
       },
       {
         "name": "Centre Democrats",
-        "sum": 274868
+        "sum": 274868,
+        "percent": 0.006817492751633214
       },
       {
         "name": "Socialist People's Party",
-        "sum": 560212
+        "sum": 560212,
+        "percent": 0.013894819511103315
       },
       {
         "name": "The June Movement",
-        "sum": 1270032
+        "sum": 1270032,
+        "percent": 0.03150033454000551
       },
       {
         "name": "Peoples Movement Against EC",
-        "sum": 574836
+        "sum": 574836,
+        "percent": 0.014257535483860726
       },
       {
         "name": "Danish People's Party",
-        "sum": 459460
+        "sum": 459460,
+        "percent": 0.011395889007324958
       },
       {
         "name": "Christian People's Party",
-        "sum": 156512
+        "sum": 156512,
+        "percent": 0.003881933966644417
       },
       {
         "name": "Liberal Party",
-        "sum": 1843336
+        "sum": 1843336,
+        "percent": 0.04571987215254072
       },
       {
         "name": "Progress Party",
-        "sum": 56932
+        "sum": 56932,
+        "percent": 0.001412072330485841
       },
       {
         "name": "Electorate",
-        "sum": 16038376
+        "sum": 16038376,
+        "percent": 0.39779644093880734
       },
       {
         "name": "Votes",
-        "sum": 8093224
+        "sum": 8093224,
+        "percent": 0.2007345196870642
       },
       {
         "name": "Valid votes",
-        "sum": 7881104
+        "sum": 7881104,
+        "percent": 0.1954733522813406
       },
       {
         "name": "Invalid votes",
-        "sum": 212120
+        "sum": 212120,
+        "percent": 0.005261167405723611
       },
       {
         "name": "Blank",
-        "sum": 184732
+        "sum": 184732,
+        "percent": 0.004581868646021752
       },
       {
         "name": "Other invalid",
-        "sum": 27388
-      }
-    ]
-  },
-  "DKEP2004": {
-    "total": 39000364,
-    "cols": [
-      {
-        "name": "NUTS ID",
-        "sum": 0
-      },
-      {
-        "name": "NUTS Name",
-        "sum": 0
-      },
-      {
-        "name": "Year",
-        "sum": 0
-      },
-      {
-        "name": "Social Democrats (Socialdemokraterna)",
-        "sum": 2473648
-      },
-      {
-        "name": "Danish Social Liberal Party/Radical Left (Det Radikale Venstre)",
-        "sum": 481892
-      },
-      {
-        "name": "Conservative People's Party (Konservative Folkeparti)",
-        "sum": 859888
-      },
-      {
-        "name": "Socialist People's Party (Socialistisk Folkeparti)",
-        "sum": 603064
-      },
-      {
-        "name": "June Movement (Junibevægelsen)",
-        "sum": 687708
-      },
-      {
-        "name": "Christian Democrats (Kristendemokraterne)",
-        "sum": 97144
-      },
-      {
-        "name": "Peoples Movement against the EU (Folkebevægelsen Mot EU)",
-        "sum": 391944
-      },
-      {
-        "name": "Danish People's Party (Dansk Folkeparti)",
-        "sum": 515156
-      },
-      {
-        "name": "Liberal Party (Venstre)",
-        "sum": 1466940
-      },
-      {
-        "name": "Electorate",
-        "sum": 16050652
-      },
-      {
-        "name": "Votes",
-        "sum": 7686164
-      },
-      {
-        "name": "Valid votes",
-        "sum": 7577384
-      },
-      {
-        "name": "Total invalid votes",
-        "sum": 108780
+        "sum": 27388,
+        "percent": 0.0006792987597018586
       }
     ]
   },
@@ -1629,144 +1769,328 @@
     "cols": [
       {
         "name": "Strokreds",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Social Democrats (Socialdemokraterna)",
-        "sum": 2013756
+        "sum": 2013756,
+        "percent": 0.044537131040134806
       },
       {
         "name": "Danish Social Liberal Party/Radical Left (Det Radikale Venstre)",
-        "sum": 400376
+        "sum": 400376,
+        "percent": 0.00885489521934386
       },
       {
         "name": "Conservative People's Party (Konservative Folkeparti)",
-        "sum": 1188796
+        "sum": 1188796,
+        "percent": 0.026291945614060543
       },
       {
         "name": "Socialist People's Party (Socialistisk Folkeparti)",
-        "sum": 1486412
+        "sum": 1486412,
+        "percent": 0.032874154576636325
       },
       {
         "name": "Liberal Alliance (Liberal Alliance). Formerly known as New Alliance (NA)",
-        "sum": 55184
+        "sum": 55184,
+        "percent": 0.0012204740988077997
       },
       {
         "name": "June Movement (Junibevægelsen)",
-        "sum": 221836
+        "sum": 221836,
+        "percent": 0.004906224488676556
       },
       {
         "name": "Peoples Movement against the EU (Folkebevægelsen Mot EU)",
-        "sum": 674220
+        "sum": 674220,
+        "percent": 0.014911351966116893
       },
       {
         "name": "Danish People's Party (Dansk Folkeparti)",
-        "sum": 1431768
+        "sum": 1431768,
+        "percent": 0.031665623360065336
       },
       {
         "name": "Liberal Party (Venstre)",
-        "sum": 1896164
+        "sum": 1896164,
+        "percent": 0.04193641361792897
       },
       {
         "name": "Electorate",
-        "sum": 16228400
+        "sum": 16228400,
+        "percent": 0.3589145742442102
       },
       {
         "name": "Votes",
-        "sum": 9662272
+        "sum": 9662272,
+        "percent": 0.21369514191859662
       },
       {
         "name": "Valid votes",
-        "sum": 9368512
+        "sum": 9368512,
+        "percent": 0.2071982139817711
       },
       {
         "name": "Invalid votes",
-        "sum": 293760
+        "sum": 293760,
+        "percent": 0.006496927936825514
       },
       {
         "name": "Blank votes",
-        "sum": 268876
+        "sum": 268876,
+        "percent": 0.005946582230194367
       },
       {
         "name": "Other invalid votes",
-        "sum": 24884
+        "sum": 24884,
+        "percent": 0.0005503457066311483
       }
     ]
   },
-  "EEEP2004": {
-    "total": 6300036,
+  "DEEP2004": {
+    "total": 566587608,
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
-        "name": "SDE",
-        "sum": 341716
+        "name": "CDU/CSU",
+        "sum": 45907588,
+        "percent": 0.08102469477235726
       },
       {
-        "name": "Kesk",
-        "sum": 162812
+        "name": "SPD",
+        "sum": 22191884,
+        "percent": 0.03916761271630212
       },
       {
-        "name": "Isamaa",
-        "sum": 97496
+        "name": "B90/GRÜ",
+        "sum": 12318912,
+        "percent": 0.021742289852551805
       },
       {
-        "name": "ResPublica",
-        "sum": 61828
+        "name": "PDS",
+        "sum": 6316436,
+        "percent": 0.011148207110099732
       },
       {
-        "name": "Rahvaliit",
-        "sum": 74748
+        "name": "FDP",
+        "sum": 6261724,
+        "percent": 0.011051643049701151
       },
       {
-        "name": "ESDTP",
-        "sum": 4228
+        "name": "REP",
+        "sum": 1942648,
+        "percent": 0.0034286807063383566
       },
       {
-        "name": "Demokraadid",
-        "sum": 11396
+        "name": "MUT",
+        "sum": 1325552,
+        "percent": 0.002339535812791726
       },
       {
-        "name": "Reform",
-        "sum": 113488
+        "name": "Graue",
+        "sum": 1257608,
+        "percent": 0.0022196179059390934
       },
       {
-        "name": "EPE",
-        "sum": 5316
+        "name": "FAMILIE",
+        "sum": 1073872,
+        "percent": 0.001895332663188073
       },
       {
-        "name": "VEE",
-        "sum": 3220
+        "name": "NPD",
+        "sum": 966972,
+        "percent": 0.0017066592815422111
       },
       {
-        "name": "Ind.",
-        "sum": 52672
+        "name": "ÖDP",
+        "sum": 582148,
+        "percent": 0.0010274633468510311
+      },
+      {
+        "name": "Frauen",
+        "sum": 581248,
+        "percent": 0.0010258748899428806
+      },
+      {
+        "name": "DE",
+        "sum": 540060,
+        "percent": 0.0009531800420174386
+      },
+      {
+        "name": "PBC",
+        "sum": 394604,
+        "percent": 0.0006964571664264144
+      },
+      {
+        "name": "AUK",
+        "sum": 281204,
+        "percent": 0.0004963115959994663
+      },
+      {
+        "name": "DP",
+        "sum": 248020,
+        "percent": 0.0004377434248438416
+      },
+      {
+        "name": "CM",
+        "sum": 184148,
+        "percent": 0.0003250124030245293
+      },
+      {
+        "name": "AUFBRUCH",
+        "sum": 172512,
+        "percent": 0.000304475420154265
+      },
+      {
+        "name": "DKP",
+        "sum": 148640,
+        "percent": 0.0002623424831416362
+      },
+      {
+        "name": "BP",
+        "sum": 140608,
+        "percent": 0.0002481663877124542
+      },
+      {
+        "name": "ZENT",
+        "sum": 107212,
+        "percent": 0.00018922404670735404
+      },
+      {
+        "name": "PSG",
+        "sum": 103180,
+        "percent": 0.00018210775975884032
+      },
+      {
+        "name": "BüSo",
+        "sum": 87932,
+        "percent": 0.00015519576983053255
+      },
+      {
+        "name": "Other",
+        "sum": 4538488,
+        "percent": 0.008010214017952896
       },
       {
         "name": "Electorate",
-        "sum": 3495236
+        "sum": 246729576,
+        "percent": 0.43546588826912713
       },
       {
         "name": "Votes",
-        "sum": 937940
+        "sum": 106092416,
+        "percent": 0.18724803455284889
       },
       {
         "name": "Valid votes",
-        "sum": 928920
+        "sum": 103134712,
+        "percent": 0.1820278286072222
       },
       {
         "name": "Invalid votes",
-        "sum": 9020
+        "sum": 2957704,
+        "percent": 0.005220205945626682
+      }
+    ]
+  },
+  "DKEP2004": {
+    "total": 39000364,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "Social Democrats (Socialdemokraterna)",
+        "sum": 2473648,
+        "percent": 0.06342627981626017
+      },
+      {
+        "name": "Danish Social Liberal Party/Radical Left (Det Radikale Venstre)",
+        "sum": 481892,
+        "percent": 0.012356089804700284
+      },
+      {
+        "name": "Conservative People's Party (Konservative Folkeparti)",
+        "sum": 859888,
+        "percent": 0.022048204473168506
+      },
+      {
+        "name": "Socialist People's Party (Socialistisk Folkeparti)",
+        "sum": 603064,
+        "percent": 0.015463035165517943
+      },
+      {
+        "name": "June Movement (Junibevægelsen)",
+        "sum": 687708,
+        "percent": 0.017633373883382215
+      },
+      {
+        "name": "Christian Democrats (Kristendemokraterne)",
+        "sum": 97144,
+        "percent": 0.002490848546952023
+      },
+      {
+        "name": "Peoples Movement against the EU (Folkebevægelsen Mot EU)",
+        "sum": 391944,
+        "percent": 0.010049752356157496
+      },
+      {
+        "name": "Danish People's Party (Dansk Folkeparti)",
+        "sum": 515156,
+        "percent": 0.013209004921082275
+      },
+      {
+        "name": "Liberal Party (Venstre)",
+        "sum": 1466940,
+        "percent": 0.03761349509455861
+      },
+      {
+        "name": "Electorate",
+        "sum": 16050652,
+        "percent": 0.411551338341355
+      },
+      {
+        "name": "Votes",
+        "sum": 7686164,
+        "percent": 0.19707928879843276
+      },
+      {
+        "name": "Valid votes",
+        "sum": 7577384,
+        "percent": 0.19429008406177953
+      },
+      {
+        "name": "Total invalid votes",
+        "sum": 108780,
+        "percent": 0.002789204736653227
       }
     ]
   },
@@ -1775,95 +2099,213 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "EKD",
-        "sum": 6860
+        "sum": 6860,
+        "percent": 0.0008491031131759142
       },
       {
         "name": "EÜP",
-        "sum": 14076
+        "sum": 14076,
+        "percent": 0.0017422704695428818
       },
       {
         "name": "Hel",
-        "sum": 39328
+        "sum": 39328,
+        "percent": 0.004867861112971189
       },
       {
         "name": "IRL",
-        "sum": 193968
+        "sum": 193968,
+        "percent": 0.024008576188995004
       },
       {
         "name": "KESK",
-        "sum": 414024
+        "sum": 414024,
+        "percent": 0.05124621972733888
       },
       {
         "name": "Kle",
-        "sum": 28548
+        "sum": 28548,
+        "percent": 0.0035335562208376092
       },
       {
         "name": "LIB",
-        "sum": 8824
+        "sum": 8824,
+        "percent": 0.001092199106510826
       },
       {
         "name": "Õig",
-        "sum": 1168
+        "sum": 1168,
+        "percent": 0.0001445703259751411
       },
       {
         "name": "PK",
-        "sum": 2448
+        "sum": 2448,
+        "percent": 0.00030300355992050117
       },
       {
         "name": "REF",
-        "sum": 243508
+        "sum": 243508,
+        "percent": 0.03014043744653652
       },
       {
         "name": "RL",
-        "sum": 35440
+        "sum": 35440,
+        "percent": 0.004386620164862158
       },
       {
         "name": "ROH",
-        "sum": 43404
+        "sum": 43404,
+        "percent": 0.005372371942315945
       },
       {
         "name": "SDE",
-        "sum": 138032
+        "sum": 138032,
+        "percent": 0.01708504386558277
       },
       {
         "name": "Tar",
-        "sum": 409840
+        "sum": 409840,
+        "percent": 0.05072834109387998
       },
       {
         "name": "VEE",
-        "sum": 5068
+        "sum": 5068,
+        "percent": 0.0006272965856524101
       },
       {
         "name": "Žur",
-        "sum": 2340
+        "sum": 2340,
+        "percent": 0.0002896357558063614
       },
       {
         "name": "Aas",
-        "sum": 1052
+        "sum": 1052,
+        "percent": 0.00013021231414884284
       },
       {
         "name": "Electorate",
-        "sum": 3637304
+        "sum": 3637304,
+        "percent": 0.45021080903312033
       },
       {
         "name": "Votes",
-        "sum": 1656338
+        "sum": 1656338,
+        "percent": 0.2050148326926483
       },
       {
         "name": "Valid votes",
-        "sum": 1190946
+        "sum": 1190946,
+        "percent": 0.1474104892455397
       },
       {
         "name": "Invalid votes",
-        "sum": 6597
+        "sum": 6597,
+        "percent": 0.0008165500346387036
+      }
+    ]
+  },
+  "EEEP2004": {
+    "total": 6300036,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "SDE",
+        "sum": 341716,
+        "percent": 0.054240324975920774
+      },
+      {
+        "name": "Kesk",
+        "sum": 162812,
+        "percent": 0.02584302692873501
+      },
+      {
+        "name": "Isamaa",
+        "sum": 97496,
+        "percent": 0.015475467124314845
+      },
+      {
+        "name": "ResPublica",
+        "sum": 61828,
+        "percent": 0.009813912174470115
+      },
+      {
+        "name": "Rahvaliit",
+        "sum": 74748,
+        "percent": 0.011864694106509867
+      },
+      {
+        "name": "ESDTP",
+        "sum": 4228,
+        "percent": 0.0006711072762123899
+      },
+      {
+        "name": "Demokraadid",
+        "sum": 11396,
+        "percent": 0.0018088785524400179
+      },
+      {
+        "name": "Reform",
+        "sum": 113488,
+        "percent": 0.01801386531759501
+      },
+      {
+        "name": "EPE",
+        "sum": 5316,
+        "percent": 0.0008438047020683691
+      },
+      {
+        "name": "VEE",
+        "sum": 3220,
+        "percent": 0.0005111081904928797
+      },
+      {
+        "name": "Ind.",
+        "sum": 52672,
+        "percent": 0.00836058714585123
+      },
+      {
+        "name": "Electorate",
+        "sum": 3495236,
+        "percent": 0.5547961948153947
+      },
+      {
+        "name": "Votes",
+        "sum": 937940,
+        "percent": 0.14887851434499738
+      },
+      {
+        "name": "Valid votes",
+        "sum": 928920,
+        "percent": 0.14744677649461052
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 9020,
+        "percent": 0.0014317378503868868
       }
     ]
   },
@@ -1872,91 +2314,113 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "SDP",
-        "sum": 1930308
+        "sum": 1930308,
+        "percent": 0.043510205730312945
       },
       {
         "name": "Kesk",
-        "sum": 2192164
+        "sum": 2192164,
+        "percent": 0.049412584227276554
       },
       {
         "name": "Kok",
-        "sum": 1814916
+        "sum": 1814916,
+        "percent": 0.04090920648064281
       },
       {
         "name": "VL",
-        "sum": 945960
+        "sum": 945960,
+        "percent": 0.021322459531145723
       },
       {
         "name": "Vihr",
-        "sum": 682680
+        "sum": 682680,
+        "percent": 0.015387983289697833
       },
       {
         "name": "SFP/RKP",
-        "sum": 517700
+        "sum": 517700,
+        "percent": 0.011669243201905091
       },
       {
         "name": "SKL",
-        "sum": 253116
+        "sum": 253116,
+        "percent": 0.005705374082081146
       },
       {
         "name": "SMP",
-        "sum": 60016
+        "sum": 60016,
+        "percent": 0.0013527937029274406
       },
       {
         "name": "EKA",
-        "sum": 10560
+        "sum": 10560,
+        "percent": 0.00023802821752388982
       },
       {
         "name": "NP",
-        "sum": 272536
+        "sum": 272536,
+        "percent": 0.006143111580595723
       },
       {
         "name": "LibKans",
-        "sum": 33220
+        "sum": 33220,
+        "percent": 0.0007487971009605701
       },
       {
         "name": "SEP",
-        "sum": 25428
+        "sum": 25428,
+        "percent": 0.0005731611283330938
       },
       {
         "name": "VSL",
-        "sum": 54984
+        "sum": 54984,
+        "percent": 0.0012393696507891627
       },
       {
         "name": "LP",
-        "sum": 13308
+        "sum": 13308,
+        "percent": 0.0002999696514022657
       },
       {
         "name": "VEU",
-        "sum": 190748
+        "sum": 190748,
+        "percent": 0.004299565003432475
       },
       {
         "name": "Electorate",
-        "sum": 16434812
+        "sum": 16434812,
+        "percent": 0.37044971644888586
       },
       {
         "name": "Votes",
-        "sum": 9466016
+        "sum": 9466016,
+        "percent": 0.2133692154860437
       },
       {
         "name": "Valid votes",
-        "sum": 8997644
+        "sum": 8997644,
+        "percent": 0.20281185257902673
       },
       {
         "name": "Invalid votes",
-        "sum": 468372
+        "sum": 468372,
+        "percent": 0.010557362907016981
       }
     ]
   },
@@ -1965,75 +2429,93 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "SDP",
-        "sum": 887344
+        "sum": 887344,
+        "percent": 0.028153044965858232
       },
       {
         "name": "Kesk",
-        "sum": 1058560
+        "sum": 1058560,
+        "percent": 0.033585269387136095
       },
       {
         "name": "Kok",
-        "sum": 1255840
+        "sum": 1255840,
+        "percent": 0.039844434616026485
       },
       {
         "name": "VL",
-        "sum": 451028
+        "sum": 451028,
+        "percent": 0.014309908631670589
       },
       {
         "name": "Vihr",
-        "sum": 667144
+        "sum": 667144,
+        "percent": 0.02116668961609311
       },
       {
         "name": "SFP/RKP",
-        "sum": 336612
+        "sum": 336612,
+        "percent": 0.010679795853747218
       },
       {
         "name": "SKL",
-        "sum": 118548
+        "sum": 118548,
+        "percent": 0.0037612100545138774
       },
       {
         "name": "Perus",
-        "sum": 39416
+        "sum": 39416,
+        "percent": 0.00125056395307149
       },
       {
         "name": "EKA",
-        "sum": 7636
+        "sum": 7636,
+        "percent": 0.00024226979768758619
       },
       {
         "name": "KIPU",
-        "sum": 116860
+        "sum": 116860,
+        "percent": 0.0037076543422958777
       },
       {
         "name": "SKP",
-        "sum": 30224
+        "sum": 30224,
+        "percent": 0.0009589264490976433
       },
       {
         "name": "Electorate",
-        "sum": 16564392
+        "sum": 16564392,
+        "percent": 0.5255437269064787
       },
       {
         "name": "Voters",
-        "sum": 4992488
+        "sum": 4992488,
+        "percent": 0.15839825271316157
       },
       {
         "name": "Valid votes",
-        "sum": 4969212
+        "sum": 4969212,
+        "percent": 0.1576597676671982
       },
       {
         "name": "Invalid votes",
-        "sum": 23276
+        "sum": 23276,
+        "percent": 0.0007384850459633652
       }
     ]
   },
@@ -2042,87 +2524,108 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "SDP",
-        "sum": 1402100
+        "sum": 1402100,
+        "percent": 0.03802435012016682
       },
       {
         "name": "Kesk",
-        "sum": 1548868
+        "sum": 1548868,
+        "percent": 0.04200463527702913
       },
       {
         "name": "Kok",
-        "sum": 1571084
+        "sum": 1571084,
+        "percent": 0.042607123660361006
       },
       {
         "name": "VL",
-        "sum": 605164
+        "sum": 605164,
+        "percent": 0.01641178790109167
       },
       {
         "name": "Vihr",
-        "sum": 691376
+        "sum": 691376,
+        "percent": 0.018749820332843916
       },
       {
         "name": "SFP/RKP",
-        "sum": 377684
+        "sum": 377684,
+        "percent": 0.010242627951490682
       },
       {
         "name": "KD",
-        "sum": 283380
+        "sum": 283380,
+        "percent": 0.0076851439533933905
       },
       {
         "name": "Perus",
-        "sum": 35600
+        "sum": 35600,
+        "percent": 0.0009654567179787025
       },
       {
         "name": "EKA",
-        "sum": 13116
+        "sum": 13116,
+        "percent": 0.0003557002896912545
       },
       {
         "name": "SKP",
-        "sum": 40536
+        "sum": 40536,
+        "percent": 0.0010993189191006933
       },
       {
         "name": "Lib",
-        "sum": 14232
+        "sum": 14232,
+        "percent": 0.0003859657306256431
       },
       {
         "name": "SKS",
-        "sum": 12992
+        "sum": 12992,
+        "percent": 0.0003523374629207669
       },
       {
         "name": "SIK",
-        "sum": 7456
+        "sum": 7456,
+        "percent": 0.00020220351936093273
       },
       {
         "name": "KA",
-        "sum": 22748
+        "sum": 22748,
+        "percent": 0.000616915994960099
       },
       {
         "name": "Electorate",
-        "sum": 16911948
+        "sum": 16911948,
+        "percent": 0.4586447699636652
       },
       {
         "name": "Votes",
-        "sum": 6667728
+        "sum": 6667728,
+        "percent": 0.18082592110266005
       },
       {
         "name": "Valid votes",
-        "sum": 6626336
+        "sum": 6626336,
+        "percent": 0.1797033878310147
       },
       {
         "name": "Invalid votes",
-        "sum": 41392
+        "sum": 41392,
+        "percent": 0.0011225332716453499
       }
     ]
   },
@@ -2131,115 +2634,143 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "LO",
-        "sum": 1772428
+        "sum": 1772428,
+        "percent": 0.0037485940984999066
       },
       {
         "name": "PT",
-        "sum": 340092
+        "sum": 340092,
+        "percent": 0.0007192770956828883
       },
       {
         "name": "PCF",
-        "sum": 5372500
+        "sum": 5372500,
+        "percent": 0.011362561296814736
       },
       {
         "name": "PS",
-        "sum": 11303868
+        "sum": 11303868,
+        "percent": 0.023907099681917655
       },
       {
         "name": "AP",
-        "sum": 1981972
+        "sum": 1981972,
+        "percent": 0.0041917688857274074
       },
       {
         "name": "MRG",
-        "sum": 9386164
+        "sum": 9386164,
+        "percent": 0.019851254312136954
       },
       {
         "name": "EcoEu",
-        "sum": 2302420
+        "sum": 2302420,
+        "percent": 0.004869499931319159
       },
       {
         "name": "GE",
-        "sum": 1570672
+        "sum": 1570672,
+        "percent": 0.003321890530887035
       },
       {
         "name": "RegMin",
-        "sum": 149064
+        "sum": 149064,
+        "percent": 0.0003152626965376253
       },
       {
         "name": "RegSol",
-        "sum": 306428
+        "sum": 306428,
+        "percent": 0.0006480794663676772
       },
       {
         "name": "CPNT",
-        "sum": 3086848
+        "sum": 3086848,
+        "percent": 0.0065285248234434575
       },
       {
         "name": "RegFed",
-        "sum": 281308
+        "sum": 281308,
+        "percent": 0.0005949519578007184
       },
       {
         "name": "EurT",
-        "sum": 5172
+        "sum": 5172,
+        "percent": 0.000010938514104630213
       },
       {
         "name": "Empl",
-        "sum": 501504
+        "sum": 501504,
+        "percent": 0.0010606551774030297
       },
       {
         "name": "PN",
-        "sum": 414408
+        "sum": 414408,
+        "percent": 0.00087645161505638
       },
       {
         "name": "PolEur",
-        "sum": 232888
+        "sum": 232888,
+        "percent": 0.000492546147099598
       },
       {
         "name": "Sar",
-        "sum": 1223488
+        "sum": 1223488,
+        "percent": 0.002587614219807774
       },
       {
         "name": "UDF-RPR",
-        "sum": 19950744
+        "sum": 19950744,
+        "percent": 0.04219479788125804
       },
       {
         "name": "Autre",
-        "sum": 9623664
+        "sum": 9623664,
+        "percent": 0.02035355460213109
       },
       {
         "name": "FN",
-        "sum": 8205728
+        "sum": 8205728,
+        "percent": 0.017354692859002138
       },
       {
         "name": "Electorate",
-        "sum": 156199216
+        "sum": 156199216,
+        "percent": 0.3303533115522392
       },
       {
         "name": "Votes",
-        "sum": 82414940
+        "sum": 82414940,
+        "percent": 0.1743033611025237
       },
       {
         "name": "Valid votes",
-        "sum": 78011360
+        "sum": 78011360,
+        "percent": 0.1649900157929979
       },
       {
         "name": "Invalid votes",
-        "sum": 4403580
+        "sum": 4403580,
+        "percent": 0.009313345309525814
       },
       {
         "name": "Abstentions",
-        "sum": 73784276
+        "sum": 73784276,
+        "percent": 0.15604995044971548
       }
     ]
   },
@@ -2248,115 +2779,143 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "LO-LCR",
-        "sum": 3659368
+        "sum": 3659368,
+        "percent": 0.007840285260841849
       },
       {
         "name": "PCF",
-        "sum": 4786228
+        "sum": 4786228,
+        "percent": 0.010254610316160758
       },
       {
         "name": "PS-MDC-PRG",
-        "sum": 15497580
+        "sum": 15497580,
+        "percent": 0.033203943427585696
       },
       {
         "name": "VEC",
-        "sum": 6863232
+        "sum": 6863232,
+        "percent": 0.014704642083370167
       },
       {
         "name": "MEI",
-        "sum": 1073492
+        "sum": 1073492,
+        "percent": 0.0022999828126691927
       },
       {
         "name": "RegMM",
-        "sum": 17220
+        "sum": 17220,
+        "percent": 0.000036894270319819334
       },
       {
         "name": "CPNT",
-        "sum": 4784564
+        "sum": 4784564,
+        "percent": 0.010251045155544487
       },
       {
         "name": "ComEmp",
-        "sum": 712232
+        "sum": 712232,
+        "percent": 0.0015259744447401603
       },
       {
         "name": "LN",
-        "sum": 3992
+        "sum": 3992,
+        "percent": 0.000008552957439995283
       },
       {
         "name": "PN",
-        "sum": 286196
+        "sum": 286196,
+        "percent": 0.0006131819157056338
       },
       {
         "name": "MIM",
-        "sum": 1250232
+        "sum": 1250232,
+        "percent": 0.0026786525766834125
       },
       {
         "name": "PH",
-        "sum": 9372
+        "sum": 9372,
+        "percent": 0.000020079738759427803
       },
       {
         "name": "PPE",
-        "sum": 8796
+        "sum": 8796,
+        "percent": 0.000018845644699949527
       },
       {
         "name": "VEF",
-        "sum": 498276
+        "sum": 498276,
+        "percent": 0.0010675684923274272
       },
       {
         "name": "Fed",
-        "sum": 32
+        "sum": 32,
+        "percent": 6.856078108212652e-8
       },
       {
         "name": "RPR-DL",
-        "sum": 9055300
+        "sum": 9055300,
+        "percent": 0.019401201279155633
       },
       {
         "name": "UDF",
-        "sum": 6556196
+        "sum": 6556196,
+        "percent": 0.014046809958984798
       },
       {
         "name": "RPRd-MPF",
-        "sum": 9218532
+        "sum": 9218532,
+        "percent": 0.01975092982345556
       },
       {
         "name": "FN",
-        "sum": 4021380
+        "sum": 4021380,
+        "percent": 0.00861590480712631
       },
       {
         "name": "MN",
-        "sum": 2315376
+        "sum": 2315376,
+        "percent": 0.004960749595587805
       },
       {
         "name": "Electorate",
-        "sum": 160528528
+        "sum": 160528528,
+        "percent": 0.3439362895513755
       },
       {
         "name": "Votes",
-        "sum": 75064488
+        "sum": 75064488,
+        "percent": 0.16082749777530977
       },
       {
         "name": "Valid votes",
-        "sum": 70617596
+        "sum": 70617596,
+        "percent": 0.15129992312193916
       },
       {
         "name": "Invalid votes",
-        "sum": 4446892
+        "sum": 4446892,
+        "percent": 0.009527574653370617
       },
       {
         "name": "Abstentions",
-        "sum": 85464040
+        "sum": 85464040,
+        "percent": 0.18310879177606576
       }
     ]
   },
@@ -2365,199 +2924,248 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "PS",
-        "sum": 19843092
+        "sum": 19843092,
+        "percent": 0.04205075016088263
       },
       {
         "name": "UMP",
-        "sum": 11425460
+        "sum": 11425460,
+        "percent": 0.02421241427158419
       },
       {
         "name": "UDF",
-        "sum": 8207844
+        "sum": 8207844,
+        "percent": 0.01739376088179703
       },
       {
         "name": "FN",
-        "sum": 6739940
+        "sum": 6739940,
+        "percent": 0.014283032757159987
       },
       {
         "name": "MPF",
-        "sum": 4582956
+        "sum": 4582956,
+        "percent": 0.009712031660908392
       },
       {
         "name": "Verts",
-        "sum": 5085236
+        "sum": 5085236,
+        "percent": 0.010776444948454915
       },
       {
         "name": "PCF",
-        "sum": 3601480
+        "sum": 3601480,
+        "percent": 0.007632123848915057
       },
       {
         "name": "PT",
-        "sum": 525820
+        "sum": 525820,
+        "percent": 0.001114298389061307
       },
       {
         "name": "LO-LCR",
-        "sum": 1760496
+        "sum": 1760496,
+        "percent": 0.0037307783210012444
       },
       {
         "name": "PRG",
-        "sum": 486564
+        "sum": 486564,
+        "percent": 0.001031108518837674
       },
       {
         "name": "CPNT",
-        "sum": 1189188
+        "sum": 1189188,
+        "percent": 0.002520083436710352
       },
       {
         "name": "RPF",
-        "sum": 1165096
+        "sum": 1165096,
+        "percent": 0.002469028557114169
       },
       {
         "name": "RCF",
-        "sum": 591884
+        "sum": 591884,
+        "percent": 0.0012542987861077224
       },
       {
         "name": "EDE",
-        "sum": 100568
+        "sum": 100568,
+        "percent": 0.00021312000378669033
       },
       {
         "name": "AR",
-        "sum": 22812
+        "sum": 22812,
+        "percent": 0.000048342350711776907
       },
       {
         "name": "MNR",
-        "sum": 214472
+        "sum": 214472,
+        "percent": 0.0004545011678877878
       },
       {
         "name": "FraB",
-        "sum": 1067112
+        "sum": 1067112,
+        "percent": 0.0022613844710128736
       },
       {
         "name": "VME",
-        "sum": 106392
+        "sum": 106392,
+        "percent": 0.00022546201021073856
       },
       {
         "name": "SPS",
-        "sum": 1296
+        "sum": 1296,
+        "percent": 0.0000027464354954612863
       },
       {
         "name": "PdL",
-        "sum": 1000
+        "sum": 1000,
+        "percent": 0.0000021191631909423505
       },
       {
         "name": "PF",
-        "sum": 10036
+        "sum": 10036,
+        "percent": 0.000021267921784297433
       },
       {
         "name": "PH",
-        "sum": 792
+        "sum": 792,
+        "percent": 0.0000016783772472263416
       },
       {
         "name": "LesReg",
-        "sum": 37000
+        "sum": 37000,
+        "percent": 0.00007840903806486697
       },
       {
         "name": "HZ",
-        "sum": 21044
+        "sum": 21044,
+        "percent": 0.00004459567019019083
       },
       {
         "name": "DE",
-        "sum": 11316
+        "sum": 11316,
+        "percent": 0.00002398045066870364
       },
       {
         "name": "JC",
-        "sum": 640
+        "sum": 640,
+        "percent": 0.0000013562644422031043
       },
       {
         "name": "FU",
-        "sum": 5832
+        "sum": 5832,
+        "percent": 0.000012358959729575789
       },
       {
         "name": "UMPd-GE",
-        "sum": 318124
+        "sum": 318124,
+        "percent": 0.0006741566709553443
       },
       {
         "name": "Terre",
-        "sum": 25052
+        "sum": 25052,
+        "percent": 0.00005308927625948777
       },
       {
         "name": "Cap21",
-        "sum": 394756
+        "sum": 394756,
+        "percent": 0.0008365523846036386
       },
       {
         "name": "NouvSol",
-        "sum": 12520
+        "sum": 12520,
+        "percent": 0.000026531923150598232
       },
       {
         "name": "EuPal",
-        "sum": 200148
+        "sum": 200148,
+        "percent": 0.0004241462743407296
       },
       {
         "name": "ApT",
-        "sum": 2012
+        "sum": 2012,
+        "percent": 0.000004263756340176009
       },
       {
         "name": "NStE",
-        "sum": 5872
+        "sum": 5872,
+        "percent": 0.000012443726257213483
       },
       {
         "name": "UFCN",
-        "sum": 3412
+        "sum": 3412,
+        "percent": 0.0000072305848074953
       },
       {
         "name": "MEI-GE",
-        "sum": 245780
+        "sum": 245780,
+        "percent": 0.000520847929069811
       },
       {
         "name": "Auto",
-        "sum": 209476
+        "sum": 209476,
+        "percent": 0.00044391382858583985
       },
       {
         "name": "PCR",
-        "sum": 437684
+        "sum": 437684,
+        "percent": 0.0009275238220644119
       },
       {
         "name": "NonRac",
-        "sum": 10720
+        "sum": 10720,
+        "percent": 0.000022717429406902
       },
       {
         "name": "ALPE",
-        "sum": 4672
+        "sum": 4672,
+        "percent": 0.000009900730428082663
       },
       {
         "name": "FraInd",
-        "sum": 184
+        "sum": 184,
+        "percent": 3.8992602713339253e-7
       },
       {
         "name": "Electorate",
-        "sum": 166087008
+        "sum": 166087008,
+        "percent": 0.3519654738473477
       },
       {
         "name": "Votes",
-        "sum": 71034580
+        "sum": 71034580,
+        "percent": 0.1505338672200497
       },
       {
         "name": "Valid votes",
-        "sum": 68675780
+        "sum": 68675780,
+        "percent": 0.14553518508525487
       },
       {
         "name": "Invalid votes",
-        "sum": 2358800
+        "sum": 2358800,
+        "percent": 0.004998682134794817
       },
       {
         "name": "Abstentions",
-        "sum": 95052428
+        "sum": 95052428,
+        "percent": 0.20143160662729803
       }
     ]
   },
@@ -2566,388 +3174,238 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "PASOK",
-        "sum": 9837880
+        "sum": 9837880,
+        "percent": 0.08354368970459142
       },
       {
         "name": "ND",
-        "sum": 8532272
+        "sum": 8532272,
+        "percent": 0.07245641179229403
       },
       {
         "name": "ANOIX",
-        "sum": 2259956
+        "sum": 2259956,
+        "percent": 0.01919164116761229
       },
       {
         "name": "KKE",
-        "sum": 1642340
+        "sum": 1642340,
+        "percent": 0.013946820183763033
       },
       {
         "name": "SYN",
-        "sum": 1632468
+        "sum": 1632468,
+        "percent": 0.013862986745586949
       },
       {
         "name": "DimAna",
-        "sum": 730560
+        "sum": 730560,
+        "percent": 0.006203946170372713
       },
       {
         "name": "EN.KENT",
-        "sum": 313156
+        "sum": 313156,
+        "percent": 0.0026593338903433492
       },
       {
         "name": "EPEN",
-        "sum": 206664
+        "sum": 206664,
+        "percent": 0.0017549993585111508
       },
       {
         "name": "KOLLATOS",
-        "sum": 183900
+        "sum": 183900,
+        "percent": 0.0015616865154560089
       },
       {
         "name": "KEK",
-        "sum": 165452
+        "sum": 165452,
+        "percent": 0.0014050253254770397
       },
       {
         "name": "EN.IKO",
-        "sum": 92172
+        "sum": 92172,
+        "percent": 0.0007827284910419317
       },
       {
         "name": "Lefko",
-        "sum": 75164
+        "sum": 75164,
+        "percent": 0.0006382958414776262
       },
       {
         "name": "PolEco",
-        "sum": 68628
+        "sum": 68628,
+        "percent": 0.0005827918552621805
       },
       {
         "name": "KK-EOK",
-        "sum": 57056
+        "sum": 57056,
+        "percent": 0.00048452194576323023
       },
       {
         "name": "M-L KKE",
-        "sum": 40352
+        "sum": 40352,
+        "percent": 0.0003426708769531314
       },
       {
         "name": "IkoA-KP",
-        "sum": 37540
+        "sum": 37540,
+        "percent": 0.00031879125497671874
       },
       {
         "name": "CM-SocEU",
-        "sum": 36860
+        "sum": 36860,
+        "percent": 0.000313016666447572
       },
       {
         "name": "DI.KO",
-        "sum": 33060
+        "sum": 33060,
+        "percent": 0.00028074690701998723
       },
       {
         "name": "CHR.AYGH",
-        "sum": 29220
+        "sum": 29220,
+        "percent": 0.0002481374659142174
       },
       {
         "name": "OT",
-        "sum": 29052
+        "sum": 29052,
+        "percent": 0.00024671080286584
       },
       {
         "name": "ANTH.DIK",
-        "sum": 26592
+        "sum": 26592,
+        "percent": 0.00022582037965745617
       },
       {
         "name": "OAKKE",
-        "sum": 24076
+        "sum": 24076,
+        "percent": 0.00020445440209961323
       },
       {
         "name": "AutA",
-        "sum": 20196
+        "sum": 20196,
+        "percent": 0.00017150527931565827
       },
       {
         "name": "EOO",
-        "sum": 19676
+        "sum": 19676,
+        "percent": 0.00016708941749925193
       },
       {
         "name": "OLYMP",
-        "sum": 12452
+        "sum": 12452,
+        "percent": 0.00010574290641902242
       },
       {
         "name": "EP",
-        "sum": 10316
+        "sum": 10316,
+        "percent": 0.00008760390480393794
       },
       {
         "name": "KMN",
-        "sum": 5632
+        "sum": 5632,
+        "percent": 0.00004782718028846244
       },
       {
         "name": "NEED",
-        "sum": 3740
+        "sum": 3740,
+        "percent": 0.00003176023691030709
       },
       {
         "name": "DiaKini",
-        "sum": 792
+        "sum": 792,
+        "percent": 0.0000067256972280650305
       },
       {
         "name": "DimoFront",
-        "sum": 580
+        "sum": 580,
+        "percent": 0.000004925384333683987
       },
       {
         "name": "AnPo",
-        "sum": 564
+        "sum": 564,
+        "percent": 0.000004789511662409946
       },
       {
         "name": "AthDimo",
-        "sum": 432
+        "sum": 432,
+        "percent": 0.0000036685621243991073
       },
       {
         "name": "KinMeri",
-        "sum": 384
+        "sum": 384,
+        "percent": 0.000003260944110576984
       },
       {
         "name": "KYP",
-        "sum": 368
+        "sum": 368,
+        "percent": 0.0000031250714393029432
       },
       {
         "name": "AnexPP",
-        "sum": 304
+        "sum": 304,
+        "percent": 0.0000025815807542067792
       },
       {
         "name": "PTE",
-        "sum": 288
+        "sum": 288,
+        "percent": 0.0000024457080829327383
       },
       {
         "name": "IP",
-        "sum": 264
+        "sum": 264,
+        "percent": 0.0000022418990760216765
       },
       {
         "name": "EPAK",
-        "sum": 212
+        "sum": 212,
+        "percent": 0.0000018003128943810434
       },
       {
         "name": "AKEP",
-        "sum": 144
+        "sum": 144,
+        "percent": 0.0000012228540414663692
       },
       {
         "name": "CHRIST",
-        "sum": 72
+        "sum": 72,
+        "percent": 6.114270207331846e-7
       },
       {
         "name": "Electorate",
-        "sum": 37191056
+        "sum": 37191056,
+        "percent": 0.31582800788890314
       },
       {
         "name": "Votes",
-        "sum": 27217708
+        "sum": 27217708,
+        "percent": 0.23113391824480226
       },
       {
         "name": "Valid votes",
-        "sum": 26130836
+        "sum": 26130836,
+        "percent": 0.2219041556214923
       },
       {
         "name": "Invalid votes",
-        "sum": 1086872
-      }
-    ]
-  },
-  "GREP1999": {
-    "total": 116960604,
-    "cols": [
-      {
-        "name": "NUTS ID",
-        "sum": 0
-      },
-      {
-        "name": "NUTS Name",
-        "sum": 0
-      },
-      {
-        "name": "Year",
-        "sum": 0
-      },
-      {
-        "name": "PASOK",
-        "sum": 8466028
-      },
-      {
-        "name": "ND",
-        "sum": 9253060
-      },
-      {
-        "name": "KKE",
-        "sum": 2228536
-      },
-      {
-        "name": "SYN",
-        "sum": 1328464
-      },
-      {
-        "name": "DIKKI",
-        "sum": 1760316
-      },
-      {
-        "name": "ANOIX",
-        "sum": 587040
-      },
-      {
-        "name": "FILEL.",
-        "sum": 415400
-      },
-      {
-        "name": "KEK",
-        "sum": 256252
-      },
-      {
-        "name": "EN.KENT.",
-        "sum": 209828
-      },
-      {
-        "name": "ProtiG",
-        "sum": 194904
-      },
-      {
-        "name": "KOLLATOS",
-        "sum": 170156
-      },
-      {
-        "name": "ELL.OIK.",
-        "sum": 122964
-      },
-      {
-        "name": "RAK",
-        "sum": 85476
-      },
-      {
-        "name": "M-L KKE",
-        "sum": 67144
-      },
-      {
-        "name": "KOM.ELL.",
-        "sum": 66860
-      },
-      {
-        "name": "OIK.ENAL",
-        "sum": 59288
-      },
-      {
-        "name": "Lefko",
-        "sum": 57024
-      },
-      {
-        "name": "KAE",
-        "sum": 55544
-      },
-      {
-        "name": "MPA",
-        "sum": 43720
-      },
-      {
-        "name": "KOM.FIL",
-        "sum": 41508
-      },
-      {
-        "name": "ASKE",
-        "sum": 40692
-      },
-      {
-        "name": "Aristera",
-        "sum": 38788
-      },
-      {
-        "name": "SEK",
-        "sum": 32196
-      },
-      {
-        "name": "ELL.MET.",
-        "sum": 31124
-      },
-      {
-        "name": "OT",
-        "sum": 19932
-      },
-      {
-        "name": "OAKKE",
-        "sum": 18488
-      },
-      {
-        "name": "AKEP",
-        "sum": 17040
-      },
-      {
-        "name": "OLYMP",
-        "sum": 16608
-      },
-      {
-        "name": "KMN",
-        "sum": 11248
-      },
-      {
-        "name": "CHRIST.",
-        "sum": 8612
-      },
-      {
-        "name": "ANTH.DIK.",
-        "sum": 5020
-      },
-      {
-        "name": "OIK.ENAL(II)",
-        "sum": 1864
-      },
-      {
-        "name": "Ind",
-        "sum": 420
-      },
-      {
-        "name": "DimoFront",
-        "sum": 360
-      },
-      {
-        "name": "EthAgo",
-        "sum": 296
-      },
-      {
-        "name": "DiaKini",
-        "sum": 228
-      },
-      {
-        "name": "AthDimo",
-        "sum": 196
-      },
-      {
-        "name": "EPODH",
-        "sum": 172
-      },
-      {
-        "name": "KinMeri",
-        "sum": 120
-      },
-      {
-        "name": "EPAK",
-        "sum": 112
-      },
-      {
-        "name": "EPTAKE",
-        "sum": 84
-      },
-      {
-        "name": "Electorate",
-        "sum": 37553668
-      },
-      {
-        "name": "Votes",
-        "sum": 26846912
-      },
-      {
-        "name": "Valid votes",
-        "sum": 25710592
-      },
-      {
-        "name": "Invalid votes",
-        "sum": 1136320
+        "sum": 1086872,
+        "percent": 0.009229762623309969
       }
     ]
   },
@@ -2956,123 +3414,398 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "ND",
-        "sum": 10534296
+        "sum": 10534296,
+        "percent": 0.09199047293999962
       },
       {
         "name": "PASOK",
-        "sum": 8333308
+        "sum": 8333308,
+        "percent": 0.07277040099069576
       },
       {
         "name": "KKE",
-        "sum": 2321584
+        "sum": 2321584,
+        "percent": 0.02027317346407734
       },
       {
         "name": "SYN",
-        "sum": 1017788
+        "sum": 1017788,
+        "percent": 0.008887807924958283
       },
       {
         "name": "LA.O.S.",
-        "sum": 1009716
+        "sum": 1009716,
+        "percent": 0.008817319389457507
       },
       {
         "name": "GYN.EYR.",
-        "sum": 186260
+        "sum": 186260,
+        "percent": 0.001626510731215862
       },
       {
         "name": "DPE",
-        "sum": 178164
+        "sum": 178164,
+        "percent": 0.0015558126163231119
       },
       {
         "name": "OIK.PRAS.",
-        "sum": 163492
+        "sum": 163492,
+        "percent": 0.0014276897480293338
       },
       {
         "name": "EN.KENT",
-        "sum": 138044
+        "sum": 138044,
+        "percent": 0.0012054657327389801
       },
       {
         "name": "VERGHS",
-        "sum": 131824
+        "sum": 131824,
+        "percent": 0.001151149740318908
       },
       {
         "name": "M-L KKE",
-        "sum": 84880
+        "sum": 84880,
+        "percent": 0.0007412124496166775
       },
       {
         "name": "ELL.MET.",
-        "sum": 60972
+        "sum": 60972,
+        "percent": 0.000532436445311358
       },
       {
         "name": "DISOK",
-        "sum": 54508
+        "sum": 54508,
+        "percent": 0.0004759897290728777
       },
       {
         "name": "MERA",
-        "sum": 53548
+        "sum": 53548,
+        "percent": 0.0004676065533938955
       },
       {
         "name": "ANT.SYM",
-        "sum": 47752
+        "sum": 47752,
+        "percent": 0.00041699313023204037
       },
       {
         "name": "ASKE",
-        "sum": 46392
+        "sum": 46392,
+        "percent": 0.0004051169646868156
       },
       {
         "name": "PAT.SYM.",
-        "sum": 42472
+        "sum": 42472,
+        "percent": 0.0003708856639976382
       },
       {
         "name": "OT",
-        "sum": 24704
+        "sum": 24704,
+        "percent": 0.00021572705413914234
       },
       {
         "name": "ORAMA",
-        "sum": 23984
+        "sum": 23984,
+        "percent": 0.00020943967237990567
       },
       {
         "name": "OAKKE",
-        "sum": 20360
+        "sum": 20360,
+        "percent": 0.00017779318419174783
       },
       {
         "name": "EYR.SYMP",
-        "sum": 15164
+        "sum": 15164,
+        "percent": 0.00013241924582925658
       },
       {
         "name": "OIK.ENAL.",
-        "sum": 1136
+        "sum": 1136,
+        "percent": 0.000009920091220128956
       },
       {
         "name": "CHRIST.",
-        "sum": 180
+        "sum": 180,
+        "percent": 0.0000015718454398091654
       },
       {
         "name": "Electorate",
-        "sum": 39755452
+        "sum": 39755452,
+        "percent": 0.34716347740973424
       },
       {
         "name": "Voters",
-        "sum": 25134548
+        "sum": 25134548,
+        "percent": 0.21948680364146989
       },
       {
         "name": "Valid votes",
-        "sum": 24490528
+        "sum": 24490528,
+        "percent": 0.21386291530732598
       },
       {
         "name": "Invalid votes",
-        "sum": 644020
+        "sum": 644020,
+        "percent": 0.0056238883341438815
+      }
+    ]
+  },
+  "GREP1999": {
+    "total": 116960604,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "PASOK",
+        "sum": 8466028,
+        "percent": 0.07238358652799023
+      },
+      {
+        "name": "ND",
+        "sum": 9253060,
+        "percent": 0.07911262154562745
+      },
+      {
+        "name": "KKE",
+        "sum": 2228536,
+        "percent": 0.019053731972861563
+      },
+      {
+        "name": "SYN",
+        "sum": 1328464,
+        "percent": 0.011358217678150841
+      },
+      {
+        "name": "DIKKI",
+        "sum": 1760316,
+        "percent": 0.015050503672159559
+      },
+      {
+        "name": "ANOIX",
+        "sum": 587040,
+        "percent": 0.005019125927222469
+      },
+      {
+        "name": "FILEL.",
+        "sum": 415400,
+        "percent": 0.0035516232457212687
+      },
+      {
+        "name": "KEK",
+        "sum": 256252,
+        "percent": 0.0021909257582151337
+      },
+      {
+        "name": "EN.KENT.",
+        "sum": 209828,
+        "percent": 0.0017940057833490668
+      },
+      {
+        "name": "ProtiG",
+        "sum": 194904,
+        "percent": 0.0016664072630815073
+      },
+      {
+        "name": "KOLLATOS",
+        "sum": 170156,
+        "percent": 0.0014548146485290037
+      },
+      {
+        "name": "ELL.OIK.",
+        "sum": 122964,
+        "percent": 0.0010513283601032018
+      },
+      {
+        "name": "RAK",
+        "sum": 85476,
+        "percent": 0.0007308101794686354
+      },
+      {
+        "name": "M-L KKE",
+        "sum": 67144,
+        "percent": 0.0005740736427797518
+      },
+      {
+        "name": "KOM.ELL.",
+        "sum": 66860,
+        "percent": 0.0005716454747446414
+      },
+      {
+        "name": "OIK.ENAL",
+        "sum": 59288,
+        "percent": 0.0005069057269916288
+      },
+      {
+        "name": "Lefko",
+        "sum": 57024,
+        "percent": 0.00048754878181032647
+      },
+      {
+        "name": "KAE",
+        "sum": 55544,
+        "percent": 0.00047489494838792045
+      },
+      {
+        "name": "MPA",
+        "sum": 43720,
+        "percent": 0.0003738010792078331
+      },
+      {
+        "name": "KOM.FIL",
+        "sum": 41508,
+        "percent": 0.0003548887281738046
+      },
+      {
+        "name": "ASKE",
+        "sum": 40692,
+        "percent": 0.00034791202001658607
+      },
+      {
+        "name": "Aristera",
+        "sum": 38788,
+        "percent": 0.00033163303431640965
+      },
+      {
+        "name": "SEK",
+        "sum": 32196,
+        "percent": 0.00027527217626201726
+      },
+      {
+        "name": "ELL.MET.",
+        "sum": 31124,
+        "percent": 0.00026610669691822046
+      },
+      {
+        "name": "OT",
+        "sum": 19932,
+        "percent": 0.00017041635660499838
+      },
+      {
+        "name": "OAKKE",
+        "sum": 18488,
+        "percent": 0.0001580703191307049
+      },
+      {
+        "name": "AKEP",
+        "sum": 17040,
+        "percent": 0.00014569008210662114
+      },
+      {
+        "name": "OLYMP",
+        "sum": 16608,
+        "percent": 0.00014199653072927018
+      },
+      {
+        "name": "KMN",
+        "sum": 11248,
+        "percent": 0.00009616913401028606
+      },
+      {
+        "name": "CHRIST.",
+        "sum": 8612,
+        "percent": 0.00007363163069848716
+      },
+      {
+        "name": "ANTH.DIK.",
+        "sum": 5020,
+        "percent": 0.000042920434986809744
+      },
+      {
+        "name": "OIK.ENAL(II)",
+        "sum": 1864,
+        "percent": 0.000015936990202273578
+      },
+      {
+        "name": "Ind",
+        "sum": 420,
+        "percent": 0.000003590952727980098
+      },
+      {
+        "name": "DimoFront",
+        "sum": 360,
+        "percent": 0.0000030779594811257987
+      },
+      {
+        "name": "EthAgo",
+        "sum": 296,
+        "percent": 0.000002530766684481212
+      },
+      {
+        "name": "DiaKini",
+        "sum": 228,
+        "percent": 0.0000019493743380463393
+      },
+      {
+        "name": "AthDimo",
+        "sum": 196,
+        "percent": 0.000001675777939724046
+      },
+      {
+        "name": "EPODH",
+        "sum": 172,
+        "percent": 0.000001470580640982326
+      },
+      {
+        "name": "KinMeri",
+        "sum": 120,
+        "percent": 0.0000010259864937085994
+      },
+      {
+        "name": "EPAK",
+        "sum": 112,
+        "percent": 9.575873941280262e-7
+      },
+      {
+        "name": "EPTAKE",
+        "sum": 84,
+        "percent": 7.181905455960197e-7
+      },
+      {
+        "name": "Electorate",
+        "sum": 37553668,
+        "percent": 0.3210796346434736
+      },
+      {
+        "name": "Votes",
+        "sum": 26846912,
+        "percent": 0.22953807591486103
+      },
+      {
+        "name": "Valid votes",
+        "sum": 25710592,
+        "percent": 0.2198226678104364
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 1136320,
+        "percent": 0.009715408104424632
       }
     ]
   },
@@ -3081,135 +3814,168 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "PASOK",
-        "sum": 1878982
+        "sum": 1878982,
+        "percent": 0.07288407814023806
       },
       {
         "name": "ND",
-        "sum": 1655722
+        "sum": 1655722,
+        "percent": 0.06422401684875707
       },
       {
         "name": "KKE",
-        "sum": 428282
+        "sum": 428282,
+        "percent": 0.0166126864195918
       },
       {
         "name": "LA.O.S",
-        "sum": 366637
+        "sum": 366637,
+        "percent": 0.01422153046548741
       },
       {
         "name": "SYRIZA",
-        "sum": 240930
+        "sum": 240930,
+        "percent": 0.009345465228686362
       },
       {
         "name": "OIK.PRAS",
-        "sum": 178987
+        "sum": 178987,
+        "percent": 0.006942750113671547
       },
       {
         "name": "PA.M.ME.",
-        "sum": 65176
+        "sum": 65176,
+        "percent": 0.002528120374153747
       },
       {
         "name": "KEK",
-        "sum": 64796
+        "sum": 64796,
+        "percent": 0.0025133805045364278
       },
       {
         "name": "Drasi",
-        "sum": 38899
+        "sum": 38899,
+        "percent": 0.001508858390116095
       },
       {
         "name": "ELL.OIK.",
-        "sum": 33245
+        "sum": 33245,
+        "percent": 0.0012895446458626079
       },
       {
         "name": "D.V.E.OIK.",
-        "sum": 31195
+        "sum": 31195,
+        "percent": 0.0012100269281902255
       },
       {
         "name": "ChrysiAygi",
-        "sum": 23564
+        "sum": 23564,
+        "percent": 0.0009140270727961044
       },
       {
         "name": "ANTARSYA",
-        "sum": 21951
+        "sum": 21951,
+        "percent": 0.0008514602051836398
       },
       {
         "name": "EN.KENT.",
-        "sum": 19657
+        "sum": 19657,
+        "percent": 0.0007624779396517155
       },
       {
         "name": "M-L KKE",
-        "sum": 13146
+        "sum": 13146,
+        "percent": 0.0005099219104981153
       },
       {
         "name": "LEYKO",
-        "sum": 10561
+        "sum": 10561,
+        "percent": 0.0004096520079697699
       },
       {
         "name": "Koinonia",
-        "sum": 7963
+        "sum": 7963,
+        "percent": 0.00030887784674398996
       },
       {
         "name": "EKAD",
-        "sum": 7914
+        "sum": 7914,
+        "percent": 0.00030697717934596717
       },
       {
         "name": "KOM.FIL.",
-        "sum": 6484
+        "sum": 6484,
+        "percent": 0.0002515087226281591
       },
       {
         "name": "KOM.NEON",
-        "sum": 6220
+        "sum": 6220,
+        "percent": 0.00024126839215717915
       },
       {
         "name": "EEK",
-        "sum": 6051
+        "sum": 6051,
+        "percent": 0.00023471302909052909
       },
       {
         "name": "ASKE",
-        "sum": 5622
+        "sum": 5622,
+        "percent": 0.00021807249207518668
       },
       {
         "name": "OT",
-        "sum": 4530
+        "sum": 4530,
+        "percent": 0.0001757147614906787
       },
       {
         "name": "FS",
-        "sum": 4348
+        "sum": 4348,
+        "percent": 0.00016865513972659404
       },
       {
         "name": "EL.EN.",
-        "sum": 3104
+        "sum": 3104,
+        "percent": 0.00012040146129515821
       },
       {
         "name": "OAKKE",
-        "sum": 2808
+        "sum": 2808,
+        "percent": 0.00010891987864587766
       },
       {
         "name": "PANAK",
-        "sum": 763
+        "sum": 763,
+        "percent": 0.000029596106626354934
       },
       {
         "name": "Electorate",
-        "sum": 9996353
+        "sum": 9996353,
+        "percent": 0.3877498417597418
       },
       {
         "name": "Votes",
-        "sum": 5261355
+        "sum": 5261355,
+        "percent": 0.20408338608008605
       },
       {
         "name": "Valid votes",
-        "sum": 5127537
+        "sum": 5127537,
+        "percent": 0.19889270220521638
       },
       {
         "name": "Invalid votes",
-        "sum": 267636
+        "sum": 267636,
+        "percent": 0.010381367749739356
       }
     ]
   },
@@ -3218,63 +3984,78 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "FIDESZ",
-        "sum": 7285158
+        "sum": 7285158,
+        "percent": 0.08418628406253695
       },
       {
         "name": "MDF",
-        "sum": 819581
+        "sum": 819581,
+        "percent": 0.009470965335035712
       },
       {
         "name": "MIÉP",
-        "sum": 360903
+        "sum": 360903,
+        "percent": 0.004170545440060706
       },
       {
         "name": "MNSZ",
-        "sum": 101118
+        "sum": 101118,
+        "percent": 0.0011685057032168157
       },
       {
         "name": "MSZP",
-        "sum": 5272385
+        "sum": 5272385,
+        "percent": 0.06092695605188781
       },
       {
         "name": "MUNKÁSPÁRT",
-        "sum": 281089
+        "sum": 281089,
+        "percent": 0.0032482258313209474
       },
       {
         "name": "SZDP",
-        "sum": 60952
+        "sum": 60952,
+        "percent": 0.0007043529304621468
       },
       {
         "name": "SZDSZ",
-        "sum": 1188016
+        "sum": 1188016,
+        "percent": 0.013728549531367597
       },
       {
         "name": "Electorate",
-        "sum": 40221299
+        "sum": 40221299,
+        "percent": 0.46479180039447787
       },
       {
         "name": "Votes",
-        "sum": 15472831
+        "sum": 15472831,
+        "percent": 0.17880190735981671
       },
       {
         "name": "Valid votes",
-        "sum": 15369202
+        "sum": 15369202,
+        "percent": 0.1776043848858887
       },
       {
         "name": "Invalid votes",
-        "sum": 103629
+        "sum": 103629,
+        "percent": 0.0011975224739280386
       }
     ]
   },
@@ -3283,124 +4064,73 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "FIDESZ-KDNP",
-        "sum": 6529236
+        "sum": 6529236,
+        "percent": 0.09724812499165922
       },
       {
         "name": "JOBBIK",
-        "sum": 1711092
+        "sum": 1711092,
+        "percent": 0.025485445569470633
       },
       {
         "name": "LMP-HP",
-        "sum": 302088
+        "sum": 302088,
+        "percent": 0.004499376585940583
       },
       {
         "name": "MCF ROMA Ö.",
-        "sum": 53724
+        "sum": 53724,
+        "percent": 0.000800179112388019
       },
       {
         "name": "MDF",
-        "sum": 614640
+        "sum": 614640,
+        "percent": 0.009154606686735388
       },
       {
         "name": "MSZP",
-        "sum": 2012560
+        "sum": 2012560,
+        "percent": 0.029975587715502038
       },
       {
         "name": "MUNKÁSPÁRT",
-        "sum": 111268
+        "sum": 111268,
+        "percent": 0.0016572542900228967
       },
       {
         "name": "SZDSZ",
-        "sum": 250108
+        "sum": 250108,
+        "percent": 0.003725173059361601
       },
       {
         "name": "Electorate",
-        "sum": 32184344
+        "sum": 32184344,
+        "percent": 0.4793619204584667
       },
       {
         "name": "Votes",
-        "sum": 11687116
+        "sum": 11687116,
+        "percent": 0.1740709200218862
       },
       {
         "name": "Valid votes",
-        "sum": 11584716
+        "sum": 11584716,
+        "percent": 0.17254574801108039
       },
       {
         "name": "Invalid votes",
-        "sum": 99076
-      }
-    ]
-  },
-  "IEEP1999": {
-    "total": 14265350,
-    "cols": [
-      {
-        "name": "Constituency",
-        "sum": 0
-      },
-      {
-        "name": "Year",
-        "sum": 0
-      },
-      {
-        "name": "Fine Gael",
-        "sum": 684342
-      },
-      {
-        "name": "Fianna Fáil",
-        "sum": 1075514
-      },
-      {
-        "name": "Labour Party",
-        "sum": 243084
-      },
-      {
-        "name": "Sinn Féin",
-        "sum": 176330
-      },
-      {
-        "name": "Green Party",
-        "sum": 186200
-      },
-      {
-        "name": "Natural Law Party",
-        "sum": 14768
-      },
-      {
-        "name": "Socialist Party",
-        "sum": 21238
-      },
-      {
-        "name": "Christian Solidarity Party",
-        "sum": 18850
-      },
-      {
-        "name": "Independents/ others",
-        "sum": 363154
-      },
-      {
-        "name": "Electorate",
-        "sum": 5728722
-      },
-      {
-        "name": "Votes",
-        "sum": 2876574
-      },
-      {
-        "name": "Valid votes",
-        "sum": 2783480
-      },
-      {
-        "name": "Invalid Votes",
-        "sum": 93094
+        "sum": 99076,
+        "percent": 0.001475663497486326
       }
     ]
   },
@@ -3409,116 +4139,158 @@
     "cols": [
       {
         "name": "Constituency",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Fine Gael",
-        "sum": 552190
+        "sum": 552190,
+        "percent": 0.04538306482433181
       },
       {
         "name": "Fianna Fáil",
-        "sum": 796132
+        "sum": 796132,
+        "percent": 0.06543202550702645
       },
       {
         "name": "Labour Party",
-        "sum": 249944
+        "sum": 249944,
+        "percent": 0.020542249505519458
       },
       {
         "name": "Sinn Féin",
-        "sum": 67646
+        "sum": 67646,
+        "percent": 0.005559649401667451
       },
       {
         "name": "Green Party",
-        "sum": 180092
+        "sum": 180092,
+        "percent": 0.014801294681800765
       },
       {
         "name": "Progressive Democrats",
-        "sum": 147392
+        "sum": 147392,
+        "percent": 0.012113766440152692
       },
       {
         "name": "Democratic Left",
-        "sum": 79412
+        "sum": 79412,
+        "percent": 0.006526666444212749
       },
       {
         "name": "Worker's Party - (Páirtí na nOibrithe)",
-        "sum": 44200
+        "sum": 44200,
+        "percent": 0.0036326834336649814
       },
       {
         "name": "Ind./Others",
-        "sum": 157972
+        "sum": 157972,
+        "percent": 0.012983309216808245
       },
       {
         "name": "Electorate",
-        "sum": 5263150
+        "sum": 5263150,
+        "percent": 0.43256465642293773
       },
       {
         "name": "Votes",
-        "sum": 2314592
+        "sum": 2314592,
+        "percent": 0.19023031706093885
       },
       {
         "name": "Valid votes",
-        "sum": 2274980
+        "sum": 2274980,
+        "percent": 0.1869747094551846
       },
       {
         "name": "Invalid votes",
-        "sum": 39612
+        "sum": 39612,
+        "percent": 0.0032556076057542365
       }
     ]
   },
-  "IEEP2004": {
-    "total": 17212926,
+  "IEEP1999": {
+    "total": 14265350,
     "cols": [
       {
         "name": "Constituency",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Fine Gael",
-        "sum": 988824
+        "sum": 684342,
+        "percent": 0.04797232454864409
       },
       {
         "name": "Fianna Fáil",
-        "sum": 1049008
+        "sum": 1075514,
+        "percent": 0.07539345336777577
       },
       {
         "name": "Labour Party",
-        "sum": 376264
+        "sum": 243084,
+        "percent": 0.01704017076342326
       },
       {
         "name": "Sinn Féin",
-        "sum": 395430
+        "sum": 176330,
+        "percent": 0.012360720206654586
       },
       {
         "name": "Green Party",
-        "sum": 153834
+        "sum": 186200,
+        "percent": 0.013052606490552282
+      },
+      {
+        "name": "Natural Law Party",
+        "sum": 14768,
+        "percent": 0.001035235728531021
+      },
+      {
+        "name": "Socialist Party",
+        "sum": 21238,
+        "percent": 0.0014887822591103618
+      },
+      {
+        "name": "Christian Solidarity Party",
+        "sum": 18850,
+        "percent": 0.0013213836323679405
       },
       {
         "name": "Independents/ others",
-        "sum": 598176
+        "sum": 363154,
+        "percent": 0.025457069051933533
       },
       {
         "name": "Electorate",
-        "sum": 6286050
+        "sum": 5728722,
+        "percent": 0.40158299656159857
       },
       {
         "name": "Votes",
-        "sum": 3682670
+        "sum": 2876574,
+        "percent": 0.2016476286947043
       },
       {
         "name": "Valid votes",
-        "sum": 3561536
+        "sum": 2783480,
+        "percent": 0.19512174604899285
       },
       {
-        "name": "Invalid votes",
-        "sum": 121134
+        "name": "Invalid Votes",
+        "sum": 93094,
+        "percent": 0.006525882645711462
       }
     ]
   },
@@ -3527,55 +4299,133 @@
     "cols": [
       {
         "name": "Region",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "FF",
-        "sum": 881124
+        "sum": 881124,
+        "percent": 0.049360145023337736
       },
       {
         "name": "FG",
-        "sum": 1065778
+        "sum": 1065778,
+        "percent": 0.059704373780174916
       },
       {
         "name": "G",
-        "sum": 69170
+        "sum": 69170,
+        "percent": 0.0038748703148073042
       },
       {
         "name": "Lab",
-        "sum": 509338
+        "sum": 509338,
+        "percent": 0.0285328711349331
       },
       {
         "name": "LI",
-        "sum": 199418
+        "sum": 199418,
+        "percent": 0.011171300974963756
       },
       {
         "name": "SF",
-        "sum": 411226
+        "sum": 411226,
+        "percent": 0.02303668382357884
       },
       {
         "name": "Soc",
-        "sum": 101020
+        "sum": 101020,
+        "percent": 0.00565909208040818
       },
       {
         "name": "Ind",
-        "sum": 593580
+        "sum": 593580,
+        "percent": 0.03325206768054532
       },
       {
         "name": "Electorate",
-        "sum": 6516640
+        "sum": 6516640,
+        "percent": 0.3650590557797581
       },
       {
         "name": "Votes",
-        "sum": 3751840
+        "sum": 3751840,
+        "percent": 0.2101762822308318
       },
       {
         "name": "Valid votes",
-        "sum": 3658572
+        "sum": 3658572,
+        "percent": 0.2049514534825096
       },
       {
         "name": "Invalid votes",
-        "sum": 93214
+        "sum": 93214,
+        "percent": 0.005221803694151338
+      }
+    ]
+  },
+  "IEEP2004": {
+    "total": 17212926,
+    "cols": [
+      {
+        "name": "Constituency",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "Fine Gael",
+        "sum": 988824,
+        "percent": 0.057446595657240376
+      },
+      {
+        "name": "Fianna Fáil",
+        "sum": 1049008,
+        "percent": 0.060943037807749824
+      },
+      {
+        "name": "Labour Party",
+        "sum": 376264,
+        "percent": 0.021859386370452066
+      },
+      {
+        "name": "Sinn Féin",
+        "sum": 395430,
+        "percent": 0.022972851913730413
+      },
+      {
+        "name": "Green Party",
+        "sum": 153834,
+        "percent": 0.008937120859056735
+      },
+      {
+        "name": "Independents/ others",
+        "sum": 598176,
+        "percent": 0.03475155821851555
+      },
+      {
+        "name": "Electorate",
+        "sum": 6286050,
+        "percent": 0.3651935760369852
+      },
+      {
+        "name": "Votes",
+        "sum": 3682670,
+        "percent": 0.2139479365681349
+      },
+      {
+        "name": "Valid votes",
+        "sum": 3561536,
+        "percent": 0.20691055082674498
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 121134,
+        "percent": 0.00703738574138993
       }
     ]
   },
@@ -3584,99 +4434,123 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "VA-TB/LNNK",
-        "sum": 687436
+        "sum": 687436,
+        "percent": 0.054345722518347246
       },
       {
         "name": "JL",
-        "sum": 454372
+        "sum": 454372,
+        "percent": 0.035920688809004
       },
       {
         "name": "PCTVL",
-        "sum": 245604
+        "sum": 245604,
+        "percent": 0.019416391974520036
       },
       {
         "name": "TP",
-        "sum": 153296
+        "sum": 153296,
+        "percent": 0.012118919985529648
       },
       {
         "name": "SLC",
-        "sum": 150896
+        "sum": 150896,
+        "percent": 0.011929186346261361
       },
       {
         "name": "TSP",
-        "sum": 110024
+        "sum": 110024,
+        "percent": 0.008698022469522454
       },
       {
         "name": "LSDSP",
-        "sum": 109872
+        "sum": 109872,
+        "percent": 0.008686006005702128
       },
       {
         "name": "ZZS",
-        "sum": 97868
+        "sum": 97868,
+        "percent": 0.007737021586628585
       },
       {
         "name": "LPP",
-        "sum": 74740
+        "sum": 74740,
+        "percent": 0.005908621749546537
       },
       {
         "name": "SDLP",
-        "sum": 51484
+        "sum": 51484,
+        "percent": 0.004070102785036846
       },
       {
         "name": "KP",
-        "sum": 38864
+        "sum": 38864,
+        "percent": 0.0030724200652177762
       },
       {
         "name": "LSP",
-        "sum": 37920
+        "sum": 37920,
+        "percent": 0.002997791500438917
       },
       {
         "name": "LG",
-        "sum": 33756
+        "sum": 33756,
+        "percent": 0.002668603636308441
       },
       {
         "name": "Eiroskeptiki",
-        "sum": 21924
+        "sum": 21924,
+        "percent": 0.0017332167947157918
       },
       {
         "name": "LKDS",
-        "sum": 9448
+        "sum": 9448,
+        "percent": 0.0007469180932528188
       },
       {
         "name": "SDS",
-        "sum": 7952
+        "sum": 7952,
+        "percent": 0.000628650791442254
       },
       {
         "name": "Other",
-        "sum": 149864
+        "sum": 149864,
+        "percent": 0.011847600881376
       },
       {
         "name": "Electorate",
-        "sum": 5590944
+        "sum": 5590944,
+        "percent": 0.4419958966938281
       },
       {
         "name": "Votes",
-        "sum": 2311524
+        "sum": 2311524,
+        "percent": 0.18273910865666054
       },
       {
         "name": "Valid votes",
-        "sum": 2285456
+        "sum": 2285456,
+        "percent": 0.18067828511147485
       },
       {
         "name": "Invalid votes",
-        "sum": 26068
+        "sum": 26068,
+        "percent": 0.0020608235451856985
       }
     ]
   },
@@ -3685,99 +4559,123 @@
     "cols": [
       {
         "name": "Region Code",
-        "sum": 1823
+        "sum": 1823,
+        "percent": 0.0001569355168059602
       },
       {
         "name": "Region",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "PS",
-        "sum": 577611
+        "sum": 577611,
+        "percent": 0.04972445463401398
       },
       {
         "name": "SC",
-        "sum": 464682
+        "sum": 464682,
+        "percent": 0.04000280297335557
       },
       {
         "name": "PCTVL",
-        "sum": 229308
+        "sum": 229308,
+        "percent": 0.019740301419495954
       },
       {
         "name": "LPP/LC",
-        "sum": 177978
+        "sum": 177978,
+        "percent": 0.015321486237022045
       },
       {
         "name": "VA-TB/LNNK",
-        "sum": 176973
+        "sum": 176973,
+        "percent": 0.015234969399726383
       },
       {
         "name": "JL",
-        "sum": 158253
+        "sum": 158253,
+        "percent": 0.013623431893084816
       },
       {
         "name": "Libertas.lv",
-        "sum": 102219
+        "sum": 102219,
+        "percent": 0.008799666260224052
       },
       {
         "name": "SCP",
-        "sum": 91332
+        "sum": 91332,
+        "percent": 0.007862443566057026
       },
       {
         "name": "LSDSP",
-        "sum": 90012
+        "sum": 90012,
+        "percent": 0.007748809511101531
       },
       {
         "name": "ZZS",
-        "sum": 88389
+        "sum": 88389,
+        "percent": 0.0076090912753494335
       },
       {
         "name": "VL",
-        "sum": 66720
+        "sum": 66720,
+        "percent": 0.005743684959568659
       },
       {
         "name": "TP",
-        "sum": 65904
+        "sum": 65904,
+        "percent": 0.005673438452868898
       },
       {
         "name": "DZIMTENE",
-        "sum": 13227
+        "sum": 13227,
+        "percent": 0.001138664882497222
       },
       {
         "name": "RB",
-        "sum": 10119
+        "sum": 10119,
+        "percent": 0.0008711083349201927
       },
       {
         "name": "KDS",
-        "sum": 7083
+        "sum": 7083,
+        "percent": 0.0006097500085225541
       },
       {
         "name": "OP",
-        "sum": 6306
+        "sum": 6306,
+        "percent": 0.0005428608716282968
       },
       {
         "name": "LAP",
-        "sum": 5136
+        "sum": 5136,
+        "percent": 0.00044213977746319894
       },
       {
         "name": "Other",
-        "sum": 41871
+        "sum": 41871,
+        "percent": 0.0036045238750314645
       },
       {
         "name": "Electorate",
-        "sum": 4458420
+        "sum": 4458420,
+        "percent": 0.38380935098081687
       },
       {
         "name": "Votes",
-        "sum": 2391435
+        "sum": 2391435,
+        "percent": 0.20587004258522296
       },
       {
         "name": "Valid votes",
-        "sum": 2331252
+        "sum": 2331252,
+        "percent": 0.2006891044568998
       },
       {
         "name": "Invalid votes",
-        "sum": 60183
+        "sum": 60183,
+        "percent": 0.00518093812832315
       }
     ]
   },
@@ -3786,79 +4684,98 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "DP",
-        "sum": 1455984
+        "sum": 1455984,
+        "percent": 0.05661360301405425
       },
       {
         "name": "LSP",
-        "sum": 696496
+        "sum": 696496,
+        "percent": 0.027082130054229117
       },
       {
         "name": "TS",
-        "sum": 607332
+        "sum": 607332,
+        "percent": 0.02361513089823212
       },
       {
         "name": "LCS",
-        "sum": 542403
+        "sum": 542403,
+        "percent": 0.021090470853822613
       },
       {
         "name": "VNDPS",
-        "sum": 357807
+        "sum": 357807,
+        "percent": 0.013912751413236484
       },
       {
         "name": "LDP",
-        "sum": 329680
+        "sum": 329680,
+        "percent": 0.012819078122886931
       },
       {
         "name": "KmS",
-        "sum": 275748
+        "sum": 275748,
+        "percent": 0.010722018788612672
       },
       {
         "name": "NS",
-        "sum": 234108
+        "sum": 234108,
+        "percent": 0.00910291416280276
       },
       {
         "name": "LKD",
-        "sum": 132648
+        "sum": 132648,
+        "percent": 0.0051578047647558405
       },
       {
         "name": "KKSS",
-        "sum": 124244
+        "sum": 124244,
+        "percent": 0.00483102870146798
       },
       {
         "name": "TPP",
-        "sum": 57176
+        "sum": 57176,
+        "percent": 0.002223197072173572
       },
       {
         "name": "NCP",
-        "sum": 14652
+        "sum": 14652,
+        "percent": 0.0005697195239521333
       },
       {
         "name": "Electorate",
-        "sum": 10617244
+        "sum": 10617244,
+        "percent": 0.41283450705457575
       },
       {
         "name": "Votes",
-        "sum": 5136198
+        "sum": 5136198,
+        "percent": 0.19971282278759891
       },
       {
         "name": "Valid votes",
-        "sum": 4828278
+        "sum": 4828278,
+        "percent": 0.18773984737022648
       },
       {
         "name": "Invalid votes",
-        "sum": 307920
+        "sum": 307920,
+        "percent": 0.011972975417372432
       }
     ]
   },
@@ -3867,87 +4784,108 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "TS",
-        "sum": 591024
+        "sum": 591024,
+        "percent": 0.03379581978124528
       },
       {
         "name": "LSDP",
-        "sum": 409388
+        "sum": 409388,
+        "percent": 0.023409545244532277
       },
       {
         "name": "TT",
-        "sum": 268948
+        "sum": 268948,
+        "percent": 0.015378932392806986
       },
       {
         "name": "DP",
-        "sum": 193472
+        "sum": 193472,
+        "percent": 0.01106307839396892
       },
       {
         "name": "LLRA",
-        "sum": 185172
+        "sum": 185172,
+        "percent": 0.010588469403159181
       },
       {
         "name": "LRLS",
-        "sum": 162008
+        "sum": 162008,
+        "percent": 0.009263910046157155
       },
       {
         "name": "LCS",
-        "sum": 76420
+        "sum": 76420,
+        "percent": 0.004369833623816909
       },
       {
         "name": "LCP",
-        "sum": 68016
+        "sum": 68016,
+        "percent": 0.003889277725170516
       },
       {
         "name": "KKSS",
-        "sum": 64432
+        "sum": 64432,
+        "percent": 0.003684338132030503
       },
       {
         "name": "FRONTAS",
-        "sum": 53364
+        "sum": 53364,
+        "percent": 0.003051449901876021
       },
       {
         "name": "LVLS",
-        "sum": 41140
+        "sum": 41140,
+        "percent": 0.0023524595038449045
       },
       {
         "name": "PDP",
-        "sum": 29700
+        "sum": 29700,
+        "percent": 0.0016982996418131665
       },
       {
         "name": "ZP",
-        "sum": 27844
+        "sum": 27844,
+        "percent": 0.001592170209651374
       },
       {
         "name": "TPP",
-        "sum": 22868
+        "sum": 22868,
+        "percent": 0.0013076335423900165
       },
       {
         "name": "TPLK",
-        "sum": 6272
+        "sum": 6272,
+        "percent": 0.0003586442879950229
       },
       {
         "name": "Electorate",
-        "sum": 10769588
+        "sum": 10769588,
+        "percent": 0.615824493026107
       },
       {
         "name": "Votes",
-        "sum": 2259212
+        "sum": 2259212,
+        "percent": 0.12918582257171743
       },
       {
         "name": "Valid votes",
-        "sum": 2200068
+        "sum": 2200068,
+        "percent": 0.12580386183045822
       },
       {
         "name": "Invalid votes",
-        "sum": 59144
+        "sum": 59144,
+        "percent": 0.0033819607412591893
       }
     ]
   },
@@ -3956,71 +4894,88 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "LSAP",
-        "sum": 1006000
+        "sum": 1006000,
+        "percent": 0.1538183964355721
       },
       {
         "name": "National B.",
-        "sum": 96564
+        "sum": 96564,
+        "percent": 0.014764731245929011
       },
       {
         "name": "Greng",
-        "sum": 443552
+        "sum": 443552,
+        "percent": 0.067819540134981
       },
       {
         "name": "CSV",
-        "sum": 1277848
+        "sum": 1277848,
+        "percent": 0.1953842248990089
       },
       {
         "name": "ADR",
-        "sum": 281880
+        "sum": 281880,
+        "percent": 0.043099731200058715
       },
       {
         "name": "KPL",
-        "sum": 66236
+        "sum": 66236,
+        "percent": 0.010127550006268941
       },
       {
         "name": "DP",
-        "sum": 763908
+        "sum": 763908,
+        "percent": 0.11680228984523362
       },
       {
         "name": "GLS",
-        "sum": 48364
+        "sum": 48364,
+        "percent": 0.0073949035041849
       },
       {
         "name": "Lénk",
-        "sum": 37684
+        "sum": 37684,
+        "percent": 0.005761920925723757
       },
       {
         "name": "NOMP",
-        "sum": 35060
+        "sum": 35060,
+        "percent": 0.005360708726671132
       },
       {
         "name": "Electorate",
-        "sum": 896124
+        "sum": 896124,
+        "percent": 0.13701824720420538
       },
       {
         "name": "Votes",
-        "sum": 793480
+        "sum": 793480,
+        "percent": 0.12132387793608126
       },
       {
         "name": "Valid votes",
-        "sum": 714572
+        "sum": 714572,
+        "percent": 0.1092587665782899
       },
       {
         "name": "Invalid votes",
-        "sum": 78908
+        "sum": 78908,
+        "percent": 0.012065111357791376
       }
     ]
   },
@@ -4029,59 +4984,73 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Lénk",
-        "sum": 112904
+        "sum": 112904,
+        "percent": 0.01717592206636821
       },
       {
         "name": "LSAP",
-        "sum": 958008
+        "sum": 958008,
+        "percent": 0.14574037011051227
       },
       {
         "name": "DP",
-        "sum": 830660
+        "sum": 830660,
+        "percent": 0.1263671032350441
       },
       {
         "name": "ADR",
-        "sum": 365012
+        "sum": 365012,
+        "percent": 0.05552874712400972
       },
       {
         "name": "GaL",
-        "sum": 74524
+        "sum": 74524,
+        "percent": 0.011337228229947783
       },
       {
         "name": "CSV",
-        "sum": 1285884
+        "sum": 1285884,
+        "percent": 0.1956196713171351
       },
       {
         "name": "Gréng",
-        "sum": 434772
+        "sum": 434772,
+        "percent": 0.06614123493090625
       },
       {
         "name": "Electorate",
-        "sum": 914848
+        "sum": 914848,
+        "percent": 0.13917450179420415
       },
       {
         "name": "Votes",
-        "sum": 798388
+        "sum": 798388,
+        "percent": 0.12145761059593622
       },
       {
         "name": "Valid votes",
-        "sum": 723356
+        "sum": 723356,
+        "percent": 0.11004310106143134
       },
       {
         "name": "Invalid votes",
-        "sum": 75032
+        "sum": 75032,
+        "percent": 0.011414509534504886
       }
     ]
   },
@@ -4090,59 +5059,73 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "ADR",
-        "sum": 348944
+        "sum": 348944,
+        "percent": 0.05028837590036404
       },
       {
         "name": "DP",
-        "sum": 646028
+        "sum": 646028,
+        "percent": 0.09310290162937428
       },
       {
         "name": "LSAP",
-        "sum": 959868
+        "sum": 959868,
+        "percent": 0.13833223324868926
       },
       {
         "name": "Gréng",
-        "sum": 652816
+        "sum": 652816,
+        "percent": 0.09408116030587158
       },
       {
         "name": "CSV",
-        "sum": 1613480
+        "sum": 1613480,
+        "percent": 0.2325281098047806
       },
       {
         "name": "Lénk",
-        "sum": 73264
+        "sum": 73264,
+        "percent": 0.01055850672877101
       },
       {
         "name": "KPL",
-        "sum": 51044
+        "sum": 51044,
+        "percent": 0.007356251603289301
       },
       {
         "name": "Electorate",
-        "sum": 918200
+        "sum": 918200,
+        "percent": 0.13232721225100377
       },
       {
         "name": "Votes",
-        "sum": 837608
+        "sum": 837608,
+        "percent": 0.12071262426392808
       },
       {
         "name": "Valid votes",
-        "sum": 767544
+        "sum": 767544,
+        "percent": 0.11061528839031196
       },
       {
         "name": "Invalid votes",
-        "sum": 70064
+        "sum": 70064,
+        "percent": 0.010097335873616126
       }
     ]
   },
@@ -4151,116 +5134,78 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "KPL",
-        "sum": 69196
+        "sum": 69196,
+        "percent": 0.009616838556745963
       },
       {
         "name": "Gréng",
-        "sum": 754548
+        "sum": 754548,
+        "percent": 0.10486684633960855
       },
       {
         "name": "ADR",
-        "sum": 330876
+        "sum": 330876,
+        "percent": 0.045985043561793705
       },
       {
         "name": "LSAP",
-        "sum": 874128
+        "sum": 874128,
+        "percent": 0.1214860375445291
       },
       {
         "name": "DP",
-        "sum": 836492
+        "sum": 836492,
+        "percent": 0.1162553979711189
       },
       {
         "name": "Lénk",
-        "sum": 153156
+        "sum": 153156,
+        "percent": 0.02128557324118424
       },
       {
         "name": "CSV",
-        "sum": 1404892
+        "sum": 1404892,
+        "percent": 0.19525145317162768
       },
       {
         "name": "Biergerlescht",
-        "sum": 61932
+        "sum": 61932,
+        "percent": 0.008607290096196181
       },
       {
         "name": "Electorate",
-        "sum": 962692
+        "sum": 962692,
+        "percent": 0.13379463471690392
       },
       {
         "name": "Votes",
-        "sum": 873692
+        "sum": 873692,
+        "percent": 0.12142544240014587
       },
       {
         "name": "Valid votes",
-        "sum": 793456
+        "sum": 793456,
+        "percent": 0.11027426807736611
       },
       {
         "name": "Invalid votes",
-        "sum": 80236
-      }
-    ]
-  },
-  "MTEP2009": {
-    "total": 4314632,
-    "cols": [
-      {
-        "name": "NUTS ID",
-        "sum": 0
-      },
-      {
-        "name": "NUTS Name",
-        "sum": 0
-      },
-      {
-        "name": "MLP",
-        "sum": 543668
-      },
-      {
-        "name": "PN",
-        "sum": 401944
-      },
-      {
-        "name": "AD-Green Party",
-        "sum": 23208
-      },
-      {
-        "name": "IE",
-        "sum": 14548
-      },
-      {
-        "name": "AN",
-        "sum": 6380
-      },
-      {
-        "name": "Other",
-        "sum": 2928
-      },
-      {
-        "name": "Electorate",
-        "sum": 1289644
-      },
-      {
-        "name": "Votes",
-        "sum": 1016156
-      },
-      {
-        "name": "Valid votes",
-        "sum": 992676
-      },
-      {
-        "name": "Invalid votes",
-        "sum": 23480
+        "sum": 80236,
+        "percent": 0.011151174322779771
       }
     ]
   },
@@ -4269,43 +5214,118 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "MLP",
-        "sum": 475932
+        "sum": 475932,
+        "percent": 0.1131676537754414
       },
       {
         "name": "PN",
-        "sum": 390752
+        "sum": 390752,
+        "percent": 0.09291345622496759
       },
       {
         "name": "AD",
-        "sum": 91752
+        "sum": 91752,
+        "percent": 0.02181689520604687
       },
       {
         "name": "Other",
-        "sum": 24452
+        "sum": 24452,
+        "percent": 0.005814224448276419
       },
       {
         "name": "Electorate",
-        "sum": 1217132
+        "sum": 1217132,
+        "percent": 0.2894110351373947
       },
       {
         "name": "Votes",
-        "sum": 1002764
+        "sum": 1002764,
+        "percent": 0.23843836760393652
       },
       {
         "name": "Valid votes",
-        "sum": 982888
+        "sum": 982888,
+        "percent": 0.23371222965473226
       },
       {
         "name": "Invalid votes",
-        "sum": 19876
+        "sum": 19876,
+        "percent": 0.004726137949204241
+      }
+    ]
+  },
+  "MTEP2009": {
+    "total": 4314632,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "MLP",
+        "sum": 543668,
+        "percent": 0.12600564775860373
+      },
+      {
+        "name": "PN",
+        "sum": 401944,
+        "percent": 0.0931583504688233
+      },
+      {
+        "name": "AD-Green Party",
+        "sum": 23208,
+        "percent": 0.005378906010987727
+      },
+      {
+        "name": "IE",
+        "sum": 14548,
+        "percent": 0.003371782344357526
+      },
+      {
+        "name": "AN",
+        "sum": 6380,
+        "percent": 0.0014786892601732894
+      },
+      {
+        "name": "Other",
+        "sum": 2928,
+        "percent": 0.000678621027239403
+      },
+      {
+        "name": "Electorate",
+        "sum": 1289644,
+        "percent": 0.29890011477224476
+      },
+      {
+        "name": "Votes",
+        "sum": 1016156,
+        "percent": 0.23551394417878513
+      },
+      {
+        "name": "Valid votes",
+        "sum": 992676,
+        "percent": 0.23007199687018498
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 23480,
+        "percent": 0.005441947308600131
       }
     ]
   },
@@ -4314,75 +5334,93 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "CDA",
-        "sum": 5083928
+        "sum": 5083928,
+        "percent": 0.05291373878889894
       },
       {
         "name": "PvdA",
-        "sum": 3780340
+        "sum": 3780340,
+        "percent": 0.03934593945729094
       },
       {
         "name": "VVD",
-        "sum": 2952608
+        "sum": 2952608,
+        "percent": 0.030730869606731905
       },
       {
         "name": "D66",
-        "sum": 1923920
+        "sum": 1923920,
+        "percent": 0.020024241163670776
       },
       {
         "name": "S/G/R",
-        "sum": 1290430
+        "sum": 1290430,
+        "percent": 0.013430850308139466
       },
       {
         "name": "GL",
-        "sum": 617030
+        "sum": 617030,
+        "percent": 0.006422074475664155
       },
       {
         "name": "DG",
-        "sum": 388052
+        "sum": 388052,
+        "percent": 0.0040388617156871245
       },
       {
         "name": "SP",
-        "sum": 221102
+        "sum": 221102,
+        "percent": 0.0023012390170952723
       },
       {
         "name": "CD",
-        "sum": 173024
+        "sum": 173024,
+        "percent": 0.0018008411488538883
       },
       {
         "name": "EBT",
-        "sum": 46140
+        "sum": 46140,
+        "percent": 0.000480227081839042
       },
       {
         "name": "LDG",
-        "sum": 35330
+        "sum": 35330,
+        "percent": 0.00036771614220575105
       },
       {
         "name": "Electorate",
-        "sum": 46438582
+        "sum": 46438582,
+        "percent": 0.4833347359905302
       },
       {
         "name": "Votes",
-        "sum": 16564530
+        "sum": 16564530,
+        "percent": 0.17240433255169627
       },
       {
         "name": "Valid votes",
-        "sum": 16511904
+        "sum": 16511904,
+        "percent": 0.17185659890607727
       },
       {
         "name": "Invalid votes",
-        "sum": 52626
+        "sum": 52626,
+        "percent": 0.0005477336456190166
       }
     ]
   },
@@ -4391,75 +5429,93 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "CDA",
-        "sum": 3819592
+        "sum": 3819592,
+        "percent": 0.042385657469550087
       },
       {
         "name": "CD",
-        "sum": 70960
+        "sum": 70960,
+        "percent": 0.0007874365256915593
       },
       {
         "name": "EP",
-        "sum": 92924
+        "sum": 92924,
+        "percent": 0.0010311689925783885
       },
       {
         "name": "D66",
-        "sum": 822492
+        "sum": 822492,
+        "percent": 0.009127117289868968
       },
       {
         "name": "EVPN",
-        "sum": 52936
+        "sum": 52936,
+        "percent": 0.000587425872660772
       },
       {
         "name": "GL",
-        "sum": 1679476
+        "sum": 1679476,
+        "percent": 0.018636989098398494
       },
       {
         "name": "Lijst Sala",
-        "sum": 42320
+        "sum": 42320,
+        "percent": 0.0004696211072049998
       },
       {
         "name": "PvdA",
-        "sum": 2851716
+        "sum": 2851716,
+        "percent": 0.03164522744220731
       },
       {
         "name": "SP",
-        "sum": 714568
+        "sum": 714568,
+        "percent": 0.007929494691239658
       },
       {
         "name": "SGP/GPV/RPF",
-        "sum": 1238448
+        "sum": 1238448,
+        "percent": 0.01374294236710344
       },
       {
         "name": "VVD",
-        "sum": 2792200
+        "sum": 2792200,
+        "percent": 0.030984783921025532
       },
       {
         "name": "Electorate",
-        "sum": 47451456
+        "sum": 47451456,
+        "percent": 0.526564397571109
       },
       {
         "name": "Votes",
-        "sum": 14243056
+        "sum": 14243056,
+        "percent": 0.1580538688256809
       },
       {
         "name": "Valid votes",
-        "sum": 14177632
+        "sum": 14177632,
+        "percent": 0.15732786477752922
       },
       {
         "name": "Invalid votes",
-        "sum": 65424
+        "sum": 65424,
+        "percent": 0.0007260040481516991
       }
     ]
   },
@@ -4468,91 +5524,113 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "CDA",
-        "sum": 4657724
+        "sum": 4657724,
+        "percent": 0.043959376486595446
       },
       {
         "name": "PvdA",
-        "sum": 4498196
+        "sum": 4498196,
+        "percent": 0.042453758847561106
       },
       {
         "name": "VVD",
-        "sum": 2516792
+        "sum": 2516792,
+        "percent": 0.02375336260080063
       },
       {
         "name": "GL",
-        "sum": 1408804
+        "sum": 1408804,
+        "percent": 0.013296224815343633
       },
       {
         "name": "CU-SGP",
-        "sum": 1119520
+        "sum": 1119520,
+        "percent": 0.010565976250261573
       },
       {
         "name": "D66",
-        "sum": 810008
+        "sum": 810008,
+        "percent": 0.007644816788017968
       },
       {
         "name": "SP",
-        "sum": 1329304
+        "sum": 1329304,
+        "percent": 0.012545907615208044
       },
       {
         "name": "Dem Eur",
-        "sum": 35120
+        "sum": 35120,
+        "percent": 0.00033146088136807423
       },
       {
         "name": "LEEFB E",
-        "sum": 36576
+        "sum": 36576,
+        "percent": 0.0003452025397755889
       },
       {
         "name": "PvhN",
-        "sum": 72936
+        "sum": 72936,
+        "percent": 0.0006883664818753377
       },
       {
         "name": "Nieuw R",
-        "sum": 62928
+        "sum": 62928,
+        "percent": 0.0005939114562280801
       },
       {
         "name": "Eut Tr",
-        "sum": 1396624
+        "sum": 1396624,
+        "percent": 0.01318127055751154
       },
       {
         "name": "LPF",
-        "sum": 486036
+        "sum": 486036,
+        "percent": 0.004587184536919513
       },
       {
         "name": "PvdD",
-        "sum": 613728
+        "sum": 613728,
+        "percent": 0.005792335529620315
       },
       {
         "name": "Respect",
-        "sum": 18412
+        "sum": 18412,
+        "percent": 0.00017377157596096192
       },
       {
         "name": "Electorate",
-        "sum": 48675512
+        "sum": 48675512,
+        "percent": 0.45939715571077083
       },
       {
         "name": "Votes",
-        "sum": 19108484
+        "sum": 19108484,
+        "percent": 0.18034495866309067
       },
       {
         "name": "Valid votes",
-        "sum": 19062708
+        "sum": 19062708,
+        "percent": 0.1799129269630478
       },
       {
         "name": "Invalid votes",
-        "sum": 45776
+        "sum": 45776,
+        "percent": 0.00043203170004285207
       }
     ]
   },
@@ -4561,99 +5639,123 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "CDA",
-        "sum": 3652932
+        "sum": 3652932,
+        "percent": 0.03492707935300956
       },
       {
         "name": "PVV",
-        "sum": 3090984
+        "sum": 3090984,
+        "percent": 0.029554079694580383
       },
       {
         "name": "PvdA",
-        "sum": 2194764
+        "sum": 2194764,
+        "percent": 0.020984977653328525
       },
       {
         "name": "VVD",
-        "sum": 2074572
+        "sum": 2074572,
+        "percent": 0.019835775992416982
       },
       {
         "name": "D66",
-        "sum": 2061688
+        "sum": 2061688,
+        "percent": 0.019712587142916314
       },
       {
         "name": "GL",
-        "sum": 1616080
+        "sum": 1616080,
+        "percent": 0.015451958700794783
       },
       {
         "name": "SP",
-        "sum": 1293076
+        "sum": 1293076,
+        "percent": 0.012363593973682563
       },
       {
         "name": "CU/SGP",
-        "sum": 1242160
+        "sum": 1242160,
+        "percent": 0.011876766632703362
       },
       {
         "name": "PvdD",
-        "sum": 630940
+        "sum": 630940,
+        "percent": 0.006032658545789479
       },
       {
         "name": "EKP",
-        "sum": 85792
+        "sum": 85792,
+        "percent": 0.0008202901099318017
       },
       {
         "name": "Newropeans",
-        "sum": 79360
+        "sum": 79360,
+        "percent": 0.0007587912990044268
       },
       {
         "name": "Libertas",
-        "sum": 58448
+        "sum": 58448,
+        "percent": 0.000558843672432091
       },
       {
         "name": "LDP",
-        "sum": 43028
+        "sum": 43028,
+        "percent": 0.00041140715742896263
       },
       {
         "name": "DG",
-        "sum": 34068
+        "sum": 34068,
+        "percent": 0.00032573717205749514
       },
       {
         "name": "Solidara",
-        "sum": 30132
+        "sum": 30132,
+        "percent": 0.00028810357134074333
       },
       {
         "name": "EV&D",
-        "sum": 17724
+        "sum": 17724,
+        "percent": 0.00016946593981293423
       },
       {
         "name": "PEP",
-        "sum": 9708
+        "sum": 9708,
+        "percent": 0.00009282189932881774
       },
       {
         "name": "Electorate",
-        "sum": 49781988
+        "sum": 49781988,
+        "percent": 0.47598461871903713
       },
       {
         "name": "Votes",
-        "sum": 18294972
+        "sum": 18294972,
+        "percent": 0.1749252213852018
       },
       {
         "name": "Valid votes",
-        "sum": 18215456
+        "sum": 18215456,
+        "percent": 0.17416493851055923
       },
       {
         "name": "Invalid votes",
-        "sum": 39464
+        "sum": 39464,
+        "percent": 0.0003773303909262941
       },
       {
         "name": "Blank votes",
-        "sum": 40052
+        "sum": 40052,
+        "percent": 0.00038295248371629666
       }
     ]
   },
@@ -4662,75 +5764,93 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "2007",
-        "sum": 110385
+        "sum": 110385,
+        "percent": 0.0026865381984552106
       },
       {
         "name": "PD",
-        "sum": 5904420
+        "sum": 5904420,
+        "percent": 0.14370113574963006
       },
       {
         "name": "PNL",
-        "sum": 2755436
+        "sum": 2755436,
+        "percent": 0.06706150353217043
       },
       {
         "name": "PSD",
-        "sum": 4736072
+        "sum": 4736072,
+        "percent": 0.11526600841268439
       },
       {
         "name": "UDMR",
-        "sum": 1131716
+        "sum": 1131716,
+        "percent": 0.02754358168050856
       },
       {
         "name": "PLD",
-        "sum": 1595604
+        "sum": 1595604,
+        "percent": 0.03883363768272798
       },
       {
         "name": "LASZLO",
-        "sum": 706132
+        "sum": 706132,
+        "percent": 0.01718576428999932
       },
       {
         "name": "PRM",
-        "sum": 850384
+        "sum": 850384,
+        "percent": 0.020696553873761254
       },
       {
         "name": "PC",
-        "sum": 601540
+        "sum": 601540,
+        "percent": 0.014640215499377158
       },
       {
         "name": "PN?CD",
-        "sum": 284004
+        "sum": 284004,
+        "percent": 0.006912058653930096
       },
       {
         "name": "PR",
-        "sum": 235612
+        "sum": 235612,
+        "percent": 0.005734299388634589
       },
       {
         "name": "PV",
-        "sum": 79280
+        "sum": 79280,
+        "percent": 0.0019295080706031537
       },
       {
         "name": "PIN",
-        "sum": 499316
+        "sum": 499316,
+        "percent": 0.012152298836797228
       },
       {
         "name": "PNG-CD",
-        "sum": 995452
+        "sum": 995452,
+        "percent": 0.024227203177321525
       },
       {
         "name": "PAS",
-        "sum": 113936
+        "sum": 113936,
+        "percent": 0.002772962052626651
       },
       {
         "name": "Valid votes",
-        "sum": 20488904
+        "sum": 20488904,
+        "percent": 0.4986567309007724
       }
     ]
   },
@@ -4739,63 +5859,78 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "PNL",
-        "sum": 2807578
+        "sum": 2807578,
+        "percent": 0.021214184103838546
       },
       {
         "name": "UDMR",
-        "sum": 1724984
+        "sum": 1724984,
+        "percent": 0.013034055742058043
       },
       {
         "name": "PDL",
-        "sum": 5741776
+        "sum": 5741776,
+        "percent": 0.043385114553184875
       },
       {
         "name": "PSD+PC",
-        "sum": 6012776
+        "sum": 6012776,
+        "percent": 0.045432802593246537
       },
       {
         "name": "PNTCD",
-        "sum": 281148
+        "sum": 281148,
+        "percent": 0.0021243667789197663
       },
       {
         "name": "FC",
-        "sum": 77564
+        "sum": 77564,
+        "percent": 0.0005860770300344756
       },
       {
         "name": "PRM",
-        "sum": 1673610
+        "sum": 1673610,
+        "percent": 0.012645871515600005
       },
       {
         "name": "ELENA",
-        "sum": 814088
+        "sum": 814088,
+        "percent": 0.006151285096522951
       },
       {
         "name": "PAVEL",
-        "sum": 199070
+        "sum": 199070,
+        "percent": 0.0015041817643360717
       },
       {
         "name": "Electorate",
-        "sum": 72789264
+        "sum": 72789264,
+        "percent": 0.5499989126852067
       },
       {
         "name": "Votes",
-        "sum": 20112536
+        "sum": 20112536,
+        "percent": 0.15197121558121646
       },
       {
         "name": "Valid votes",
-        "sum": 19332594
+        "sum": 19332594,
+        "percent": 0.14607793917774128
       },
       {
         "name": "Invalid votes",
-        "sum": 777390
+        "sum": 777390,
+        "percent": 0.005873993378094232
       }
     ]
   },
@@ -4804,99 +5939,123 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "NUTS Name",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "Year",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "SMK-MKP: Party of the Hungarian Coalition (Strana madarskej koalície - Magyar Koalíció Pártja)",
-        "sum": 371708
+        "sum": 371708,
+        "percent": 0.01466032170135268
       },
       {
         "name": "Alliance of New Citizens (Aliancia nového obcana)",
-        "sum": 130612
+        "sum": 130612,
+        "percent": 0.00515139286229265
       },
       {
         "name": "Slovak Democratic and Christian Union (Slovenská demokratická a krestanská únia)",
-        "sum": 479816
+        "sum": 479816,
+        "percent": 0.018924147227006784
       },
       {
         "name": "(Madarská federalistická strana)",
-        "sum": 6392
+        "sum": 6392,
+        "percent": 0.0002521032001330247
       },
       {
         "name": "(Živnostenská strana Slovenskej republiky)",
-        "sum": 9856
+        "sum": 9856,
+        "percent": 0.0003887248342476676
       },
       {
         "name": "Democratic Union of Slovakia (Demokratická únia Slovenska)",
-        "sum": 5416
+        "sum": 5416,
+        "percent": 0.00021360934479356408
       },
       {
         "name": "Communist Party of Slovakia (Komunistická strana Slovenska)",
-        "sum": 127632
+        "sum": 127632,
+        "percent": 0.005033860394145526
       },
       {
         "name": "Free Forum (Slobodné fórum)",
-        "sum": 91216
+        "sum": 91216,
+        "percent": 0.003597597857217456
       },
       {
         "name": "SNS, PSNS: Coalition Slovak National Party and The Real Slovak National Party (Koalícia Slovenská národná strana, Pravá Slovenská národná strana)",
-        "sum": 56600
+        "sum": 56600,
+        "percent": 0.002232328086284292
       },
       {
         "name": "Slovak People's Party (Slovenská ludová strana)",
-        "sum": 4964
+        "sum": 4964,
+        "percent": 0.0001957822724437319
       },
       {
         "name": "AZ-OS: (AKTÍVNE ŽENY - OS Slovenska)",
-        "sum": 19760
+        "sum": 19760,
+        "percent": 0.0007793428089218659
       },
       {
         "name": "Direction (SMER)",
-        "sum": 474140
+        "sum": 474140,
+        "percent": 0.018700283371569513
       },
       {
         "name": "LS-HZDS: People's Party - Movement for a Democratic Slovakia (Ludová strana - Hnutie za demokratické Slovensko)",
-        "sum": 478328
+        "sum": 478328,
+        "percent": 0.018865459873784327
       },
       {
         "name": "Christian Democratic Movement (Krestanskodemokratické hnutie)",
-        "sum": 454620
+        "sum": 454620,
+        "percent": 0.017930406264780298
       },
       {
         "name": "HZD, LÚ: Coalition Movement for Democracy and People's Union (Koalícia Hnutie za demokraciu, Ludová únia)",
-        "sum": 47656
+        "sum": 47656,
+        "percent": 0.0018795729201407107
       },
       {
         "name": "Civic Conservative Party (Obcianska konzervatívna strana)",
-        "sum": 28240
+        "sum": 28240,
+        "percent": 0.0011137976176089825
       },
       {
         "name": "(Rómske krestanské demokratické hnutie v Slovenskej republike)",
-        "sum": 19424
+        "sum": 19424,
+        "percent": 0.0007660908259361501
       },
       {
         "name": "Electorate",
-        "sum": 16841852
+        "sum": 16841852,
+        "percent": 0.6642498099760297
       },
       {
         "name": "Votes",
-        "sum": 2853232
+        "sum": 2853232,
+        "percent": 0.11253268428065555
       },
       {
         "name": "Valid votes",
-        "sum": 2806380
+        "sum": 2806380,
+        "percent": 0.11068482146265922
       },
       {
         "name": "Invalid votes",
-        "sum": 46852
+        "sum": 46852,
+        "percent": 0.0018478628179963191
       }
     ]
   },
@@ -4905,83 +6064,103 @@
     "cols": [
       {
         "name": "NUTS ID",
-        "sum": 0
+        "sum": 0,
+        "percent": 0
       },
       {
         "name": "The Direction - Social Democracy (Smer - sociálna demokracia)",
-        "sum": 1058888
+        "sum": 1058888,
+        "percent": 0.03862936258822946
       },
       {
         "name": "SDKU-DS: The Slovak Democratic and Christian Union - Democratic Party (Slovenská demokratická a krest(anská únia - Demokratická strana)",
-        "sum": 561704
+        "sum": 561704,
+        "percent": 0.020491560470284713
       },
       {
         "name": "SMK-MKP: The Party of the Hungarian Coalition (Magyar Koalíció Pártja/Strana mad(arskej koalície)",
-        "sum": 375000
+        "sum": 375000,
+        "percent": 0.013680399599000127
       },
       {
         "name": "Christian Democratic Movement (Krestanskodemokratické hnutie)",
-        "sum": 359620
+        "sum": 359620,
+        "percent": 0.013119320810113135
       },
       {
         "name": "LS-HZDS: People's Party - Movement for a Democratic Slovakia (Ludová strana - Hnutie za demokratické Slovensko)",
-        "sum": 296964
+        "sum": 296964,
+        "percent": 0.010833563164046597
       },
       {
         "name": "Slovak National Party (Slovenská národná strana)",
-        "sum": 183840
+        "sum": 183840,
+        "percent": 0.006706679099413822
       },
       {
         "name": "Freedom and Solidarity (Sloboda a Solidarita)",
-        "sum": 156064
+        "sum": 156064,
+        "percent": 0.005693381021382282
       },
       {
         "name": "Green Party (Strana zelených)",
-        "sum": 69928
+        "sum": 69928,
+        "percent": 0.002551047955090349
       },
       {
         "name": "KDS, OKS: Conservative Democrats of Slovakia (Konzervatívni demokrati Slovenska)",
-        "sum": 69636
+        "sum": 69636,
+        "percent": 0.0025403954839359278
       },
       {
         "name": "KSS",
-        "sum": 54572
+        "sum": 54572,
+        "percent": 0.001990844711777693
       },
       {
         "name": "SF",
-        "sum": 52252
+        "sum": 52252,
+        "percent": 0.001906208639591879
       },
       {
         "name": "SDL",
-        "sum": 20632
+        "sum": 20632,
+        "percent": 0.0007526773454041883
       },
       {
         "name": "ASV",
-        "sum": 14884
+        "sum": 14884,
+        "percent": 0.0005429841803507143
       },
       {
         "name": "Misia 21",
-        "sum": 14060
+        "sum": 14060,
+        "percent": 0.0005129237822985114
       },
       {
         "name": "DS",
-        "sum": 9592
+        "sum": 9592,
+        "percent": 0.0003499263812096246
       },
       {
         "name": "LIGA",
-        "sum": 9492
+        "sum": 9492,
+        "percent": 0.0003462782746498912
       },
       {
         "name": "Electorate",
-        "sum": 17383092
+        "sum": 17383092,
+        "percent": 0.6341537195364861
       },
       {
         "name": "Votes",
-        "sum": 3414132
+        "sum": 3414132,
+        "percent": 0.124551173449956
       },
       {
         "name": "Valid votes",
-        "sum": 3307128
+        "sum": 3307128,
+        "percent": 0.12064755350677892
       }
     ]
   }
