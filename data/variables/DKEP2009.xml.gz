@@ -1,0 +1,573 @@
+<r:RDF 
+xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:s="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#" 
+xmlns:n="http://www.nesstar.org/rdf/" 
+xmlns:p3="http://www.nesstar.org/rdf/"
+xmlns:p1="http://www.nesstar.org/rdf/acu/"
+xmlns:p5="http://www.nesstar.org/rdf/hc/"
+xmlns:p4="http://www.nesstar.org/rdf/faster/"
+xmlns:p2="http://www.nesstar.org/rdf/common/"
+xmlns:n43="http://www.nesstar.org/rdf/faster/Variable#"
+xmlns:n42="http://www.nesstar.org/rdf/faster/Variable2#"
+xmlns:n41="http://www.nesstar.org/rdf/faster/Variable3#"
+>
+
+
+<r:Bag r:about="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1@variables">
+<r:_1 r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V1" />
+<r:_2 r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V2" />
+<r:_3 r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V3" />
+<r:_4 r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V4" />
+<r:_5 r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V5" />
+<r:_6 r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V6" />
+<r:_7 r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V7" />
+<r:_8 r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V8" />
+<r:_9 r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V9" />
+<r:_10 r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V10" />
+<r:_11 r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V11" />
+<r:_12 r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V12" />
+<r:_13 r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V13" />
+<r:_14 r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V14" />
+<r:_15 r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V15" />
+<r:_16 r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V16" />
+</r:Bag>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V1">
+<n:complete>true</n:complete>
+<s:label>Strokreds</s:label>
+<n:creationDate>2009-11-04 14:19:21.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Strokreds</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DKEP2009_Download" />
+<n42:width>27</n42:width>
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>character</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V1</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:position>1</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V1@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V1@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V1@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DKEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V1@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V1@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V1@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V1@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V2">
+<n:complete>true</n:complete>
+<s:label>Social Democrats (Socialdemokraterna)</s:label>
+<n:creationDate>2009-11-04 14:19:21.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SD</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DKEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>503439.0</n43:valRangeMax>
+<n43:valRangeMin>4556.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V2</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>118456.235</n43:meanValue>
+<n43:maxValue>503439.0</n43:maxValue>
+<n43:minValue>4556.0</n43:minValue>
+<n43:stdValue>148655.808</n43:stdValue>
+<n43:position>2</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V2@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V2@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V2@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DKEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V2@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V2@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V2@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V2@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V3">
+<n:complete>true</n:complete>
+<s:label>Danish Social Liberal Party/Radical Left (Det Radikale Venstre)</s:label>
+<n:creationDate>2009-11-04 14:19:21.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>RV</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DKEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>100094.0</n43:valRangeMax>
+<n43:valRangeMin>477.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V3</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>23551.529</n43:meanValue>
+<n43:maxValue>100094.0</n43:maxValue>
+<n43:minValue>477.0</n43:minValue>
+<n43:stdValue>30420.95</n43:stdValue>
+<n43:position>3</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V3@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V3@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V3@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DKEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V3@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V3@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V3@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V3@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V4">
+<n:complete>true</n:complete>
+<s:label>Conservative People&#39;s Party (Konservative Folkeparti)</s:label>
+<n:creationDate>2009-11-04 14:19:21.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>K</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DKEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>297199.0</n43:valRangeMax>
+<n43:valRangeMin>1662.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V4</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>69929.176</n43:meanValue>
+<n43:maxValue>297199.0</n43:maxValue>
+<n43:minValue>1662.0</n43:minValue>
+<n43:stdValue>87748.532</n43:stdValue>
+<n43:position>4</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V4@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V4@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V4@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DKEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V4@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V4@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V4@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V4@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V5">
+<n:complete>true</n:complete>
+<s:label>Socialist People&#39;s Party (Socialistisk Folkeparti)</s:label>
+<n:creationDate>2009-11-04 14:19:21.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SF</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DKEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>371603.0</n43:valRangeMax>
+<n43:valRangeMin>2366.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V5</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>87436.0</n43:meanValue>
+<n43:maxValue>371603.0</n43:maxValue>
+<n43:minValue>2366.0</n43:minValue>
+<n43:stdValue>110886.962</n43:stdValue>
+<n43:position>5</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V5@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V5@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V5@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DKEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V5@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V5@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V5@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V5@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V6">
+<n:complete>true</n:complete>
+<s:label>Liberal Alliance (Liberal Alliance). Formerly known as New Alliance (NA)</s:label>
+<n:creationDate>2009-11-04 14:19:21.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>LA</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DKEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>13796.0</n43:valRangeMax>
+<n43:valRangeMin>65.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V6</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>3246.118</n43:meanValue>
+<n43:maxValue>13796.0</n43:maxValue>
+<n43:minValue>65.0</n43:minValue>
+<n43:stdValue>4136.311</n43:stdValue>
+<n43:position>6</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V6@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V6@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V6@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DKEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V6@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V6@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V6@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V6@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V7">
+<n:complete>true</n:complete>
+<s:label>June Movement (Junibevægelsen)</s:label>
+<n:creationDate>2009-11-04 14:19:21.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>JB</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DKEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>55459.0</n43:valRangeMax>
+<n43:valRangeMin>511.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V7</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>13049.176</n43:meanValue>
+<n43:maxValue>55459.0</n43:maxValue>
+<n43:minValue>511.0</n43:minValue>
+<n43:stdValue>16412.017</n43:stdValue>
+<n43:position>7</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V7@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V7@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V7@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DKEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V7@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V7@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V7@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V7@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V8">
+<n:complete>true</n:complete>
+<s:label>Peoples Movement against the EU (Folkebevægelsen Mot EU)</s:label>
+<n:creationDate>2009-11-04 14:19:21.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>FmEU</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DKEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>168555.0</n43:valRangeMax>
+<n43:valRangeMin>1433.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V8</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>39660.0</n43:meanValue>
+<n43:maxValue>168555.0</n43:maxValue>
+<n43:minValue>1433.0</n43:minValue>
+<n43:stdValue>50634.747</n43:stdValue>
+<n43:position>8</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V8@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V8@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V8@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DKEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V8@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V8@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V8@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V8@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V9">
+<n:complete>true</n:complete>
+<s:label>Danish People&#39;s Party (Dansk Folkeparti)</s:label>
+<n:creationDate>2009-11-04 14:19:21.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>DF</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DKEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>357942.0</n43:valRangeMax>
+<n43:valRangeMin>2423.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V9</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>84221.647</n43:meanValue>
+<n43:maxValue>357942.0</n43:maxValue>
+<n43:minValue>2423.0</n43:minValue>
+<n43:stdValue>105819.593</n43:stdValue>
+<n43:position>9</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V9@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V9@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V9@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DKEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V9@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V9@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V9@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V9@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V10">
+<n:complete>true</n:complete>
+<s:label>Liberal Party (Venstre)</s:label>
+<n:creationDate>2009-11-04 14:19:21.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>V</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DKEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>474041.0</n43:valRangeMax>
+<n43:valRangeMin>3755.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V10</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>111539.059</n43:meanValue>
+<n43:maxValue>474041.0</n43:maxValue>
+<n43:minValue>3755.0</n43:minValue>
+<n43:stdValue>140090.461</n43:stdValue>
+<n43:position>10</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V10@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V10@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V10@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DKEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V10@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V10@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V10@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V10@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V11">
+<n:complete>true</n:complete>
+<s:label>Electorate</s:label>
+<n:creationDate>2009-11-04 14:19:21.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Electorate</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DKEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>4057100.0</n43:valRangeMax>
+<n43:valRangeMin>33064.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V11</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>954611.765</n43:meanValue>
+<n43:maxValue>4057100.0</n43:maxValue>
+<n43:minValue>33064.0</n43:minValue>
+<n43:stdValue>1197614.623</n43:stdValue>
+<n43:position>11</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V11@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V11@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V11@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DKEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V11@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V11@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V11@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V11@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V12">
+<n:complete>true</n:complete>
+<s:label>Votes</s:label>
+<n:creationDate>2009-11-04 14:19:21.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Votes</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DKEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>2415568.0</n43:valRangeMax>
+<n43:valRangeMin>18065.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V12</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>568368.941</n43:meanValue>
+<n43:maxValue>2415568.0</n43:maxValue>
+<n43:minValue>18065.0</n43:minValue>
+<n43:stdValue>713929.088</n43:stdValue>
+<n43:position>12</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V12@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V12@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V12@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DKEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V12@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V12@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V12@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V12@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V13">
+<n:complete>true</n:complete>
+<s:label>Valid votes</s:label>
+<n:creationDate>2009-11-04 14:19:21.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Validvotes</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DKEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>2342128.0</n43:valRangeMax>
+<n43:valRangeMin>17248.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V13</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>551088.941</n43:meanValue>
+<n43:maxValue>2342128.0</n43:maxValue>
+<n43:minValue>17248.0</n43:minValue>
+<n43:stdValue>692308.696</n43:stdValue>
+<n43:position>13</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V13@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V13@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V13@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DKEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V13@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V13@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V13@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V13@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V14">
+<n:complete>true</n:complete>
+<s:label>Invalid votes</s:label>
+<n:creationDate>2009-11-04 14:19:21.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Invalidvotes</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DKEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>73440.0</n43:valRangeMax>
+<n43:valRangeMin>817.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V14</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>17280.0</n43:meanValue>
+<n43:maxValue>73440.0</n43:maxValue>
+<n43:minValue>817.0</n43:minValue>
+<n43:stdValue>21651.313</n43:stdValue>
+<n43:position>14</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V14@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V14@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V14@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DKEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V14@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V14@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V14@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V14@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V15">
+<n:complete>true</n:complete>
+<s:label>Blank votes</s:label>
+<n:creationDate>2009-11-04 14:19:21.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Blankvotes</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DKEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>67219.0</n43:valRangeMax>
+<n43:valRangeMin>749.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V15</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>15816.235</n43:meanValue>
+<n43:maxValue>67219.0</n43:maxValue>
+<n43:minValue>749.0</n43:minValue>
+<n43:stdValue>19814.09</n43:stdValue>
+<n43:position>15</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V15@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V15@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V15@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DKEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V15@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V15@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V15@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V15@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V16">
+<n:complete>true</n:complete>
+<s:label>Other invalid votes</s:label>
+<n:creationDate>2009-11-04 14:19:21.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Otherinvalidvotes</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DKEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>6221.0</n43:valRangeMax>
+<n43:valRangeMin>68.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V16</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>1463.765</n43:meanValue>
+<n43:maxValue>6221.0</n43:maxValue>
+<n43:minValue>68.0</n43:minValue>
+<n43:stdValue>1843.922</n43:stdValue>
+<n43:position>16</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V16@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V16@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V16@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DKEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V16@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V16@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V16@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DKEP2009_Download_V16@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DKEP2009_Download_VG1" />
+</p4:Variable3>
+
+</r:RDF>

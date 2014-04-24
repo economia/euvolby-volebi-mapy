@@ -1,0 +1,1197 @@
+<r:RDF 
+xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:s="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#" 
+xmlns:n="http://www.nesstar.org/rdf/" 
+xmlns:p3="http://www.nesstar.org/rdf/"
+xmlns:p1="http://www.nesstar.org/rdf/acu/"
+xmlns:p5="http://www.nesstar.org/rdf/hc/"
+xmlns:p4="http://www.nesstar.org/rdf/faster/"
+xmlns:p2="http://www.nesstar.org/rdf/common/"
+xmlns:n43="http://www.nesstar.org/rdf/faster/Variable#"
+xmlns:n42="http://www.nesstar.org/rdf/faster/Variable2#"
+xmlns:n41="http://www.nesstar.org/rdf/faster/Variable3#"
+>
+
+
+<r:Bag r:about="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1@variables">
+<r:_1 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V68" />
+<r:_2 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V69" />
+<r:_3 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V70" />
+<r:_4 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V71" />
+<r:_5 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V72" />
+<r:_6 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V73" />
+<r:_7 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V74" />
+<r:_8 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V75" />
+<r:_9 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V76" />
+<r:_10 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V77" />
+<r:_11 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V78" />
+<r:_12 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V79" />
+<r:_13 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V80" />
+<r:_14 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V81" />
+<r:_15 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V82" />
+<r:_16 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V83" />
+<r:_17 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V84" />
+<r:_18 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V85" />
+<r:_19 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V86" />
+<r:_20 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V87" />
+<r:_21 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V88" />
+<r:_22 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V89" />
+<r:_23 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V90" />
+<r:_24 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V91" />
+<r:_25 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V92" />
+<r:_26 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V93" />
+<r:_27 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V94" />
+<r:_28 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V95" />
+<r:_29 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V96" />
+<r:_30 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V97" />
+<r:_31 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V98" />
+<r:_32 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V99" />
+<r:_33 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V100" />
+<r:_34 r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V101" />
+</r:Bag>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V68">
+<n:complete>true</n:complete>
+<s:label>NUTS ID</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>NUTSID</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:width>4</n42:width>
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>character</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V68</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:position>1</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V68@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V68@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V68@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V68@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V68@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V68@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V68@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V69">
+<n:complete>true</n:complete>
+<s:label>NUTS Name</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>NUTSName</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:width>61</n42:width>
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>character</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V69</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:position>2</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V69@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V69@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V69@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V69@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V69@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V69@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V69@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V70">
+<n:complete>true</n:complete>
+<s:label>CVP</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>CVP</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>1013266.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V70</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>178811.647</n43:meanValue>
+<n43:maxValue>1013266.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>314133.753</n43:stdValue>
+<n43:position>3</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V70@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V70@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V70@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V70@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V70@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V70@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V70@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V71">
+<n:complete>true</n:complete>
+<s:label>PS</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>PS</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>680142.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V71</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>120025.059</n43:meanValue>
+<n43:maxValue>680142.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>211374.036</n43:stdValue>
+<n43:position>4</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V71@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V71@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V71@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V71@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V71@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V71@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V71@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V72">
+<n:complete>true</n:complete>
+<s:label>VLD</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>VLD</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>678421.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V72</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>119721.353</n43:meanValue>
+<n43:maxValue>678421.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>209024.955</n43:stdValue>
+<n43:position>5</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V72@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V72@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V72@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V72@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V72@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V72@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V72@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V73">
+<n:complete>true</n:complete>
+<s:label>SP</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SP</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>651371.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V73</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>114947.824</n43:meanValue>
+<n43:maxValue>651371.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>204851.293</n43:stdValue>
+<n43:position>6</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V73@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V73@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V73@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V73@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V73@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V73@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V73@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V74">
+<n:complete>true</n:complete>
+<s:label>PRL-FDF</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>PRLFDF</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>541724.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V74</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>95598.353</n43:meanValue>
+<n43:maxValue>541724.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>150490.353</n43:stdValue>
+<n43:position>7</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V74@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V74@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V74@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V74@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V74@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V74@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V74@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V75">
+<n:complete>true</n:complete>
+<s:label>VLAAMS BLOK</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>VLAAMSBLOK</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>463919.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V75</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>81868.059</n43:meanValue>
+<n43:maxValue>463919.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>144405.019</n43:stdValue>
+<n43:position>8</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V75@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V75@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V75@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V75@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V75@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V75@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V75@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V76">
+<n:complete>true</n:complete>
+<s:label>PSC</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>PSC</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>420198.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V76</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>74152.588</n43:meanValue>
+<n43:maxValue>420198.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>127503.283</n43:stdValue>
+<n43:position>9</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V76@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V76@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V76@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V76@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V76@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V76@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V76@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V77">
+<n:complete>true</n:complete>
+<s:label>AGALEV</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>AGALEV</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>396198.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V77</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>69917.294</n43:meanValue>
+<n43:maxValue>396198.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>124070.14</n43:stdValue>
+<n43:position>10</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V77@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V77@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V77@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V77@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V77@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V77@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V77@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V78">
+<n:complete>true</n:complete>
+<s:label>ECOLO</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>ECOLO</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>296573.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V78</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>52336.412</n43:meanValue>
+<n43:maxValue>296573.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>84310.191</n43:stdValue>
+<n43:position>11</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V78@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V78@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V78@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V78@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V78@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V78@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V78@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V79">
+<n:complete>true</n:complete>
+<s:label>VU</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>VU</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>262043.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V79</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>46242.882</n43:meanValue>
+<n43:maxValue>262043.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>80243.418</n43:stdValue>
+<n43:position>12</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V79@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V79@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V79@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V79@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V79@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V79@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V79@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V80">
+<n:complete>true</n:complete>
+<s:label>FN</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>FN</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>175732.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V80</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>31011.529</n43:meanValue>
+<n43:maxValue>175732.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>50499.251</n43:stdValue>
+<n43:position>13</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V80@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V80@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V80@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V80@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V80@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V80@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V80@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V81">
+<n:complete>true</n:complete>
+<s:label>WOW</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>WOW</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>127504.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V81</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>22500.706</n43:meanValue>
+<n43:maxValue>127504.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>40491.935</n43:stdValue>
+<n43:position>14</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V81@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V81@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V81@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V81@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V81@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V81@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V81@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V82">
+<n:complete>true</n:complete>
+<s:label>AGIR</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>AGIR</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>42917.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V82</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>7573.588</n43:meanValue>
+<n43:maxValue>42917.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>14226.838</n43:stdValue>
+<n43:position>15</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V82@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V82@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V82@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V82@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V82@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V82@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V82@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V83">
+<n:complete>true</n:complete>
+<s:label>PVDA-PTB</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>PVDAPTB</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>41816.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V83</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>7379.294</n43:meanValue>
+<n43:maxValue>41816.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>13319.691</n43:stdValue>
+<n43:position>16</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V83@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V83@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V83@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V83@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V83@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V83@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V83@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V84">
+<n:complete>true</n:complete>
+<s:label>GU</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>GU</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>35977.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V84</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>6348.882</n43:meanValue>
+<n43:maxValue>35977.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>10185.083</n43:stdValue>
+<n43:position>17</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V84@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V84@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V84@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V84@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V84@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V84@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V84@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V85">
+<n:complete>true</n:complete>
+<s:label>BEB</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>BEB</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>24132.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V85</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>4258.588</n43:meanValue>
+<n43:maxValue>24132.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>7350.504</n43:stdValue>
+<n43:position>18</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V85@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V85@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V85@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V85@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V85@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V85@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V85@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V86">
+<n:complete>true</n:complete>
+<s:label>NWP</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>NWP</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>19930.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V86</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>3517.059</n43:meanValue>
+<n43:maxValue>19930.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>6279.895</n43:stdValue>
+<n43:position>19</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V86@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V86@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V86@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V86@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V86@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V86@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V86@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V87">
+<n:complete>true</n:complete>
+<s:label>PTB-PVDA</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>PTBPVDA</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>17454.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V87</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>3080.118</n43:meanValue>
+<n43:maxValue>17454.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>5141.479</n43:stdValue>
+<n43:position>20</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V87@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V87@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V87@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V87@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V87@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V87@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V87@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V88">
+<n:complete>true</n:complete>
+<s:label>RGB</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>RGB</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>15549.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V88</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>2743.941</n43:meanValue>
+<n43:maxValue>15549.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>4890.134</n43:stdValue>
+<n43:position>21</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V88@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V88@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V88@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V88@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V88@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V88@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V88@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V89">
+<n:complete>true</n:complete>
+<s:label>SUD</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SUD</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>14054.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V89</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>2480.118</n43:meanValue>
+<n43:maxValue>14054.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>4141.185</n43:stdValue>
+<n43:position>22</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V89@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V89@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V89@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V89@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V89@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V89@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V89@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V90">
+<n:complete>true</n:complete>
+<s:label>CSP-EVP</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>CSPEVP</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>11999.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V90</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>2117.471</n43:meanValue>
+<n43:maxValue>11999.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>4715.039</n43:stdValue>
+<n43:position>23</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V90@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V90@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V90@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V90@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V90@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V90@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V90@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V91">
+<n:complete>true</n:complete>
+<s:label>LETD</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>LETD</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>8822.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V91</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>1556.824</n43:meanValue>
+<n43:maxValue>8822.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>2554.289</n43:stdValue>
+<n43:position>24</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V91@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V91@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V91@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V91@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V91@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V91@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V91@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V92">
+<n:complete>true</n:complete>
+<s:label>PFF</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>PFF</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>7690.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V92</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>1357.059</n43:meanValue>
+<n43:maxValue>7690.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>3021.806</n43:stdValue>
+<n43:position>25</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V92@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V92@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V92@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V92@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V92@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V92@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V92@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V93">
+<n:complete>true</n:complete>
+<s:label>PH-HP</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>PHHP</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>6385.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V93</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>1126.765</n43:meanValue>
+<n43:maxValue>6385.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>1866.5</n43:stdValue>
+<n43:position>26</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V93@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V93@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V93@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V93@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V93@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V93@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V93@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V94">
+<n:complete>true</n:complete>
+<s:label>PDB</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>PDB</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>5945.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V94</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>1049.118</n43:meanValue>
+<n43:maxValue>5945.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>2336.103</n43:stdValue>
+<n43:position>27</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V94@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V94@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V94@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V94@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V94@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V94@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V94@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V95">
+<n:complete>true</n:complete>
+<s:label>SP</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SP.</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>4820.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V95</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>850.588</n43:meanValue>
+<n43:maxValue>4820.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>1894.032</n43:stdValue>
+<n43:position>28</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V95@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V95@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V95@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V95@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V95@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V95@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V95@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V96">
+<n:complete>true</n:complete>
+<s:label>JUROPA</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>JUROPA</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>1969.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V96</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>347.471</n43:meanValue>
+<n43:maxValue>1969.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>773.724</n43:stdValue>
+<n43:position>29</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V96@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V96@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V96@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V96@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V96@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V96@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V96@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V97">
+<n:complete>true</n:complete>
+<s:label>PAB</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>PAB</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>205.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V97</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>36.176</n43:meanValue>
+<n43:maxValue>205.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>80.555</n43:stdValue>
+<n43:position>30</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V97@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V97@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V97@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V97@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V97@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V97@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V97@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V98">
+<n:complete>true</n:complete>
+<s:label>Electorate</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Electorate</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>7211311.0</n43:valRangeMax>
+<n43:valRangeMin>45533.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V98</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>1272584.294</n43:meanValue>
+<n43:maxValue>7211311.0</n43:maxValue>
+<n43:minValue>45533.0</n43:minValue>
+<n43:stdValue>1818594.918</n43:stdValue>
+<n43:position>31</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V98@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V98@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V98@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V98@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V98@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V98@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V98@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V99">
+<n:complete>true</n:complete>
+<s:label>Votes</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Votes</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>6537968.0</n43:valRangeMax>
+<n43:valRangeMin>41614.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V99</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>1153759.059</n43:meanValue>
+<n43:maxValue>6537968.0</n43:maxValue>
+<n43:minValue>41614.0</n43:minValue>
+<n43:stdValue>1654956.238</n43:stdValue>
+<n43:position>32</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V99@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V99@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V99@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V99@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V99@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V99@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V99@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V100">
+<n:complete>true</n:complete>
+<s:label>Valid votes</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Validvotes</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>5966755.0</n43:valRangeMax>
+<n43:valRangeMin>38342.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V100</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>1052956.765</n43:meanValue>
+<n43:maxValue>5966755.0</n43:maxValue>
+<n43:minValue>38342.0</n43:minValue>
+<n43:stdValue>1510522.198</n43:stdValue>
+<n43:position>33</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V100@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V100@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V100@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V100@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V100@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V100@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V100@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V101">
+<n:complete>true</n:complete>
+<s:label>Invalid votes</s:label>
+<n:creationDate>2010-02-09 10:22:24.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Invalidvotes</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BEEP1994_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>571213.0</n43:valRangeMax>
+<n43:valRangeMin>3272.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V101</n43:varID>
+<n43:noValidResponses>17</n43:noValidResponses>
+<n43:meanValue>100802.294</n43:meanValue>
+<n43:maxValue>571213.0</n43:maxValue>
+<n43:minValue>3272.0</n43:minValue>
+<n43:stdValue>144701.149</n43:stdValue>
+<n43:position>34</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V101@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V101@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V101@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BEEP1994_Download_F3" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V101@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V101@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V101@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BEEP1994_Download_V101@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BEEP1994_Download_VG1" />
+</p4:Variable3>
+
+</r:RDF>

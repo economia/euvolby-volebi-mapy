@@ -1,0 +1,1687 @@
+<r:RDF 
+xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:s="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#" 
+xmlns:n="http://www.nesstar.org/rdf/" 
+xmlns:p3="http://www.nesstar.org/rdf/"
+xmlns:p1="http://www.nesstar.org/rdf/acu/"
+xmlns:p5="http://www.nesstar.org/rdf/hc/"
+xmlns:p4="http://www.nesstar.org/rdf/faster/"
+xmlns:p2="http://www.nesstar.org/rdf/common/"
+xmlns:n43="http://www.nesstar.org/rdf/faster/Variable#"
+xmlns:n42="http://www.nesstar.org/rdf/faster/Variable2#"
+xmlns:n41="http://www.nesstar.org/rdf/faster/Variable3#"
+>
+
+
+<r:Bag r:about="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1@variables">
+<r:_1 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V1" />
+<r:_2 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V2" />
+<r:_3 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V3" />
+<r:_4 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V4" />
+<r:_5 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V5" />
+<r:_6 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V6" />
+<r:_7 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V7" />
+<r:_8 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V8" />
+<r:_9 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V9" />
+<r:_10 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V10" />
+<r:_11 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V11" />
+<r:_12 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V12" />
+<r:_13 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V13" />
+<r:_14 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V14" />
+<r:_15 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V15" />
+<r:_16 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V16" />
+<r:_17 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V17" />
+<r:_18 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V18" />
+<r:_19 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V19" />
+<r:_20 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V20" />
+<r:_21 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V21" />
+<r:_22 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V22" />
+<r:_23 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V23" />
+<r:_24 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V24" />
+<r:_25 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V25" />
+<r:_26 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V26" />
+<r:_27 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V27" />
+<r:_28 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V28" />
+<r:_29 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V29" />
+<r:_30 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V30" />
+<r:_31 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V31" />
+<r:_32 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V32" />
+<r:_33 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V33" />
+<r:_34 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V34" />
+<r:_35 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V35" />
+<r:_36 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V36" />
+<r:_37 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V37" />
+<r:_38 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V38" />
+<r:_39 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V39" />
+<r:_40 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V40" />
+<r:_41 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V41" />
+<r:_42 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V42" />
+<r:_43 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V43" />
+<r:_44 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V44" />
+<r:_45 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V46" />
+<r:_46 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V47" />
+<r:_47 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V48" />
+<r:_48 r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V49" />
+</r:Bag>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V1">
+<n:complete>true</n:complete>
+<s:label>NUTS ID</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>NUTSID</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:width>5</n42:width>
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>character</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V1</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:position>1</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V1@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V1@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V1@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V1@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V1@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V1@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V1@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V2">
+<n:complete>true</n:complete>
+<s:label>NUTS Name</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>NUTSName</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:width>26</n42:width>
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>character</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V2</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:position>2</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V2@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V2@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V2@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V2@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V2@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V2@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V2@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V3">
+<n:complete>true</n:complete>
+<s:label>Year</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Year</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>1999.0</n43:valRangeMax>
+<n43:valRangeMin>1999.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V3</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>1999.0</n43:meanValue>
+<n43:maxValue>1999.0</n43:maxValue>
+<n43:minValue>1999.0</n43:minValue>
+<n43:stdValue>0.0</n43:stdValue>
+<n43:position>3</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V3@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V3@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V3@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V3@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V3@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V3@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V3@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V4">
+<n:complete>true</n:complete>
+<s:label>PASOK</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>PASOK</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>2116507.0</n43:valRangeMax>
+<n43:valRangeMin>4752.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V4</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>117583.722</n43:meanValue>
+<n43:maxValue>2116507.0</n43:maxValue>
+<n43:minValue>4752.0</n43:minValue>
+<n43:stdValue>284589.783</n43:stdValue>
+<n43:position>4</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V4@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V4@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V4@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V4@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V4@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V4@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V4@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V5">
+<n:complete>true</n:complete>
+<s:label>ND</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>ND</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>2313265.0</n43:valRangeMax>
+<n43:valRangeMin>4733.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V5</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>128514.722</n43:meanValue>
+<n43:maxValue>2313265.0</n43:maxValue>
+<n43:minValue>4733.0</n43:minValue>
+<n43:stdValue>311468.058</n43:stdValue>
+<n43:position>5</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V5@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V5@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V5@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V5@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V5@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V5@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V5@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V6">
+<n:complete>true</n:complete>
+<s:label>KKE</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>KKE</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>557134.0</n43:valRangeMax>
+<n43:valRangeMin>717.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V6</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>30951.889</n43:meanValue>
+<n43:maxValue>557134.0</n43:maxValue>
+<n43:minValue>717.0</n43:minValue>
+<n43:stdValue>79089.907</n43:stdValue>
+<n43:position>6</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V6@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V6@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V6@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V6@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V6@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V6@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V6@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V7">
+<n:complete>true</n:complete>
+<s:label>SYN</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SYN</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>332116.0</n43:valRangeMax>
+<n43:valRangeMin>470.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V7</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>18450.889</n43:meanValue>
+<n43:maxValue>332116.0</n43:maxValue>
+<n43:minValue>470.0</n43:minValue>
+<n43:stdValue>48062.201</n43:stdValue>
+<n43:position>7</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V7@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V7@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V7@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V7@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V7@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V7@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V7@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V8">
+<n:complete>true</n:complete>
+<s:label>DIKKI</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>DIKKI</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>440079.0</n43:valRangeMax>
+<n43:valRangeMin>738.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V8</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>24448.833</n43:meanValue>
+<n43:maxValue>440079.0</n43:maxValue>
+<n43:minValue>738.0</n43:minValue>
+<n43:stdValue>59706.348</n43:stdValue>
+<n43:position>8</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V8@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V8@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V8@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V8@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V8@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V8@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V8@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V9">
+<n:complete>true</n:complete>
+<s:label>ANOIX</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>ANOIX</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>146760.0</n43:valRangeMax>
+<n43:valRangeMin>164.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V9</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>8153.333</n43:meanValue>
+<n43:maxValue>146760.0</n43:maxValue>
+<n43:minValue>164.0</n43:minValue>
+<n43:stdValue>20288.506</n43:stdValue>
+<n43:position>9</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V9@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V9@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V9@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V9@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V9@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V9@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V9@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V10">
+<n:complete>true</n:complete>
+<s:label>FILEL.</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>FILEL.</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>103850.0</n43:valRangeMax>
+<n43:valRangeMin>182.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V10</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>5769.444</n43:meanValue>
+<n43:maxValue>103850.0</n43:maxValue>
+<n43:minValue>182.0</n43:minValue>
+<n43:stdValue>15375.395</n43:stdValue>
+<n43:position>10</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V10@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V10@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V10@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V10@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V10@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V10@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V10@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V11">
+<n:complete>true</n:complete>
+<s:label>KEK</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>KEK</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>64063.0</n43:valRangeMax>
+<n43:valRangeMin>1.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V11</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>3559.056</n43:meanValue>
+<n43:maxValue>64063.0</n43:maxValue>
+<n43:minValue>1.0</n43:minValue>
+<n43:stdValue>8797.121</n43:stdValue>
+<n43:position>11</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V11@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V11@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V11@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V11@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V11@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V11@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V11@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V12">
+<n:complete>true</n:complete>
+<s:label>EN.KENT.</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>EN.KENT.</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>52457.0</n43:valRangeMax>
+<n43:valRangeMin>41.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V12</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>2914.278</n43:meanValue>
+<n43:maxValue>52457.0</n43:maxValue>
+<n43:minValue>41.0</n43:minValue>
+<n43:stdValue>7901.672</n43:stdValue>
+<n43:position>12</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V12@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V12@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V12@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V12@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V12@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V12@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V12@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V13">
+<n:complete>true</n:complete>
+<s:label>ProtiG</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>ProtiG</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>48726.0</n43:valRangeMax>
+<n43:valRangeMin>43.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V13</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>2707.0</n43:meanValue>
+<n43:maxValue>48726.0</n43:maxValue>
+<n43:minValue>43.0</n43:minValue>
+<n43:stdValue>7679.649</n43:stdValue>
+<n43:position>13</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V13@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V13@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V13@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V13@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V13@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V13@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V13@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V14">
+<n:complete>true</n:complete>
+<s:label>KOLLATOS</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>KOLLATOS</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>42539.0</n43:valRangeMax>
+<n43:valRangeMin>2.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V14</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>2363.278</n43:meanValue>
+<n43:maxValue>42539.0</n43:maxValue>
+<n43:minValue>2.0</n43:minValue>
+<n43:stdValue>6771.72</n43:stdValue>
+<n43:position>14</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V14@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V14@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V14@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V14@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V14@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V14@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V14@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V15">
+<n:complete>true</n:complete>
+<s:label>ELL.OIK.</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>ELL.OIK.</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>30741.0</n43:valRangeMax>
+<n43:valRangeMin>41.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V15</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>1707.833</n43:meanValue>
+<n43:maxValue>30741.0</n43:maxValue>
+<n43:minValue>41.0</n43:minValue>
+<n43:stdValue>4454.017</n43:stdValue>
+<n43:position>15</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V15@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V15@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V15@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V15@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V15@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V15@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V15@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V16">
+<n:complete>true</n:complete>
+<s:label>RAK</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>RAK</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>21369.0</n43:valRangeMax>
+<n43:valRangeMin>21.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V16</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>1187.167</n43:meanValue>
+<n43:maxValue>21369.0</n43:maxValue>
+<n43:minValue>21.0</n43:minValue>
+<n43:stdValue>3000.551</n43:stdValue>
+<n43:position>16</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V16@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V16@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V16@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V16@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V16@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V16@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V16@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V17">
+<n:complete>true</n:complete>
+<s:label>M-L KKE</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>MLKKE</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>16786.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V17</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>932.556</n43:meanValue>
+<n43:maxValue>16786.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>2308.457</n43:stdValue>
+<n43:position>17</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V17@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V17@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V17@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V17@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V17@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V17@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V17@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V18">
+<n:complete>true</n:complete>
+<s:label>KOM.ELL.</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>KOM.ELL.</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>16715.0</n43:valRangeMax>
+<n43:valRangeMin>3.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V18</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>928.611</n43:meanValue>
+<n43:maxValue>16715.0</n43:maxValue>
+<n43:minValue>3.0</n43:minValue>
+<n43:stdValue>2704.019</n43:stdValue>
+<n43:position>18</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V18@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V18@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V18@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V18@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V18@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V18@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V18@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V19">
+<n:complete>true</n:complete>
+<s:label>OIK.ENAL</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>OIK.ENAL</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>14822.0</n43:valRangeMax>
+<n43:valRangeMin>1.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V19</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>823.444</n43:meanValue>
+<n43:maxValue>14822.0</n43:maxValue>
+<n43:minValue>1.0</n43:minValue>
+<n43:stdValue>2298.894</n43:stdValue>
+<n43:position>19</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V19@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V19@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V19@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V19@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V19@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V19@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V19@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V20">
+<n:complete>true</n:complete>
+<s:label>Lefko</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Lefko</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>14256.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V20</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>792.0</n43:meanValue>
+<n43:maxValue>14256.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>1920.132</n43:stdValue>
+<n43:position>20</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V20@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V20@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V20@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V20@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V20@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V20@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V20@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V21">
+<n:complete>true</n:complete>
+<s:label>KAE</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>KAE</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>13886.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V21</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>771.444</n43:meanValue>
+<n43:maxValue>13886.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>2014.044</n43:stdValue>
+<n43:position>21</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V21@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V21@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V21@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V21@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V21@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V21@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V21@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V22">
+<n:complete>true</n:complete>
+<s:label>MPA</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>MPA</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>10930.0</n43:valRangeMax>
+<n43:valRangeMin>22.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V22</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>607.222</n43:meanValue>
+<n43:maxValue>10930.0</n43:maxValue>
+<n43:minValue>22.0</n43:minValue>
+<n43:stdValue>1524.566</n43:stdValue>
+<n43:position>22</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V22@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V22@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V22@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V22@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V22@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V22@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V22@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V23">
+<n:complete>true</n:complete>
+<s:label>KOM.FIL</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>KOM.FIL</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>10377.0</n43:valRangeMax>
+<n43:valRangeMin>19.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V23</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>576.5</n43:meanValue>
+<n43:maxValue>10377.0</n43:maxValue>
+<n43:minValue>19.0</n43:minValue>
+<n43:stdValue>1396.281</n43:stdValue>
+<n43:position>23</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V23@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V23@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V23@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V23@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V23@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V23@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V23@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V24">
+<n:complete>true</n:complete>
+<s:label>ASKE</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>ASKE</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>10173.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V24</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>565.167</n43:meanValue>
+<n43:maxValue>10173.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>1340.457</n43:stdValue>
+<n43:position>24</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V24@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V24@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V24@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V24@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V24@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V24@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V24@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V25">
+<n:complete>true</n:complete>
+<s:label>Aristera</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Aristera</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>9697.0</n43:valRangeMax>
+<n43:valRangeMin>4.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V25</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>538.722</n43:meanValue>
+<n43:maxValue>9697.0</n43:maxValue>
+<n43:minValue>4.0</n43:minValue>
+<n43:stdValue>1312.369</n43:stdValue>
+<n43:position>25</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V25@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V25@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V25@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V25@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V25@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V25@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V25@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V26">
+<n:complete>true</n:complete>
+<s:label>SEK</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SEK</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>8049.0</n43:valRangeMax>
+<n43:valRangeMin>2.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V26</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>447.167</n43:meanValue>
+<n43:maxValue>8049.0</n43:maxValue>
+<n43:minValue>2.0</n43:minValue>
+<n43:stdValue>1096.255</n43:stdValue>
+<n43:position>26</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V26@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V26@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V26@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V26@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V26@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V26@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V26@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V27">
+<n:complete>true</n:complete>
+<s:label>ELL.MET.</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>ELL.MET.</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>7781.0</n43:valRangeMax>
+<n43:valRangeMin>1.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V27</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>432.278</n43:meanValue>
+<n43:maxValue>7781.0</n43:maxValue>
+<n43:minValue>1.0</n43:minValue>
+<n43:stdValue>1073.048</n43:stdValue>
+<n43:position>27</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V27@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V27@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V27@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V27@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V27@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V27@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V27@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V28">
+<n:complete>true</n:complete>
+<s:label>OT</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>OT</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>4983.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V28</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>276.833</n43:meanValue>
+<n43:maxValue>4983.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>800.782</n43:stdValue>
+<n43:position>28</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V28@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V28@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V28@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V28@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V28@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V28@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V28@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V29">
+<n:complete>true</n:complete>
+<s:label>OAKKE</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>OAKKE</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>4622.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V29</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>256.778</n43:meanValue>
+<n43:maxValue>4622.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>636.167</n43:stdValue>
+<n43:position>29</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V29@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V29@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V29@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V29@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V29@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V29@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V29@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V30">
+<n:complete>true</n:complete>
+<s:label>AKEP</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>AKEP</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>4260.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V30</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>236.667</n43:meanValue>
+<n43:maxValue>4260.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>572.192</n43:stdValue>
+<n43:position>30</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V30@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V30@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V30@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V30@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V30@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V30@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V30@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V31">
+<n:complete>true</n:complete>
+<s:label>OLYMP</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>OLYMP</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>4152.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V31</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>230.667</n43:meanValue>
+<n43:maxValue>4152.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>560.819</n43:stdValue>
+<n43:position>31</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V31@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V31@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V31@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V31@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V31@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V31@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V31@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V32">
+<n:complete>true</n:complete>
+<s:label>KMN</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>KMN</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>2812.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V32</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>156.222</n43:meanValue>
+<n43:maxValue>2812.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>434.055</n43:stdValue>
+<n43:position>32</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V32@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V32@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V32@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V32@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V32@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V32@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V32@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V33">
+<n:complete>true</n:complete>
+<s:label>CHRIST.</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>CHRIST.</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>2153.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V33</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>119.611</n43:meanValue>
+<n43:maxValue>2153.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>317.801</n43:stdValue>
+<n43:position>33</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V33@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V33@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V33@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V33@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V33@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V33@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V33@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V34">
+<n:complete>true</n:complete>
+<s:label>ANTH.DIK.</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>ANTH.DIK.</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>1255.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V34</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>69.722</n43:meanValue>
+<n43:maxValue>1255.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>201.575</n43:stdValue>
+<n43:position>34</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V34@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V34@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V34@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V34@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V34@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V34@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V34@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V35">
+<n:complete>true</n:complete>
+<s:label>OIK.ENAL(II)</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>OIK.ENALII</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>466.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V35</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>25.889</n43:meanValue>
+<n43:maxValue>466.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>62.184</n43:stdValue>
+<n43:position>35</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V35@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V35@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V35@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V35@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V35@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V35@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V35@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V36">
+<n:complete>true</n:complete>
+<s:label>Ind</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Ind</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>105.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V36</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>5.833</n43:meanValue>
+<n43:maxValue>105.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>14.943</n43:stdValue>
+<n43:position>36</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V36@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V36@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V36@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V36@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V36@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V36@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V36@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V37">
+<n:complete>true</n:complete>
+<s:label>DimoFront</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>DimoFront</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>90.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V37</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>5.0</n43:meanValue>
+<n43:maxValue>90.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>12.943</n43:stdValue>
+<n43:position>37</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V37@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V37@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V37@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V37@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V37@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V37@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V37@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V38">
+<n:complete>true</n:complete>
+<s:label>EthAgo</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>EthAgo</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>74.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V38</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>4.111</n43:meanValue>
+<n43:maxValue>74.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>13.957</n43:stdValue>
+<n43:position>38</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V38@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V38@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V38@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V38@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V38@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V38@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V38@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V39">
+<n:complete>true</n:complete>
+<s:label>DiaKini</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>DiaKini</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>57.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V39</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>3.167</n43:meanValue>
+<n43:maxValue>57.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>8.081</n43:stdValue>
+<n43:position>39</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V39@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V39@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V39@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V39@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V39@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V39@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V39@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V40">
+<n:complete>true</n:complete>
+<s:label>AthDimo</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>AthDimo</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>49.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V40</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>2.722</n43:meanValue>
+<n43:maxValue>49.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>7.107</n43:stdValue>
+<n43:position>40</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V40@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V40@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V40@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V40@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V40@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V40@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V40@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V41">
+<n:complete>true</n:complete>
+<s:label>EPODH</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>EPODH</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>43.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V41</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>2.389</n43:meanValue>
+<n43:maxValue>43.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>6.948</n43:stdValue>
+<n43:position>41</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V41@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V41@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V41@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V41@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V41@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V41@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V41@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V42">
+<n:complete>true</n:complete>
+<s:label>KinMeri</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>KinMeri</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>30.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V42</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>1.667</n43:meanValue>
+<n43:maxValue>30.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>4.428</n43:stdValue>
+<n43:position>42</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V42@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V42@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V42@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V42@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V42@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V42@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V42@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V43">
+<n:complete>true</n:complete>
+<s:label>EPAK</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>EPAK</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>28.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V43</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>1.556</n43:meanValue>
+<n43:maxValue>28.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>4.924</n43:stdValue>
+<n43:position>43</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V43@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V43@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V43@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V43@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V43@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V43@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V43@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V44">
+<n:complete>true</n:complete>
+<s:label>EPTAKE</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>EPTAKE</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>21.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V44</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>1.167</n43:meanValue>
+<n43:maxValue>21.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>2.926</n43:stdValue>
+<n43:position>44</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V44@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V44@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V44@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V44@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V44@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V44@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V44@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V46">
+<n:complete>true</n:complete>
+<s:label>Electorate</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Electorate</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>9388417.0</n43:valRangeMax>
+<n43:valRangeMin>27164.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V46</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>521578.722</n43:meanValue>
+<n43:maxValue>9388417.0</n43:maxValue>
+<n43:minValue>27164.0</n43:minValue>
+<n43:stdValue>1268263.745</n43:stdValue>
+<n43:position>45</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V46@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V46@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V46@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V46@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V46@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V46@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V46@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V47">
+<n:complete>true</n:complete>
+<s:label>Votes</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Votes</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>6711728.0</n43:valRangeMax>
+<n43:valRangeMin>16324.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V47</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>372873.778</n43:meanValue>
+<n43:maxValue>6711728.0</n43:maxValue>
+<n43:minValue>16324.0</n43:minValue>
+<n43:stdValue>913500.271</n43:stdValue>
+<n43:position>46</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V47@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V47@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V47@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V47@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V47@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V47@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V47@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V48">
+<n:complete>true</n:complete>
+<s:label>Valid votes</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Validvotes</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>6427648.0</n43:valRangeMax>
+<n43:valRangeMin>15540.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V48</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>357091.556</n43:meanValue>
+<n43:maxValue>6427648.0</n43:maxValue>
+<n43:minValue>15540.0</n43:minValue>
+<n43:stdValue>874583.217</n43:stdValue>
+<n43:position>47</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V48@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V48@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V48@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V48@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V48@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V48@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V48@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V49">
+<n:complete>true</n:complete>
+<s:label>Invalid votes</s:label>
+<n:creationDate>2009-11-25 11:11:15.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Invalidvotes</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/GREP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>284080.0</n43:valRangeMax>
+<n43:valRangeMin>422.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V49</n43:varID>
+<n43:noValidResponses>72</n43:noValidResponses>
+<n43:meanValue>15782.222</n43:meanValue>
+<n43:maxValue>284080.0</n43:maxValue>
+<n43:minValue>422.0</n43:minValue>
+<n43:stdValue>39007.707</n43:stdValue>
+<n43:position>48</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V49@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V49@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V49@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/GREP1999_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V49@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V49@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V49@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/GREP1999_Download_V49@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/GREP1999_Download_VG1" />
+</p4:Variable3>
+
+</r:RDF>

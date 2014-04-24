@@ -1,0 +1,1337 @@
+<r:RDF 
+xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:s="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#" 
+xmlns:n="http://www.nesstar.org/rdf/" 
+xmlns:p3="http://www.nesstar.org/rdf/"
+xmlns:p1="http://www.nesstar.org/rdf/acu/"
+xmlns:p5="http://www.nesstar.org/rdf/hc/"
+xmlns:p4="http://www.nesstar.org/rdf/faster/"
+xmlns:p2="http://www.nesstar.org/rdf/common/"
+xmlns:n43="http://www.nesstar.org/rdf/faster/Variable#"
+xmlns:n42="http://www.nesstar.org/rdf/faster/Variable2#"
+xmlns:n41="http://www.nesstar.org/rdf/faster/Variable3#"
+>
+
+
+<r:Bag r:about="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1@variables">
+<r:_1 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V1" />
+<r:_2 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V2" />
+<r:_3 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V3" />
+<r:_4 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V4" />
+<r:_5 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V5" />
+<r:_6 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V6" />
+<r:_7 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V7" />
+<r:_8 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V8" />
+<r:_9 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V9" />
+<r:_10 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V10" />
+<r:_11 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V11" />
+<r:_12 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V12" />
+<r:_13 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V13" />
+<r:_14 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V14" />
+<r:_15 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V15" />
+<r:_16 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V16" />
+<r:_17 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V17" />
+<r:_18 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V18" />
+<r:_19 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V19" />
+<r:_20 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V20" />
+<r:_21 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V21" />
+<r:_22 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V22" />
+<r:_23 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V23" />
+<r:_24 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V24" />
+<r:_25 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V25" />
+<r:_26 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V26" />
+<r:_27 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V27" />
+<r:_28 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V28" />
+<r:_29 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V29" />
+<r:_30 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V30" />
+<r:_31 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V31" />
+<r:_32 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V32" />
+<r:_33 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V33" />
+<r:_34 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V34" />
+<r:_35 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V35" />
+<r:_36 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V36" />
+<r:_37 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V37" />
+<r:_38 r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V38" />
+</r:Bag>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V1">
+<n:complete>true</n:complete>
+<s:label>Region no</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Regionno</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:width>5</n42:width>
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>character</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V1</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:position>1</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V1@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V1@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V1@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V1@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V1@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V1@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V1@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V2">
+<n:complete>true</n:complete>
+<s:label>Region name</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Regionname</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:width>20</n42:width>
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>character</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V2</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:position>2</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V2@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V2@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V2@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V2@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V2@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V2@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V2@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V3">
+<n:complete>true</n:complete>
+<s:label>Year</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Year</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>2004.0</n43:valRangeMax>
+<n43:valRangeMin>2004.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V3</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>2004.0</n43:meanValue>
+<n43:maxValue>2004.0</n43:maxValue>
+<n43:minValue>2004.0</n43:minValue>
+<n43:stdValue>0.0</n43:stdValue>
+<n43:position>3</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V3@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V3@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V3@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V3@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V3@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V3@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V3@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V4">
+<n:complete>true</n:complete>
+<s:label>SNK-ED</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SNKED</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>257278.0</n43:valRangeMax>
+<n43:valRangeMin>5442.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V4</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>42879.667</n43:meanValue>
+<n43:maxValue>257278.0</n43:maxValue>
+<n43:minValue>5442.0</n43:minValue>
+<n43:stdValue>67718.27</n43:stdValue>
+<n43:position>4</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V4@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V4@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V4@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V4@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V4@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V4@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V4@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V5">
+<n:complete>true</n:complete>
+<s:label>KC</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>KC</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>4532.0</n43:valRangeMax>
+<n43:valRangeMin>148.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V5</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>755.333</n43:meanValue>
+<n43:maxValue>4532.0</n43:maxValue>
+<n43:minValue>148.0</n43:minValue>
+<n43:stdValue>1179.415</n43:stdValue>
+<n43:position>5</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V5@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V5@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V5@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V5@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V5@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V5@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V5@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V6">
+<n:complete>true</n:complete>
+<s:label>HOB</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>HOB</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>3366.0</n43:valRangeMax>
+<n43:valRangeMin>69.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V6</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>561.0</n43:meanValue>
+<n43:maxValue>3366.0</n43:maxValue>
+<n43:minValue>69.0</n43:minValue>
+<n43:stdValue>940.418</n43:stdValue>
+<n43:position>6</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V6@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V6@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V6@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V6@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V6@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V6@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V6@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V7">
+<n:complete>true</n:complete>
+<s:label>CSSD</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>CSSD</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>204903.0</n43:valRangeMax>
+<n43:valRangeMin>5471.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V7</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>34150.5</n43:meanValue>
+<n43:maxValue>204903.0</n43:maxValue>
+<n43:minValue>5471.0</n43:minValue>
+<n43:stdValue>53125.236</n43:stdValue>
+<n43:position>7</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V7@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V7@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V7@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V7@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V7@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V7@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V7@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V8">
+<n:complete>true</n:complete>
+<s:label>NK</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>NK</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>2944.0</n43:valRangeMax>
+<n43:valRangeMin>123.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V8</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>490.667</n43:meanValue>
+<n43:maxValue>2944.0</n43:maxValue>
+<n43:minValue>123.0</n43:minValue>
+<n43:stdValue>766.578</n43:stdValue>
+<n43:position>8</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V8@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V8@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V8@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V8@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V8@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V8@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V8@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V9">
+<n:complete>true</n:complete>
+<s:label>ODS</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>ODS</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>700942.0</n43:valRangeMax>
+<n43:valRangeMin>16670.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V9</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>116823.667</n43:meanValue>
+<n43:maxValue>700942.0</n43:maxValue>
+<n43:minValue>16670.0</n43:minValue>
+<n43:stdValue>182284.154</n43:stdValue>
+<n43:position>9</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V9@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V9@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V9@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V9@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V9@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V9@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V9@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V10">
+<n:complete>true</n:complete>
+<s:label>SproOS</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SproOS</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>5413.0</n43:valRangeMax>
+<n43:valRangeMin>91.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V10</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>902.167</n43:meanValue>
+<n43:maxValue>5413.0</n43:maxValue>
+<n43:minValue>91.0</n43:minValue>
+<n43:stdValue>1416.209</n43:stdValue>
+<n43:position>10</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V10@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V10@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V10@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V10@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V10@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V10@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V10@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V11">
+<n:complete>true</n:complete>
+<s:label>SDS</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SDS</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>1709.0</n43:valRangeMax>
+<n43:valRangeMin>48.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V11</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>284.833</n43:meanValue>
+<n43:maxValue>1709.0</n43:maxValue>
+<n43:minValue>48.0</n43:minValue>
+<n43:stdValue>445.372</n43:stdValue>
+<n43:position>11</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V11@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V11@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V11@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V11@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V11@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V11@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V11@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V12">
+<n:complete>true</n:complete>
+<s:label>SZ</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SZ</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>73932.0</n43:valRangeMax>
+<n43:valRangeMin>1764.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V12</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>12322.0</n43:meanValue>
+<n43:maxValue>73932.0</n43:maxValue>
+<n43:minValue>1764.0</n43:minValue>
+<n43:stdValue>19340.5</n43:stdValue>
+<n43:position>12</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V12@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V12@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V12@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V12@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V12@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V12@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V12@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V13">
+<n:complete>true</n:complete>
+<s:label>HA</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>HA</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>3977.0</n43:valRangeMax>
+<n43:valRangeMin>115.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V13</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>662.833</n43:meanValue>
+<n43:maxValue>3977.0</n43:maxValue>
+<n43:minValue>115.0</n43:minValue>
+<n43:stdValue>1034.291</n43:stdValue>
+<n43:position>13</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V13@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V13@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V13@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V13@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V13@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V13@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V13@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V14">
+<n:complete>true</n:complete>
+<s:label>KS</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>KS</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>4986.0</n43:valRangeMax>
+<n43:valRangeMin>117.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V14</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>831.0</n43:meanValue>
+<n43:maxValue>4986.0</n43:maxValue>
+<n43:minValue>117.0</n43:minValue>
+<n43:stdValue>1301.924</n43:stdValue>
+<n43:position>14</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V14@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V14@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V14@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V14@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V14@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V14@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V14@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V15">
+<n:complete>true</n:complete>
+<s:label>SN</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SN</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>11689.0</n43:valRangeMax>
+<n43:valRangeMin>214.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V15</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>1948.167</n43:meanValue>
+<n43:maxValue>11689.0</n43:maxValue>
+<n43:minValue>214.0</n43:minValue>
+<n43:stdValue>3133.502</n43:stdValue>
+<n43:position>15</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V15@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V15@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V15@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V15@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V15@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V15@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V15@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V16">
+<n:complete>true</n:complete>
+<s:label>SORC</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SORC</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>2585.0</n43:valRangeMax>
+<n43:valRangeMin>85.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V16</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>430.833</n43:meanValue>
+<n43:maxValue>2585.0</n43:maxValue>
+<n43:minValue>85.0</n43:minValue>
+<n43:stdValue>681.583</n43:stdValue>
+<n43:position>16</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V16@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V16@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V16@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V16@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V16@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V16@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V16@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V17">
+<n:complete>true</n:complete>
+<s:label>MDS</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>MDS</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>4366.0</n43:valRangeMax>
+<n43:valRangeMin>116.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V17</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>727.667</n43:meanValue>
+<n43:maxValue>4366.0</n43:maxValue>
+<n43:minValue>116.0</n43:minValue>
+<n43:stdValue>1132.529</n43:stdValue>
+<n43:position>17</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V17@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V17@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V17@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V17@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V17@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V17@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V17@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V18">
+<n:complete>true</n:complete>
+<s:label>VOS</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>VOS</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>873.0</n43:valRangeMax>
+<n43:valRangeMin>16.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V18</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>145.5</n43:meanValue>
+<n43:maxValue>873.0</n43:maxValue>
+<n43:minValue>16.0</n43:minValue>
+<n43:stdValue>259.252</n43:stdValue>
+<n43:position>18</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V18@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V18@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V18@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V18@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V18@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V18@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V18@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V19">
+<n:complete>true</n:complete>
+<s:label>DS</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>DS</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>4289.0</n43:valRangeMax>
+<n43:valRangeMin>188.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V19</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>714.833</n43:meanValue>
+<n43:maxValue>4289.0</n43:maxValue>
+<n43:minValue>188.0</n43:minValue>
+<n43:stdValue>1115.78</n43:stdValue>
+<n43:position>19</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V19@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V19@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V19@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V19@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V19@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V19@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V19@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V20">
+<n:complete>true</n:complete>
+<s:label>SP</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SP</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>1717.0</n43:valRangeMax>
+<n43:valRangeMin>49.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V20</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>286.167</n43:meanValue>
+<n43:maxValue>1717.0</n43:maxValue>
+<n43:minValue>49.0</n43:minValue>
+<n43:stdValue>453.51</n43:stdValue>
+<n43:position>20</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V20@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V20@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V20@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V20@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V20@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V20@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V20@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V21">
+<n:complete>true</n:complete>
+<s:label>BPS</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>BPS</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>13779.0</n43:valRangeMax>
+<n43:valRangeMin>379.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V21</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>2296.5</n43:meanValue>
+<n43:maxValue>13779.0</n43:maxValue>
+<n43:minValue>379.0</n43:minValue>
+<n43:stdValue>3620.172</n43:stdValue>
+<n43:position>21</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V21@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V21@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V21@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V21@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V21@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V21@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V21@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V22">
+<n:complete>true</n:complete>
+<s:label>ZME</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>ZME</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>9293.0</n43:valRangeMax>
+<n43:valRangeMin>21.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V22</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>1548.833</n43:meanValue>
+<n43:maxValue>9293.0</n43:maxValue>
+<n43:minValue>21.0</n43:minValue>
+<n43:stdValue>2693.62</n43:stdValue>
+<n43:position>22</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V22@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V22@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V22@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V22@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V22@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V22@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V22@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V23">
+<n:complete>true</n:complete>
+<s:label>KDU-CSL</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>KDUCSL</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>223383.0</n43:valRangeMax>
+<n43:valRangeMin>2164.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V23</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>37230.5</n43:meanValue>
+<n43:maxValue>223383.0</n43:maxValue>
+<n43:minValue>2164.0</n43:minValue>
+<n43:stdValue>59129.223</n43:stdValue>
+<n43:position>23</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V23@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V23@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V23@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V23@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V23@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V23@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V23@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V24">
+<n:complete>true</n:complete>
+<s:label>PB</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>PB</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>27504.0</n43:valRangeMax>
+<n43:valRangeMin>911.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V24</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>4584.0</n43:meanValue>
+<n43:maxValue>27504.0</n43:maxValue>
+<n43:minValue>911.0</n43:minValue>
+<n43:stdValue>7135.025</n43:stdValue>
+<n43:position>24</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V24@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V24@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V24@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V24@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V24@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V24@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V24@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V25">
+<n:complete>true</n:complete>
+<s:label>SZR</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SZR</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>6316.0</n43:valRangeMax>
+<n43:valRangeMin>239.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V25</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>1052.667</n43:meanValue>
+<n43:maxValue>6316.0</n43:maxValue>
+<n43:minValue>239.0</n43:minValue>
+<n43:stdValue>1637.31</n43:stdValue>
+<n43:position>25</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V25@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V25@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V25@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V25@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V25@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V25@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V25@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V26">
+<n:complete>true</n:complete>
+<s:label>ULD</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>ULD</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>39655.0</n43:valRangeMax>
+<n43:valRangeMin>932.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V26</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>6609.167</n43:meanValue>
+<n43:maxValue>39655.0</n43:maxValue>
+<n43:minValue>932.0</n43:minValue>
+<n43:stdValue>10449.591</n43:stdValue>
+<n43:position>26</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V26@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V26@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V26@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V26@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V26@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V26@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V26@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V27">
+<n:complete>true</n:complete>
+<s:label>KSCM</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>KSCM</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>472862.0</n43:valRangeMax>
+<n43:valRangeMin>12963.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V27</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>78810.333</n43:meanValue>
+<n43:maxValue>472862.0</n43:maxValue>
+<n43:minValue>12963.0</n43:minValue>
+<n43:stdValue>122596.702</n43:stdValue>
+<n43:position>27</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V27@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V27@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V27@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V27@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V27@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V27@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V27@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V28">
+<n:complete>true</n:complete>
+<s:label>SV-SOS</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SVSOS</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>11734.0</n43:valRangeMax>
+<n43:valRangeMin>173.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V28</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>1955.667</n43:meanValue>
+<n43:maxValue>11734.0</n43:maxValue>
+<n43:minValue>173.0</n43:minValue>
+<n43:stdValue>3080.431</n43:stdValue>
+<n43:position>28</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V28@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V28@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V28@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V28@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V28@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V28@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V28@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V29">
+<n:complete>true</n:complete>
+<s:label>SZZJ</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SZZJ</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>11951.0</n43:valRangeMax>
+<n43:valRangeMin>481.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V29</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>1991.833</n43:meanValue>
+<n43:maxValue>11951.0</n43:maxValue>
+<n43:minValue>481.0</n43:minValue>
+<n43:stdValue>3104.544</n43:stdValue>
+<n43:position>29</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V29@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V29@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V29@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V29@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V29@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V29@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V29@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V30">
+<n:complete>true</n:complete>
+<s:label>NEI</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>NEI</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>16762.0</n43:valRangeMax>
+<n43:valRangeMin>485.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V30</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>2793.667</n43:meanValue>
+<n43:maxValue>16762.0</n43:maxValue>
+<n43:minValue>485.0</n43:minValue>
+<n43:stdValue>4345.622</n43:stdValue>
+<n43:position>30</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V30@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V30@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V30@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V30@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V30@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V30@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V30@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V31">
+<n:complete>true</n:complete>
+<s:label>SVOB</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SVOB</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>1300.0</n43:valRangeMax>
+<n43:valRangeMin>37.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V31</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>216.667</n43:meanValue>
+<n43:maxValue>1300.0</n43:maxValue>
+<n43:minValue>37.0</n43:minValue>
+<n43:stdValue>337.039</n43:stdValue>
+<n43:position>31</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V31@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V31@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V31@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V31@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V31@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V31@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V31@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V32">
+<n:complete>true</n:complete>
+<s:label>VKOFD</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>VKOFD</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>2030.0</n43:valRangeMax>
+<n43:valRangeMin>88.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V32</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>338.333</n43:meanValue>
+<n43:maxValue>2030.0</n43:maxValue>
+<n43:minValue>88.0</n43:minValue>
+<n43:stdValue>525.814</n43:stdValue>
+<n43:position>32</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V32@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V32@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V32@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V32@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V32@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V32@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V32@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V33">
+<n:complete>true</n:complete>
+<s:label>RMS</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>RMS</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>15767.0</n43:valRangeMax>
+<n43:valRangeMin>503.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V33</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>2627.833</n43:meanValue>
+<n43:maxValue>15767.0</n43:maxValue>
+<n43:minValue>503.0</n43:minValue>
+<n43:stdValue>4088.656</n43:stdValue>
+<n43:position>33</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V33@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V33@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V33@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V33@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V33@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V33@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V33@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V34">
+<n:complete>true</n:complete>
+<s:label>Ind.</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Ind.</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>191025.0</n43:valRangeMax>
+<n43:valRangeMin>5651.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V34</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>31837.5</n43:meanValue>
+<n43:maxValue>191025.0</n43:maxValue>
+<n43:minValue>5651.0</n43:minValue>
+<n43:stdValue>49567.145</n43:stdValue>
+<n43:position>34</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V34@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V34@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V34@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V34@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V34@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V34@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V34@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V35">
+<n:complete>true</n:complete>
+<s:label>Electorate</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Electorate</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>8283485.0</n43:valRangeMax>
+<n43:valRangeMin>242374.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V35</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>1380580.833</n43:meanValue>
+<n43:maxValue>8283485.0</n43:maxValue>
+<n43:minValue>242374.0</n43:minValue>
+<n43:stdValue>2146715.36</n43:stdValue>
+<n43:position>35</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V35@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V35@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V35@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V35@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V35@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V35@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V35@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V36">
+<n:complete>true</n:complete>
+<s:label>Votes (Envelopes submitted)</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>VotesEnvelopessubmitted</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>2344290.0</n43:valRangeMax>
+<n43:valRangeMin>56227.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V36</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>390715.0</n43:meanValue>
+<n43:maxValue>2344290.0</n43:maxValue>
+<n43:minValue>56227.0</n43:minValue>
+<n43:stdValue>608553.264</n43:stdValue>
+<n43:position>36</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V36@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V36@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V36@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V36@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V36@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V36@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V36@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V37">
+<n:complete>true</n:complete>
+<s:label>Valid votes</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Validvotes</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>2332862.0</n43:valRangeMax>
+<n43:valRangeMin>55859.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V37</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>388810.333</n43:meanValue>
+<n43:maxValue>2332862.0</n43:maxValue>
+<n43:minValue>55859.0</n43:minValue>
+<n43:stdValue>605595.641</n43:stdValue>
+<n43:position>37</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V37@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V37@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V37@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V37@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V37@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V37@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V37@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V38">
+<n:complete>true</n:complete>
+<s:label>Invalid votes</s:label>
+<n:creationDate>2009-11-24 10:23:34.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Invalidvotes</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/CZEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>11428.0</n43:valRangeMax>
+<n43:valRangeMin>368.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V38</n43:varID>
+<n43:noValidResponses>24</n43:noValidResponses>
+<n43:meanValue>1904.667</n43:meanValue>
+<n43:maxValue>11428.0</n43:maxValue>
+<n43:minValue>368.0</n43:minValue>
+<n43:stdValue>2961.982</n43:stdValue>
+<n43:position>38</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V38@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V38@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V38@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/CZEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V38@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V38@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V38@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/CZEP2004_Download_V38@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/CZEP2004_Download_VG1" />
+</p4:Variable3>
+
+</r:RDF>

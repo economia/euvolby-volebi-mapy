@@ -13,6 +13,7 @@
     "uglify-js": "~2.4.8",
     "request": "~2.31.0",
     "stylus": "~0.42.0",
-    "node-jquery": "~0.1.0"
+    "node-jquery": "~0.1.0",
+    "xml2js": "~0.4.2"
   }
 }
