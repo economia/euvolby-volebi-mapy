@@ -1,0 +1,3414 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title> Nesstar WebView</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<!--
+This is a workaround for IE to make caching mechanism follow what the meta tag says. It seems that IE does not
+follow the caching set in the meta tags before the page has reached 64 bytes. This is why this text should be over 64
+bytes in size.
+-->
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="-1"/>
+<link href="skins/default/css/cube.css?timestamp=2009-11-26" rel="stylesheet" type="text/css"/>
+<link href="skins/default/css/draganddrop.css?timestamp=2009-11-26" rel="stylesheet" type="text/css"/>
+<link href="skins/default/css/common.css?timestamp=2009-11-26" rel="stylesheet" type="text/css"/>
+<link href="skins/default/css/documentation.css?timestamp=2009-11-26" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript">
+var skinPath = 'skins/default/';
+</script>
+<script type="text/javascript" src="skins/default/javascript/cube.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/draganddrop.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/table.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/bookmark.js?timestamp=2009-11-26"></script>
+
+<link href="skins/default/css/menu.css?timestamp=2009-11-26" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="skins/default/javascript/browserdetect.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/x.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/common.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/highlight.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/language.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/embedmain.js?timestamp=2009-11-26"></script>
+
+<!-- YUI Dependencies -->
+<script type="text/javascript" src="skins/default/javascript/yui/yahoo-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/dom-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/event-min.js?timestamp=2009-11-26"></script>
+
+<!-- YUI Source file -->
+<script type="text/javascript" src="skins/default/javascript/yui/datasource-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/animation-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/connection-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/autocomplete-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/dragdrop-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/container_core-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/container-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/logger.js?timestamp=2009-11-26"></script>
+
+<!-- YUI CSS -->
+<link rel="stylesheet" type="text/css" href="skins/default/css/yui/container.css?timestamp=2009-11-26"/>
+
+<!-- YUI CSS Subclassing-->
+<link rel="stylesheet" type="text/css" href="skins/default/css/containerspecials.css?timestamp=2009-11-26"/>
+
+<!-- Custom Style Sheet --->
+<link href="skins/default/css/custom.css?timestamp=2009-11-26" rel="stylesheet" type="text/css"/>
+
+
+<!--<script type="text/javascript" src="skins/default/javascript/minmax.js?timestamp=2009-11-26"></script>-->
+<!--[if lte IE 7]>
+<link href="skins/default/css/ie7_workarounds.css?timestamp=2009-11-26" type="text/css" rel="stylesheet" media="screen" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link href="skins/default/css/ie6_workarounds.css?timestamp=2009-11-26" type="text/css" rel="stylesheet" media="screen" />
+<![endif]-->
+
+<link href="skins/default/css/fixed.css?timestamp=2009-11-26" type="text/css" rel="stylesheet" media="screen" title="Fixed content"/>
+<!--[if lte IE 6]>
+<link href="skins/default/css/fixed_ie.css?timestamp=2009-11-26" type="text/css" rel="stylesheet" media="screen" title="Fixed content" />
+<![endif]-->
+
+<!-- Common overrides - stuff that needs to be overridden from YUI etc -->
+<link rel="stylesheet" type="text/css" href="skins/default/css/common_overrides.css?timestamp=2009-11-26"/>
+
+
+<script type="text/javascript">
+if (browser.isIE5x && !browser.isIE55) {
+document.write("<style type=\"text\/css\" media=\"screen\">div.header { position: absolute;} div.headerTree {position: absolute;} div#exploder {margin-top: 22px;}<\/style>");
+}
+
+window.onresize = function() {
+setScrollableSize();
+}
+
+document.onmousedown = doMouseDown;
+function doMouseDown(e) {
+try {
+setScrollableSize();
+removeSubsetBox(e);
+}
+catch(error) {
+}
+}
+var isEmbedded = false ;
+</script>
+<script type="text/javascript" src="skins/default/javascript/dialogs.js?timestamp=2009-11-26"></script>
+
+</head>
+
+<body onload="setScrollableSize(); highlightSearch()" class="yui-skin-sam">
+<div id="dropzone">
+
+
+
+
+<div class="header" id="topstrip">
+<table class="menutable" border="0" cellspacing="0" cellpadding="0">
+<tr class="mainmenu">
+<td width="100%">&nbsp;</td>
+<td class="menuImageLeft">&nbsp;</td>
+<td class="menubackground">
+<a id="imagetable" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;submode=table" onclick="hideTheViewArea()" title="Table"></a>
+</td>
+<td class="menubackground">
+<a id="imagegraph" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;submode=graph" onclick="return openChartIcons()" title="Barchart">
+</a>
+<div id="charticons">
+<ul class="charticons">
+<li>
+<a id="imagebar-hor" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;submode=graph&amp;charttype=T21" onclick="hideTheViewArea()" title="">
+<img class="images" src="skins/default/images/graph/bar-hor.png" border="0" title="" alt=""/>
+</a>
+</li>
+<li>
+<a id="imagebar-ver" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;submode=graph&amp;charttype=T22" onclick="hideTheViewArea()" title="">
+<img class="images" src="skins/default/images/graph/bar-ver.png" border="0" title="" alt=""/>
+</a>
+</li>
+<li>
+<a id="imagebar-stc-hor" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;submode=graph&amp;charttype=T23" onclick="hideTheViewArea()" title="">
+<img class="images" src="skins/default/images/graph/bar-stc-hor.png" border="0" title="" alt=""/>
+</a>
+</li>
+<li>
+<a id="imagebar-stc-ver" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;submode=graph&amp;charttype=T24" onclick="hideTheViewArea()" title="">
+<img class="images" src="skins/default/images/graph/bar-stc-ver.png" border="0" title="" alt=""/>
+</a>
+</li>
+</ul>
+</div>
+</td>
+<td class="menubackground">
+<span id="imagetimeline" class="menuimagedisabled"></span>
+</td>
+
+
+<td class="menubackground">
+<span id="imagemap" class="menuimagedisabled"></span>
+</td>
+
+<td class="menubackground">
+<a id="imageclear" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?mode=cube&amp;study=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfStudy%2FCZEP2009_Display&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1" onclick="hideTheViewArea()" title="Return to default table"></a>
+</td>
+
+<td class="separated">
+<img id="secondseparator" src="skins/default/images/menu_separator.png" title="" alt="separator"/>
+</td>
+
+
+
+
+
+
+
+
+
+<td class="menubackground">
+<a id="imagespreadsheet" href="http://eed.nsd.uib.no/webview/velocity?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;top=yes&amp;executespreadsheet=true" title="Export table to spreadsheet"></a>
+</td>
+
+
+<td class="menubackground">
+<a id="imagepdf" href="http://eed.nsd.uib.no/webview/velocity?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;top=yes&amp;executepdf=true" title="Export pdf"></a>
+</td>
+
+
+<td class="menubackground">
+
+<a id="imageprint" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;doprint=true" onclick="" target="print"
+title="Print preview">
+</a>
+</td>
+
+<td class="separated">
+<img src="skins/default/images/menu_separator.png" title="" alt="separator"/>
+</td>
+
+
+<td class="menubackground">
+<a id="imagebookmark" href="" onclick="return openBookmarkDialog();" title="Link" target="_top"></a>
+</td>
+
+
+<td class="menubackground">
+<a id="imagehelp" href="help/3-7.html" onclick="openEmptyWindow('helpwin');" target="helpwin"
+title="Help"></a>
+</td>
+<td class="menubackground menubackgroundlast">&nbsp;</td>
+</tr>
+</table>
+</div>
+<link type="text/css" rel="stylesheet" href="skins/default/css/yui/logger.css?timestamp=2009-11-26">
+<script type="text/javascript">
+var hasRun=0;
+function init() {
+if (hasRun < 1) {
+YAHOOpanel = new YAHOO.widget.Panel("inlinePopupContainer", { visible: false, zindex: 1000, fixedcenter: true, constraintoviewport: true, width: 300 } );
+YAHOOpanel.render();
+//var myLogReader = new YAHOO.widget.LogReader();
+hasRun=1;
+}
+}
+YAHOO.util.Event.addListener(window, "load", init);
+var panePaddingTotal = 12;
+var bookmarkDialogWidth = 324;
+var urlPaneHeight = 50 + panePaddingTotal;
+var embedPaneHeight = 50 + panePaddingTotal;
+var advancedPaneHeight = 16 + panePaddingTotal;
+var advancedExpandedPaneHeight = 232 + panePaddingTotal;
+//head + URL pane + embed pane + server side pane
+var bookmarkDialogHeight = urlPaneHeight + embedPaneHeight ;
+var maxBookmarkDialogHeight = urlPaneHeight + embedPaneHeight ;
+</script>
+<div id="inlinePopupContainer" style="display: none">
+<iframe id="inlinePopupContents" name="inlinePopupContents" src="" scrolling="no"></iframe>
+</div>
+<script type="text/javascript">
+baseUrl = "http://eed.nsd.uib.no/webview/velocityembedded?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common";
+newUrl = "http://eed.nsd.uib.no/webview/velocityembedded?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;embed=1";
+var objectWidth = "200";
+var objectHeight = "200";
+objectWidth = (objectWidth != "") ? (+objectWidth) : 0;
+objectHeight = (objectHeight != "") ? (+objectHeight) : 0;
+var border = false;
+var scrollbars = false;
+//translations
+var embed_iframe_message = '<a href="http://eed.nsd.uib.no/webview/index.jsp?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;top=yes">Go to embedded material</a>';
+var embed_external_link_message = "See original";
+var embed_external_link_title = "Click here to see this in its original version";
+</script>
+<div id="embedDialog">
+<div class="hd">Embedding</div>
+<div class="bd">
+<div id="simpleembedding" style="display: block;">
+Copy this code to your own web page:
+</div>
+<div class="output">
+<input class="code" type="text" id="codeBox" name="codeBox" onclick="highlightCode();" value='<iframe src="http://eed.nsd.uib.no/webview/velocityembedded?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;embed=1" height="200" width="200">Click here to go to embedded object.</iframe>' />
+<input type="hidden" id="baseUrlBox" name="baseUrl" value='http://eed.nsd.uib.no/webview/velocityembedded?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common' />
+</div>
+<fieldset id="advancedembedding" style="display: none">
+<legend>Customize and preview</legend>
+<div>Use these controls to modify the embedding and copy the code snippet to your own web page.</div>
+<div class="col">
+<h3>
+Frame settings
+</h3>
+<div class="sub element" id="embedsize">
+<table border="0">
+<tr>
+<td>Width:</td><td colspan="2"><input onchange="javascript: updateTextValues(this);" class="number" type="text" value="" name="frameWidth" id="frameWidth" /> pixels.</td>
+</tr>
+<tr>
+<td>Height:</td><td colspan="2"><input onchange="javascript: updateTextValues(this);" class="number" type="text" value="" name="frameHeight" id="frameHeight" /> pixels.</td>
+</tr>
+<tr>
+<td>&nbsp;</td><td><small><a href="javascript:fitAndUpdate();" title="Set the dimensions to fit the original object you are embedding">Fit to original</a></small></td>
+<td><small><a href="javascript:reset();" title="Reset width and height to automatic values">Reset</a></small></td>
+</tr>
+</table>
+</div>
+<div class="sub element">
+<input onclick="javascript: updateValues(this, -1);" type="checkbox" id="embed_border" name="embed_border" />
+<label for="embed_border">Add border</label>
+</div>
+</div>
+<div class="col">
+<h3>
+Object alignment
+</h3>
+<div class="sub element">
+<div>
+<input onclick="setAlignment(this);" type="radio" id="embed_align_left" name="embed_align" value="left" checked="checked" />
+<label for="embed_align_left">Left</label>
+</div>
+<div>
+<input onclick="setAlignment(this);" type="radio" id="embed_align_right" name="embed_align" value="right" />
+<label for="embed_align_right">Right</label>
+</div>
+<div>
+<input onclick="setAlignment(this);" type="radio" id="embed_align_none" name="embed_align" value="none" />
+<label for="embed_align_none">None</label>
+</div>
+</div>
+<div class="sub element">
+<input onclick="javascript: updateValues(this, TITLE);" type="checkbox" id="embed_title" checked="checked" />
+<label for="embed_title">Object title</label>
+</div>
+</div>
+</fieldset>
+<div class="link">
+<a href="" onclick="return openEmbedPreview('Preview this embedding');" title="Click here to see a preview of your settings">Preview this embedding</a>
+</div>
+</div>
+<div class="ft"></div>
+</div>
+<div id="embedPreviewContainer">
+<div class="hd"></div>
+<div class="bd"></div>
+<div class="ft"></div>
+</div>
+<div id="bookmarkDialog">
+<div class="bd">
+<div id="urlpane">
+<div class="bookmarkhead">
+<h2>URL:</h2><span>Link to this page</span>
+</div>
+<input type="text" class="textfield" name="url" id="bookmarkurl" value="http://eed.nsd.uib.no/webview/index.jsp?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;top=yes" onclick="highlightText(this);" readonly="readonly" />
+</div>
+<div id="embedpane">
+<div class="bookmarkhead">
+<h2>Embed:</h2><span>Copy this code to your own web page</span>
+</div>
+<input id="simpleCodebox" type="text" class="textfield" name="embed" value='<iframe src="http://eed.nsd.uib.no/webview/velocityembedded?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;embed=1" height="200" width="200">Click here to go to embedded object.</iframe>' onclick="highlightText(this);" readonly="readonly" />
+<a id="advancedLink" href="" onclick="return openAdvancedEmbedding();" title="">Customize and preview</a>
+</div>
+</div>
+</div> <div class="mozview bodypadder" id="exploder">
+<div class="giveroom" id="toptitle">
+<h2><span id="topspan">
+Dataset: Czech Republic: European Parliament Election 2009
+</span></h2>
+</div>
+<script type="text/javascript">
+bookmarkurlnolanguage = 'http://eed.nsd.uib.no/webview/index.jsp?stubs=Region&virtualslice=Absolutevalue_value&measuretype=4&headers=Party&mode=cube&v=2&cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&virtualsubset=Absolutevalue_value&layers=virtual&measure=common&top=yes';
+</script>
+<a id="navhide" href="javascript:void(0);" class="navigationvisible" onclick="swapNavigation(this);" title="Click here to hide the browse list"></a>
+<script type="text/javascript">
+var collapsor = xGetElementById("navhide");
+var navigationFrame = top.frames.main.document.getElementById('set');
+var className = "navigationvisible";
+if (navigationFrame.cols) {
+if (navigationFrame.cols.substring(0,navigationFrame.cols.indexOf('%')) == '0')
+className = "navigationhidden";
+}
+collapsor.className = className;
+</script>
+<script type="text/javascript">
+var embeddingMode = 16;
+var allowedEmbeddingModes = 20;
+var embeddingMeasureSwitchLimit = false ;
+</script>
+<div id="processing" class="processing">Loading&hellip;</div> <div id="hidearea">
+
+
+<script type="text/javascript" src="skins/default/javascript/dimensionchooser.js?timestamp=2009-11-26"></script>
+
+<script type="text/javascript">
+xAddEventListener(document, 'click',closeCombo,false);
+
+baseurls.aXRegion='/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&measure=common&virtualsubset=Absolutevalue_value&cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&headers=Party&layers=virtual&mode=cube&virtualslice=Absolutevalue_value&measuretype=4&v=2';
+baseurls.aXParty='/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&measure=common&virtualsubset=Absolutevalue_value&cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&headers=Party&layers=virtual&mode=cube&virtualslice=Absolutevalue_value&measuretype=4&v=2';
+baseurls.aXvirtual='/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&measure=common&cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&headers=Party&layers=virtual&mode=cube&measuretype=4&v=2';
+
+menuhash.aXvirtual='<li><a class="selectedSlice" onclick="hideTheViewArea(); return buildHref(this, \'virtual\');" href="&virtualslice=Absolutevalue_value?virtualsubset=Absolutevalue_value">Votes N</a></li><li><a onclick="hideTheViewArea(); return buildHref(this, \'virtual\');" href="&virtualslice=Percent_value?virtualsubset=Percent_value">Votes %</a></li>';
+
+menuhash.aXdynRegion='<li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Region&amp;calType=add">Add&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Region&amp;calType=agg">Aggregate&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Region&amp;calType=sub">Subtract&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Region&amp;calType=mul">Multiply&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Region&amp;calType=div">Divide&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Region&amp;calType=pc">Percent&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Region&amp;calType=pcTot">Percent of total&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Region&amp;calType=avg">Average&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Region&amp;calType=pcGrow">Percent growth&hellip;</a>';
+menuhash.aXdynParty='<li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Party&amp;calType=add">Add&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Party&amp;calType=agg">Aggregate&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Party&amp;calType=sub">Subtract&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Party&amp;calType=mul">Multiply&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Party&amp;calType=div">Divide&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Party&amp;calType=pc">Percent&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Party&amp;calType=pcTot">Percent of total&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Party&amp;calType=avg">Average&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=Party&amp;calType=pcGrow">Percent growth&hellip;</a>';
+menuhash.aXdynvirtual='<li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=virtual&amp;calType=add">Add&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=virtual&amp;calType=agg">Aggregate&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=virtual&amp;calType=sub">Subtract&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=virtual&amp;calType=mul">Multiply&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=virtual&amp;calType=div">Divide&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=virtual&amp;calType=pc">Percent&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=virtual&amp;calType=pcTot">Percent of total&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=virtual&amp;calType=avg">Average&hellip;</a><li><a onclick="return inlinePopup(this, \'Insert calculation\')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;insertmode=insertgroup&amp;togroup=virtual&amp;calType=pcGrow">Percent growth&hellip;</a>';
+
+
+</script>
+
+<form method="get" id="hiddenform" action="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2">
+<input type="hidden" name="headers" value="Party"/>
+<input type="hidden" name="measure" value="common"/>
+<input type="hidden" name="layers" value="virtual"/>
+<input type="hidden" name="virtualsubset" value="Absolutevalue_value"/>
+<input type="hidden" name="v" value="2"/>
+<input type="hidden" name="mode" value="cube"/>
+<input type="hidden" name="cube" value="http://129.177.90.166:80/obj/fCube/CZEP2009_Display_C1"/>
+<input type="hidden" name="stubs" value="Region"/>
+<input type="hidden" name="Regionslice" value="CZ"/>
+<input type="hidden" name="Partyslice" value="CZP032"/>
+<input type="hidden" name="virtualslice" value="Absolutevalue_value"/>
+<input type="hidden" name="measuretype" value="4"/>
+</form>
+
+<iframe name="calculatesubset" frameborder="0" width="1px" height="1px" style="height: 0px; border: none; margin: 0px; padding: 0px; position: absolute; bottom: 0px; left: 0px;"></iframe>
+
+
+<div id="drop">
+<div class="layerlabel" id="varvirtualdiv" style="width: auto; display: none; position: absolute; left: 0px; right:0px; z-index: 500;">Measure:<span class="sliceselection">Votes N</span></div>
+<ul id="mainmenu" >
+<li id="li-Region" class="stubcombo toppop combo1" >
+<a class="combolink" id="anchor-varRegion" title="Region">Region: <span class="sliceselection">Mixed</span></a>
+<ul id="combo-Region">
+<li class="menuentry1">
+<a id="Region_level_1" onclick="return hideTheViewArea(false)" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;Regionsubset=CZ"> Country</a>
+</li>
+<li class="menuentry2">
+<a id="Region_level_2" onclick="return hideTheViewArea(false)" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;Regionsubset=CZ0"> NUTS 1</a>
+</li>
+<li class="menuentry3">
+<a id="Region_level_3" onclick="return hideTheViewArea(false)" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;Regionsubset=CZ01+-+CZ08"> NUTS 2</a>
+</li>
+<li class="menuentry4">
+<a id="Region_level_4" onclick="return hideTheViewArea(false)" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;Regionsubset=CZ010+-+CZ080"> NUTS 3</a>
+</li>
+<li class="menuentry5">
+<a onclick="return inlinePopup(this, 'Custom selection ')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;subsetmode=subset&amp;subseton=Region"> Custom selection&hellip;</a>
+</li>
+<li class="menuentry6">
+<span class="disabled" ><hr class="menuseparator" /></span>
+</li>
+<li class="menuentry7">
+<a class="toHead" onclick=" return hideTheViewArea(false)" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?virtualslice=Absolutevalue_value&amp;measuretype=4&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;measure=common&amp;charttype=null&amp;headers=Party&amp;layers=virtual&amp;headers=Region"> Move to column</a>
+</li>
+<li class="menuentry8">
+<a class="toLayer" onclick=" return hideTheViewArea(false)" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?virtualslice=Absolutevalue_value&amp;measuretype=4&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;measure=common&amp;charttype=null&amp;headers=Party&amp;layers=virtual&amp;layers=Region"> Use as Filter</a>
+</li>
+<li class="menuentry9">
+<span class="disabled" ><hr class="menuseparator" /></span>
+</li>
+<li class="parentmenu menuentry10" onmouseover="insertTopMenu(this,'aXdynRegion'); " onmouseout="removeMenu('aXdynRegion');" onclick="setJustOpened(true);">
+<span onmouseover="insertTopMenu(this,'aXdynRegion'); " onmouseout="removeMenu('aXdynRegion');" onclick="setJustOpened(true);">Insert calculation</span>
+
+<ul id="menuXdynRegion" style="display: none">
+</ul>
+</li>
+</ul>
+<script type="text/javascript">
+element=document.getElementById("anchor-varRegion");
+if (element != null) {
+xAddEventListener(element, 'click', function() { toggleCombo("combo-Region") }, false);
+}
+disableHoverPopup("combo-Region");
+</script>
+</li>
+<li id="li-Party" class="headcombo toppop combo2" >
+<a class="combolink" id="anchor-varParty" title="Party: Main parties">Party: <span class="sliceselection">Main parties</span></a>
+<ul id="combo-Party">
+<li class="menuentry1">
+<a class="selectedLevel selectedLevel" id="Party_level_1" onclick="return hideTheViewArea(false)" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;Partysubset=CZP007+-+CZPP04"> Main parties</a>
+</li>
+<li class="menuentry2">
+<a id="Party_level_2" onclick="return hideTheViewArea(false)" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;Partysubset=CZP019+-+CZP121"> Other parties</a>
+</li>
+<li class="menuentry3">
+<a onclick="return inlinePopup(this, 'Custom selection ')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;subsetmode=subset&amp;subseton=Party"> Custom selection&hellip;</a>
+</li>
+<li class="menuentry4">
+<span class="disabled" ><hr class="menuseparator" /></span>
+</li>
+<li class="menuentry5">
+<a class="toStub" onclick=" return hideTheViewArea(false)" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?virtualslice=Absolutevalue_value&amp;measuretype=4&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;measure=common&amp;charttype=null&amp;stubs=Region&amp;layers=virtual&amp;stubs=Party"> Move to row</a>
+</li>
+<li class="menuentry6">
+<a class="toLayer" onclick=" return hideTheViewArea(false)" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?virtualslice=Absolutevalue_value&amp;measuretype=4&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;measure=common&amp;charttype=null&amp;stubs=Region&amp;layers=virtual&amp;layers=Party"> Use as Filter</a>
+</li>
+<li class="menuentry7">
+<span class="disabled" ><hr class="menuseparator" /></span>
+</li>
+<li class="parentmenu menuentry8" onmouseover="insertTopMenu(this,'aXdynParty'); " onmouseout="removeMenu('aXdynParty');" onclick="setJustOpened(true);">
+<span onmouseover="insertTopMenu(this,'aXdynParty'); " onmouseout="removeMenu('aXdynParty');" onclick="setJustOpened(true);">Insert calculation</span>
+
+<ul id="menuXdynParty" style="display: none">
+</ul>
+</li>
+</ul>
+<script type="text/javascript">
+element=document.getElementById("anchor-varParty");
+if (element != null) {
+xAddEventListener(element, 'click', function() { toggleCombo("combo-Party") }, false);
+}
+disableHoverPopup("combo-Party");
+</script>
+</li>
+<li id="li-virtual" class="layercombo toppop combo3" >
+<span title="Click and drag to table." id="varvirtual" class="layerlabel">&nbsp;</span>
+<a class="combolink" id="anchor-varvirtual" title="Measure: Votes N">Measure: <span class="sliceselection">Votes N</span></a>
+<ul id="combo-virtual">
+<li class="parentmenu menuentry1" onmouseover="insertTopMenu(this,'aXvirtual'); " onmouseout="removeMenu('aXvirtual')" onclick="setJustOpened(true);">
+<span onmouseover="insertTopMenu(this,'aXvirtual'); " onmouseout="removeMenu('aXvirtual')" onclick="setJustOpened(true);">Filter</span>
+
+<ul id="menuXvirtual" style="display: none">
+</ul>
+</li>
+<li class="menuentry2">
+<span class="disabled" ><hr class="menuseparator" /></span>
+</li>
+<li class="menuentry3">
+<a onclick="return inlinePopup(this, 'Custom selection ')" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;subsetmode=subset&amp;subseton=virtual"> Custom selection&hellip;</a>
+</li>
+<li class="menuentry4">
+<span class="disabled" ><hr class="menuseparator" /></span>
+</li>
+<li class="menuentry5">
+<a class="toStub" onclick=" return hideTheViewArea(false)" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?virtualslice=Absolutevalue_value&amp;measuretype=4&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;measure=common&amp;charttype=null&amp;stubs=Region&amp;headers=Party&amp;stubs=virtual"> Move to row</a>
+</li>
+<li class="menuentry6">
+<a class="toHead" onclick=" return hideTheViewArea(false)" href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?virtualslice=Absolutevalue_value&amp;measuretype=4&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;measure=common&amp;charttype=null&amp;stubs=Region&amp;headers=Party&amp;headers=virtual"> Move to column</a>
+</li>
+<li class="menuentry7">
+<span class="disabled" ><hr class="menuseparator" /></span>
+</li>
+<li class="parentmenu menuentry8" onmouseover="insertTopMenu(this,'aXdynvirtual'); " onmouseout="removeMenu('aXdynvirtual');" onclick="setJustOpened(true);">
+<span onmouseover="insertTopMenu(this,'aXdynvirtual'); " onmouseout="removeMenu('aXdynvirtual');" onclick="setJustOpened(true);">Insert calculation</span>
+
+<ul id="menuXdynvirtual" style="display: none">
+</ul>
+</li>
+</ul>
+<script type="text/javascript">
+element=document.getElementById("anchor-varvirtual");
+if (element != null) {
+xAddEventListener(element, 'click', function() { toggleCombo("combo-virtual") }, false);
+}
+disableHoverPopup("combo-virtual");
+makeDraggable('varvirtual');
+tooLargeHash.virtual = false;
+</script>
+</li>
+</ul>
+</div>
+<!-- <script type="text/javascript" src="skins/default/javascript/fixfftips.js?timestamp=2009-11-26"></script>-->
+
+
+
+<div id="tableinfo" >
+
+
+</div>
+<script type="text/javascript">
+var embeddingMode = 16;
+var allowedEmbeddingModes = 20;
+var embeddingMeasureSwitchLimit = false ;
+</script>
+<table class="matrix" border="0" id="tabell">
+<tr>
+
+
+
+<td class="headlabel" id="varParty" title="Can be removed from table or moved to row." rowspan="1" colspan="1">
+Party
+
+<div class="headlabel" id="varPartydiv" style="display:none; position: absolute; left: 0px; right:0px; z-index: 500;">
+Party
+</div>
+</td>
+<script type="text/javascript">
+makeDraggable('varParty');
+</script>
+
+
+
+
+
+
+<td class="headerlast item" rowspan="2" colspan="1" id="iParty_CZP032_1" >
+<div id="iParty_CZP032mod"></div>
+
+<script type="text/javascript">
+var myTooltip = new YAHOO.widget.Tooltip("iParty_CZP032tip", { context:"iParty_CZP032_1", text:"Civic Democratic Party (Obcanska demokraticka strana)", showDelay:1000, autodismissdelay:5000,iframe:true, preventoverlap:true } );
+</script>
+ODS
+<img src="skins/default/images/updown.gif" onclick="openMenu('varPartyCZP0320sorting')"
+title="Sort" class="sortimageHead" alt="sort"/>
+<div class="menu" id="varPartyCZP0320sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP032&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP032&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td class="headerlast item" rowspan="2" colspan="1" id="iParty_CZP016_2" >
+<div id="iParty_CZP016mod"></div>
+
+<script type="text/javascript">
+var myTooltip = new YAHOO.widget.Tooltip("iParty_CZP016tip", { context:"iParty_CZP016_2", text:"Czechoslovak Social Democracy (Ceská strana sociálne demokratická)", showDelay:1000, autodismissdelay:5000,iframe:true, preventoverlap:true } );
+</script>
+CSSD
+<img src="skins/default/images/updown.gif" onclick="openMenu('varPartyCZP0160sorting')"
+title="Sort" class="sortimageHead" alt="sort"/>
+<div class="menu" id="varPartyCZP0160sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP016&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP016&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td class="headerlast item" rowspan="2" colspan="1" id="iParty_CZP040_3" >
+<div id="iParty_CZP040mod"></div>
+
+<script type="text/javascript">
+var myTooltip = new YAHOO.widget.Tooltip("iParty_CZP040tip", { context:"iParty_CZP040_3", text:"Communist Party of Bohemia and Moravia (Komunistická strana Cech a Moravy)", showDelay:1000, autodismissdelay:5000,iframe:true, preventoverlap:true } );
+</script>
+KSCM
+<img src="skins/default/images/updown.gif" onclick="openMenu('varPartyCZP0400sorting')"
+title="Sort" class="sortimageHead" alt="sort"/>
+<div class="menu" id="varPartyCZP0400sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP040&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP040&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td class="headerlast item" rowspan="2" colspan="1" id="iParty_CZP018_4" >
+<div id="iParty_CZP018mod"></div>
+
+<script type="text/javascript">
+var myTooltip = new YAHOO.widget.Tooltip("iParty_CZP018tip", { context:"iParty_CZP018_4", text:"Christian Democratic Union and Czechoslovak People&#39;s Party (Krestanska a demokraticka unie - Ceskoslovenska strana lidova)", showDelay:1000, autodismissdelay:5000,iframe:true, preventoverlap:true } );
+</script>
+KDU-CSL
+<img src="skins/default/images/updown.gif" onclick="openMenu('varPartyCZP0180sorting')"
+title="Sort" class="sortimageHead" alt="sort"/>
+<div class="menu" id="varPartyCZP0180sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP018&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP018&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td class="headerlast item" rowspan="2" colspan="1" id="iParty_CZP105_5" >
+<div id="iParty_CZP105mod"></div>
+
+<script type="text/javascript">
+var myTooltip = new YAHOO.widget.Tooltip("iParty_CZP105tip", { context:"iParty_CZP105_5", text:"Sovereignty (Suverenita)", showDelay:1000, autodismissdelay:5000,iframe:true, preventoverlap:true } );
+</script>
+Suv.
+<img src="skins/default/images/updown.gif" onclick="openMenu('varPartyCZP1050sorting')"
+title="Sort" class="sortimageHead" alt="sort"/>
+<div class="menu" id="varPartyCZP1050sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP105&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP105&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td class="headerlast item" rowspan="2" colspan="1" id="iParty_CZP106_6" >
+<div id="iParty_CZP106mod"></div>
+
+<script type="text/javascript">
+var myTooltip = new YAHOO.widget.Tooltip("iParty_CZP106tip", { context:"iParty_CZP106_6", text:"European Democratic Party (Evropská demokratická strana)", showDelay:1000, autodismissdelay:5000,iframe:true, preventoverlap:true } );
+</script>
+EDS
+<img src="skins/default/images/updown.gif" onclick="openMenu('varPartyCZP1060sorting')"
+title="Sort" class="sortimageHead" alt="sort"/>
+<div class="menu" id="varPartyCZP1060sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP106&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP106&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td class="headerlast item" rowspan="2" colspan="1" id="iParty_CZP107_7" >
+<div id="iParty_CZP107mod"></div>
+
+<script type="text/javascript">
+var myTooltip = new YAHOO.widget.Tooltip("iParty_CZP107tip", { context:"iParty_CZP107_7", text:"Public Affairs (Veci verejné)", showDelay:1000, autodismissdelay:5000,iframe:true, preventoverlap:true } );
+</script>
+VV
+<img src="skins/default/images/updown.gif" onclick="openMenu('varPartyCZP1070sorting')"
+title="Sort" class="sortimageHead" alt="sort"/>
+<div class="menu" id="varPartyCZP1070sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP107&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP107&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td class="headerlast item" rowspan="2" colspan="1" id="iParty_CZP108_8" >
+<div id="iParty_CZP108mod"></div>
+
+<script type="text/javascript">
+var myTooltip = new YAHOO.widget.Tooltip("iParty_CZP108tip", { context:"iParty_CZP108_8", text:"Mayors and Independents – Your Option (Starostové a Nezávislí-Vaše Alternativa)", showDelay:1000, autodismissdelay:5000,iframe:true, preventoverlap:true } );
+</script>
+SN-VA
+<img src="skins/default/images/updown.gif" onclick="openMenu('varPartyCZP1080sorting')"
+title="Sort" class="sortimageHead" alt="sort"/>
+<div class="menu" id="varPartyCZP1080sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP108&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP108&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td class="headerlast item" rowspan="2" colspan="1" id="iParty_CZP007_9" >
+<div id="iParty_CZP007mod"></div>
+
+<script type="text/javascript">
+var myTooltip = new YAHOO.widget.Tooltip("iParty_CZP007tip", { context:"iParty_CZP007_9", text:"Green Party (Strana zelených)", showDelay:1000, autodismissdelay:5000,iframe:true, preventoverlap:true } );
+</script>
+SZ
+<img src="skins/default/images/updown.gif" onclick="openMenu('varPartyCZP0070sorting')"
+title="Sort" class="sortimageHead" alt="sort"/>
+<div class="menu" id="varPartyCZP0070sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP007&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP007&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td class="headerlast item" rowspan="2" colspan="1" id="iParty_CZP999_10" >
+<div id="iParty_CZP999mod"></div>
+
+<script type="text/javascript">
+var myTooltip = new YAHOO.widget.Tooltip("iParty_CZP999tip", { context:"iParty_CZP999_10", text:"Other parties", showDelay:1000, autodismissdelay:5000,iframe:true, preventoverlap:true } );
+</script>
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;Partysubset=CZP999%2CCZP019+-+CZP121" onclick="return hideTheViewArea(false)">Other</a>
+<img src="skins/default/images/updown.gif" onclick="openMenu('varPartyCZP9990sorting')"
+title="Sort" class="sortimageHead" alt="sort"/>
+<div class="menu" id="varPartyCZP9990sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP999&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZP999&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td class="headerlast" rowspan="2" colspan="1" >
+Electorate
+<img src="skins/default/images/updown.gif" onclick="openMenu('varPartyCZPP010sorting')"
+title="Sort" class="sortimageHead" alt="sort"/>
+<div class="menu" id="varPartyCZPP010sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZPP01&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZPP01&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td class="headerlast" rowspan="2" colspan="1" >
+Votes
+<img src="skins/default/images/updown.gif" onclick="openMenu('varPartyCZPP020sorting')"
+title="Sort" class="sortimageHead" alt="sort"/>
+<div class="menu" id="varPartyCZPP020sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZPP02&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZPP02&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td class="headerlast" rowspan="2" colspan="1" >
+Valid votes
+<img src="skins/default/images/updown.gif" onclick="openMenu('varPartyCZPP030sorting')"
+title="Sort" class="sortimageHead" alt="sort"/>
+<div class="menu" id="varPartyCZPP030sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZPP03&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZPP03&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td class="headerlast" rowspan="2" colspan="1" >
+Invalid votes
+<img src="skins/default/images/updown.gif" onclick="openMenu('varPartyCZPP040sorting')"
+title="Sort" class="sortimageHead" alt="sort"/>
+<div class="menu" id="varPartyCZPP040sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZPP04&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=column&amp;byc=CZPP04&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+</tr>
+<tr>
+
+
+
+<td class="stublabel" id="varRegion" title="Can be removed from table or moved to column." rowspan="1" colspan="1">
+Region
+
+<div class="stublabel" id="varRegiondiv" style="display:none; position: absolute; left: 0px; right:0px; z-index: 500;">
+Region
+</div>
+</td>
+<script type="text/javascript">
+makeDraggable('varRegion');
+</script>
+</tr>
+<tr>
+
+
+
+
+
+
+<td class="stub" rowspan="1" colspan="1" >
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;Regionsubset=CZ%2CCZ0" onclick="return hideTheViewArea(false)">CZECH REPUBLIC</a>
+<img src="skins/default/images/updown.gif" onclick="openMenu('varRegionCZ0sorting')"
+title="Sort" class="sortimage" alt="sort"/>
+<div class="menu" id="varRegionCZ0sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td >
+741,946
+</td>
+
+
+
+
+
+
+<td >
+528,132
+</td>
+
+
+
+
+
+
+<td >
+334,577
+</td>
+
+
+
+
+
+
+<td >
+180,451
+</td>
+
+
+
+
+
+
+<td >
+100,514
+</td>
+
+
+
+
+
+
+<td >
+68,152
+</td>
+
+
+
+
+
+
+<td >
+56,636
+</td>
+
+
+
+
+
+
+<td >
+53,984
+</td>
+
+
+
+
+
+
+<td >
+48,621
+</td>
+
+
+
+
+
+
+<td >
+245,921
+</td>
+
+
+
+
+
+
+<td >
+8,401,374
+</td>
+
+
+
+
+
+
+<td >
+2,371,009
+</td>
+
+
+
+
+
+
+<td >
+2,358,934
+</td>
+
+
+
+
+
+
+<td >
+12,075
+</td>
+</tr>
+<tr>
+
+
+
+
+
+
+<td class="stub" rowspan="1" colspan="1" >
+Hlavní mesto Praha
+<img src="skins/default/images/updown.gif" onclick="openMenu('varRegionCZ0100sorting')"
+title="Sort" class="sortimage" alt="sort"/>
+<div class="menu" id="varRegionCZ0100sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ010&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ010&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td >
+136,915
+</td>
+
+
+
+
+
+
+<td >
+50,432
+</td>
+
+
+
+
+
+
+<td >
+31,070
+</td>
+
+
+
+
+
+
+<td >
+15,312
+</td>
+
+
+
+
+
+
+<td >
+10,482
+</td>
+
+
+
+
+
+
+<td >
+23,570
+</td>
+
+
+
+
+
+
+<td >
+10,660
+</td>
+
+
+
+
+
+
+<td >
+10,796
+</td>
+
+
+
+
+
+
+<td >
+14,230
+</td>
+
+
+
+
+
+
+<td >
+36,330
+</td>
+
+
+
+
+
+
+<td >
+955,836
+</td>
+
+
+
+
+
+
+<td >
+341,528
+</td>
+
+
+
+
+
+
+<td >
+339,797
+</td>
+
+
+
+
+
+
+<td >
+1,731
+</td>
+</tr>
+<tr>
+
+
+
+
+
+
+<td class="stub" rowspan="1" colspan="1" >
+Stredoceský kraj
+<img src="skins/default/images/updown.gif" onclick="openMenu('varRegionCZ0200sorting')"
+title="Sort" class="sortimage" alt="sort"/>
+<div class="menu" id="varRegionCZ0200sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ020&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ020&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td >
+102,403
+</td>
+
+
+
+
+
+
+<td >
+58,492
+</td>
+
+
+
+
+
+
+<td >
+39,766
+</td>
+
+
+
+
+
+
+<td >
+11,313
+</td>
+
+
+
+
+
+
+<td >
+12,631
+</td>
+
+
+
+
+
+
+<td >
+8,405
+</td>
+
+
+
+
+
+
+<td >
+7,494
+</td>
+
+
+
+
+
+
+<td >
+6,861
+</td>
+
+
+
+
+
+
+<td >
+5,416
+</td>
+
+
+
+
+
+
+<td >
+31,794
+</td>
+
+
+
+
+
+
+<td >
+974,595
+</td>
+
+
+
+
+
+
+<td >
+286,033
+</td>
+
+
+
+
+
+
+<td >
+284,575
+</td>
+
+
+
+
+
+
+<td >
+1,458
+</td>
+</tr>
+<tr>
+
+
+
+
+
+
+<td class="stub" rowspan="1" colspan="1" >
+Jihoceský kraj
+<img src="skins/default/images/updown.gif" onclick="openMenu('varRegionCZ0310sorting')"
+title="Sort" class="sortimage" alt="sort"/>
+<div class="menu" id="varRegionCZ0310sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ031&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ031&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td >
+47,029
+</td>
+
+
+
+
+
+
+<td >
+30,271
+</td>
+
+
+
+
+
+
+<td >
+21,537
+</td>
+
+
+
+
+
+
+<td >
+10,014
+</td>
+
+
+
+
+
+
+<td >
+5,589
+</td>
+
+
+
+
+
+
+<td >
+3,405
+</td>
+
+
+
+
+
+
+<td >
+3,279
+</td>
+
+
+
+
+
+
+<td >
+2,731
+</td>
+
+
+
+
+
+
+<td >
+2,409
+</td>
+
+
+
+
+
+
+<td >
+15,073
+</td>
+
+
+
+
+
+
+<td >
+513,031
+</td>
+
+
+
+
+
+
+<td >
+142,040
+</td>
+
+
+
+
+
+
+<td >
+141,337
+</td>
+
+
+
+
+
+
+<td >
+703
+</td>
+</tr>
+<tr>
+
+
+
+
+
+
+<td class="stub" rowspan="1" colspan="1" >
+Plzenský kraj
+<img src="skins/default/images/updown.gif" onclick="openMenu('varRegionCZ0320sorting')"
+title="Sort" class="sortimage" alt="sort"/>
+<div class="menu" id="varRegionCZ0320sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ032&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ032&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td >
+38,821
+</td>
+
+
+
+
+
+
+<td >
+30,519
+</td>
+
+
+
+
+
+
+<td >
+20,993
+</td>
+
+
+
+
+
+
+<td >
+7,009
+</td>
+
+
+
+
+
+
+<td >
+5,800
+</td>
+
+
+
+
+
+
+<td >
+3,367
+</td>
+
+
+
+
+
+
+<td >
+3,458
+</td>
+
+
+
+
+
+
+<td >
+2,278
+</td>
+
+
+
+
+
+
+<td >
+2,089
+</td>
+
+
+
+
+
+
+<td >
+13,073
+</td>
+
+
+
+
+
+
+<td >
+455,979
+</td>
+
+
+
+
+
+
+<td >
+128,082
+</td>
+
+
+
+
+
+
+<td >
+127,407
+</td>
+
+
+
+
+
+
+<td >
+675
+</td>
+</tr>
+<tr>
+
+
+
+
+
+
+<td class="stub" rowspan="1" colspan="1" >
+Karlovarský kraj
+<img src="skins/default/images/updown.gif" onclick="openMenu('varRegionCZ0410sorting')"
+title="Sort" class="sortimage" alt="sort"/>
+<div class="menu" id="varRegionCZ0410sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ041&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ041&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td >
+14,539
+</td>
+
+
+
+
+
+
+<td >
+13,294
+</td>
+
+
+
+
+
+
+<td >
+8,771
+</td>
+
+
+
+
+
+
+<td >
+1,676
+</td>
+
+
+
+
+
+
+<td >
+2,713
+</td>
+
+
+
+
+
+
+<td >
+1,151
+</td>
+
+
+
+
+
+
+<td >
+1,363
+</td>
+
+
+
+
+
+
+<td >
+1,578
+</td>
+
+
+
+
+
+
+<td >
+970
+</td>
+
+
+
+
+
+
+<td >
+6,833
+</td>
+
+
+
+
+
+
+<td >
+244,803
+</td>
+
+
+
+
+
+
+<td >
+53,250
+</td>
+
+
+
+
+
+
+<td >
+52,888
+</td>
+
+
+
+
+
+
+<td >
+362
+</td>
+</tr>
+<tr>
+
+
+
+
+
+
+<td class="stub" rowspan="1" colspan="1" >
+Ústecký kraj
+<img src="skins/default/images/updown.gif" onclick="openMenu('varRegionCZ0420sorting')"
+title="Sort" class="sortimage" alt="sort"/>
+<div class="menu" id="varRegionCZ0420sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ042&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ042&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td >
+41,530
+</td>
+
+
+
+
+
+
+<td >
+36,226
+</td>
+
+
+
+
+
+
+<td >
+28,432
+</td>
+
+
+
+
+
+
+<td >
+3,347
+</td>
+
+
+
+
+
+
+<td >
+8,900
+</td>
+
+
+
+
+
+
+<td >
+2,935
+</td>
+
+
+
+
+
+
+<td >
+3,661
+</td>
+
+
+
+
+
+
+<td >
+1,988
+</td>
+
+
+
+
+
+
+<td >
+3,233
+</td>
+
+
+
+
+
+
+<td >
+18,224
+</td>
+
+
+
+
+
+
+<td >
+663,340
+</td>
+
+
+
+
+
+
+<td >
+149,326
+</td>
+
+
+
+
+
+
+<td >
+148,476
+</td>
+
+
+
+
+
+
+<td >
+850
+</td>
+</tr>
+<tr>
+
+
+
+
+
+
+<td class="stub" rowspan="1" colspan="1" >
+Liberecký kraj
+<img src="skins/default/images/updown.gif" onclick="openMenu('varRegionCZ0510sorting')"
+title="Sort" class="sortimage" alt="sort"/>
+<div class="menu" id="varRegionCZ0510sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ051&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ051&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td >
+29,586
+</td>
+
+
+
+
+
+
+<td >
+19,159
+</td>
+
+
+
+
+
+
+<td >
+12,018
+</td>
+
+
+
+
+
+
+<td >
+3,586
+</td>
+
+
+
+
+
+
+<td >
+5,570
+</td>
+
+
+
+
+
+
+<td >
+2,699
+</td>
+
+
+
+
+
+
+<td >
+2,871
+</td>
+
+
+
+
+
+
+<td >
+4,631
+</td>
+
+
+
+
+
+
+<td >
+2,017
+</td>
+
+
+
+
+
+
+<td >
+10,463
+</td>
+
+
+
+
+
+
+<td >
+349,405
+</td>
+
+
+
+
+
+
+<td >
+93,124
+</td>
+
+
+
+
+
+
+<td >
+92,600
+</td>
+
+
+
+
+
+
+<td >
+524
+</td>
+</tr>
+<tr>
+
+
+
+
+
+
+<td class="stub" rowspan="1" colspan="1" >
+Královéhradecký kraj
+<img src="skins/default/images/updown.gif" onclick="openMenu('varRegionCZ0520sorting')"
+title="Sort" class="sortimage" alt="sort"/>
+<div class="menu" id="varRegionCZ0520sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ052&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ052&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td >
+42,360
+</td>
+
+
+
+
+
+
+<td >
+27,115
+</td>
+
+
+
+
+
+
+<td >
+17,211
+</td>
+
+
+
+
+
+
+<td >
+8,422
+</td>
+
+
+
+
+
+
+<td >
+7,098
+</td>
+
+
+
+
+
+
+<td >
+3,309
+</td>
+
+
+
+
+
+
+<td >
+3,509
+</td>
+
+
+
+
+
+
+<td >
+2,688
+</td>
+
+
+
+
+
+
+<td >
+2,348
+</td>
+
+
+
+
+
+
+<td >
+15,909
+</td>
+
+
+
+
+
+
+<td >
+447,513
+</td>
+
+
+
+
+
+
+<td >
+130,615
+</td>
+
+
+
+
+
+
+<td >
+129,969
+</td>
+
+
+
+
+
+
+<td >
+646
+</td>
+</tr>
+<tr>
+
+
+
+
+
+
+<td class="stub" rowspan="1" colspan="1" >
+Pardubický kraj
+<img src="skins/default/images/updown.gif" onclick="openMenu('varRegionCZ0530sorting')"
+title="Sort" class="sortimage" alt="sort"/>
+<div class="menu" id="varRegionCZ0530sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ053&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ053&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td >
+34,601
+</td>
+
+
+
+
+
+
+<td >
+27,286
+</td>
+
+
+
+
+
+
+<td >
+16,471
+</td>
+
+
+
+
+
+
+<td >
+11,440
+</td>
+
+
+
+
+
+
+<td >
+6,141
+</td>
+
+
+
+
+
+
+<td >
+2,587
+</td>
+
+
+
+
+
+
+<td >
+3,142
+</td>
+
+
+
+
+
+
+<td >
+2,804
+</td>
+
+
+
+
+
+
+<td >
+1,908
+</td>
+
+
+
+
+
+
+<td >
+12,535
+</td>
+
+
+
+
+
+
+<td >
+412,403
+</td>
+
+
+
+
+
+
+<td >
+119,478
+</td>
+
+
+
+
+
+
+<td >
+118,915
+</td>
+
+
+
+
+
+
+<td >
+563
+</td>
+</tr>
+<tr>
+
+
+
+
+
+
+<td class="stub" rowspan="1" colspan="1" >
+Vysocina
+<img src="skins/default/images/updown.gif" onclick="openMenu('varRegionCZ0630sorting')"
+title="Sort" class="sortimage" alt="sort"/>
+<div class="menu" id="varRegionCZ0630sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ063&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ063&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td >
+29,924
+</td>
+
+
+
+
+
+
+<td >
+28,798
+</td>
+
+
+
+
+
+
+<td >
+19,349
+</td>
+
+
+
+
+
+
+<td >
+15,464
+</td>
+
+
+
+
+
+
+<td >
+4,713
+</td>
+
+
+
+
+
+
+<td >
+2,501
+</td>
+
+
+
+
+
+
+<td >
+2,476
+</td>
+
+
+
+
+
+
+<td >
+2,445
+</td>
+
+
+
+
+
+
+<td >
+1,680
+</td>
+
+
+
+
+
+
+<td >
+11,517
+</td>
+
+
+
+
+
+
+<td >
+413,594
+</td>
+
+
+
+
+
+
+<td >
+119,366
+</td>
+
+
+
+
+
+
+<td >
+118,867
+</td>
+
+
+
+
+
+
+<td >
+499
+</td>
+</tr>
+<tr>
+
+
+
+
+
+
+<td class="stub" rowspan="1" colspan="1" >
+Jihomoravský kraj
+<img src="skins/default/images/updown.gif" onclick="openMenu('varRegionCZ0640sorting')"
+title="Sort" class="sortimage" alt="sort"/>
+<div class="menu" id="varRegionCZ0640sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ064&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ064&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td >
+73,538
+</td>
+
+
+
+
+
+
+<td >
+63,571
+</td>
+
+
+
+
+
+
+<td >
+39,681
+</td>
+
+
+
+
+
+
+<td >
+35,729
+</td>
+
+
+
+
+
+
+<td >
+9,295
+</td>
+
+
+
+
+
+
+<td >
+6,052
+</td>
+
+
+
+
+
+
+<td >
+5,236
+</td>
+
+
+
+
+
+
+<td >
+5,272
+</td>
+
+
+
+
+
+
+<td >
+5,816
+</td>
+
+
+
+
+
+
+<td >
+25,987
+</td>
+
+
+
+
+
+
+<td >
+947,657
+</td>
+
+
+
+
+
+
+<td >
+271,455
+</td>
+
+
+
+
+
+
+<td >
+270,177
+</td>
+
+
+
+
+
+
+<td >
+1,278
+</td>
+</tr>
+<tr>
+
+
+
+
+
+
+<td class="stub" rowspan="1" colspan="1" >
+Olomoucký kraj
+<img src="skins/default/images/updown.gif" onclick="openMenu('varRegionCZ0710sorting')"
+title="Sort" class="sortimage" alt="sort"/>
+<div class="menu" id="varRegionCZ0710sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ071&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ071&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td >
+35,088
+</td>
+
+
+
+
+
+
+<td >
+36,722
+</td>
+
+
+
+
+
+
+<td >
+21,878
+</td>
+
+
+
+
+
+
+<td >
+16,959
+</td>
+
+
+
+
+
+
+<td >
+5,534
+</td>
+
+
+
+
+
+
+<td >
+2,346
+</td>
+
+
+
+
+
+
+<td >
+3,069
+</td>
+
+
+
+
+
+
+<td >
+2,574
+</td>
+
+
+
+
+
+
+<td >
+1,970
+</td>
+
+
+
+
+
+
+<td >
+14,490
+</td>
+
+
+
+
+
+
+<td >
+523,049
+</td>
+
+
+
+
+
+
+<td >
+141,299
+</td>
+
+
+
+
+
+
+<td >
+140,630
+</td>
+
+
+
+
+
+
+<td >
+669
+</td>
+</tr>
+<tr>
+
+
+
+
+
+
+<td class="stub" rowspan="1" colspan="1" >
+Zlínský kraj
+<img src="skins/default/images/updown.gif" onclick="openMenu('varRegionCZ0720sorting')"
+title="Sort" class="sortimage" alt="sort"/>
+<div class="menu" id="varRegionCZ0720sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ072&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ072&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td >
+36,778
+</td>
+
+
+
+
+
+
+<td >
+30,970
+</td>
+
+
+
+
+
+
+<td >
+16,991
+</td>
+
+
+
+
+
+
+<td >
+21,052
+</td>
+
+
+
+
+
+
+<td >
+4,748
+</td>
+
+
+
+
+
+
+<td >
+2,138
+</td>
+
+
+
+
+
+
+<td >
+2,496
+</td>
+
+
+
+
+
+
+<td >
+4,677
+</td>
+
+
+
+
+
+
+<td >
+1,726
+</td>
+
+
+
+
+
+
+<td >
+12,083
+</td>
+
+
+
+
+
+
+<td >
+484,432
+</td>
+
+
+
+
+
+
+<td >
+134,329
+</td>
+
+
+
+
+
+
+<td >
+133,659
+</td>
+
+
+
+
+
+
+<td >
+670
+</td>
+</tr>
+<tr>
+
+
+
+
+
+
+<td class="stub" rowspan="1" colspan="1" >
+Moravskoslezský kraj
+<img src="skins/default/images/updown.gif" onclick="openMenu('varRegionCZ0800sorting')"
+title="Sort" class="sortimage" alt="sort"/>
+<div class="menu" id="varRegionCZ0800sorting">
+<ul class="testmenu">
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ080&amp;by=0&amp;order=asc" class="menulinks" onclick="hideTheViewArea()">Sort Ascending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2&amp;sort=row&amp;byc=CZ080&amp;by=0&amp;order=desc" class="menulinks" onclick="hideTheViewArea()">Sort Descending</a>
+</li>
+<li class="m">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&amp;measure=common&amp;virtualsubset=Absolutevalue_value&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&amp;headers=Party&amp;layers=virtual&amp;mode=cube&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;v=2" class="menulinks" onclick="hideTheViewArea()">No sort</a>
+</li>
+</ul>
+</div>
+</td>
+
+
+
+
+
+
+<td >
+78,834
+</td>
+
+
+
+
+
+
+<td >
+75,277
+</td>
+
+
+
+
+
+
+<td >
+40,409
+</td>
+
+
+
+
+
+
+<td >
+19,128
+</td>
+
+
+
+
+
+
+<td >
+11,300
+</td>
+
+
+
+
+
+
+<td >
+3,687
+</td>
+
+
+
+
+
+
+<td >
+3,922
+</td>
+
+
+
+
+
+
+<td >
+2,661
+</td>
+
+
+
+
+
+
+<td >
+2,809
+</td>
+
+
+
+
+
+
+<td >
+21,610
+</td>
+
+
+
+
+
+
+<td >
+1,015,737
+</td>
+
+
+
+
+
+
+<td >
+261,084
+</td>
+
+
+
+
+
+
+<td >
+259,637
+</td>
+
+
+
+
+
+
+<td >
+1,447
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+</div><!-- end hidearea -->
+
+<div class="footer">
+
+</div>
+
+<script type="text/javascript">
+var domTT_selectElements;
+var subset_max_too_high = 'Value cant be higher than';
+var subset_min_too_low = 'Value cant be lower than';
+var subset_invalid_value = 'Invalid value given';
+var subset_cases_nomultiple = 'Multiple values are not allowed for this operator.';
+var weight_error_noweightvar = 'No weight variable selected.';
+var weight_error_novar = 'No variable selected.';
+var tree_noalphanumeric = 'An alphanumeric variable is not allowed in regression analyses.';
+var tree_alreadyintable = 'Variable already in table.';
+var tree_alreadyinweight = 'Variable already used in weights.';
+var group_same_cat_selected = 'The same category has been selected twice.';
+var group_first_NAN = 'The first entry is not a number.';
+var group_second_NAN = 'The second entry is not a number.';
+var group_nocats = 'No categories selected.';
+var group_NAN = 'The entry is not a number.';
+var group_no_label = 'No label set.';
+var compute_already = 'Variable already added.';
+var compute_label_not_ok = 'Please add a variable label.';
+var compute_name_not_ok = 'Please add a variable name.';
+var compute_alpha = 'Alphanumeric variables are not allowed in Compute.';
+var recode_alpha = 'Alphanumeric variables cannot be recoded.';
+var recode_new_value_not_ok = 'The new value is not numeric.';
+recode_other_value_not_ok = 'The other value is not numeric.';
+var recode_no_value_given = 'The old value is not numeric.';
+var recode_no_start_value_given = 'The old start value is not numeric.';
+var recode_no_end_value_given = 'The old end value is not numeric.';
+var loading_message = 'Loading&hellip;';
+var dateformat = 'The date format should be : yyyy/mm/dd';
+var dateformatmonth = 'Please enter a valid month.';
+var dateformatday = 'Please enter a valid day.';
+var variable_subset_notselected = 'No variable is selected.';
+var too_large_table = 'Too large selection.';
+var too_large_table_explanation = 'This operation will produce a too large result-set.';
+var too_large_table_maxcount_prefix = 'The maximum number of cells allowed is:';
+var email_incorrect = 'Email address seems incorrect (check @ and .)';
+var email_user_incorrect = 'The username contains invalid characters.';
+var email_domain_incorrect = 'The domain name contains invalid characters.';
+var hinge_not_complete = 'hinge_not_complete';
+var profile_not_complete = 'profile_not_complete';
+var profile_too_many = 'profile_too_many';
+var multiprofile_not_complete = 'multiprofile_not_complete';
+var spider_not_enough_indicators = 'spider_not_enough_indicators';
+var inlineHideDocLabel = 'Hide documentation';
+var inlineShowDocLabel = 'Show documentation';
+var barometerSubmitHint = 'barometer_hint';
+var disableBarometerSubmitHint = 'disable_barometer_hint';
+var barometer_hint_header = 'barometer_hint_header';
+var profileSubmitHint = 'profile_hint';
+var disableProfileSubmitHint = 'disable_profile_hint';
+var profileHintHeader = 'profile_hint_header';
+var barometer_hint_clicktootherapp = 'barometer_hint_clicktootherapp';
+var confirm_delete_bookmark = 'Are you sure you wish to delete this bookmark';
+var confirm_delete_calculated_category = 'Are you sure you wish to delete this category';
+var warning_dialog_header = 'Warning!';
+var yes_btn_text = 'Yes';
+var no_btn_text = 'No';
+var drag_to_pan = 'Drag here to pan map';
+var confirm_delete_bookmark = 'Are you sure you wish to delete this bookmark';
+var confirm_delete_calculated_category = 'Are you sure you wish to delete this category';
+var warning_dialog_header = 'Warning!';
+var yes_btn_text = 'Yes';
+var no_btn_text = 'No';
+var collapse_navigation_tree_tooltip = 'Click here to hide the browse list';
+var expand_navigation_tree_tooltip = 'Click here to show the browse list';
+var openEgmsParam = 'toolbar=yes,location=yes,directories=no,status=yes,menubar=yes,resizable=yes,copyhistory=no,scrollbars=yes,width=800,height=600';
+var maxNumCellsParam = '-1';
+var propMetadataVisible = 'true';
+var servletContext = '';
+var skinPath = 'skins/default/';</script>
+
+<!-- put analytics code here -->
+</div><!-- end exploder -->
+
+
+
+
+
+<script type="text/javascript" src="skins/default/javascript/inlinemetadata.js?timestamp=2009-11-26"></script>
+
+
+
+<div class="metadata" id="metadataview">
+<div id="metadatacontrol" style="display: none" class="hidemetadata">
+<a href="" onclick="return toggleMetaData()" id="hidemetadatalink">
+<img id="hidemetadataimg" src="skins/default/images/down.gif" />
+<span id="metatogglelabel">Show documentation</span>
+</a>
+</div>
+<ul id="metadatamenu">
+<li class="menuchosen">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&virtualslice=Absolutevalue_value&measuretype=4&headers=Party&mode=cube&v=2&cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&virtualsubset=Absolutevalue_value&layers=virtual&measure=common&view=studyScope" onclick="hideTheViewArea();">
+Abstract
+</a>
+</li>
+<li class="menunotchosen">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&virtualslice=Absolutevalue_value&measuretype=4&headers=Party&mode=cube&v=2&cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&virtualsubset=Absolutevalue_value&layers=virtual&measure=common&view=methodSources" onclick="hideTheViewArea();">
+Data Sources
+</a>
+</li>
+<li class="menunotchosen">
+<a href="/webview/velocity;jsessionid=48DA176B168829665D5F2B655A2D49A2?stubs=Region&virtualslice=Absolutevalue_value&measuretype=4&headers=Party&mode=cube&v=2&cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FCZEP2009_Display_C1&virtualsubset=Absolutevalue_value&layers=virtual&measure=common&view=notes" onclick="hideTheViewArea();">
+Notes
+</a>
+</li>
+</ul>
+
+<div id="metacontent">
+
+<div class="metacontentseparator">
+<h4>Political parties represented in the election:</h4>
+<ul>
+<li>ODS - Civic Democratic Party (Obcanska demokraticka strana)</li>
+<li>CSSD - Czechoslovak Social Democracy (Ceskoslovenská Sociální Demokracie)</li>
+<li>KSCM - Communist Party of Bohemia and Moravia (Komunistická strana Cech a Moravy)</li>
+<li>KDU-CSL - Christian Democratic Union and Czechoslovak People's Party (Krestanska a demokraticka unie - Ceskoslovenska strana lidova)</li>
+<li>Suv. - Sovereignty (Suverenita)</li>
+<li>EDS - European Democratic Party (Evropská demokratická strana)</li>
+<li>VV - Public Affairs (Veci verejné)</li>
+<li>SN-VA - Mayors and Independents &ndash; Your Option (Starostové a Nezávislí-Vaše Alternativa)</li>
+<li>SZ - Green Party (Strana zelených)</li>
+<li>Other:</li>
+<ul>
+<li>SNK ED - (SNK Evropští demokraté )</li>
+<li>SSO - Party of Free Citizens/Free Citizens Party (Strana svobodných obcanu)</li>
+<li>DS -&nbsp; (Delnická strana)</li>
+<li>PB - (Volte Pr.Blok-www.cibulka.net)</li>
+<li>Lib. - (Libertas.cz )</li>
+<li>SDŽ - (SDŽ-Strana dustojného života)</li>
+<li>DSŽ - (Demokratická Strana Zelených)</li>
+<li>NEZ - Independents (NEZÁVISLÍ )</li>
+<li>M - (Moravané)</li>
+<li>SPR-RSC - (Sdruž.pro rep.-Republ.str.Csl.)</li>
+<li>NHZ-UE - (Nejen has. a živn. s uc. do E.)</li>
+<li>NS - (Národní strana)</li>
+<li>HS - (Humanistická strana)</li>
+<li>SS-CR - (Strana soukromníku CR)</li>
+<li>KC - (Koruna Ceská (monarch.strana))</li>
+<li>Zelení - (Zelení)</li>
+<li>BPS - (Balbínova poetická strana)</li>
+<li>CSNSa - (Ceská str.národ.socialistická)</li>
+<li>Lib.CZ - (Liberálové.CZ)</li>
+<li>SD-SN - (Spojení demokraté-Sdruž.nezáv.)</li>
+<li>SSD - (Strana svobodných demokratu)</li>
+<li>SDSvo - (Strana demokracie a svobody)</li>
+<li>CSNS - (Ceská strana národne sociální)</li>
+<li>LaP - (Lidé a Politika)</li>
+</ul>
+</ul>
+</div>
+<a name="metadataanchor">&nbsp;</a>
+</div>
+<!-- Show hide/show control in javascript enabled browsers -->
+<script type="text/javascript">
+hideshow=xGetElementById("metadatacontrol");
+hideshow.style.display="block";
+if (readCookie("metadatavisible")=="no") {
+hideMetaData();
+} else {
+showMetaData();
+}
+</script>
+</div>
+</div><!-- end dropzone -->
+</body>
+</html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title> Nesstar WebView</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<!--
+This is a workaround for IE to make caching mechanism follow what the meta tag says. It seems that IE does not
+follow the caching set in the meta tags before the page has reached 64 bytes. This is why this text should be over 64
+bytes in size.
+-->
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Expires" content="-1"/>
+<link href="skins/default/css/cube.css?timestamp=2009-11-26" rel="stylesheet" type="text/css"/>
+<link href="skins/default/css/draganddrop.css?timestamp=2009-11-26" rel="stylesheet" type="text/css"/>
+<link href="skins/default/css/common.css?timestamp=2009-11-26" rel="stylesheet" type="text/css"/>
+<link href="skins/default/css/documentation.css?timestamp=2009-11-26" rel="stylesheet" type="text/css"/>
+
+<script type="text/javascript">
+var skinPath = 'skins/default/';
+</script>
+<script type="text/javascript" src="skins/default/javascript/cube.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/draganddrop.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/table.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/bookmark.js?timestamp=2009-11-26"></script>
+
+<link href="skins/default/css/menu.css?timestamp=2009-11-26" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="skins/default/javascript/browserdetect.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/x.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/common.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/highlight.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/language.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/embedmain.js?timestamp=2009-11-26"></script>
+
+<!-- YUI Dependencies -->
+<script type="text/javascript" src="skins/default/javascript/yui/yahoo-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/dom-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/event-min.js?timestamp=2009-11-26"></script>
+
+<!-- YUI Source file -->
+<script type="text/javascript" src="skins/default/javascript/yui/datasource-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/animation-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/connection-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/autocomplete-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/dragdrop-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/container_core-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/container-min.js?timestamp=2009-11-26"></script>
+<script type="text/javascript" src="skins/default/javascript/yui/logger.js?timestamp=2009-11-26"></script>
+
+<!-- YUI CSS -->
+<link rel="stylesheet" type="text/css" href="skins/default/css/yui/container.css?timestamp=2009-11-26"/>
+
+<!-- YUI CSS Subclassing-->
+<link rel="stylesheet" type="text/css" href="skins/default/css/containerspecials.css?timestamp=2009-11-26"/>
+
+<!-- Custom Style Sheet --->
+<link href="skins/default/css/custom.css?timestamp=2009-11-26" rel="stylesheet" type="text/css"/>
+
+
+<!--<script type="text/javascript" src="skins/default/javascript/minmax.js?timestamp=2009-11-26"></script>-->
+<!--[if lte IE 7]>
+<link href="skins/default/css/ie7_workarounds.css?timestamp=2009-11-26" type="text/css" rel="stylesheet" media="screen" />
+<![endif]-->
+<!--[if lte IE 6]>
+<link href="skins/default/css/ie6_workarounds.css?timestamp=2009-11-26" type="text/css" rel="stylesheet" media="screen" />
+<![endif]-->
+
+<link href="skins/default/css/fixed.css?timestamp=2009-11-26" type="text/css" rel="stylesheet" media="screen" title="Fixed content"/>
+<!--[if lte IE 6]>
+<link href="skins/default/css/fixed_ie.css?timestamp=2009-11-26" type="text/css" rel="stylesheet" media="screen" title="Fixed content" />
+<![endif]-->
+
+<!-- Common overrides - stuff that needs to be overridden from YUI etc -->
+<link rel="stylesheet" type="text/css" href="skins/default/css/common_overrides.css?timestamp=2009-11-26"/>
+
+
+<script type="text/javascript">
+if (browser.isIE5x && !browser.isIE55) {
+document.write("<style type=\"text\/css\" media=\"screen\">div.header { position: absolute;} div.headerTree {position: absolute;} div#exploder {margin-top: 22px;}<\/style>");
+}
+
+window.onresize = function() {
+setScrollableSize();
+}
+
+document.onmousedown = doMouseDown;
+function doMouseDown(e) {
+try {
+setScrollableSize();
+removeSubsetBox(e);
+}
+catch(error) {
+}
+}
+var isEmbedded = false ;
+</script>
+<script type="text/javascript" src="skins/default/javascript/dialogs.js?timestamp=2009-11-26"></script>
+
+</head>
+
+<body onload="setScrollableSize(); highlightSearch()" class="yui-skin-sam">
+<div id="dropzone">
+
+
+
+
+<div class="header" id="topstrip">
+<table class="menutable" border="0" cellspacing="0" cellpadding="0">
+<tr class="mainmenu">
+<td width="100%">&nbsp;</td>
+<td class="menuImageLeft">&nbsp;</td>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<td class="menubackground">
+
+<a id="imageprint" href="/webview/velocity;jsessionid=6AFED225CDC970DFF3A2EAF55F75B3E5?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FLAEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;doprint=true" onclick="" target="print"
+title="Print preview">
+</a>
+</td>
+
+<td class="separated">
+<img src="skins/default/images/menu_separator.png" title="" alt="separator"/>
+</td>
+
+
+<td class="menubackground">
+<a id="imagebookmark" href="" onclick="return openBookmarkDialog();" title="Link" target="_top"></a>
+</td>
+
+
+<td class="menubackground">
+<a id="imagehelp" href="help/3-7.html" onclick="openEmptyWindow('helpwin');" target="helpwin"
+title="Help"></a>
+</td>
+<td class="menubackground menubackgroundlast">&nbsp;</td>
+</tr>
+</table>
+</div>
+<link type="text/css" rel="stylesheet" href="skins/default/css/yui/logger.css?timestamp=2009-11-26">
+<script type="text/javascript">
+var hasRun=0;
+function init() {
+if (hasRun < 1) {
+YAHOOpanel = new YAHOO.widget.Panel("inlinePopupContainer", { visible: false, zindex: 1000, fixedcenter: true, constraintoviewport: true, width: 300 } );
+YAHOOpanel.render();
+//var myLogReader = new YAHOO.widget.LogReader();
+hasRun=1;
+}
+}
+YAHOO.util.Event.addListener(window, "load", init);
+var panePaddingTotal = 12;
+var bookmarkDialogWidth = 324;
+var urlPaneHeight = 50 + panePaddingTotal;
+var embedPaneHeight = 50 + panePaddingTotal;
+var advancedPaneHeight = 16 + panePaddingTotal;
+var advancedExpandedPaneHeight = 232 + panePaddingTotal;
+//head + URL pane + embed pane + server side pane
+var bookmarkDialogHeight = urlPaneHeight ;
+var maxBookmarkDialogHeight = urlPaneHeight ;
+</script>
+<div id="inlinePopupContainer" style="display: none">
+<iframe id="inlinePopupContents" name="inlinePopupContents" src="" scrolling="no"></iframe>
+</div>
+<script type="text/javascript">
+baseUrl = "";
+newUrl = "";
+var objectWidth = "";
+var objectHeight = "$embedder.getHeight()";
+objectWidth = (objectWidth != "") ? (+objectWidth) : 0;
+objectHeight = (objectHeight != "") ? (+objectHeight) : 0;
+var border = false;
+var scrollbars = false;
+//translations
+var embed_iframe_message = '<a href="">Go to embedded material</a>';
+var embed_external_link_message = "See original";
+var embed_external_link_title = "Click here to see this in its original version";
+</script>
+<div id="embedDialog">
+<div class="hd">Embedding</div>
+<div class="bd">
+<div id="simpleembedding" style="display: block;">
+Copy this code to your own web page:
+</div>
+<div class="output">
+<input class="code" type="text" id="codeBox" name="codeBox" onclick="highlightCode();" value='' />
+<input type="hidden" id="baseUrlBox" name="baseUrl" value='' />
+</div>
+<fieldset id="advancedembedding" style="display: none">
+<legend>Customize and preview</legend>
+<div>Use these controls to modify the embedding and copy the code snippet to your own web page.</div>
+<div class="col">
+<h3>
+Frame settings
+</h3>
+<div class="sub element" id="embedsize">
+<table border="0">
+<tr>
+<td>Width:</td><td colspan="2"><input onchange="javascript: updateTextValues(this);" class="number" type="text" value="" name="frameWidth" id="frameWidth" /> pixels.</td>
+</tr>
+<tr>
+<td>Height:</td><td colspan="2"><input onchange="javascript: updateTextValues(this);" class="number" type="text" value="" name="frameHeight" id="frameHeight" /> pixels.</td>
+</tr>
+<tr>
+<td>&nbsp;</td><td><small><a href="javascript:fitAndUpdate();" title="Set the dimensions to fit the original object you are embedding">Fit to original</a></small></td>
+<td><small><a href="javascript:reset();" title="Reset width and height to automatic values">Reset</a></small></td>
+</tr>
+</table>
+</div>
+<div class="sub element">
+<input onclick="javascript: updateValues(this, -1);" type="checkbox" id="embed_border" name="embed_border" />
+<label for="embed_border">Add border</label>
+</div>
+</div>
+<div class="col">
+<h3>
+Object alignment
+</h3>
+<div class="sub element">
+<div>
+<input onclick="setAlignment(this);" type="radio" id="embed_align_left" name="embed_align" value="left" checked="checked" />
+<label for="embed_align_left">Left</label>
+</div>
+<div>
+<input onclick="setAlignment(this);" type="radio" id="embed_align_right" name="embed_align" value="right" />
+<label for="embed_align_right">Right</label>
+</div>
+<div>
+<input onclick="setAlignment(this);" type="radio" id="embed_align_none" name="embed_align" value="none" />
+<label for="embed_align_none">None</label>
+</div>
+</div>
+<div class="sub element">
+<input onclick="javascript: updateValues(this, TITLE);" type="checkbox" id="embed_title" checked="checked" />
+<label for="embed_title">Object title</label>
+</div>
+</div>
+</fieldset>
+<div class="link">
+<a href="" onclick="return openEmbedPreview('Preview this embedding');" title="Click here to see a preview of your settings">Preview this embedding</a>
+</div>
+</div>
+<div class="ft"></div>
+</div>
+<div id="embedPreviewContainer">
+<div class="hd"></div>
+<div class="bd"></div>
+<div class="ft"></div>
+</div>
+<div id="bookmarkDialog">
+<div class="bd">
+<div id="urlpane">
+<div class="bookmarkhead">
+<h2>URL:</h2><span>Link to this page</span>
+</div>
+<input type="text" class="textfield" name="url" id="bookmarkurl" value="http://eed.nsd.uib.no/webview/index.jsp?stubs=Region&amp;virtualslice=Absolutevalue_value&amp;measuretype=4&amp;headers=Party&amp;mode=cube&amp;v=2&amp;cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FLAEP2009_Display_C1&amp;virtualsubset=Absolutevalue_value&amp;layers=virtual&amp;measure=common&amp;top=yes" onclick="highlightText(this);" readonly="readonly" />
+</div>
+</div>
+</div> <div class="mozview bodypadder" id="exploder">
+<div class="giveroom" id="toptitle"></div>
+<script type="text/javascript">
+bookmarkurlnolanguage = 'http://eed.nsd.uib.no/webview/index.jsp?stubs=Region&virtualslice=Absolutevalue_value&measuretype=4&headers=Party&mode=cube&v=2&cube=http%3A%2F%2F129.177.90.166%3A80%2Fobj%2FfCube%2FLAEP2009_Display_C1&virtualsubset=Absolutevalue_value&layers=virtual&measure=common&top=yes';
+</script>
+<a id="navhide" href="javascript:void(0);" class="navigationvisible" onclick="swapNavigation(this);" title="Click here to hide the browse list"></a>
+<script type="text/javascript">
+var collapsor = xGetElementById("navhide");
+var navigationFrame = top.frames.main.document.getElementById('set');
+var className = "navigationvisible";
+if (navigationFrame.cols) {
+if (navigationFrame.cols.substring(0,navigationFrame.cols.indexOf('%')) == '0')
+className = "navigationhidden";
+}
+collapsor.className = className;
+</script>
+<script type="text/javascript">
+var embeddingMode = null;
+var allowedEmbeddingModes = 0;
+var embeddingMeasureSwitchLimit = false ;
+</script>
+<div id="processing" class="processing">Loading&hellip;</div> <div id="hidearea">
+
+
+<script type="text/javascript" src="skins/default/javascript/dimensionchooser.js?timestamp=2009-11-26"></script>
+
+<script type="text/javascript">
+xAddEventListener(document, 'click',closeCombo,false);
+
+
+
+
+
+</script>
+
+<form method="get" id="hiddenform" action="/webview/velocity;jsessionid=6AFED225CDC970DFF3A2EAF55F75B3E5">
+</form>
+
+<iframe name="calculatesubset" frameborder="0" width="1px" height="1px" style="height: 0px; border: none; margin: 0px; padding: 0px; position: absolute; bottom: 0px; left: 0px;"></iframe>
+
+
+<div id="drop">
+</div>
+<!-- <script type="text/javascript" src="skins/default/javascript/fixfftips.js?timestamp=2009-11-26"></script>-->
+
+
+
+<div id="tableinfo" >
+
+
+</div>
+<script type="text/javascript">
+var embeddingMode = null;
+var allowedEmbeddingModes = 0;
+var embeddingMeasureSwitchLimit = false ;
+</script>
+<div class="errormessage">0</div>
+</div><!-- end dropzone -->
+</body>
+</html>
