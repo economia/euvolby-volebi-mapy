@@ -11,5 +11,8 @@ async.eachSeries files, (file, cb) ->
         uri: "http://129.177.90.166/obj/fSection/#{dataset}_Download_VG1@variables"
         encoding: null
     (err, body) <~ zlib.gunzip body
+    if err
+        cb!
+        return
     <~ fs.writeFile "#__dirname/../data/variables/#dataset.xml.gz" body
     cb!

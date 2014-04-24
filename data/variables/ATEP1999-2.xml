@@ -1,0 +1,264 @@
+<r:RDF 
+xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:s="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#" 
+xmlns:n="http://www.nesstar.org/rdf/" 
+xmlns:p3="http://www.nesstar.org/rdf/"
+xmlns:p1="http://www.nesstar.org/rdf/acu/"
+xmlns:p5="http://www.nesstar.org/rdf/hc/"
+xmlns:p4="http://www.nesstar.org/rdf/faster/"
+xmlns:p2="http://www.nesstar.org/rdf/common/"
+xmlns:n43="http://www.nesstar.org/rdf/faster/Variable#"
+xmlns:n42="http://www.nesstar.org/rdf/faster/Variable2#"
+xmlns:n41="http://www.nesstar.org/rdf/faster/Variable3#"
+>
+
+
+<r:Bag r:about="http://129.177.90.166:80/obj/fSection/ATEP1999_Download_VG2@variables">
+<r:_1 r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V18" />
+<r:_2 r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V19" />
+<r:_3 r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V20" />
+<r:_4 r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V21" />
+<r:_5 r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V22" />
+<r:_6 r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V23" />
+<r:_7 r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V24" />
+</r:Bag>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V18">
+<n:complete>true</n:complete>
+<s:label>ÖVP</s:label>
+<n:creationDate>2009-07-06 10:14:54.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>OVP</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/ATEP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>859175.0</n43:valRangeMax>
+<n43:valRangeMin>2393.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V18</n43:varID>
+<n43:noValidResponses>51</n43:noValidResponses>
+<n43:meanValue>67386.275</n43:meanValue>
+<n43:maxValue>859175.0</n43:maxValue>
+<n43:minValue>2393.0</n43:minValue>
+<n43:stdValue>136280.947</n43:stdValue>
+<n43:position>4</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V18@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V18@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V18@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/ATEP1999_Download_F2" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V18@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V18@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V18@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V18@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/ATEP1999_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V19">
+<n:complete>true</n:complete>
+<s:label>SPÖ</s:label>
+<n:creationDate>2009-07-06 10:14:54.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SPO</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/ATEP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>888338.0</n43:valRangeMax>
+<n43:valRangeMin>1527.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V19</n43:varID>
+<n43:noValidResponses>51</n43:noValidResponses>
+<n43:meanValue>69673.569</n43:meanValue>
+<n43:maxValue>888338.0</n43:maxValue>
+<n43:minValue>1527.0</n43:minValue>
+<n43:stdValue>141712.573</n43:stdValue>
+<n43:position>5</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V19@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V19@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V19@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/ATEP1999_Download_F2" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V19@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V19@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V19@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V19@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/ATEP1999_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V20">
+<n:complete>true</n:complete>
+<s:label>FPÖ</s:label>
+<n:creationDate>2009-07-06 10:14:54.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>FPO</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/ATEP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>655519.0</n43:valRangeMax>
+<n43:valRangeMin>1571.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V20</n43:varID>
+<n43:noValidResponses>51</n43:noValidResponses>
+<n43:meanValue>51413.255</n43:meanValue>
+<n43:maxValue>655519.0</n43:maxValue>
+<n43:minValue>1571.0</n43:minValue>
+<n43:stdValue>102780.142</n43:stdValue>
+<n43:position>6</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V20@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V20@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V20@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/ATEP1999_Download_F2" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V20@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V20@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V20@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V20@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/ATEP1999_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V21">
+<n:complete>true</n:complete>
+<s:label>Grüne</s:label>
+<n:creationDate>2009-07-06 10:14:54.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Grune</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/ATEP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>260273.0</n43:valRangeMax>
+<n43:valRangeMin>369.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V21</n43:varID>
+<n43:noValidResponses>51</n43:noValidResponses>
+<n43:meanValue>20413.569</n43:meanValue>
+<n43:maxValue>260273.0</n43:maxValue>
+<n43:minValue>369.0</n43:minValue>
+<n43:stdValue>42328.063</n43:stdValue>
+<n43:position>7</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V21@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V21@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V21@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/ATEP1999_Download_F2" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V21@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V21@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V21@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V21@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/ATEP1999_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V22">
+<n:complete>true</n:complete>
+<s:label>LIF</s:label>
+<n:creationDate>2009-07-06 10:14:54.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>LIF</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/ATEP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>74467.0</n43:valRangeMax>
+<n43:valRangeMin>78.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V22</n43:varID>
+<n43:noValidResponses>51</n43:noValidResponses>
+<n43:meanValue>5840.549</n43:meanValue>
+<n43:maxValue>74467.0</n43:maxValue>
+<n43:minValue>78.0</n43:minValue>
+<n43:stdValue>12541.541</n43:stdValue>
+<n43:position>8</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V22@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V22@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V22@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/ATEP1999_Download_F2" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V22@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V22@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V22@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V22@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/ATEP1999_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V23">
+<n:complete>true</n:complete>
+<s:label>CSA</s:label>
+<n:creationDate>2009-07-06 10:14:54.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>CSA</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/ATEP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>43084.0</n43:valRangeMax>
+<n43:valRangeMin>115.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V23</n43:varID>
+<n43:noValidResponses>51</n43:noValidResponses>
+<n43:meanValue>3379.137</n43:meanValue>
+<n43:maxValue>43084.0</n43:maxValue>
+<n43:minValue>115.0</n43:minValue>
+<n43:stdValue>6777.649</n43:stdValue>
+<n43:position>9</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V23@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V23@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V23@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/ATEP1999_Download_F2" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V23@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V23@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V23@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V23@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/ATEP1999_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V24">
+<n:complete>true</n:complete>
+<s:label>KPÖ</s:label>
+<n:creationDate>2009-07-06 10:14:54.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>KPO</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/ATEP1999_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>20497.0</n43:valRangeMax>
+<n43:valRangeMin>13.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V24</n43:varID>
+<n43:noValidResponses>51</n43:noValidResponses>
+<n43:meanValue>1607.608</n43:meanValue>
+<n43:maxValue>20497.0</n43:maxValue>
+<n43:minValue>13.0</n43:minValue>
+<n43:stdValue>3470.815</n43:stdValue>
+<n43:position>10</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V24@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V24@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V24@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/ATEP1999_Download_F2" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V24@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V24@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V24@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1999_Download_V24@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/ATEP1999_Download_VG2" />
+</p4:Variable3>
+
+</r:RDF>

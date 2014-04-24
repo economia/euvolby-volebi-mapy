@@ -1,0 +1,4988 @@
+{
+  "ATEP1996": {
+    "total": 15065776,
+    "cols": [
+      {
+        "name": "NUTS 3",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "SPÖ - Social Democratic Party of Austria (Sozialdemokratische Partei Österreichs)",
+        "sum": 4396588
+      },
+      {
+        "name": "ÖVP - Austrian Peoples Party (Österreichische Volkspartei)",
+        "sum": 4459844
+      },
+      {
+        "name": "FPÖ - Freedom Party of Austria (Freiheitliche Partei Österreichs)",
+        "sum": 4161608
+      },
+      {
+        "name": "LIF - Liberal Forum (Liberals Forum)",
+        "sum": 636816
+      },
+      {
+        "name": "Grüne - The Greens - The Green Alternative (Die Grünen - Dei Grüne Alternative)",
+        "sum": 1017852
+      },
+      {
+        "name": "N - The Neutrals (Die Neutralen)",
+        "sum": 193320
+      },
+      {
+        "name": "Forum Handicap",
+        "sum": 129636
+      },
+      {
+        "name": "KPÖ - Communist Party of Austria (Kommunistische Partei Österreichs)",
+        "sum": 70112
+      }
+    ]
+  },
+  "ATEP2004": {
+    "total": 10002440,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "SPÖ",
+        "sum": 3334068
+      },
+      {
+        "name": "ÖVP",
+        "sum": 3270864
+      },
+      {
+        "name": "FPÖ",
+        "sum": 630888
+      },
+      {
+        "name": "GRÜNE",
+        "sum": 1289716
+      },
+      {
+        "name": "LINKE",
+        "sum": 78120
+      },
+      {
+        "name": "MARTIN",
+        "sum": 1398784
+      }
+    ]
+  },
+  "ATEP1999": {
+    "total": 11205412,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "ÖVP",
+        "sum": 3436700
+      },
+      {
+        "name": "SPÖ",
+        "sum": 3553352
+      },
+      {
+        "name": "FPÖ",
+        "sum": 2622076
+      },
+      {
+        "name": "Grüne",
+        "sum": 1041092
+      },
+      {
+        "name": "LIF",
+        "sum": 297868
+      },
+      {
+        "name": "CSA",
+        "sum": 172336
+      },
+      {
+        "name": "KPÖ",
+        "sum": 81988
+      }
+    ]
+  },
+  "ATEP2009": {
+    "total": 11516412,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "SPÖ - Social Democratic Party of Austria (Sozialdemokratische Partei Österreichs)",
+        "sum": 2735125
+      },
+      {
+        "name": "ÖVP - Austrian Peoples Party (Österreichische Volkspartei)",
+        "sum": 3450878
+      },
+      {
+        "name": "MARTIN - Hans-Peter Martin's List (Liste Dr. Hans-Peter Martin - für echte Kontrolle in Brüssel)",
+        "sum": 2033214
+      },
+      {
+        "name": "Grüne - The Greens - The Green Alternative (Die Grünen - Dei Grüne Alternative)",
+        "sum": 1148624
+      },
+      {
+        "name": "FPÖ - Freedom Party of Austria (Freiheitliche Partei Österreichs)",
+        "sum": 1462472
+      },
+      {
+        "name": "KPÖ - Communist Party of Austria (Kommunistische Partei Österreichs)",
+        "sum": 76354
+      },
+      {
+        "name": "JuLis - Young Liberals Austria (Junge Liberale Österreich). Youth movement of the Liberal Forum (LIF)",
+        "sum": 83402
+      },
+      {
+        "name": "BZÖ - Alliance for the Future of Austria (Bündnis Zukunft Österreich)",
+        "sum": 526343
+      }
+    ]
+  },
+  "BEEP1994": {
+    "total": 78762006,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "CVP",
+        "sum": 3039798
+      },
+      {
+        "name": "PS",
+        "sum": 2040426
+      },
+      {
+        "name": "VLD",
+        "sum": 2035263
+      },
+      {
+        "name": "SP",
+        "sum": 1954113
+      },
+      {
+        "name": "PRL-FDF",
+        "sum": 1625172
+      },
+      {
+        "name": "VLAAMS BLOK",
+        "sum": 1391757
+      },
+      {
+        "name": "PSC",
+        "sum": 1260594
+      },
+      {
+        "name": "AGALEV",
+        "sum": 1188594
+      },
+      {
+        "name": "ECOLO",
+        "sum": 889719
+      },
+      {
+        "name": "VU",
+        "sum": 786129
+      },
+      {
+        "name": "FN",
+        "sum": 527196
+      },
+      {
+        "name": "WOW",
+        "sum": 382512
+      },
+      {
+        "name": "AGIR",
+        "sum": 128751
+      },
+      {
+        "name": "PVDA-PTB",
+        "sum": 125448
+      },
+      {
+        "name": "GU",
+        "sum": 107931
+      },
+      {
+        "name": "BEB",
+        "sum": 72396
+      },
+      {
+        "name": "NWP",
+        "sum": 59790
+      },
+      {
+        "name": "PTB-PVDA",
+        "sum": 52362
+      },
+      {
+        "name": "RGB",
+        "sum": 46647
+      },
+      {
+        "name": "SUD",
+        "sum": 42162
+      },
+      {
+        "name": "CSP-EVP",
+        "sum": 35997
+      },
+      {
+        "name": "LETD",
+        "sum": 26466
+      },
+      {
+        "name": "PFF",
+        "sum": 23070
+      },
+      {
+        "name": "PH-HP",
+        "sum": 19155
+      },
+      {
+        "name": "PDB",
+        "sum": 17835
+      },
+      {
+        "name": "SP",
+        "sum": 14460
+      },
+      {
+        "name": "JUROPA",
+        "sum": 5907
+      },
+      {
+        "name": "PAB",
+        "sum": 615
+      },
+      {
+        "name": "Electorate",
+        "sum": 21633933
+      },
+      {
+        "name": "Votes",
+        "sum": 19613904
+      },
+      {
+        "name": "Valid votes",
+        "sum": 17900265
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 1713639
+      }
+    ]
+  },
+  "BGEP2007": {
+    "total": 50158692,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "GERB",
+        "sum": 1680004
+      },
+      {
+        "name": "PES - BSP and DSH",
+        "sum": 1659144
+      },
+      {
+        "name": "DPS",
+        "sum": 1570600
+      },
+      {
+        "name": "ATAKA",
+        "sum": 1100948
+      },
+      {
+        "name": "NDSV",
+        "sum": 485592
+      },
+      {
+        "name": "SDS",
+        "sum": 367484
+      },
+      {
+        "name": "DSB",
+        "sum": 337400
+      },
+      {
+        "name": "PBSD+PDS",
+        "sum": 150580
+      },
+      {
+        "name": "ZNS",
+        "sum": 119008
+      },
+      {
+        "name": "KPB",
+        "sum": 75952
+      },
+      {
+        "name": "SSD",
+        "sum": 57568
+      },
+      {
+        "name": "ZP",
+        "sum": 39904
+      },
+      {
+        "name": "GSNB",
+        "sum": 37592
+      },
+      {
+        "name": "RZS",
+        "sum": 36588
+      },
+      {
+        "name": "Serkedzhieva",
+        "sum": 21292
+      },
+      {
+        "name": "Ivanov",
+        "sum": 11128
+      },
+      {
+        "name": "Electorate",
+        "sum": 26764320
+      },
+      {
+        "name": "Votes",
+        "sum": 7821804
+      },
+      {
+        "name": "Valid",
+        "sum": 7750784
+      },
+      {
+        "name": "Invalid",
+        "sum": 71000
+      }
+    ]
+  },
+  "BGEP2009": {
+    "total": 10305768,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Order, Lawfulness, Justice (Red, zakonnost i spravedlivost)",
+        "sum": 481120
+      },
+      {
+        "name": "Lider (PP Lider)",
+        "sum": 587936
+      },
+      {
+        "name": "Citizens for European Development of Bulgaria (Grazhdani za evropeysko razvitie na Balgariya)",
+        "sum": 2510772
+      },
+      {
+        "name": "Movement for Rights and Freedoms (Dvizhenie za prava i svobodi)",
+        "sum": 1456788
+      },
+      {
+        "name": "National Union Attack (Natsionalen Sayuz Ataka)",
+        "sum": 1232208
+      },
+      {
+        "name": "Coalition for Bulgaria (Koalicija za Balgarija)",
+        "sum": 1906472
+      },
+      {
+        "name": "Union of the Patriotic Forces \"Defense\" (SAIUZ NA PATRIOTICHNITE SILI \"ZASHTITA\")",
+        "sum": 47616
+      },
+      {
+        "name": "The National Movement for Stability and Progress (Nacionalno dviženie za stabilnost i vazhod) former National Movement Simeon II (Nacionalno Dviženie Simeon Vtori), acronym the same.",
+        "sum": 820584
+      },
+      {
+        "name": "Bulgarian Social democracy (Bulgarska Sotsialdemokratsia)",
+        "sum": 56528
+      },
+      {
+        "name": "Bulgarian New Democracy (Bulgarska nova Demokratsia)",
+        "sum": 46716
+      },
+      {
+        "name": "The Blue Coalition (Sinyata koalitsia)",
+        "sum": 819268
+      },
+      {
+        "name": "The Greens (Zelenite)",
+        "sum": 73776
+      },
+      {
+        "name": "NEXT IMRO - Bulgarian National Movement, Agrarian People's Union, St. George's Day Movement, United National Party (NAPRED VMRO - Bulgarsko natsionalno dvizhenie, Zemedelski naroden suiuz, Dvizhenie Gerg'ovden, Edinna Narodna Partiia)",
+        "sum": 231724
+      },
+      {
+        "name": "Initiative Committee Chavdar Ivanov Nikolov  (Initsiativen komitet Chavdar Ivanov Nikolov)",
+        "sum": 34260
+      }
+    ]
+  },
+  "CYEP2004": {
+    "total": 1337072,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "DISY",
+        "sum": 377420
+      },
+      {
+        "name": "AKEL",
+        "sum": 372848
+      },
+      {
+        "name": "DIKO",
+        "sum": 228484
+      },
+      {
+        "name": "GTE",
+        "sum": 144448
+      },
+      {
+        "name": "EDEK",
+        "sum": 144300
+      },
+      {
+        "name": "UN, D-MPM, EC",
+        "sum": 26136
+      },
+      {
+        "name": "NO",
+        "sum": 22004
+      },
+      {
+        "name": "KOP",
+        "sum": 11488
+      },
+      {
+        "name": "LASOK",
+        "sum": 3232
+      },
+      {
+        "name": "Individual candidates",
+        "sum": 6712
+      }
+    ]
+  },
+  "CZEP2004": {
+    "total": 61219708,
+    "cols": [
+      {
+        "name": "Region no",
+        "sum": 0
+      },
+      {
+        "name": "Region name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "SNK-ED",
+        "sum": 1029112
+      },
+      {
+        "name": "KC",
+        "sum": 18128
+      },
+      {
+        "name": "HOB",
+        "sum": 13464
+      },
+      {
+        "name": "CSSD",
+        "sum": 819612
+      },
+      {
+        "name": "NK",
+        "sum": 11776
+      },
+      {
+        "name": "ODS",
+        "sum": 2803768
+      },
+      {
+        "name": "SproOS",
+        "sum": 21652
+      },
+      {
+        "name": "SDS",
+        "sum": 6836
+      },
+      {
+        "name": "SZ",
+        "sum": 295728
+      },
+      {
+        "name": "HA",
+        "sum": 15908
+      },
+      {
+        "name": "KS",
+        "sum": 19944
+      },
+      {
+        "name": "SN",
+        "sum": 46756
+      },
+      {
+        "name": "SORC",
+        "sum": 10340
+      },
+      {
+        "name": "MDS",
+        "sum": 17464
+      },
+      {
+        "name": "VOS",
+        "sum": 3492
+      },
+      {
+        "name": "DS",
+        "sum": 17156
+      },
+      {
+        "name": "SP",
+        "sum": 6868
+      },
+      {
+        "name": "BPS",
+        "sum": 55116
+      },
+      {
+        "name": "ZME",
+        "sum": 37172
+      },
+      {
+        "name": "KDU-CSL",
+        "sum": 893532
+      },
+      {
+        "name": "PB",
+        "sum": 110016
+      },
+      {
+        "name": "SZR",
+        "sum": 25264
+      },
+      {
+        "name": "ULD",
+        "sum": 158620
+      },
+      {
+        "name": "KSCM",
+        "sum": 1891448
+      },
+      {
+        "name": "SV-SOS",
+        "sum": 46936
+      },
+      {
+        "name": "SZZJ",
+        "sum": 47804
+      },
+      {
+        "name": "NEI",
+        "sum": 67048
+      },
+      {
+        "name": "SVOB",
+        "sum": 5200
+      },
+      {
+        "name": "VKOFD",
+        "sum": 8120
+      },
+      {
+        "name": "RMS",
+        "sum": 63068
+      },
+      {
+        "name": "Ind.",
+        "sum": 764100
+      },
+      {
+        "name": "Electorate",
+        "sum": 33133940
+      },
+      {
+        "name": "Votes (Envelopes submitted)",
+        "sum": 9377160
+      },
+      {
+        "name": "Valid votes",
+        "sum": 9331448
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 45712
+      }
+    ]
+  },
+  "CZEP2009": {
+    "total": 62009304,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "ODS",
+        "sum": 2967784
+      },
+      {
+        "name": "CSSD",
+        "sum": 2112528
+      },
+      {
+        "name": "KSCM",
+        "sum": 1338308
+      },
+      {
+        "name": "KDU-CSL",
+        "sum": 721804
+      },
+      {
+        "name": "Suv.",
+        "sum": 402056
+      },
+      {
+        "name": "EDS",
+        "sum": 272608
+      },
+      {
+        "name": "VV",
+        "sum": 226544
+      },
+      {
+        "name": "SN-VA",
+        "sum": 215936
+      },
+      {
+        "name": "SZ",
+        "sum": 194484
+      },
+      {
+        "name": "SNK ED",
+        "sum": 156664
+      },
+      {
+        "name": "SSO",
+        "sum": 119384
+      },
+      {
+        "name": "DS",
+        "sum": 101472
+      },
+      {
+        "name": "PB",
+        "sum": 94448
+      },
+      {
+        "name": "Lib.",
+        "sum": 88972
+      },
+      {
+        "name": "SDZ",
+        "sum": 68244
+      },
+      {
+        "name": "DSZ",
+        "sum": 59044
+      },
+      {
+        "name": "NEZ (Ind.)",
+        "sum": 51296
+      },
+      {
+        "name": "M",
+        "sum": 36344
+      },
+      {
+        "name": "SPR-RSC",
+        "sum": 29968
+      },
+      {
+        "name": "NHZ-UE",
+        "sum": 27616
+      },
+      {
+        "name": "NS",
+        "sum": 25052
+      },
+      {
+        "name": "HS",
+        "sum": 18336
+      },
+      {
+        "name": "SS-CR",
+        "sum": 18176
+      },
+      {
+        "name": "KC",
+        "sum": 17796
+      },
+      {
+        "name": "Zeleni",
+        "sum": 14868
+      },
+      {
+        "name": "BPS",
+        "sum": 14844
+      },
+      {
+        "name": "CSNSa",
+        "sum": 13076
+      },
+      {
+        "name": "Lib.CZ",
+        "sum": 7100
+      },
+      {
+        "name": "SD-SN",
+        "sum": 6004
+      },
+      {
+        "name": "SSD",
+        "sum": 5692
+      },
+      {
+        "name": "SDSvo",
+        "sum": 3944
+      },
+      {
+        "name": "CSNS",
+        "sum": 3164
+      },
+      {
+        "name": "LaP",
+        "sum": 2180
+      },
+      {
+        "name": "Electorate",
+        "sum": 33605496
+      },
+      {
+        "name": "Votes",
+        "sum": 9484036
+      },
+      {
+        "name": "Valid votes",
+        "sum": 9435736
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 48300
+      }
+    ]
+  },
+  "DEEP1994": {
+    "total": 681237928,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "CDU/CSU",
+        "sum": 54957788
+      },
+      {
+        "name": "SPD",
+        "sum": 45558788
+      },
+      {
+        "name": "B90/GRÜ",
+        "sum": 14253072
+      },
+      {
+        "name": "PDS",
+        "sum": 6681264
+      },
+      {
+        "name": "FDP",
+        "sum": 5771428
+      },
+      {
+        "name": "REP",
+        "sum": 5548280
+      },
+      {
+        "name": "BFB",
+        "sum": 1542704
+      },
+      {
+        "name": "Graue",
+        "sum": 1103464
+      },
+      {
+        "name": "ÖDP",
+        "sum": 1095104
+      },
+      {
+        "name": "APD",
+        "sum": 925060
+      },
+      {
+        "name": "STATT",
+        "sum": 674952
+      },
+      {
+        "name": "PASS",
+        "sum": 508416
+      },
+      {
+        "name": "BP",
+        "sum": 443112
+      },
+      {
+        "name": "Forum",
+        "sum": 430460
+      },
+      {
+        "name": "PBC",
+        "sum": 372840
+      },
+      {
+        "name": "Natur",
+        "sum": 368124
+      },
+      {
+        "name": "DSU",
+        "sum": 322472
+      },
+      {
+        "name": "NPD",
+        "sum": 308908
+      },
+      {
+        "name": "CM",
+        "sum": 267064
+      },
+      {
+        "name": "CL",
+        "sum": 160460
+      },
+      {
+        "name": "Autonome",
+        "sum": 150688
+      },
+      {
+        "name": "BüSo",
+        "sum": 95404
+      },
+      {
+        "name": "PEAD",
+        "sum": 51968
+      },
+      {
+        "name": "BSA",
+        "sum": 42712
+      },
+      {
+        "name": "FAMILIE",
+        "sum": 11124
+      },
+      {
+        "name": "Other",
+        "sum": 7332332
+      },
+      {
+        "name": "Electorate",
+        "sum": 241895708
+      },
+      {
+        "name": "Votes",
+        "sum": 145182116
+      },
+      {
+        "name": "Valid votes",
+        "sum": 141645656
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 3536460
+      }
+    ]
+  },
+  "DEEP1999": {
+    "total": 571136164,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "CDU/CSU",
+        "sum": 52672924
+      },
+      {
+        "name": "SPD",
+        "sum": 33228340
+      },
+      {
+        "name": "B90/GRÜ",
+        "sum": 6965976
+      },
+      {
+        "name": "PDS",
+        "sum": 6270980
+      },
+      {
+        "name": "FDP",
+        "sum": 3281484
+      },
+      {
+        "name": "REP",
+        "sum": 1844152
+      },
+      {
+        "name": "MUT",
+        "sum": 740744
+      },
+      {
+        "name": "Graue",
+        "sum": 448568
+      },
+      {
+        "name": "NPD",
+        "sum": 430648
+      },
+      {
+        "name": "Frauen",
+        "sum": 400512
+      },
+      {
+        "name": "ÖDP",
+        "sum": 400192
+      },
+      {
+        "name": "APD",
+        "sum": 391936
+      },
+      {
+        "name": "PASS",
+        "sum": 285720
+      },
+      {
+        "name": "PBC",
+        "sum": 274928
+      },
+      {
+        "name": "Natur",
+        "sum": 152556
+      },
+      {
+        "name": "ASP",
+        "sum": 136116
+      },
+      {
+        "name": "CM",
+        "sum": 122984
+      },
+      {
+        "name": "BP",
+        "sum": 59800
+      },
+      {
+        "name": "HP",
+        "sum": 46020
+      },
+      {
+        "name": "BüSo",
+        "sum": 37724
+      },
+      {
+        "name": "ZENT",
+        "sum": 28320
+      },
+      {
+        "name": "FAMILIE",
+        "sum": 16468
+      },
+      {
+        "name": "Electorate",
+        "sum": 243147616
+      },
+      {
+        "name": "Votes",
+        "sum": 109875728
+      },
+      {
+        "name": "Valid votes",
+        "sum": 108237092
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 1638636
+      }
+    ]
+  },
+  "DKEP1994": {
+    "total": 41101836,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "Social Democrats",
+        "sum": 1316808
+      },
+      {
+        "name": "Social Liberals",
+        "sum": 705920
+      },
+      {
+        "name": "Conservative",
+        "sum": 1475560
+      },
+      {
+        "name": "Centre Democrats",
+        "sum": 73460
+      },
+      {
+        "name": "Socialist People's Party",
+        "sum": 714172
+      },
+      {
+        "name": "The June Movement",
+        "sum": 1266748
+      },
+      {
+        "name": "Peoople's Movement against EC",
+        "sum": 858940
+      },
+      {
+        "name": "Christian People's Party",
+        "sum": 91944
+      },
+      {
+        "name": "Liberal Party",
+        "sum": 1577448
+      },
+      {
+        "name": "Progressive Party",
+        "sum": 238748
+      },
+      {
+        "name": "Electorate",
+        "sum": 15871848
+      },
+      {
+        "name": "Votes",
+        "sum": 8455120
+      },
+      {
+        "name": "Valid votes",
+        "sum": 8319748
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 135372
+      }
+    ]
+  },
+  "DEEP2004": {
+    "total": 566587608,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "CDU/CSU",
+        "sum": 45907588
+      },
+      {
+        "name": "SPD",
+        "sum": 22191884
+      },
+      {
+        "name": "B90/GRÜ",
+        "sum": 12318912
+      },
+      {
+        "name": "PDS",
+        "sum": 6316436
+      },
+      {
+        "name": "FDP",
+        "sum": 6261724
+      },
+      {
+        "name": "REP",
+        "sum": 1942648
+      },
+      {
+        "name": "MUT",
+        "sum": 1325552
+      },
+      {
+        "name": "Graue",
+        "sum": 1257608
+      },
+      {
+        "name": "FAMILIE",
+        "sum": 1073872
+      },
+      {
+        "name": "NPD",
+        "sum": 966972
+      },
+      {
+        "name": "ÖDP",
+        "sum": 582148
+      },
+      {
+        "name": "Frauen",
+        "sum": 581248
+      },
+      {
+        "name": "DE",
+        "sum": 540060
+      },
+      {
+        "name": "PBC",
+        "sum": 394604
+      },
+      {
+        "name": "AUK",
+        "sum": 281204
+      },
+      {
+        "name": "DP",
+        "sum": 248020
+      },
+      {
+        "name": "CM",
+        "sum": 184148
+      },
+      {
+        "name": "AUFBRUCH",
+        "sum": 172512
+      },
+      {
+        "name": "DKP",
+        "sum": 148640
+      },
+      {
+        "name": "BP",
+        "sum": 140608
+      },
+      {
+        "name": "ZENT",
+        "sum": 107212
+      },
+      {
+        "name": "PSG",
+        "sum": 103180
+      },
+      {
+        "name": "BüSo",
+        "sum": 87932
+      },
+      {
+        "name": "Other",
+        "sum": 4538488
+      },
+      {
+        "name": "Electorate",
+        "sum": 246729576
+      },
+      {
+        "name": "Votes",
+        "sum": 106092416
+      },
+      {
+        "name": "Valid votes",
+        "sum": 103134712
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 2957704
+      }
+    ]
+  },
+  "DEEP2009": {
+    "total": 569614180,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "CDU",
+        "sum": 32285564
+      },
+      {
+        "name": "SPD",
+        "sum": 21890264
+      },
+      {
+        "name": "GRÜNE",
+        "sum": 12778036
+      },
+      {
+        "name": "CSU",
+        "sum": 7587048
+      },
+      {
+        "name": "DIE LINKE",
+        "sum": 7876956
+      },
+      {
+        "name": "FDP",
+        "sum": 11552336
+      },
+      {
+        "name": "REP",
+        "sum": 1391548
+      },
+      {
+        "name": "Die Tierschutzpartei",
+        "sum": 1158776
+      },
+      {
+        "name": "FAMILIE",
+        "sum": 1008484
+      },
+      {
+        "name": "ödp",
+        "sum": 539572
+      },
+      {
+        "name": "DIE FRAUEN",
+        "sum": 346652
+      },
+      {
+        "name": "Volksabstimmung",
+        "sum": 278624
+      },
+      {
+        "name": "PBC",
+        "sum": 322752
+      },
+      {
+        "name": "CM",
+        "sum": 159812
+      },
+      {
+        "name": "AUFBRUCH",
+        "sum": 124052
+      },
+      {
+        "name": "DKP",
+        "sum": 102460
+      },
+      {
+        "name": "BP",
+        "sum": 223116
+      },
+      {
+        "name": "PSG",
+        "sum": 38584
+      },
+      {
+        "name": "BüSo",
+        "sum": 43636
+      },
+      {
+        "name": "50Plus",
+        "sum": 274312
+      },
+      {
+        "name": "AUF",
+        "sum": 151576
+      },
+      {
+        "name": "DVU",
+        "sum": 446780
+      },
+      {
+        "name": "DIE GRAUEN",
+        "sum": 231100
+      },
+      {
+        "name": "DIE VIOLETTEN",
+        "sum": 185420
+      },
+      {
+        "name": "EDE",
+        "sum": 47088
+      },
+      {
+        "name": "FBI",
+        "sum": 123540
+      },
+      {
+        "name": "VOLKSENTSCHEIDE",
+        "sum": 159984
+      },
+      {
+        "name": "FW FREIE WÄHLER",
+        "sum": 1770316
+      },
+      {
+        "name": "Newropeans",
+        "sum": 58832
+      },
+      {
+        "name": "PIRATEN",
+        "sum": 917856
+      },
+      {
+        "name": "RRP",
+        "sum": 408696
+      },
+      {
+        "name": "RENTNER",
+        "sum": 850004
+      },
+      {
+        "name": "Electorate",
+        "sum": 248891492
+      },
+      {
+        "name": "Votes",
+        "sum": 107694456
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 2360680
+      },
+      {
+        "name": "Valid votes",
+        "sum": 105333776
+      }
+    ]
+  },
+  "DKEP1999": {
+    "total": 40318048,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "Social Democrats",
+        "sum": 1297024
+      },
+      {
+        "name": "Social Liberals",
+        "sum": 720356
+      },
+      {
+        "name": "Conservatives",
+        "sum": 667536
+      },
+      {
+        "name": "Centre Democrats",
+        "sum": 274868
+      },
+      {
+        "name": "Socialist People's Party",
+        "sum": 560212
+      },
+      {
+        "name": "The June Movement",
+        "sum": 1270032
+      },
+      {
+        "name": "Peoples Movement Against EC",
+        "sum": 574836
+      },
+      {
+        "name": "Danish People's Party",
+        "sum": 459460
+      },
+      {
+        "name": "Christian People's Party",
+        "sum": 156512
+      },
+      {
+        "name": "Liberal Party",
+        "sum": 1843336
+      },
+      {
+        "name": "Progress Party",
+        "sum": 56932
+      },
+      {
+        "name": "Electorate",
+        "sum": 16038376
+      },
+      {
+        "name": "Votes",
+        "sum": 8093224
+      },
+      {
+        "name": "Valid votes",
+        "sum": 7881104
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 212120
+      },
+      {
+        "name": "Blank",
+        "sum": 184732
+      },
+      {
+        "name": "Other invalid",
+        "sum": 27388
+      }
+    ]
+  },
+  "DKEP2004": {
+    "total": 39000364,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "Social Democrats (Socialdemokraterna)",
+        "sum": 2473648
+      },
+      {
+        "name": "Danish Social Liberal Party/Radical Left (Det Radikale Venstre)",
+        "sum": 481892
+      },
+      {
+        "name": "Conservative People's Party (Konservative Folkeparti)",
+        "sum": 859888
+      },
+      {
+        "name": "Socialist People's Party (Socialistisk Folkeparti)",
+        "sum": 603064
+      },
+      {
+        "name": "June Movement (Junibevægelsen)",
+        "sum": 687708
+      },
+      {
+        "name": "Christian Democrats (Kristendemokraterne)",
+        "sum": 97144
+      },
+      {
+        "name": "Peoples Movement against the EU (Folkebevægelsen Mot EU)",
+        "sum": 391944
+      },
+      {
+        "name": "Danish People's Party (Dansk Folkeparti)",
+        "sum": 515156
+      },
+      {
+        "name": "Liberal Party (Venstre)",
+        "sum": 1466940
+      },
+      {
+        "name": "Electorate",
+        "sum": 16050652
+      },
+      {
+        "name": "Votes",
+        "sum": 7686164
+      },
+      {
+        "name": "Valid votes",
+        "sum": 7577384
+      },
+      {
+        "name": "Total invalid votes",
+        "sum": 108780
+      }
+    ]
+  },
+  "DKEP2009": {
+    "total": 45215216,
+    "cols": [
+      {
+        "name": "Strokreds",
+        "sum": 0
+      },
+      {
+        "name": "Social Democrats (Socialdemokraterna)",
+        "sum": 2013756
+      },
+      {
+        "name": "Danish Social Liberal Party/Radical Left (Det Radikale Venstre)",
+        "sum": 400376
+      },
+      {
+        "name": "Conservative People's Party (Konservative Folkeparti)",
+        "sum": 1188796
+      },
+      {
+        "name": "Socialist People's Party (Socialistisk Folkeparti)",
+        "sum": 1486412
+      },
+      {
+        "name": "Liberal Alliance (Liberal Alliance). Formerly known as New Alliance (NA)",
+        "sum": 55184
+      },
+      {
+        "name": "June Movement (Junibevægelsen)",
+        "sum": 221836
+      },
+      {
+        "name": "Peoples Movement against the EU (Folkebevægelsen Mot EU)",
+        "sum": 674220
+      },
+      {
+        "name": "Danish People's Party (Dansk Folkeparti)",
+        "sum": 1431768
+      },
+      {
+        "name": "Liberal Party (Venstre)",
+        "sum": 1896164
+      },
+      {
+        "name": "Electorate",
+        "sum": 16228400
+      },
+      {
+        "name": "Votes",
+        "sum": 9662272
+      },
+      {
+        "name": "Valid votes",
+        "sum": 9368512
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 293760
+      },
+      {
+        "name": "Blank votes",
+        "sum": 268876
+      },
+      {
+        "name": "Other invalid votes",
+        "sum": 24884
+      }
+    ]
+  },
+  "EEEP2004": {
+    "total": 6300036,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "SDE",
+        "sum": 341716
+      },
+      {
+        "name": "Kesk",
+        "sum": 162812
+      },
+      {
+        "name": "Isamaa",
+        "sum": 97496
+      },
+      {
+        "name": "ResPublica",
+        "sum": 61828
+      },
+      {
+        "name": "Rahvaliit",
+        "sum": 74748
+      },
+      {
+        "name": "ESDTP",
+        "sum": 4228
+      },
+      {
+        "name": "Demokraadid",
+        "sum": 11396
+      },
+      {
+        "name": "Reform",
+        "sum": 113488
+      },
+      {
+        "name": "EPE",
+        "sum": 5316
+      },
+      {
+        "name": "VEE",
+        "sum": 3220
+      },
+      {
+        "name": "Ind.",
+        "sum": 52672
+      },
+      {
+        "name": "Electorate",
+        "sum": 3495236
+      },
+      {
+        "name": "Votes",
+        "sum": 937940
+      },
+      {
+        "name": "Valid votes",
+        "sum": 928920
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 9020
+      }
+    ]
+  },
+  "EEEP2009": {
+    "total": 8079113,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "EKD",
+        "sum": 6860
+      },
+      {
+        "name": "EÜP",
+        "sum": 14076
+      },
+      {
+        "name": "Hel",
+        "sum": 39328
+      },
+      {
+        "name": "IRL",
+        "sum": 193968
+      },
+      {
+        "name": "KESK",
+        "sum": 414024
+      },
+      {
+        "name": "Kle",
+        "sum": 28548
+      },
+      {
+        "name": "LIB",
+        "sum": 8824
+      },
+      {
+        "name": "Õig",
+        "sum": 1168
+      },
+      {
+        "name": "PK",
+        "sum": 2448
+      },
+      {
+        "name": "REF",
+        "sum": 243508
+      },
+      {
+        "name": "RL",
+        "sum": 35440
+      },
+      {
+        "name": "ROH",
+        "sum": 43404
+      },
+      {
+        "name": "SDE",
+        "sum": 138032
+      },
+      {
+        "name": "Tar",
+        "sum": 409840
+      },
+      {
+        "name": "VEE",
+        "sum": 5068
+      },
+      {
+        "name": "Žur",
+        "sum": 2340
+      },
+      {
+        "name": "Aas",
+        "sum": 1052
+      },
+      {
+        "name": "Electorate",
+        "sum": 3637304
+      },
+      {
+        "name": "Votes",
+        "sum": 1656338
+      },
+      {
+        "name": "Valid votes",
+        "sum": 1190946
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 6597
+      }
+    ]
+  },
+  "FIEP1996": {
+    "total": 44364488,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "SDP",
+        "sum": 1930308
+      },
+      {
+        "name": "Kesk",
+        "sum": 2192164
+      },
+      {
+        "name": "Kok",
+        "sum": 1814916
+      },
+      {
+        "name": "VL",
+        "sum": 945960
+      },
+      {
+        "name": "Vihr",
+        "sum": 682680
+      },
+      {
+        "name": "SFP/RKP",
+        "sum": 517700
+      },
+      {
+        "name": "SKL",
+        "sum": 253116
+      },
+      {
+        "name": "SMP",
+        "sum": 60016
+      },
+      {
+        "name": "EKA",
+        "sum": 10560
+      },
+      {
+        "name": "NP",
+        "sum": 272536
+      },
+      {
+        "name": "LibKans",
+        "sum": 33220
+      },
+      {
+        "name": "SEP",
+        "sum": 25428
+      },
+      {
+        "name": "VSL",
+        "sum": 54984
+      },
+      {
+        "name": "LP",
+        "sum": 13308
+      },
+      {
+        "name": "VEU",
+        "sum": 190748
+      },
+      {
+        "name": "Electorate",
+        "sum": 16434812
+      },
+      {
+        "name": "Votes",
+        "sum": 9466016
+      },
+      {
+        "name": "Valid votes",
+        "sum": 8997644
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 468372
+      }
+    ]
+  },
+  "FIEP1999": {
+    "total": 31518580,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "SDP",
+        "sum": 887344
+      },
+      {
+        "name": "Kesk",
+        "sum": 1058560
+      },
+      {
+        "name": "Kok",
+        "sum": 1255840
+      },
+      {
+        "name": "VL",
+        "sum": 451028
+      },
+      {
+        "name": "Vihr",
+        "sum": 667144
+      },
+      {
+        "name": "SFP/RKP",
+        "sum": 336612
+      },
+      {
+        "name": "SKL",
+        "sum": 118548
+      },
+      {
+        "name": "Perus",
+        "sum": 39416
+      },
+      {
+        "name": "EKA",
+        "sum": 7636
+      },
+      {
+        "name": "KIPU",
+        "sum": 116860
+      },
+      {
+        "name": "SKP",
+        "sum": 30224
+      },
+      {
+        "name": "Electorate",
+        "sum": 16564392
+      },
+      {
+        "name": "Voters",
+        "sum": 4992488
+      },
+      {
+        "name": "Valid votes",
+        "sum": 4969212
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 23276
+      }
+    ]
+  },
+  "FIEP2004": {
+    "total": 36873740,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "SDP",
+        "sum": 1402100
+      },
+      {
+        "name": "Kesk",
+        "sum": 1548868
+      },
+      {
+        "name": "Kok",
+        "sum": 1571084
+      },
+      {
+        "name": "VL",
+        "sum": 605164
+      },
+      {
+        "name": "Vihr",
+        "sum": 691376
+      },
+      {
+        "name": "SFP/RKP",
+        "sum": 377684
+      },
+      {
+        "name": "KD",
+        "sum": 283380
+      },
+      {
+        "name": "Perus",
+        "sum": 35600
+      },
+      {
+        "name": "EKA",
+        "sum": 13116
+      },
+      {
+        "name": "SKP",
+        "sum": 40536
+      },
+      {
+        "name": "Lib",
+        "sum": 14232
+      },
+      {
+        "name": "SKS",
+        "sum": 12992
+      },
+      {
+        "name": "SIK",
+        "sum": 7456
+      },
+      {
+        "name": "KA",
+        "sum": 22748
+      },
+      {
+        "name": "Electorate",
+        "sum": 16911948
+      },
+      {
+        "name": "Votes",
+        "sum": 6667728
+      },
+      {
+        "name": "Valid votes",
+        "sum": 6626336
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 41392
+      }
+    ]
+  },
+  "FREP1994": {
+    "total": 472824732,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "LO",
+        "sum": 1772428
+      },
+      {
+        "name": "PT",
+        "sum": 340092
+      },
+      {
+        "name": "PCF",
+        "sum": 5372500
+      },
+      {
+        "name": "PS",
+        "sum": 11303868
+      },
+      {
+        "name": "AP",
+        "sum": 1981972
+      },
+      {
+        "name": "MRG",
+        "sum": 9386164
+      },
+      {
+        "name": "EcoEu",
+        "sum": 2302420
+      },
+      {
+        "name": "GE",
+        "sum": 1570672
+      },
+      {
+        "name": "RegMin",
+        "sum": 149064
+      },
+      {
+        "name": "RegSol",
+        "sum": 306428
+      },
+      {
+        "name": "CPNT",
+        "sum": 3086848
+      },
+      {
+        "name": "RegFed",
+        "sum": 281308
+      },
+      {
+        "name": "EurT",
+        "sum": 5172
+      },
+      {
+        "name": "Empl",
+        "sum": 501504
+      },
+      {
+        "name": "PN",
+        "sum": 414408
+      },
+      {
+        "name": "PolEur",
+        "sum": 232888
+      },
+      {
+        "name": "Sar",
+        "sum": 1223488
+      },
+      {
+        "name": "UDF-RPR",
+        "sum": 19950744
+      },
+      {
+        "name": "Autre",
+        "sum": 9623664
+      },
+      {
+        "name": "FN",
+        "sum": 8205728
+      },
+      {
+        "name": "Electorate",
+        "sum": 156199216
+      },
+      {
+        "name": "Votes",
+        "sum": 82414940
+      },
+      {
+        "name": "Valid votes",
+        "sum": 78011360
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 4403580
+      },
+      {
+        "name": "Abstentions",
+        "sum": 73784276
+      }
+    ]
+  },
+  "FREP1999": {
+    "total": 466739140,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "LO-LCR",
+        "sum": 3659368
+      },
+      {
+        "name": "PCF",
+        "sum": 4786228
+      },
+      {
+        "name": "PS-MDC-PRG",
+        "sum": 15497580
+      },
+      {
+        "name": "VEC",
+        "sum": 6863232
+      },
+      {
+        "name": "MEI",
+        "sum": 1073492
+      },
+      {
+        "name": "RegMM",
+        "sum": 17220
+      },
+      {
+        "name": "CPNT",
+        "sum": 4784564
+      },
+      {
+        "name": "ComEmp",
+        "sum": 712232
+      },
+      {
+        "name": "LN",
+        "sum": 3992
+      },
+      {
+        "name": "PN",
+        "sum": 286196
+      },
+      {
+        "name": "MIM",
+        "sum": 1250232
+      },
+      {
+        "name": "PH",
+        "sum": 9372
+      },
+      {
+        "name": "PPE",
+        "sum": 8796
+      },
+      {
+        "name": "VEF",
+        "sum": 498276
+      },
+      {
+        "name": "Fed",
+        "sum": 32
+      },
+      {
+        "name": "RPR-DL",
+        "sum": 9055300
+      },
+      {
+        "name": "UDF",
+        "sum": 6556196
+      },
+      {
+        "name": "RPRd-MPF",
+        "sum": 9218532
+      },
+      {
+        "name": "FN",
+        "sum": 4021380
+      },
+      {
+        "name": "MN",
+        "sum": 2315376
+      },
+      {
+        "name": "Electorate",
+        "sum": 160528528
+      },
+      {
+        "name": "Votes",
+        "sum": 75064488
+      },
+      {
+        "name": "Valid votes",
+        "sum": 70617596
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 4446892
+      },
+      {
+        "name": "Abstentions",
+        "sum": 85464040
+      }
+    ]
+  },
+  "FREP2004": {
+    "total": 471884376,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "PS",
+        "sum": 19843092
+      },
+      {
+        "name": "UMP",
+        "sum": 11425460
+      },
+      {
+        "name": "UDF",
+        "sum": 8207844
+      },
+      {
+        "name": "FN",
+        "sum": 6739940
+      },
+      {
+        "name": "MPF",
+        "sum": 4582956
+      },
+      {
+        "name": "Verts",
+        "sum": 5085236
+      },
+      {
+        "name": "PCF",
+        "sum": 3601480
+      },
+      {
+        "name": "PT",
+        "sum": 525820
+      },
+      {
+        "name": "LO-LCR",
+        "sum": 1760496
+      },
+      {
+        "name": "PRG",
+        "sum": 486564
+      },
+      {
+        "name": "CPNT",
+        "sum": 1189188
+      },
+      {
+        "name": "RPF",
+        "sum": 1165096
+      },
+      {
+        "name": "RCF",
+        "sum": 591884
+      },
+      {
+        "name": "EDE",
+        "sum": 100568
+      },
+      {
+        "name": "AR",
+        "sum": 22812
+      },
+      {
+        "name": "MNR",
+        "sum": 214472
+      },
+      {
+        "name": "FraB",
+        "sum": 1067112
+      },
+      {
+        "name": "VME",
+        "sum": 106392
+      },
+      {
+        "name": "SPS",
+        "sum": 1296
+      },
+      {
+        "name": "PdL",
+        "sum": 1000
+      },
+      {
+        "name": "PF",
+        "sum": 10036
+      },
+      {
+        "name": "PH",
+        "sum": 792
+      },
+      {
+        "name": "LesReg",
+        "sum": 37000
+      },
+      {
+        "name": "HZ",
+        "sum": 21044
+      },
+      {
+        "name": "DE",
+        "sum": 11316
+      },
+      {
+        "name": "JC",
+        "sum": 640
+      },
+      {
+        "name": "FU",
+        "sum": 5832
+      },
+      {
+        "name": "UMPd-GE",
+        "sum": 318124
+      },
+      {
+        "name": "Terre",
+        "sum": 25052
+      },
+      {
+        "name": "Cap21",
+        "sum": 394756
+      },
+      {
+        "name": "NouvSol",
+        "sum": 12520
+      },
+      {
+        "name": "EuPal",
+        "sum": 200148
+      },
+      {
+        "name": "ApT",
+        "sum": 2012
+      },
+      {
+        "name": "NStE",
+        "sum": 5872
+      },
+      {
+        "name": "UFCN",
+        "sum": 3412
+      },
+      {
+        "name": "MEI-GE",
+        "sum": 245780
+      },
+      {
+        "name": "Auto",
+        "sum": 209476
+      },
+      {
+        "name": "PCR",
+        "sum": 437684
+      },
+      {
+        "name": "NonRac",
+        "sum": 10720
+      },
+      {
+        "name": "ALPE",
+        "sum": 4672
+      },
+      {
+        "name": "FraInd",
+        "sum": 184
+      },
+      {
+        "name": "Electorate",
+        "sum": 166087008
+      },
+      {
+        "name": "Votes",
+        "sum": 71034580
+      },
+      {
+        "name": "Valid votes",
+        "sum": 68675780
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 2358800
+      },
+      {
+        "name": "Abstentions",
+        "sum": 95052428
+      }
+    ]
+  },
+  "GREP1994": {
+    "total": 117757308,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "PASOK",
+        "sum": 9837880
+      },
+      {
+        "name": "ND",
+        "sum": 8532272
+      },
+      {
+        "name": "ANOIX",
+        "sum": 2259956
+      },
+      {
+        "name": "KKE",
+        "sum": 1642340
+      },
+      {
+        "name": "SYN",
+        "sum": 1632468
+      },
+      {
+        "name": "DimAna",
+        "sum": 730560
+      },
+      {
+        "name": "EN.KENT",
+        "sum": 313156
+      },
+      {
+        "name": "EPEN",
+        "sum": 206664
+      },
+      {
+        "name": "KOLLATOS",
+        "sum": 183900
+      },
+      {
+        "name": "KEK",
+        "sum": 165452
+      },
+      {
+        "name": "EN.IKO",
+        "sum": 92172
+      },
+      {
+        "name": "Lefko",
+        "sum": 75164
+      },
+      {
+        "name": "PolEco",
+        "sum": 68628
+      },
+      {
+        "name": "KK-EOK",
+        "sum": 57056
+      },
+      {
+        "name": "M-L KKE",
+        "sum": 40352
+      },
+      {
+        "name": "IkoA-KP",
+        "sum": 37540
+      },
+      {
+        "name": "CM-SocEU",
+        "sum": 36860
+      },
+      {
+        "name": "DI.KO",
+        "sum": 33060
+      },
+      {
+        "name": "CHR.AYGH",
+        "sum": 29220
+      },
+      {
+        "name": "OT",
+        "sum": 29052
+      },
+      {
+        "name": "ANTH.DIK",
+        "sum": 26592
+      },
+      {
+        "name": "OAKKE",
+        "sum": 24076
+      },
+      {
+        "name": "AutA",
+        "sum": 20196
+      },
+      {
+        "name": "EOO",
+        "sum": 19676
+      },
+      {
+        "name": "OLYMP",
+        "sum": 12452
+      },
+      {
+        "name": "EP",
+        "sum": 10316
+      },
+      {
+        "name": "KMN",
+        "sum": 5632
+      },
+      {
+        "name": "NEED",
+        "sum": 3740
+      },
+      {
+        "name": "DiaKini",
+        "sum": 792
+      },
+      {
+        "name": "DimoFront",
+        "sum": 580
+      },
+      {
+        "name": "AnPo",
+        "sum": 564
+      },
+      {
+        "name": "AthDimo",
+        "sum": 432
+      },
+      {
+        "name": "KinMeri",
+        "sum": 384
+      },
+      {
+        "name": "KYP",
+        "sum": 368
+      },
+      {
+        "name": "AnexPP",
+        "sum": 304
+      },
+      {
+        "name": "PTE",
+        "sum": 288
+      },
+      {
+        "name": "IP",
+        "sum": 264
+      },
+      {
+        "name": "EPAK",
+        "sum": 212
+      },
+      {
+        "name": "AKEP",
+        "sum": 144
+      },
+      {
+        "name": "CHRIST",
+        "sum": 72
+      },
+      {
+        "name": "Electorate",
+        "sum": 37191056
+      },
+      {
+        "name": "Votes",
+        "sum": 27217708
+      },
+      {
+        "name": "Valid votes",
+        "sum": 26130836
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 1086872
+      }
+    ]
+  },
+  "GREP1999": {
+    "total": 116960604,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "PASOK",
+        "sum": 8466028
+      },
+      {
+        "name": "ND",
+        "sum": 9253060
+      },
+      {
+        "name": "KKE",
+        "sum": 2228536
+      },
+      {
+        "name": "SYN",
+        "sum": 1328464
+      },
+      {
+        "name": "DIKKI",
+        "sum": 1760316
+      },
+      {
+        "name": "ANOIX",
+        "sum": 587040
+      },
+      {
+        "name": "FILEL.",
+        "sum": 415400
+      },
+      {
+        "name": "KEK",
+        "sum": 256252
+      },
+      {
+        "name": "EN.KENT.",
+        "sum": 209828
+      },
+      {
+        "name": "ProtiG",
+        "sum": 194904
+      },
+      {
+        "name": "KOLLATOS",
+        "sum": 170156
+      },
+      {
+        "name": "ELL.OIK.",
+        "sum": 122964
+      },
+      {
+        "name": "RAK",
+        "sum": 85476
+      },
+      {
+        "name": "M-L KKE",
+        "sum": 67144
+      },
+      {
+        "name": "KOM.ELL.",
+        "sum": 66860
+      },
+      {
+        "name": "OIK.ENAL",
+        "sum": 59288
+      },
+      {
+        "name": "Lefko",
+        "sum": 57024
+      },
+      {
+        "name": "KAE",
+        "sum": 55544
+      },
+      {
+        "name": "MPA",
+        "sum": 43720
+      },
+      {
+        "name": "KOM.FIL",
+        "sum": 41508
+      },
+      {
+        "name": "ASKE",
+        "sum": 40692
+      },
+      {
+        "name": "Aristera",
+        "sum": 38788
+      },
+      {
+        "name": "SEK",
+        "sum": 32196
+      },
+      {
+        "name": "ELL.MET.",
+        "sum": 31124
+      },
+      {
+        "name": "OT",
+        "sum": 19932
+      },
+      {
+        "name": "OAKKE",
+        "sum": 18488
+      },
+      {
+        "name": "AKEP",
+        "sum": 17040
+      },
+      {
+        "name": "OLYMP",
+        "sum": 16608
+      },
+      {
+        "name": "KMN",
+        "sum": 11248
+      },
+      {
+        "name": "CHRIST.",
+        "sum": 8612
+      },
+      {
+        "name": "ANTH.DIK.",
+        "sum": 5020
+      },
+      {
+        "name": "OIK.ENAL(II)",
+        "sum": 1864
+      },
+      {
+        "name": "Ind",
+        "sum": 420
+      },
+      {
+        "name": "DimoFront",
+        "sum": 360
+      },
+      {
+        "name": "EthAgo",
+        "sum": 296
+      },
+      {
+        "name": "DiaKini",
+        "sum": 228
+      },
+      {
+        "name": "AthDimo",
+        "sum": 196
+      },
+      {
+        "name": "EPODH",
+        "sum": 172
+      },
+      {
+        "name": "KinMeri",
+        "sum": 120
+      },
+      {
+        "name": "EPAK",
+        "sum": 112
+      },
+      {
+        "name": "EPTAKE",
+        "sum": 84
+      },
+      {
+        "name": "Electorate",
+        "sum": 37553668
+      },
+      {
+        "name": "Votes",
+        "sum": 26846912
+      },
+      {
+        "name": "Valid votes",
+        "sum": 25710592
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 1136320
+      }
+    ]
+  },
+  "GREP2004": {
+    "total": 114515076,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "ND",
+        "sum": 10534296
+      },
+      {
+        "name": "PASOK",
+        "sum": 8333308
+      },
+      {
+        "name": "KKE",
+        "sum": 2321584
+      },
+      {
+        "name": "SYN",
+        "sum": 1017788
+      },
+      {
+        "name": "LA.O.S.",
+        "sum": 1009716
+      },
+      {
+        "name": "GYN.EYR.",
+        "sum": 186260
+      },
+      {
+        "name": "DPE",
+        "sum": 178164
+      },
+      {
+        "name": "OIK.PRAS.",
+        "sum": 163492
+      },
+      {
+        "name": "EN.KENT",
+        "sum": 138044
+      },
+      {
+        "name": "VERGHS",
+        "sum": 131824
+      },
+      {
+        "name": "M-L KKE",
+        "sum": 84880
+      },
+      {
+        "name": "ELL.MET.",
+        "sum": 60972
+      },
+      {
+        "name": "DISOK",
+        "sum": 54508
+      },
+      {
+        "name": "MERA",
+        "sum": 53548
+      },
+      {
+        "name": "ANT.SYM",
+        "sum": 47752
+      },
+      {
+        "name": "ASKE",
+        "sum": 46392
+      },
+      {
+        "name": "PAT.SYM.",
+        "sum": 42472
+      },
+      {
+        "name": "OT",
+        "sum": 24704
+      },
+      {
+        "name": "ORAMA",
+        "sum": 23984
+      },
+      {
+        "name": "OAKKE",
+        "sum": 20360
+      },
+      {
+        "name": "EYR.SYMP",
+        "sum": 15164
+      },
+      {
+        "name": "OIK.ENAL.",
+        "sum": 1136
+      },
+      {
+        "name": "CHRIST.",
+        "sum": 180
+      },
+      {
+        "name": "Electorate",
+        "sum": 39755452
+      },
+      {
+        "name": "Voters",
+        "sum": 25134548
+      },
+      {
+        "name": "Valid votes",
+        "sum": 24490528
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 644020
+      }
+    ]
+  },
+  "GREP2009": {
+    "total": 25780418,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "PASOK",
+        "sum": 1878982
+      },
+      {
+        "name": "ND",
+        "sum": 1655722
+      },
+      {
+        "name": "KKE",
+        "sum": 428282
+      },
+      {
+        "name": "LA.O.S",
+        "sum": 366637
+      },
+      {
+        "name": "SYRIZA",
+        "sum": 240930
+      },
+      {
+        "name": "OIK.PRAS",
+        "sum": 178987
+      },
+      {
+        "name": "PA.M.ME.",
+        "sum": 65176
+      },
+      {
+        "name": "KEK",
+        "sum": 64796
+      },
+      {
+        "name": "Drasi",
+        "sum": 38899
+      },
+      {
+        "name": "ELL.OIK.",
+        "sum": 33245
+      },
+      {
+        "name": "D.V.E.OIK.",
+        "sum": 31195
+      },
+      {
+        "name": "ChrysiAygi",
+        "sum": 23564
+      },
+      {
+        "name": "ANTARSYA",
+        "sum": 21951
+      },
+      {
+        "name": "EN.KENT.",
+        "sum": 19657
+      },
+      {
+        "name": "M-L KKE",
+        "sum": 13146
+      },
+      {
+        "name": "LEYKO",
+        "sum": 10561
+      },
+      {
+        "name": "Koinonia",
+        "sum": 7963
+      },
+      {
+        "name": "EKAD",
+        "sum": 7914
+      },
+      {
+        "name": "KOM.FIL.",
+        "sum": 6484
+      },
+      {
+        "name": "KOM.NEON",
+        "sum": 6220
+      },
+      {
+        "name": "EEK",
+        "sum": 6051
+      },
+      {
+        "name": "ASKE",
+        "sum": 5622
+      },
+      {
+        "name": "OT",
+        "sum": 4530
+      },
+      {
+        "name": "FS",
+        "sum": 4348
+      },
+      {
+        "name": "EL.EN.",
+        "sum": 3104
+      },
+      {
+        "name": "OAKKE",
+        "sum": 2808
+      },
+      {
+        "name": "PANAK",
+        "sum": 763
+      },
+      {
+        "name": "Electorate",
+        "sum": 9996353
+      },
+      {
+        "name": "Votes",
+        "sum": 5261355
+      },
+      {
+        "name": "Valid votes",
+        "sum": 5127537
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 267636
+      }
+    ]
+  },
+  "HUEP2004": {
+    "total": 86536163,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "FIDESZ",
+        "sum": 7285158
+      },
+      {
+        "name": "MDF",
+        "sum": 819581
+      },
+      {
+        "name": "MIÉP",
+        "sum": 360903
+      },
+      {
+        "name": "MNSZ",
+        "sum": 101118
+      },
+      {
+        "name": "MSZP",
+        "sum": 5272385
+      },
+      {
+        "name": "MUNKÁSPÁRT",
+        "sum": 281089
+      },
+      {
+        "name": "SZDP",
+        "sum": 60952
+      },
+      {
+        "name": "SZDSZ",
+        "sum": 1188016
+      },
+      {
+        "name": "Electorate",
+        "sum": 40221299
+      },
+      {
+        "name": "Votes",
+        "sum": 15472831
+      },
+      {
+        "name": "Valid votes",
+        "sum": 15369202
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 103629
+      }
+    ]
+  },
+  "HUEP2009": {
+    "total": 67139968,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "FIDESZ-KDNP",
+        "sum": 6529236
+      },
+      {
+        "name": "JOBBIK",
+        "sum": 1711092
+      },
+      {
+        "name": "LMP-HP",
+        "sum": 302088
+      },
+      {
+        "name": "MCF ROMA Ö.",
+        "sum": 53724
+      },
+      {
+        "name": "MDF",
+        "sum": 614640
+      },
+      {
+        "name": "MSZP",
+        "sum": 2012560
+      },
+      {
+        "name": "MUNKÁSPÁRT",
+        "sum": 111268
+      },
+      {
+        "name": "SZDSZ",
+        "sum": 250108
+      },
+      {
+        "name": "Electorate",
+        "sum": 32184344
+      },
+      {
+        "name": "Votes",
+        "sum": 11687116
+      },
+      {
+        "name": "Valid votes",
+        "sum": 11584716
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 99076
+      }
+    ]
+  },
+  "IEEP1999": {
+    "total": 14265350,
+    "cols": [
+      {
+        "name": "Constituency",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "Fine Gael",
+        "sum": 684342
+      },
+      {
+        "name": "Fianna Fáil",
+        "sum": 1075514
+      },
+      {
+        "name": "Labour Party",
+        "sum": 243084
+      },
+      {
+        "name": "Sinn Féin",
+        "sum": 176330
+      },
+      {
+        "name": "Green Party",
+        "sum": 186200
+      },
+      {
+        "name": "Natural Law Party",
+        "sum": 14768
+      },
+      {
+        "name": "Socialist Party",
+        "sum": 21238
+      },
+      {
+        "name": "Christian Solidarity Party",
+        "sum": 18850
+      },
+      {
+        "name": "Independents/ others",
+        "sum": 363154
+      },
+      {
+        "name": "Electorate",
+        "sum": 5728722
+      },
+      {
+        "name": "Votes",
+        "sum": 2876574
+      },
+      {
+        "name": "Valid votes",
+        "sum": 2783480
+      },
+      {
+        "name": "Invalid Votes",
+        "sum": 93094
+      }
+    ]
+  },
+  "IEEP1994": {
+    "total": 12167314,
+    "cols": [
+      {
+        "name": "Constituency",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "Fine Gael",
+        "sum": 552190
+      },
+      {
+        "name": "Fianna Fáil",
+        "sum": 796132
+      },
+      {
+        "name": "Labour Party",
+        "sum": 249944
+      },
+      {
+        "name": "Sinn Féin",
+        "sum": 67646
+      },
+      {
+        "name": "Green Party",
+        "sum": 180092
+      },
+      {
+        "name": "Progressive Democrats",
+        "sum": 147392
+      },
+      {
+        "name": "Democratic Left",
+        "sum": 79412
+      },
+      {
+        "name": "Worker's Party - (Páirtí na nOibrithe)",
+        "sum": 44200
+      },
+      {
+        "name": "Ind./Others",
+        "sum": 157972
+      },
+      {
+        "name": "Electorate",
+        "sum": 5263150
+      },
+      {
+        "name": "Votes",
+        "sum": 2314592
+      },
+      {
+        "name": "Valid votes",
+        "sum": 2274980
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 39612
+      }
+    ]
+  },
+  "IEEP2004": {
+    "total": 17212926,
+    "cols": [
+      {
+        "name": "Constituency",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "Fine Gael",
+        "sum": 988824
+      },
+      {
+        "name": "Fianna Fáil",
+        "sum": 1049008
+      },
+      {
+        "name": "Labour Party",
+        "sum": 376264
+      },
+      {
+        "name": "Sinn Féin",
+        "sum": 395430
+      },
+      {
+        "name": "Green Party",
+        "sum": 153834
+      },
+      {
+        "name": "Independents/ others",
+        "sum": 598176
+      },
+      {
+        "name": "Electorate",
+        "sum": 6286050
+      },
+      {
+        "name": "Votes",
+        "sum": 3682670
+      },
+      {
+        "name": "Valid votes",
+        "sum": 3561536
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 121134
+      }
+    ]
+  },
+  "IEEP2009": {
+    "total": 17850920,
+    "cols": [
+      {
+        "name": "Region",
+        "sum": 0
+      },
+      {
+        "name": "FF",
+        "sum": 881124
+      },
+      {
+        "name": "FG",
+        "sum": 1065778
+      },
+      {
+        "name": "G",
+        "sum": 69170
+      },
+      {
+        "name": "Lab",
+        "sum": 509338
+      },
+      {
+        "name": "LI",
+        "sum": 199418
+      },
+      {
+        "name": "SF",
+        "sum": 411226
+      },
+      {
+        "name": "Soc",
+        "sum": 101020
+      },
+      {
+        "name": "Ind",
+        "sum": 593580
+      },
+      {
+        "name": "Electorate",
+        "sum": 6516640
+      },
+      {
+        "name": "Votes",
+        "sum": 3751840
+      },
+      {
+        "name": "Valid votes",
+        "sum": 3658572
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 93214
+      }
+    ]
+  },
+  "LAEP2004": {
+    "total": 12649312,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "VA-TB/LNNK",
+        "sum": 687436
+      },
+      {
+        "name": "JL",
+        "sum": 454372
+      },
+      {
+        "name": "PCTVL",
+        "sum": 245604
+      },
+      {
+        "name": "TP",
+        "sum": 153296
+      },
+      {
+        "name": "SLC",
+        "sum": 150896
+      },
+      {
+        "name": "TSP",
+        "sum": 110024
+      },
+      {
+        "name": "LSDSP",
+        "sum": 109872
+      },
+      {
+        "name": "ZZS",
+        "sum": 97868
+      },
+      {
+        "name": "LPP",
+        "sum": 74740
+      },
+      {
+        "name": "SDLP",
+        "sum": 51484
+      },
+      {
+        "name": "KP",
+        "sum": 38864
+      },
+      {
+        "name": "LSP",
+        "sum": 37920
+      },
+      {
+        "name": "LG",
+        "sum": 33756
+      },
+      {
+        "name": "Eiroskeptiki",
+        "sum": 21924
+      },
+      {
+        "name": "LKDS",
+        "sum": 9448
+      },
+      {
+        "name": "SDS",
+        "sum": 7952
+      },
+      {
+        "name": "Other",
+        "sum": 149864
+      },
+      {
+        "name": "Electorate",
+        "sum": 5590944
+      },
+      {
+        "name": "Votes",
+        "sum": 2311524
+      },
+      {
+        "name": "Valid votes",
+        "sum": 2285456
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 26068
+      }
+    ]
+  },
+  "LAEP2009": {
+    "total": 11616236,
+    "cols": [
+      {
+        "name": "Region Code",
+        "sum": 1823
+      },
+      {
+        "name": "Region",
+        "sum": 0
+      },
+      {
+        "name": "PS",
+        "sum": 577611
+      },
+      {
+        "name": "SC",
+        "sum": 464682
+      },
+      {
+        "name": "PCTVL",
+        "sum": 229308
+      },
+      {
+        "name": "LPP/LC",
+        "sum": 177978
+      },
+      {
+        "name": "VA-TB/LNNK",
+        "sum": 176973
+      },
+      {
+        "name": "JL",
+        "sum": 158253
+      },
+      {
+        "name": "Libertas.lv",
+        "sum": 102219
+      },
+      {
+        "name": "SCP",
+        "sum": 91332
+      },
+      {
+        "name": "LSDSP",
+        "sum": 90012
+      },
+      {
+        "name": "ZZS",
+        "sum": 88389
+      },
+      {
+        "name": "VL",
+        "sum": 66720
+      },
+      {
+        "name": "TP",
+        "sum": 65904
+      },
+      {
+        "name": "DZIMTENE",
+        "sum": 13227
+      },
+      {
+        "name": "RB",
+        "sum": 10119
+      },
+      {
+        "name": "KDS",
+        "sum": 7083
+      },
+      {
+        "name": "OP",
+        "sum": 6306
+      },
+      {
+        "name": "LAP",
+        "sum": 5136
+      },
+      {
+        "name": "Other",
+        "sum": 41871
+      },
+      {
+        "name": "Electorate",
+        "sum": 4458420
+      },
+      {
+        "name": "Votes",
+        "sum": 2391435
+      },
+      {
+        "name": "Valid votes",
+        "sum": 2331252
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 60183
+      }
+    ]
+  },
+  "LTEP2004": {
+    "total": 25717918,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "DP",
+        "sum": 1455984
+      },
+      {
+        "name": "LSP",
+        "sum": 696496
+      },
+      {
+        "name": "TS",
+        "sum": 607332
+      },
+      {
+        "name": "LCS",
+        "sum": 542403
+      },
+      {
+        "name": "VNDPS",
+        "sum": 357807
+      },
+      {
+        "name": "LDP",
+        "sum": 329680
+      },
+      {
+        "name": "KmS",
+        "sum": 275748
+      },
+      {
+        "name": "NS",
+        "sum": 234108
+      },
+      {
+        "name": "LKD",
+        "sum": 132648
+      },
+      {
+        "name": "KKSS",
+        "sum": 124244
+      },
+      {
+        "name": "TPP",
+        "sum": 57176
+      },
+      {
+        "name": "NCP",
+        "sum": 14652
+      },
+      {
+        "name": "Electorate",
+        "sum": 10617244
+      },
+      {
+        "name": "Votes",
+        "sum": 5136198
+      },
+      {
+        "name": "Valid votes",
+        "sum": 4828278
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 307920
+      }
+    ]
+  },
+  "LTEP2009": {
+    "total": 17488080,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "TS",
+        "sum": 591024
+      },
+      {
+        "name": "LSDP",
+        "sum": 409388
+      },
+      {
+        "name": "TT",
+        "sum": 268948
+      },
+      {
+        "name": "DP",
+        "sum": 193472
+      },
+      {
+        "name": "LLRA",
+        "sum": 185172
+      },
+      {
+        "name": "LRLS",
+        "sum": 162008
+      },
+      {
+        "name": "LCS",
+        "sum": 76420
+      },
+      {
+        "name": "LCP",
+        "sum": 68016
+      },
+      {
+        "name": "KKSS",
+        "sum": 64432
+      },
+      {
+        "name": "FRONTAS",
+        "sum": 53364
+      },
+      {
+        "name": "LVLS",
+        "sum": 41140
+      },
+      {
+        "name": "PDP",
+        "sum": 29700
+      },
+      {
+        "name": "ZP",
+        "sum": 27844
+      },
+      {
+        "name": "TPP",
+        "sum": 22868
+      },
+      {
+        "name": "TPLK",
+        "sum": 6272
+      },
+      {
+        "name": "Electorate",
+        "sum": 10769588
+      },
+      {
+        "name": "Votes",
+        "sum": 2259212
+      },
+      {
+        "name": "Valid votes",
+        "sum": 2200068
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 59144
+      }
+    ]
+  },
+  "LUEP1994": {
+    "total": 6540180,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "LSAP",
+        "sum": 1006000
+      },
+      {
+        "name": "National B.",
+        "sum": 96564
+      },
+      {
+        "name": "Greng",
+        "sum": 443552
+      },
+      {
+        "name": "CSV",
+        "sum": 1277848
+      },
+      {
+        "name": "ADR",
+        "sum": 281880
+      },
+      {
+        "name": "KPL",
+        "sum": 66236
+      },
+      {
+        "name": "DP",
+        "sum": 763908
+      },
+      {
+        "name": "GLS",
+        "sum": 48364
+      },
+      {
+        "name": "Lénk",
+        "sum": 37684
+      },
+      {
+        "name": "NOMP",
+        "sum": 35060
+      },
+      {
+        "name": "Electorate",
+        "sum": 896124
+      },
+      {
+        "name": "Votes",
+        "sum": 793480
+      },
+      {
+        "name": "Valid votes",
+        "sum": 714572
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 78908
+      }
+    ]
+  },
+  "LUEP1999": {
+    "total": 6573388,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "Lénk",
+        "sum": 112904
+      },
+      {
+        "name": "LSAP",
+        "sum": 958008
+      },
+      {
+        "name": "DP",
+        "sum": 830660
+      },
+      {
+        "name": "ADR",
+        "sum": 365012
+      },
+      {
+        "name": "GaL",
+        "sum": 74524
+      },
+      {
+        "name": "CSV",
+        "sum": 1285884
+      },
+      {
+        "name": "Gréng",
+        "sum": 434772
+      },
+      {
+        "name": "Electorate",
+        "sum": 914848
+      },
+      {
+        "name": "Votes",
+        "sum": 798388
+      },
+      {
+        "name": "Valid votes",
+        "sum": 723356
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 75032
+      }
+    ]
+  },
+  "LUEP2004": {
+    "total": 6938860,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "ADR",
+        "sum": 348944
+      },
+      {
+        "name": "DP",
+        "sum": 646028
+      },
+      {
+        "name": "LSAP",
+        "sum": 959868
+      },
+      {
+        "name": "Gréng",
+        "sum": 652816
+      },
+      {
+        "name": "CSV",
+        "sum": 1613480
+      },
+      {
+        "name": "Lénk",
+        "sum": 73264
+      },
+      {
+        "name": "KPL",
+        "sum": 51044
+      },
+      {
+        "name": "Electorate",
+        "sum": 918200
+      },
+      {
+        "name": "Votes",
+        "sum": 837608
+      },
+      {
+        "name": "Valid votes",
+        "sum": 767544
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 70064
+      }
+    ]
+  },
+  "LUEP2009": {
+    "total": 7195296,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "KPL",
+        "sum": 69196
+      },
+      {
+        "name": "Gréng",
+        "sum": 754548
+      },
+      {
+        "name": "ADR",
+        "sum": 330876
+      },
+      {
+        "name": "LSAP",
+        "sum": 874128
+      },
+      {
+        "name": "DP",
+        "sum": 836492
+      },
+      {
+        "name": "Lénk",
+        "sum": 153156
+      },
+      {
+        "name": "CSV",
+        "sum": 1404892
+      },
+      {
+        "name": "Biergerlescht",
+        "sum": 61932
+      },
+      {
+        "name": "Electorate",
+        "sum": 962692
+      },
+      {
+        "name": "Votes",
+        "sum": 873692
+      },
+      {
+        "name": "Valid votes",
+        "sum": 793456
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 80236
+      }
+    ]
+  },
+  "MTEP2009": {
+    "total": 4314632,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "MLP",
+        "sum": 543668
+      },
+      {
+        "name": "PN",
+        "sum": 401944
+      },
+      {
+        "name": "AD-Green Party",
+        "sum": 23208
+      },
+      {
+        "name": "IE",
+        "sum": 14548
+      },
+      {
+        "name": "AN",
+        "sum": 6380
+      },
+      {
+        "name": "Other",
+        "sum": 2928
+      },
+      {
+        "name": "Electorate",
+        "sum": 1289644
+      },
+      {
+        "name": "Votes",
+        "sum": 1016156
+      },
+      {
+        "name": "Valid votes",
+        "sum": 992676
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 23480
+      }
+    ]
+  },
+  "MTEP2004": {
+    "total": 4205548,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "MLP",
+        "sum": 475932
+      },
+      {
+        "name": "PN",
+        "sum": 390752
+      },
+      {
+        "name": "AD",
+        "sum": 91752
+      },
+      {
+        "name": "Other",
+        "sum": 24452
+      },
+      {
+        "name": "Electorate",
+        "sum": 1217132
+      },
+      {
+        "name": "Votes",
+        "sum": 1002764
+      },
+      {
+        "name": "Valid votes",
+        "sum": 982888
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 19876
+      }
+    ]
+  },
+  "NLEP1994": {
+    "total": 96079546,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "CDA",
+        "sum": 5083928
+      },
+      {
+        "name": "PvdA",
+        "sum": 3780340
+      },
+      {
+        "name": "VVD",
+        "sum": 2952608
+      },
+      {
+        "name": "D66",
+        "sum": 1923920
+      },
+      {
+        "name": "S/G/R",
+        "sum": 1290430
+      },
+      {
+        "name": "GL",
+        "sum": 617030
+      },
+      {
+        "name": "DG",
+        "sum": 388052
+      },
+      {
+        "name": "SP",
+        "sum": 221102
+      },
+      {
+        "name": "CD",
+        "sum": 173024
+      },
+      {
+        "name": "EBT",
+        "sum": 46140
+      },
+      {
+        "name": "LDG",
+        "sum": 35330
+      },
+      {
+        "name": "Electorate",
+        "sum": 46438582
+      },
+      {
+        "name": "Votes",
+        "sum": 16564530
+      },
+      {
+        "name": "Valid votes",
+        "sum": 16511904
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 52626
+      }
+    ]
+  },
+  "NLEP1999": {
+    "total": 90115200,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "CDA",
+        "sum": 3819592
+      },
+      {
+        "name": "CD",
+        "sum": 70960
+      },
+      {
+        "name": "EP",
+        "sum": 92924
+      },
+      {
+        "name": "D66",
+        "sum": 822492
+      },
+      {
+        "name": "EVPN",
+        "sum": 52936
+      },
+      {
+        "name": "GL",
+        "sum": 1679476
+      },
+      {
+        "name": "Lijst Sala",
+        "sum": 42320
+      },
+      {
+        "name": "PvdA",
+        "sum": 2851716
+      },
+      {
+        "name": "SP",
+        "sum": 714568
+      },
+      {
+        "name": "SGP/GPV/RPF",
+        "sum": 1238448
+      },
+      {
+        "name": "VVD",
+        "sum": 2792200
+      },
+      {
+        "name": "Electorate",
+        "sum": 47451456
+      },
+      {
+        "name": "Votes",
+        "sum": 14243056
+      },
+      {
+        "name": "Valid votes",
+        "sum": 14177632
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 65424
+      }
+    ]
+  },
+  "NLEP2004": {
+    "total": 105955188,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "CDA",
+        "sum": 4657724
+      },
+      {
+        "name": "PvdA",
+        "sum": 4498196
+      },
+      {
+        "name": "VVD",
+        "sum": 2516792
+      },
+      {
+        "name": "GL",
+        "sum": 1408804
+      },
+      {
+        "name": "CU-SGP",
+        "sum": 1119520
+      },
+      {
+        "name": "D66",
+        "sum": 810008
+      },
+      {
+        "name": "SP",
+        "sum": 1329304
+      },
+      {
+        "name": "Dem Eur",
+        "sum": 35120
+      },
+      {
+        "name": "LEEFB E",
+        "sum": 36576
+      },
+      {
+        "name": "PvhN",
+        "sum": 72936
+      },
+      {
+        "name": "Nieuw R",
+        "sum": 62928
+      },
+      {
+        "name": "Eut Tr",
+        "sum": 1396624
+      },
+      {
+        "name": "LPF",
+        "sum": 486036
+      },
+      {
+        "name": "PvdD",
+        "sum": 613728
+      },
+      {
+        "name": "Respect",
+        "sum": 18412
+      },
+      {
+        "name": "Electorate",
+        "sum": 48675512
+      },
+      {
+        "name": "Votes",
+        "sum": 19108484
+      },
+      {
+        "name": "Valid votes",
+        "sum": 19062708
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 45776
+      }
+    ]
+  },
+  "NLEP2009": {
+    "total": 104587388,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "CDA",
+        "sum": 3652932
+      },
+      {
+        "name": "PVV",
+        "sum": 3090984
+      },
+      {
+        "name": "PvdA",
+        "sum": 2194764
+      },
+      {
+        "name": "VVD",
+        "sum": 2074572
+      },
+      {
+        "name": "D66",
+        "sum": 2061688
+      },
+      {
+        "name": "GL",
+        "sum": 1616080
+      },
+      {
+        "name": "SP",
+        "sum": 1293076
+      },
+      {
+        "name": "CU/SGP",
+        "sum": 1242160
+      },
+      {
+        "name": "PvdD",
+        "sum": 630940
+      },
+      {
+        "name": "EKP",
+        "sum": 85792
+      },
+      {
+        "name": "Newropeans",
+        "sum": 79360
+      },
+      {
+        "name": "Libertas",
+        "sum": 58448
+      },
+      {
+        "name": "LDP",
+        "sum": 43028
+      },
+      {
+        "name": "DG",
+        "sum": 34068
+      },
+      {
+        "name": "Solidara",
+        "sum": 30132
+      },
+      {
+        "name": "EV&D",
+        "sum": 17724
+      },
+      {
+        "name": "PEP",
+        "sum": 9708
+      },
+      {
+        "name": "Electorate",
+        "sum": 49781988
+      },
+      {
+        "name": "Votes",
+        "sum": 18294972
+      },
+      {
+        "name": "Valid votes",
+        "sum": 18215456
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 39464
+      },
+      {
+        "name": "Blank votes",
+        "sum": 40052
+      }
+    ]
+  },
+  "ROEP2007": {
+    "total": 41088193,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "2007",
+        "sum": 110385
+      },
+      {
+        "name": "PD",
+        "sum": 5904420
+      },
+      {
+        "name": "PNL",
+        "sum": 2755436
+      },
+      {
+        "name": "PSD",
+        "sum": 4736072
+      },
+      {
+        "name": "UDMR",
+        "sum": 1131716
+      },
+      {
+        "name": "PLD",
+        "sum": 1595604
+      },
+      {
+        "name": "LASZLO",
+        "sum": 706132
+      },
+      {
+        "name": "PRM",
+        "sum": 850384
+      },
+      {
+        "name": "PC",
+        "sum": 601540
+      },
+      {
+        "name": "PN?CD",
+        "sum": 284004
+      },
+      {
+        "name": "PR",
+        "sum": 235612
+      },
+      {
+        "name": "PV",
+        "sum": 79280
+      },
+      {
+        "name": "PIN",
+        "sum": 499316
+      },
+      {
+        "name": "PNG-CD",
+        "sum": 995452
+      },
+      {
+        "name": "PAS",
+        "sum": 113936
+      },
+      {
+        "name": "Valid votes",
+        "sum": 20488904
+      }
+    ]
+  },
+  "ROEP2009": {
+    "total": 132344378,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "PNL",
+        "sum": 2807578
+      },
+      {
+        "name": "UDMR",
+        "sum": 1724984
+      },
+      {
+        "name": "PDL",
+        "sum": 5741776
+      },
+      {
+        "name": "PSD+PC",
+        "sum": 6012776
+      },
+      {
+        "name": "PNTCD",
+        "sum": 281148
+      },
+      {
+        "name": "FC",
+        "sum": 77564
+      },
+      {
+        "name": "PRM",
+        "sum": 1673610
+      },
+      {
+        "name": "ELENA",
+        "sum": 814088
+      },
+      {
+        "name": "PAVEL",
+        "sum": 199070
+      },
+      {
+        "name": "Electorate",
+        "sum": 72789264
+      },
+      {
+        "name": "Votes",
+        "sum": 20112536
+      },
+      {
+        "name": "Valid votes",
+        "sum": 19332594
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 777390
+      }
+    ]
+  },
+  "SKEP2004": {
+    "total": 25354696,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "NUTS Name",
+        "sum": 0
+      },
+      {
+        "name": "Year",
+        "sum": 0
+      },
+      {
+        "name": "SMK-MKP: Party of the Hungarian Coalition (Strana madarskej koalície - Magyar Koalíció Pártja)",
+        "sum": 371708
+      },
+      {
+        "name": "Alliance of New Citizens (Aliancia nového obcana)",
+        "sum": 130612
+      },
+      {
+        "name": "Slovak Democratic and Christian Union (Slovenská demokratická a krestanská únia)",
+        "sum": 479816
+      },
+      {
+        "name": "(Madarská federalistická strana)",
+        "sum": 6392
+      },
+      {
+        "name": "(Živnostenská strana Slovenskej republiky)",
+        "sum": 9856
+      },
+      {
+        "name": "Democratic Union of Slovakia (Demokratická únia Slovenska)",
+        "sum": 5416
+      },
+      {
+        "name": "Communist Party of Slovakia (Komunistická strana Slovenska)",
+        "sum": 127632
+      },
+      {
+        "name": "Free Forum (Slobodné fórum)",
+        "sum": 91216
+      },
+      {
+        "name": "SNS, PSNS: Coalition Slovak National Party and The Real Slovak National Party (Koalícia Slovenská národná strana, Pravá Slovenská národná strana)",
+        "sum": 56600
+      },
+      {
+        "name": "Slovak People's Party (Slovenská ludová strana)",
+        "sum": 4964
+      },
+      {
+        "name": "AZ-OS: (AKTÍVNE ŽENY - OS Slovenska)",
+        "sum": 19760
+      },
+      {
+        "name": "Direction (SMER)",
+        "sum": 474140
+      },
+      {
+        "name": "LS-HZDS: People's Party - Movement for a Democratic Slovakia (Ludová strana - Hnutie za demokratické Slovensko)",
+        "sum": 478328
+      },
+      {
+        "name": "Christian Democratic Movement (Krestanskodemokratické hnutie)",
+        "sum": 454620
+      },
+      {
+        "name": "HZD, LÚ: Coalition Movement for Democracy and People's Union (Koalícia Hnutie za demokraciu, Ludová únia)",
+        "sum": 47656
+      },
+      {
+        "name": "Civic Conservative Party (Obcianska konzervatívna strana)",
+        "sum": 28240
+      },
+      {
+        "name": "(Rómske krestanské demokratické hnutie v Slovenskej republike)",
+        "sum": 19424
+      },
+      {
+        "name": "Electorate",
+        "sum": 16841852
+      },
+      {
+        "name": "Votes",
+        "sum": 2853232
+      },
+      {
+        "name": "Valid votes",
+        "sum": 2806380
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 46852
+      }
+    ]
+  },
+  "SKEP2009": {
+    "total": 27411480,
+    "cols": [
+      {
+        "name": "NUTS ID",
+        "sum": 0
+      },
+      {
+        "name": "The Direction - Social Democracy (Smer - sociálna demokracia)",
+        "sum": 1058888
+      },
+      {
+        "name": "SDKU-DS: The Slovak Democratic and Christian Union - Democratic Party (Slovenská demokratická a krest(anská únia - Demokratická strana)",
+        "sum": 561704
+      },
+      {
+        "name": "SMK-MKP: The Party of the Hungarian Coalition (Magyar Koalíció Pártja/Strana mad(arskej koalície)",
+        "sum": 375000
+      },
+      {
+        "name": "Christian Democratic Movement (Krestanskodemokratické hnutie)",
+        "sum": 359620
+      },
+      {
+        "name": "LS-HZDS: People's Party - Movement for a Democratic Slovakia (Ludová strana - Hnutie za demokratické Slovensko)",
+        "sum": 296964
+      },
+      {
+        "name": "Slovak National Party (Slovenská národná strana)",
+        "sum": 183840
+      },
+      {
+        "name": "Freedom and Solidarity (Sloboda a Solidarita)",
+        "sum": 156064
+      },
+      {
+        "name": "Green Party (Strana zelených)",
+        "sum": 69928
+      },
+      {
+        "name": "KDS, OKS: Conservative Democrats of Slovakia (Konzervatívni demokrati Slovenska)",
+        "sum": 69636
+      },
+      {
+        "name": "KSS",
+        "sum": 54572
+      },
+      {
+        "name": "SF",
+        "sum": 52252
+      },
+      {
+        "name": "SDL",
+        "sum": 20632
+      },
+      {
+        "name": "ASV",
+        "sum": 14884
+      },
+      {
+        "name": "Misia 21",
+        "sum": 14060
+      },
+      {
+        "name": "DS",
+        "sum": 9592
+      },
+      {
+        "name": "LIGA",
+        "sum": 9492
+      },
+      {
+        "name": "Electorate",
+        "sum": 17383092
+      },
+      {
+        "name": "Votes",
+        "sum": 3414132
+      },
+      {
+        "name": "Valid votes",
+        "sum": 3307128
+      }
+    ]
+  }
+}

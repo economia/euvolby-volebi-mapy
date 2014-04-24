@@ -1,0 +1,509 @@
+<r:RDF 
+xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:s="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#" 
+xmlns:n="http://www.nesstar.org/rdf/" 
+xmlns:p3="http://www.nesstar.org/rdf/"
+xmlns:p1="http://www.nesstar.org/rdf/acu/"
+xmlns:p5="http://www.nesstar.org/rdf/hc/"
+xmlns:p4="http://www.nesstar.org/rdf/faster/"
+xmlns:p2="http://www.nesstar.org/rdf/common/"
+xmlns:n43="http://www.nesstar.org/rdf/faster/Variable#"
+xmlns:n42="http://www.nesstar.org/rdf/faster/Variable2#"
+xmlns:n41="http://www.nesstar.org/rdf/faster/Variable3#"
+>
+
+
+<r:Bag r:about="http://129.177.90.166:80/obj/fSection/BGEP2009_Download_VG2@variables">
+<r:_1 r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V3" />
+<r:_2 r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V4" />
+<r:_3 r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V5" />
+<r:_4 r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V6" />
+<r:_5 r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V7" />
+<r:_6 r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V8" />
+<r:_7 r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V9" />
+<r:_8 r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V10" />
+<r:_9 r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V11" />
+<r:_10 r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V12" />
+<r:_11 r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V13" />
+<r:_12 r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V14" />
+<r:_13 r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V15" />
+<r:_14 r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V16" />
+</r:Bag>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V3">
+<n:complete>true</n:complete>
+<s:label>Order, Lawfulness, Justice (Red, zakonnost i spravedlivost)</s:label>
+<n:creationDate>2009-11-02 10:13:33.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>RZS</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BGEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>120280.0</n43:valRangeMax>
+<n43:valRangeMin>387.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V3</n43:varID>
+<n43:noValidResponses>40</n43:noValidResponses>
+<n43:meanValue>12028.0</n43:meanValue>
+<n43:maxValue>120280.0</n43:maxValue>
+<n43:minValue>387.0</n43:minValue>
+<n43:stdValue>22310.752</n43:stdValue>
+<n43:position>3</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V3@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V3@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V3@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BGEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V3@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V3@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V3@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V3@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BGEP2009_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V4">
+<n:complete>true</n:complete>
+<s:label>Lider (PP Lider)</s:label>
+<n:creationDate>2009-11-02 10:13:33.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Lider</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BGEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>146984.0</n43:valRangeMax>
+<n43:valRangeMin>345.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V4</n43:varID>
+<n43:noValidResponses>40</n43:noValidResponses>
+<n43:meanValue>14698.4</n43:meanValue>
+<n43:maxValue>146984.0</n43:maxValue>
+<n43:minValue>345.0</n43:minValue>
+<n43:stdValue>27305.324</n43:stdValue>
+<n43:position>4</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V4@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V4@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V4@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BGEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V4@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V4@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V4@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V4@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BGEP2009_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V5">
+<n:complete>true</n:complete>
+<s:label>Citizens for European Development of Bulgaria (Grazhdani za evropeysko razvitie na Balgariya)</s:label>
+<n:creationDate>2009-11-02 10:13:33.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>GERB</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BGEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>627693.0</n43:valRangeMax>
+<n43:valRangeMin>2818.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V5</n43:varID>
+<n43:noValidResponses>40</n43:noValidResponses>
+<n43:meanValue>62769.3</n43:meanValue>
+<n43:maxValue>627693.0</n43:maxValue>
+<n43:minValue>2818.0</n43:minValue>
+<n43:stdValue>116737.501</n43:stdValue>
+<n43:position>5</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V5@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V5@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V5@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BGEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V5@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V5@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V5@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V5@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BGEP2009_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V6">
+<n:complete>true</n:complete>
+<s:label>Movement for Rights and Freedoms (Dvizhenie za prava i svobodi)</s:label>
+<n:creationDate>2009-11-02 10:13:33.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>DPS</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BGEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>364197.0</n43:valRangeMax>
+<n43:valRangeMin>541.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V6</n43:varID>
+<n43:noValidResponses>40</n43:noValidResponses>
+<n43:meanValue>36419.7</n43:meanValue>
+<n43:maxValue>364197.0</n43:maxValue>
+<n43:minValue>541.0</n43:minValue>
+<n43:stdValue>69162.752</n43:stdValue>
+<n43:position>6</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V6@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V6@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V6@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BGEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V6@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V6@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V6@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V6@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BGEP2009_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V7">
+<n:complete>true</n:complete>
+<s:label>National Union Attack (Natsionalen Sayuz Ataka)</s:label>
+<n:creationDate>2009-11-02 10:13:33.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>ATAKA</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BGEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>308052.0</n43:valRangeMax>
+<n43:valRangeMin>1426.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V7</n43:varID>
+<n43:noValidResponses>40</n43:noValidResponses>
+<n43:meanValue>30805.2</n43:meanValue>
+<n43:maxValue>308052.0</n43:maxValue>
+<n43:minValue>1426.0</n43:minValue>
+<n43:stdValue>57773.97</n43:stdValue>
+<n43:position>7</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V7@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V7@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V7@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BGEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V7@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V7@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V7@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V7@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BGEP2009_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V8">
+<n:complete>true</n:complete>
+<s:label>Coalition for Bulgaria (Koalicija za Balgarija)</s:label>
+<n:creationDate>2009-11-02 10:13:33.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>KB</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BGEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>476618.0</n43:valRangeMax>
+<n43:valRangeMin>1252.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V8</n43:varID>
+<n43:noValidResponses>40</n43:noValidResponses>
+<n43:meanValue>47661.8</n43:meanValue>
+<n43:maxValue>476618.0</n43:maxValue>
+<n43:minValue>1252.0</n43:minValue>
+<n43:stdValue>88279.568</n43:stdValue>
+<n43:position>8</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V8@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V8@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V8@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BGEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V8@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V8@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V8@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V8@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BGEP2009_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V9">
+<n:complete>true</n:complete>
+<s:label>Union of the Patriotic Forces &#34;Defense&#34; (SAIUZ NA PATRIOTICHNITE SILI &#34;ZASHTITA&#34;)</s:label>
+<n:creationDate>2009-11-02 10:13:33.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>ZASHTITA</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BGEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>11904.0</n43:valRangeMax>
+<n43:valRangeMin>23.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V9</n43:varID>
+<n43:noValidResponses>40</n43:noValidResponses>
+<n43:meanValue>1190.4</n43:meanValue>
+<n43:maxValue>11904.0</n43:maxValue>
+<n43:minValue>23.0</n43:minValue>
+<n43:stdValue>2277.962</n43:stdValue>
+<n43:position>9</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V9@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V9@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V9@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BGEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V9@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V9@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V9@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V9@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BGEP2009_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V10">
+<n:complete>true</n:complete>
+<s:label>The National Movement for Stability and Progress (Nacionalno dviženie za stabilnost i vazhod) former National Movement Simeon II (Nacionalno Dviženie Simeon Vtori), acronym the same.</s:label>
+<n:creationDate>2009-11-02 10:13:33.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>NDSV</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BGEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>205146.0</n43:valRangeMax>
+<n43:valRangeMin>1213.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V10</n43:varID>
+<n43:noValidResponses>40</n43:noValidResponses>
+<n43:meanValue>20514.6</n43:meanValue>
+<n43:maxValue>205146.0</n43:maxValue>
+<n43:minValue>1213.0</n43:minValue>
+<n43:stdValue>38283.815</n43:stdValue>
+<n43:position>10</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V10@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V10@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V10@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BGEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V10@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V10@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V10@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V10@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BGEP2009_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V11">
+<n:complete>true</n:complete>
+<s:label>Bulgarian Social democracy (Bulgarska Sotsialdemokratsia)</s:label>
+<n:creationDate>2009-11-02 10:13:33.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>BS</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BGEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>14132.0</n43:valRangeMax>
+<n43:valRangeMin>92.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V11</n43:varID>
+<n43:noValidResponses>40</n43:noValidResponses>
+<n43:meanValue>1413.2</n43:meanValue>
+<n43:maxValue>14132.0</n43:maxValue>
+<n43:minValue>92.0</n43:minValue>
+<n43:stdValue>2609.941</n43:stdValue>
+<n43:position>11</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V11@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V11@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V11@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BGEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V11@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V11@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V11@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V11@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BGEP2009_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V12">
+<n:complete>true</n:complete>
+<s:label>Bulgarian New Democracy (Bulgarska nova Demokratsia)</s:label>
+<n:creationDate>2009-11-02 10:13:33.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>BND</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BGEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>11679.0</n43:valRangeMax>
+<n43:valRangeMin>69.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V12</n43:varID>
+<n43:noValidResponses>40</n43:noValidResponses>
+<n43:meanValue>1167.9</n43:meanValue>
+<n43:maxValue>11679.0</n43:maxValue>
+<n43:minValue>69.0</n43:minValue>
+<n43:stdValue>2222.272</n43:stdValue>
+<n43:position>12</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V12@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V12@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V12@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BGEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V12@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V12@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V12@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V12@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BGEP2009_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V13">
+<n:complete>true</n:complete>
+<s:label>The Blue Coalition (Sinyata koalitsia)</s:label>
+<n:creationDate>2009-11-02 10:13:33.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Siniata</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BGEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>204817.0</n43:valRangeMax>
+<n43:valRangeMin>975.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V13</n43:varID>
+<n43:noValidResponses>40</n43:noValidResponses>
+<n43:meanValue>20481.7</n43:meanValue>
+<n43:maxValue>204817.0</n43:maxValue>
+<n43:minValue>975.0</n43:minValue>
+<n43:stdValue>40403.183</n43:stdValue>
+<n43:position>13</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V13@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V13@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V13@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BGEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V13@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V13@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V13@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V13@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BGEP2009_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V14">
+<n:complete>true</n:complete>
+<s:label>The Greens (Zelenite)</s:label>
+<n:creationDate>2009-11-02 10:13:33.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Zelenite</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BGEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>18444.0</n43:valRangeMax>
+<n43:valRangeMin>139.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V14</n43:varID>
+<n43:noValidResponses>40</n43:noValidResponses>
+<n43:meanValue>1844.4</n43:meanValue>
+<n43:maxValue>18444.0</n43:maxValue>
+<n43:minValue>139.0</n43:minValue>
+<n43:stdValue>3837.456</n43:stdValue>
+<n43:position>14</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V14@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V14@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V14@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BGEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V14@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V14@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V14@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V14@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BGEP2009_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V15">
+<n:complete>true</n:complete>
+<s:label>NEXT IMRO - Bulgarian National Movement, Agrarian People&#39;s Union, St. George&#39;s Day Movement, United National Party (NAPRED VMRO - Bulgarsko natsionalno dvizhenie, Zemedelski naroden suiuz, Dvizhenie Gerg&#39;ovden, Edinna Narodna Partiia)</s:label>
+<n:creationDate>2009-11-02 10:13:33.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>IMRO</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BGEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>57931.0</n43:valRangeMax>
+<n43:valRangeMin>168.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V15</n43:varID>
+<n43:noValidResponses>40</n43:noValidResponses>
+<n43:meanValue>5793.1</n43:meanValue>
+<n43:maxValue>57931.0</n43:maxValue>
+<n43:minValue>168.0</n43:minValue>
+<n43:stdValue>10766.045</n43:stdValue>
+<n43:position>15</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V15@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V15@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V15@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BGEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V15@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V15@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V15@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V15@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BGEP2009_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V16">
+<n:complete>true</n:complete>
+<s:label>Initiative Committee Chavdar Ivanov Nikolov  (Initsiativen komitet Chavdar Ivanov Nikolov)</s:label>
+<n:creationDate>2009-11-02 10:13:33.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Nikolov</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/BGEP2009_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>8565.0</n43:valRangeMax>
+<n43:valRangeMin>36.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V16</n43:varID>
+<n43:noValidResponses>40</n43:noValidResponses>
+<n43:meanValue>856.5</n43:meanValue>
+<n43:maxValue>8565.0</n43:maxValue>
+<n43:minValue>36.0</n43:minValue>
+<n43:stdValue>1588.99</n43:stdValue>
+<n43:position>16</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V16@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V16@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V16@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/BGEP2009_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V16@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V16@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V16@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/BGEP2009_Download_V16@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/BGEP2009_Download_VG2" />
+</p4:Variable3>
+
+</r:RDF>

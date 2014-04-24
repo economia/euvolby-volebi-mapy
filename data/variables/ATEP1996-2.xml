@@ -1,0 +1,299 @@
+<r:RDF 
+xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:s="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#" 
+xmlns:n="http://www.nesstar.org/rdf/" 
+xmlns:p3="http://www.nesstar.org/rdf/"
+xmlns:p1="http://www.nesstar.org/rdf/acu/"
+xmlns:p5="http://www.nesstar.org/rdf/hc/"
+xmlns:p4="http://www.nesstar.org/rdf/faster/"
+xmlns:p2="http://www.nesstar.org/rdf/common/"
+xmlns:n43="http://www.nesstar.org/rdf/faster/Variable#"
+xmlns:n42="http://www.nesstar.org/rdf/faster/Variable2#"
+xmlns:n41="http://www.nesstar.org/rdf/faster/Variable3#"
+>
+
+
+<r:Bag r:about="http://129.177.90.166:80/obj/fSection/ATEP1996_Download_VG2@variables">
+<r:_1 r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V18" />
+<r:_2 r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V19" />
+<r:_3 r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V20" />
+<r:_4 r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V21" />
+<r:_5 r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V22" />
+<r:_6 r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V23" />
+<r:_7 r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V24" />
+<r:_8 r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V25" />
+</r:Bag>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V18">
+<n:complete>true</n:complete>
+<s:label>SPÖ - Social Democratic Party of Austria (Sozialdemokratische Partei Österreichs)</s:label>
+<n:creationDate>2009-10-29 14:13:45.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SPO</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/ATEP1996_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>1099147.0</n43:valRangeMax>
+<n43:valRangeMin>1789.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V18</n43:varID>
+<n43:noValidResponses>48</n43:noValidResponses>
+<n43:meanValue>91595.583</n43:meanValue>
+<n43:maxValue>1099147.0</n43:maxValue>
+<n43:minValue>1789.0</n43:minValue>
+<n43:stdValue>181187.84</n43:stdValue>
+<n43:position>3</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V18@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V18@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V18@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/ATEP1996_Download_F2" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V18@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V18@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V18@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V18@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/ATEP1996_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V19">
+<n:complete>true</n:complete>
+<s:label>ÖVP - Austrian Peoples Party (Österreichische Volkspartei)</s:label>
+<n:creationDate>2009-10-29 14:13:45.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>OVP</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/ATEP1996_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>1114961.0</n43:valRangeMax>
+<n43:valRangeMin>3349.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V19</n43:varID>
+<n43:noValidResponses>48</n43:noValidResponses>
+<n43:meanValue>92913.417</n43:meanValue>
+<n43:maxValue>1114961.0</n43:maxValue>
+<n43:minValue>3349.0</n43:minValue>
+<n43:stdValue>180784.543</n43:stdValue>
+<n43:position>4</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V19@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V19@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V19@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/ATEP1996_Download_F2" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V19@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V19@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V19@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V19@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/ATEP1996_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V20">
+<n:complete>true</n:complete>
+<s:label>FPÖ - Freedom Party of Austria (Freiheitliche Partei Österreichs)</s:label>
+<n:creationDate>2009-10-29 14:13:45.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>FPO</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/ATEP1996_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>1040402.0</n43:valRangeMax>
+<n43:valRangeMin>3135.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V20</n43:varID>
+<n43:noValidResponses>48</n43:noValidResponses>
+<n43:meanValue>86700.167</n43:meanValue>
+<n43:maxValue>1040402.0</n43:maxValue>
+<n43:minValue>3135.0</n43:minValue>
+<n43:stdValue>166666.042</n43:stdValue>
+<n43:position>5</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V20@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V20@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V20@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/ATEP1996_Download_F2" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V20@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V20@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V20@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V20@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/ATEP1996_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V21">
+<n:complete>true</n:complete>
+<s:label>LIF - Liberal Forum (Liberals Forum)</s:label>
+<n:creationDate>2009-10-29 14:13:45.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>LIF</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/ATEP1996_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>159204.0</n43:valRangeMax>
+<n43:valRangeMin>227.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V21</n43:varID>
+<n43:noValidResponses>48</n43:noValidResponses>
+<n43:meanValue>13267.0</n43:meanValue>
+<n43:maxValue>159204.0</n43:maxValue>
+<n43:minValue>227.0</n43:minValue>
+<n43:stdValue>27170.411</n43:stdValue>
+<n43:position>6</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V21@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V21@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V21@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/ATEP1996_Download_F2" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V21@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V21@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V21@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V21@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/ATEP1996_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V22">
+<n:complete>true</n:complete>
+<s:label>Grüne - The Greens - The Green Alternative (Die Grünen - Dei Grüne Alternative)</s:label>
+<n:creationDate>2009-10-29 14:13:45.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>GRUNE</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/ATEP1996_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>254463.0</n43:valRangeMax>
+<n43:valRangeMin>388.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V22</n43:varID>
+<n43:noValidResponses>48</n43:noValidResponses>
+<n43:meanValue>21205.25</n43:meanValue>
+<n43:maxValue>254463.0</n43:maxValue>
+<n43:minValue>388.0</n43:minValue>
+<n43:stdValue>42777.484</n43:stdValue>
+<n43:position>7</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V22@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V22@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V22@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/ATEP1996_Download_F2" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V22@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V22@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V22@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V22@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/ATEP1996_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V23">
+<n:complete>true</n:complete>
+<s:label>N - The Neutrals (Die Neutralen)</s:label>
+<n:creationDate>2009-10-29 14:13:45.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>N</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/ATEP1996_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>48330.0</n43:valRangeMax>
+<n43:valRangeMin>114.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V23</n43:varID>
+<n43:noValidResponses>48</n43:noValidResponses>
+<n43:meanValue>4027.5</n43:meanValue>
+<n43:maxValue>48330.0</n43:maxValue>
+<n43:minValue>114.0</n43:minValue>
+<n43:stdValue>7993.529</n43:stdValue>
+<n43:position>8</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V23@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V23@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V23@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/ATEP1996_Download_F2" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V23@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V23@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V23@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V23@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/ATEP1996_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V24">
+<n:complete>true</n:complete>
+<s:label>Forum Handicap</s:label>
+<n:creationDate>2009-10-29 14:13:45.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>ForumHandicap</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/ATEP1996_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>32409.0</n43:valRangeMax>
+<n43:valRangeMin>62.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V24</n43:varID>
+<n43:noValidResponses>48</n43:noValidResponses>
+<n43:meanValue>2700.75</n43:meanValue>
+<n43:maxValue>32409.0</n43:maxValue>
+<n43:minValue>62.0</n43:minValue>
+<n43:stdValue>5266.183</n43:stdValue>
+<n43:position>9</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V24@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V24@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V24@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/ATEP1996_Download_F2" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V24@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V24@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V24@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V24@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/ATEP1996_Download_VG2" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V25">
+<n:complete>true</n:complete>
+<s:label>KPÖ - Communist Party of Austria (Kommunistische Partei Österreichs)</s:label>
+<n:creationDate>2009-10-29 14:13:45.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>KPO</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/ATEP1996_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>17528.0</n43:valRangeMax>
+<n43:valRangeMin>13.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V25</n43:varID>
+<n43:noValidResponses>48</n43:noValidResponses>
+<n43:meanValue>1460.667</n43:meanValue>
+<n43:maxValue>17528.0</n43:maxValue>
+<n43:minValue>13.0</n43:minValue>
+<n43:stdValue>2964.834</n43:stdValue>
+<n43:position>10</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V25@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V25@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V25@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/ATEP1996_Download_F2" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V25@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V25@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V25@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/ATEP1996_Download_V25@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/ATEP1996_Download_VG2" />
+</p4:Variable3>
+
+</r:RDF>
