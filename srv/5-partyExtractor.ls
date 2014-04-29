@@ -11,7 +11,7 @@ output = {}
     fileData .= toString!
     country = file.substr 0 2
     countryYear = file.substr 0, 8
-    if countryYear != "BEEP2009"
+    if countryYear != "CYEP2009"
         cb!
         return
     cols = columns[countryYear]
