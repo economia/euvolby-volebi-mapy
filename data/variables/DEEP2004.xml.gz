@@ -1,0 +1,1092 @@
+<r:RDF 
+xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+xmlns:s="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#" 
+xmlns:n="http://www.nesstar.org/rdf/" 
+xmlns:p3="http://www.nesstar.org/rdf/"
+xmlns:p1="http://www.nesstar.org/rdf/acu/"
+xmlns:p5="http://www.nesstar.org/rdf/hc/"
+xmlns:p4="http://www.nesstar.org/rdf/faster/"
+xmlns:p2="http://www.nesstar.org/rdf/common/"
+xmlns:n43="http://www.nesstar.org/rdf/faster/Variable#"
+xmlns:n42="http://www.nesstar.org/rdf/faster/Variable2#"
+xmlns:n41="http://www.nesstar.org/rdf/faster/Variable3#"
+>
+
+
+<r:Bag r:about="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1@variables">
+<r:_1 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V1" />
+<r:_2 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V2" />
+<r:_3 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V3" />
+<r:_4 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V4" />
+<r:_5 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V5" />
+<r:_6 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V6" />
+<r:_7 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V7" />
+<r:_8 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V8" />
+<r:_9 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V9" />
+<r:_10 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V10" />
+<r:_11 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V11" />
+<r:_12 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V12" />
+<r:_13 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V13" />
+<r:_14 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V14" />
+<r:_15 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V15" />
+<r:_16 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V16" />
+<r:_17 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V17" />
+<r:_18 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V18" />
+<r:_19 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V19" />
+<r:_20 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V20" />
+<r:_21 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V21" />
+<r:_22 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V22" />
+<r:_23 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V23" />
+<r:_24 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V24" />
+<r:_25 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V25" />
+<r:_26 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V26" />
+<r:_27 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V27" />
+<r:_28 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V28" />
+<r:_29 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V29" />
+<r:_30 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V30" />
+<r:_31 r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V31" />
+</r:Bag>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V1">
+<n:complete>true</n:complete>
+<s:label>NUTS ID</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>NUTSID</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:width>5</n42:width>
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>character</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V1</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:position>1</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V1@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V1@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V1@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V1@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V1@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V1@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V1@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V2">
+<n:complete>true</n:complete>
+<s:label>NUTS Name</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>NUTSName</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:width>44</n42:width>
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>character</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V2</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:position>2</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V2@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V2@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V2@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V2@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V2@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V2@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V2@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V3">
+<n:complete>true</n:complete>
+<s:label>Year</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Year</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>2004.0</n43:valRangeMax>
+<n43:valRangeMin>2004.0</n43:valRangeMin>
+<n43:intervl>discrete</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V3</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>2004.0</n43:meanValue>
+<n43:maxValue>2004.0</n43:maxValue>
+<n43:minValue>2004.0</n43:minValue>
+<n43:stdValue>0.0</n43:stdValue>
+<n43:position>3</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V3@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V3@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V3@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V3@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V3@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V3@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V3@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V4">
+<n:complete>true</n:complete>
+<s:label>CDU/CSU</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>CDUCSU</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>1.1476897E7</n43:valRangeMax>
+<n43:valRangeMin>2689.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V4</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>92369.392</n43:meanValue>
+<n43:maxValue>1.1476897E7</n43:maxValue>
+<n43:minValue>2689.0</n43:minValue>
+<n43:stdValue>547659.305</n43:stdValue>
+<n43:position>4</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V4@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V4@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V4@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V4@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V4@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V4@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V4@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V5">
+<n:complete>true</n:complete>
+<s:label>SPD</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>SPD</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>5547971.0</n43:valRangeMax>
+<n43:valRangeMin>1225.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V5</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>44651.678</n43:meanValue>
+<n43:maxValue>5547971.0</n43:maxValue>
+<n43:minValue>1225.0</n43:minValue>
+<n43:stdValue>264695.314</n43:stdValue>
+<n43:position>5</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V5@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V5@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V5@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V5@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V5@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V5@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V5@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V6">
+<n:complete>true</n:complete>
+<s:label>B90/GRÜ</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>B90GR</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>3079728.0</n43:valRangeMax>
+<n43:valRangeMin>455.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V6</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>24786.543</n43:meanValue>
+<n43:maxValue>3079728.0</n43:maxValue>
+<n43:minValue>455.0</n43:minValue>
+<n43:stdValue>147774.533</n43:stdValue>
+<n43:position>6</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V6@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V6@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V6@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V6@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V6@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V6@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V6@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V7">
+<n:complete>true</n:complete>
+<s:label>PDS</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>PDS</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>1579109.0</n43:valRangeMax>
+<n43:valRangeMin>86.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V7</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>12709.127</n43:meanValue>
+<n43:maxValue>1579109.0</n43:maxValue>
+<n43:minValue>86.0</n43:minValue>
+<n43:stdValue>77122.291</n43:stdValue>
+<n43:position>7</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V7@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V7@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V7@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V7@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V7@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V7@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V7@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V8">
+<n:complete>true</n:complete>
+<s:label>FDP</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>FDP</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>1565431.0</n43:valRangeMax>
+<n43:valRangeMin>310.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V8</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>12599.042</n43:meanValue>
+<n43:maxValue>1565431.0</n43:maxValue>
+<n43:minValue>310.0</n43:minValue>
+<n43:stdValue>75037.469</n43:stdValue>
+<n43:position>8</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V8@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V8@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V8@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V8@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V8@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V8@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V8@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V9">
+<n:complete>true</n:complete>
+<s:label>REP</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>REP</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>485662.0</n43:valRangeMax>
+<n43:valRangeMin>81.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V9</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>3908.748</n43:meanValue>
+<n43:maxValue>485662.0</n43:maxValue>
+<n43:minValue>81.0</n43:minValue>
+<n43:stdValue>23316.128</n43:stdValue>
+<n43:position>9</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V9@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V9@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V9@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V9@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V9@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V9@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V9@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V10">
+<n:complete>true</n:complete>
+<s:label>MUT</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>MUT</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>331388.0</n43:valRangeMax>
+<n43:valRangeMin>86.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V10</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>2667.107</n43:meanValue>
+<n43:maxValue>331388.0</n43:maxValue>
+<n43:minValue>86.0</n43:minValue>
+<n43:stdValue>15648.108</n43:stdValue>
+<n43:position>10</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V10@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V10@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V10@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V10@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V10@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V10@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V10@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V11">
+<n:complete>true</n:complete>
+<s:label>Graue</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Graue</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>314402.0</n43:valRangeMax>
+<n43:valRangeMin>58.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V11</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>2530.398</n43:meanValue>
+<n43:maxValue>314402.0</n43:maxValue>
+<n43:minValue>58.0</n43:minValue>
+<n43:stdValue>15034.337</n43:stdValue>
+<n43:position>11</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V11@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V11@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V11@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V11@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V11@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V11@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V11@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V12">
+<n:complete>true</n:complete>
+<s:label>FAMILIE</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>FAMILIE</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>268468.0</n43:valRangeMax>
+<n43:valRangeMin>45.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V12</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>2160.708</n43:meanValue>
+<n43:maxValue>268468.0</n43:maxValue>
+<n43:minValue>45.0</n43:minValue>
+<n43:stdValue>12643.084</n43:stdValue>
+<n43:position>12</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V12@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V12@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V12@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V12@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V12@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V12@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V12@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V13">
+<n:complete>true</n:complete>
+<s:label>NPD</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>NPD</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>241743.0</n43:valRangeMax>
+<n43:valRangeMin>27.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V13</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>1945.618</n43:meanValue>
+<n43:maxValue>241743.0</n43:maxValue>
+<n43:minValue>27.0</n43:minValue>
+<n43:stdValue>11457.098</n43:stdValue>
+<n43:position>13</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V13@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V13@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V13@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V13@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V13@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V13@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V13@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V14">
+<n:complete>true</n:complete>
+<s:label>ÖDP</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>DP</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>145537.0</n43:valRangeMax>
+<n43:valRangeMin>15.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V14</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>1171.324</n43:meanValue>
+<n43:maxValue>145537.0</n43:maxValue>
+<n43:minValue>15.0</n43:minValue>
+<n43:stdValue>7881.959</n43:stdValue>
+<n43:position>14</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V14@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V14@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V14@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V14@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V14@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V14@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V14@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V15">
+<n:complete>true</n:complete>
+<s:label>Frauen</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Frauen</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>145312.0</n43:valRangeMax>
+<n43:valRangeMin>29.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V15</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>1169.513</n43:meanValue>
+<n43:maxValue>145312.0</n43:maxValue>
+<n43:minValue>29.0</n43:minValue>
+<n43:stdValue>6862.802</n43:stdValue>
+<n43:position>15</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V15@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V15@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V15@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V15@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V15@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V15@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V15@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V16">
+<n:complete>true</n:complete>
+<s:label>DE</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>DE</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>135015.0</n43:valRangeMax>
+<n43:valRangeMin>45.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V16</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>1086.64</n43:meanValue>
+<n43:maxValue>135015.0</n43:maxValue>
+<n43:minValue>45.0</n43:minValue>
+<n43:stdValue>6379.578</n43:stdValue>
+<n43:position>16</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V16@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V16@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V16@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V16@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V16@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V16@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V16@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V17">
+<n:complete>true</n:complete>
+<s:label>PBC</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>PBC</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>98651.0</n43:valRangeMax>
+<n43:valRangeMin>14.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V17</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>793.972</n43:meanValue>
+<n43:maxValue>98651.0</n43:maxValue>
+<n43:minValue>14.0</n43:minValue>
+<n43:stdValue>4780.215</n43:stdValue>
+<n43:position>17</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V17@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V17@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V17@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V17@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V17@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V17@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V17@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V18">
+<n:complete>true</n:complete>
+<s:label>AUK</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>AUK</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>70301.0</n43:valRangeMax>
+<n43:valRangeMin>12.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V18</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>565.803</n43:meanValue>
+<n43:maxValue>70301.0</n43:maxValue>
+<n43:minValue>12.0</n43:minValue>
+<n43:stdValue>3333.087</n43:stdValue>
+<n43:position>18</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V18@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V18@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V18@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V18@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V18@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V18@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V18@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V19">
+<n:complete>true</n:complete>
+<s:label>DP</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>V19</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>62005.0</n43:valRangeMax>
+<n43:valRangeMin>15.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V19</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>499.034</n43:meanValue>
+<n43:maxValue>62005.0</n43:maxValue>
+<n43:minValue>15.0</n43:minValue>
+<n43:stdValue>2915.539</n43:stdValue>
+<n43:position>19</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V19@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V19@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V19@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V19@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V19@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V19@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V19@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V20">
+<n:complete>true</n:complete>
+<s:label>CM</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>CM</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>46037.0</n43:valRangeMax>
+<n43:valRangeMin>8.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V20</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>370.519</n43:meanValue>
+<n43:maxValue>46037.0</n43:maxValue>
+<n43:minValue>8.0</n43:minValue>
+<n43:stdValue>2185.211</n43:stdValue>
+<n43:position>20</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V20@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V20@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V20@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V20@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V20@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V20@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V20@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V21">
+<n:complete>true</n:complete>
+<s:label>AUFBRUCH</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>AUFBRUCH</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>43128.0</n43:valRangeMax>
+<n43:valRangeMin>7.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V21</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>347.107</n43:meanValue>
+<n43:maxValue>43128.0</n43:maxValue>
+<n43:minValue>7.0</n43:minValue>
+<n43:stdValue>2033.27</n43:stdValue>
+<n43:position>21</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V21@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V21@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V21@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V21@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V21@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V21@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V21@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V22">
+<n:complete>true</n:complete>
+<s:label>DKP</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>DKP</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>37160.0</n43:valRangeMax>
+<n43:valRangeMin>3.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V22</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>299.074</n43:meanValue>
+<n43:maxValue>37160.0</n43:maxValue>
+<n43:minValue>3.0</n43:minValue>
+<n43:stdValue>1749.266</n43:stdValue>
+<n43:position>22</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V22@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V22@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V22@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V22@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V22@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V22@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V22@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V23">
+<n:complete>true</n:complete>
+<s:label>BP</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>BP</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>35152.0</n43:valRangeMax>
+<n43:valRangeMin>0.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V23</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>282.913</n43:meanValue>
+<n43:maxValue>35152.0</n43:maxValue>
+<n43:minValue>0.0</n43:minValue>
+<n43:stdValue>2345.566</n43:stdValue>
+<n43:position>23</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V23@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V23@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V23@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V23@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V23@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V23@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V23@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V24">
+<n:complete>true</n:complete>
+<s:label>ZENT</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>ZENT</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>26803.0</n43:valRangeMax>
+<n43:valRangeMin>4.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V24</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>215.718</n43:meanValue>
+<n43:maxValue>26803.0</n43:maxValue>
+<n43:minValue>4.0</n43:minValue>
+<n43:stdValue>1285.651</n43:stdValue>
+<n43:position>24</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V24@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V24@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V24@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V24@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V24@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V24@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V24@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V25">
+<n:complete>true</n:complete>
+<s:label>PSG</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>PSG</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>25795.0</n43:valRangeMax>
+<n43:valRangeMin>2.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V25</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>207.606</n43:meanValue>
+<n43:maxValue>25795.0</n43:maxValue>
+<n43:minValue>2.0</n43:minValue>
+<n43:stdValue>1212.226</n43:stdValue>
+<n43:position>25</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V25@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V25@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V25@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V25@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V25@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V25@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V25@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V26">
+<n:complete>true</n:complete>
+<s:label>BüSo</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>BSo</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>21983.0</n43:valRangeMax>
+<n43:valRangeMin>3.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V26</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>176.926</n43:meanValue>
+<n43:maxValue>21983.0</n43:maxValue>
+<n43:minValue>3.0</n43:minValue>
+<n43:stdValue>1038.621</n43:stdValue>
+<n43:position>26</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V26@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V26@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V26@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V26@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V26@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V26@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V26@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V27">
+<n:complete>true</n:complete>
+<s:label>Other</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Other</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>1134622.0</n43:valRangeMax>
+<n43:valRangeMin>352.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V27</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>9131.767</n43:meanValue>
+<n43:maxValue>1134622.0</n43:maxValue>
+<n43:minValue>352.0</n43:minValue>
+<n43:stdValue>53744.904</n43:stdValue>
+<n43:position>27</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V27@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V27@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V27@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V27@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V27@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V27@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V27@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V28">
+<n:complete>true</n:complete>
+<s:label>Electorate</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Electorate</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>6.1682394E7</n43:valRangeMax>
+<n43:valRangeMin>27943.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V28</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>496437.779</n43:meanValue>
+<n43:maxValue>6.1682394E7</n43:maxValue>
+<n43:minValue>27943.0</n43:minValue>
+<n43:stdValue>2923770.761</n43:stdValue>
+<n43:position>28</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V28@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V28@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V28@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V28@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V28@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V28@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V28@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V29">
+<n:complete>true</n:complete>
+<s:label>Votes</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Votes</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>2.6523104E7</n43:valRangeMax>
+<n43:valRangeMin>10518.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V29</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>213465.626</n43:meanValue>
+<n43:maxValue>2.6523104E7</n43:maxValue>
+<n43:minValue>10518.0</n43:minValue>
+<n43:stdValue>1257230.744</n43:stdValue>
+<n43:position>29</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V29@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V29@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V29@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V29@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V29@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V29@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V29@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V30">
+<n:complete>true</n:complete>
+<s:label>Valid votes</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Validvotes</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>2.5783678E7</n43:valRangeMax>
+<n43:valRangeMin>10399.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V30</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>207514.511</n43:meanValue>
+<n43:maxValue>2.5783678E7</n43:maxValue>
+<n43:minValue>10399.0</n43:minValue>
+<n43:stdValue>1222839.156</n43:stdValue>
+<n43:position>30</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V30@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V30@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V30@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V30@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V30@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V30@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V30@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+<p4:Variable3 r:about="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V31">
+<n:complete>true</n:complete>
+<s:label>Invalid votes</s:label>
+<n:creationDate>2009-11-25 10:36:50.0</n:creationDate>
+<n:email>false</n:email>
+<n43:name>Invalidvotes</n43:name>
+<n43:study r:resource="http://129.177.90.166:80/obj/fStudy/DEEP2004_Download" />
+<n42:numCats>0</n42:numCats>
+<n43:isKey>false</n43:isKey>
+<n43:isWeight>false</n43:isWeight>
+<n43:noInvalidResponses>0</n43:noInvalidResponses>
+<n43:decimalPlaces>0</n43:decimalPlaces>
+<n43:valRangeMax>739426.0</n43:valRangeMax>
+<n43:valRangeMin>103.0</n43:valRangeMin>
+<n43:intervl>contin</n43:intervl>
+<n43:format>numeric</n43:format>
+<n43:formatSchema>other</n43:formatSchema>
+<n43:varID>V31</n43:varID>
+<n43:noValidResponses>497</n43:noValidResponses>
+<n43:meanValue>5951.115</n43:meanValue>
+<n43:maxValue>739426.0</n43:maxValue>
+<n43:minValue>103.0</n43:minValue>
+<n43:stdValue>34958.212</n43:stdValue>
+<n43:position>31</n43:position>
+<n43:sections r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V31@sections" />
+<n43:measures r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V31@measures" />
+<n43:statistics r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V31@statistics" />
+<n43:datafile r:resource="http://129.177.90.166:80/obj/fDatafile/DEEP2004_Download_F1" />
+<n43:groups r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V31@groups" />
+<n43:factsheets r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V31@factsheets" />
+<n43:tables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V31@tables" />
+<n43:weightVariables r:resource="http://129.177.90.166:80/obj/fVariable/DEEP2004_Download_V31@weightVariables" />
+<n43:section r:resource="http://129.177.90.166:80/obj/fSection/DEEP2004_Download_VG1" />
+</p4:Variable3>
+
+</r:RDF>
