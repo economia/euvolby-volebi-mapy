@@ -15,6 +15,8 @@ fraction_positions =
     GUE: 7 # rudy
     ECR: 8 # conservatives & reformists
     UEN: 9 # union for Europe of the Nations
+    electorate: 10
+    voters: 11
 
 columns = fs.readFileSync "#__dirname/../data/columns.json" |> JSON.parse
 columns_manual = fs.readFileSync "#__dirname/../data/columns_manual.json" |> JSON.parse
@@ -28,11 +30,11 @@ fs.readFileSync "#__dirname/../data/party_fractions.txt" .toString!
         parties_fractions["#{nation}-#{party}"] = fraction
 for col, data of columns_manual
     columns[col] = data
-nuts_existing = {}
+better_nuts_existing = {}
 (err, files) <~ fs.readdir "#__dirname/../data/download"
 countryParties = {}
 # output = {}
-outputLines = [<[nuts SD EPP EAF G ALDE NI GUE ECR UEN]>]
+outputLines = [<[nuts SD EPP EAF G ALDE NI GUE ECR UEN electorate voters]>]
 tgtYear = 2004
 <~ async.each files, (file, cb) ->
     (err, fileData) <~ fs.readFile "#__dirname/../data/download/#file"
@@ -44,19 +46,25 @@ tgtYear = 2004
         cb!
         return
     cols = columns[countryYear]
+    votes_column = null
     cols .= map (name) ->
         name .= replace /\n/g ''
         fraction = parties_fractions["#country-#name"]
+        if name.match /\bvalid\b/i
+            votes_column := name
+        if votes_column == null and (name.match /\bvotes\b/i or name.match /\bvoters\b/i)
+            votes_column := name
         {name, fraction, sum: 0}
+
     lines = fileData.split "\n"
     total = 0
     parties = []
     for line in lines
         fields = line.split "\t"
-        output = [0 to 9].map -> 0
+        output = [0 to 11].map -> 0
         nuts = fields[0].replace /[ ]+/gi ''
-        nuts_existing[nuts.substr 0, nuts.length - 1] = 1
-        if nuts_existing[nuts]
+        better_nuts_existing[nuts.substr 0, nuts.length - 1] = 1
+        if better_nuts_existing[nuts]
             continue
         if country != nuts.substr 0, 2
             continue
@@ -68,8 +76,16 @@ tgtYear = 2004
             continue if col.name.match /nuts /i
             votes = parseInt fields[index], 10
             continue if not votes
-            # console.log fraction_positions[col.fraction]
-            output[fraction_positions[col.fraction]] += votes
+            if fraction_positions[col.fraction]
+                output[fraction_positions[col.fraction]] += votes
+            else
+                if col.name.match /Electorate/i
+                    output[fraction_positions['electorate']] = votes
+                if col.name == votes_column
+                    output[fraction_positions['voters']] = votes
+
+
+
             col.sum += votes
             continue if col.name.match /Electorate/
             continue if col.name.match /\bVotes\b/i
@@ -78,7 +94,6 @@ tgtYear = 2004
             continue if col.name.match /\Abstentions\b/i
             total += votes
     cols.forEach (col) -> col.percent = col.sum / total
-    cols .= filter -> not it.name.match /\bvotes\b/i
     cols .= filter -> not it.name.match /\Valid\b/i
     cols .= filter -> not it.name.match /\Votes\b/i
     cols .= filter -> not it.name.match /\Voters\b/i
