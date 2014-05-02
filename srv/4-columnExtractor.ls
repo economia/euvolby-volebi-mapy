@@ -18,6 +18,9 @@ parties = {}
     parties[nation] ?= []
     (err, xmlData) <~ fs.readFile "#__dirname/../data/variables/#file"
     (err, data) <~ xml.parseString xmlData
+    if err
+        console.log err
+        return
     labels = data["r:RDF"]["p4:Variable3"].map ->
         it['s:label'].0
     parties[nation] ++= labels

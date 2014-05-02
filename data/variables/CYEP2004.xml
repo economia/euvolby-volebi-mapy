@@ -1,7 +1,7 @@
-<r:RDF 
-xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
-xmlns:s="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#" 
-xmlns:n="http://www.nesstar.org/rdf/" 
+<r:RDF
+xmlns:r="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:s="http://www.w3.org/TR/1999/PR-rdf-schema-19990303#"
+xmlns:n="http://www.nesstar.org/rdf/"
 xmlns:p3="http://www.nesstar.org/rdf/"
 xmlns:p1="http://www.nesstar.org/rdf/acu/"
 xmlns:p5="http://www.nesstar.org/rdf/hc/"

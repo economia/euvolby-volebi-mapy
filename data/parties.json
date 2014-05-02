@@ -1,1 +1,72 @@
-{}
+{
+  "ESEP2004": {
+    "total": 15417268,
+    "cols": [
+      {
+        "name": "NUTS",
+        "sum": 0,
+        "percent": 0
+      },
+      {
+        "name": "PSOE",
+        "sum": 6741112,
+        "percent": 0.4372442640291393
+      },
+      {
+        "name": "PP",
+        "sum": 6393192,
+        "percent": 0.41467736047657733
+      },
+      {
+        "name": "GALEUSCA",
+        "sum": 798816,
+        "percent": 0.05181307090205606
+      },
+      {
+        "name": "IU-ICV-EUIA",
+        "sum": 643136,
+        "percent": 0.04171530260743992
+      },
+      {
+        "name": "EDP",
+        "sum": 380709,
+        "percent": 0.024693674651047125
+      },
+      {
+        "name": "CE",
+        "sum": 197231,
+        "percent": 0.012792863171347868
+      },
+      {
+        "name": "Other",
+        "sum": 263072,
+        "percent": 0.017063464162392454
+      },
+      {
+        "name": "Electorate",
+        "sum": 34706044,
+        "percent": 2.2511150483989772
+      },
+      {
+        "name": "Votes",
+        "sum": 15666491,
+        "percent": 1.016165185686595
+      },
+      {
+        "name": "Valid votes",
+        "sum": 15512282,
+        "percent": 1.0061628298865921
+      },
+      {
+        "name": "Blank votes",
+        "sum": 95014,
+        "percent": 0.006162829886592099
+      },
+      {
+        "name": "Invalid votes",
+        "sum": 154209,
+        "percent": 0.010002355800002957
+      }
+    ]
+  }
+}
