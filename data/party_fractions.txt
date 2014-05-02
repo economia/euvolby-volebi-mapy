@@ -1,0 +1,299 @@
+AT	SPÖ - Social Democratic Party of Austria (Sozialdemokratische Partei Österreichs)	SD
+AT	ÖVP - Austrian Peoples Party (Österreichische Volkspartei)	EPP
+AT	FPÖ - Freedom Party of Austria (Freiheitliche Partei Österreichs)	EAF
+AT	Grüne - The Greens - The Green Alternative (Die Grünen - Dei Grüne Alternative)	G
+AT	ÖVP	EPP
+AT	SPÖ	SD
+AT	FPÖ	EAF
+AT	Grüne	G
+AT	GRÜNE	G
+AT	MARTIN	NI
+AT	MARTIN - Hans-Peter Martin's List (Liste Dr. Hans-Peter Martin - für echte Kontrolle in Brüssel)	NI
+BE	CVP	EPP
+BE	PS	SD
+BE	VLD	ALDE
+BE	SP	SD
+BE	PRL-FDF	ALDE
+BE	VLAAMS BLOK	EAF
+BE	PSC	EPP
+BE	AGALEV	G
+BE	Flemish Liberals and Democrats (Vlaamse Liberalen en Democraten)	ALDE
+BE	Christian People's Party (Christelijke Volkspartij)	EPP
+BE	Liberal Reformation Party-Democratic Front of Francophones (Parti Réformateur Libéral-Front Démocratique des Francophones)	ALDE
+BE	Socialist Party (Parti Socialiste)	SD
+BE	Socialist Party (FL) (Socialistische Partij)	SD
+BE	Confederated ecologists for the organisation of original struggles" (Écologistes Confédérés pour l'organisation de luttes originales)	G
+BE	People's Union / Complete Democracy for the 21st Century	NONE
+BE	Flemish Greens	G
+BE	Christian Democratic and Flemish Party (Christen-Democratisch en Vlaams Partij)	EPP
+BE	VLAAMS BLOOK	ALDE
+BE	Flemish Liberals and Democrats and Vivant (Vlaamse Liberalen en Democraten and Vivant)	ALDE
+BE	Socialist Party - Different and Spirit (Socialistische Partij - Anders-Spirit)	SD
+BE	Reformist Movement (Mouvement Réformateur)	ALDE
+BE	The Humanist Democratic Centre (Centre démocrate humaniste)	EPP
+BE	Socialist Party - Different (Socialistische Partij - Anders)	SD
+BE	New-Flemish Alliance (Nieuw-Vlaamse Alliantie)	G
+BE	Vlaams Belang	NI
+BE	(Écologistes Confédérés pour l'organisation de luttes originales)	G
+BG	Lider (PP Lider)	NONE
+BG	Citizens for European Development of Bulgaria (Grazhdani za evropeysko razvitie na Balgariya)	EPP
+BG	Movement for Rights and Freedoms (Dvizhenie za prava i svobodi)	ALDE
+BG	National Union Attack (Natsionalen Sayuz Ataka)	NI
+BG	Coalition for Bulgaria (Koalicija za Balgarija)	SD
+BG	The National Movement for Stability and Progress (Nacionalno dviženie za stabilnost i vazhod) former National Movement Simeon II (Nacionalno Dviženie Simeon Vtori), acronym the same.	ALDE
+BG	The Blue Coalition (Sinyata koalitsia)	EPP
+BG	GERB	EPP
+BG	NDSV	ALDE
+BG	PES - BSP and DSH	SD
+BG	DPS	ALDE
+BG	ATAKA	NI
+CY	DISY	EPP
+CY	AKEL	GUE
+CY	DIKO	SD
+CY	GTE	EPP
+CY	EDEK	SD
+CY	Democratic Rally	EPP
+CY	Progressive Party of Working People (Anorthotikon Komma Ergazomenou Laou)	GUE
+CY	Democratic Party (Dimokratikon Komma)	SD
+CY	Movement for Social Democrats (Kinima Sosialdimokraton Eniaia Dimokratiki Enosi Kentrou)	SD
+CZ	SNK-ED	EPP
+CZ	CSSD	SD
+CZ	ODS	ECR
+CZ	KDU-CSL	EPP
+CZ	KSCM	GUE
+CZ	Ind.	NI
+DE	CDU/CSU	EPP
+DE	SPD	SD
+DE	B90/GRÜ	G
+DE	PDS	GUE
+DE	FDP	ALDE
+DE	CDU	EPP
+DE	GRÜNE	G
+DE	CSU	EPP
+DE	DIE LINKE	GUE
+DK	Social Democrats	SD
+DK	Social Liberals	ALDE
+DK	Conservative	EPP
+DK	Socialist People's Party	G
+DK	The June Movement	ID
+DK	Peoople's Movement against EC	GUE
+DK	Liberal Party	ALDE
+DK	Valid votes	ALDE
+DK	Conservatives	GUE
+DK	Peoples Movement Against EC	ALDE
+DK	Danish People's Party	EFD
+DK	Social Democrats (Socialdemokraterna)	SD
+DK	Danish Social Liberal Party/Radical Left (Det Radikale Venstre)	ALDE
+DK	Conservative People's Party (Konservative Folkeparti)	EPP
+DK	Socialist People's Party (Socialistisk Folkeparti)	G
+DK	June Movement (Junibevægelsen)	ID
+DK	Peoples Movement against the EU (Folkebevægelsen Mot EU)	GUE
+DK	Danish People's Party (Dansk Folkeparti)	EFD
+DK	Liberal Party (Venstre)	ALDE
+EE	SDE	SD
+EE	Kesk	ALDE
+EE	Isamaa	EPP
+EE	ResPublica	EPP
+EE	Rahvaliit	NONE
+EE	Reform	ALDE
+EE	Ind.	NI
+EE	IRL	EPP
+EE	KESK	ALDE
+EE	REF	ALDE
+EE	Tar	NI
+EE	Ind.	NI
+ES	PSOE	SD
+ES	PP	EPP
+ES	GALEUSCA	ALDE
+ES	CpE	NI
+FI	SDP	SD
+FI	Kesk	ALDE
+FI	Kok	EPP
+FI	VL	NONE
+FI	Vihr	G
+FI	SFP/RKP	ALDE
+FI	Kok - National Coalition Party	EPP
+FI	Kesk - Center Party of Finland	ALDE
+FI	SDP - Social Democratic Party of Finland	SD
+FI	Vihr - Green League (Vihreä liitto)	G
+FI	Perus - True Finns	EFD
+FI	SFP - Swedish People's Party in Finland	ALDE
+FI	VL - Left Alliance	NONE
+FR	PS	SD
+FR	UMP	EPP
+FR	UDF	ALDE
+FR	MRG	ALDE
+FR	UDF-RPR	ALDE
+FR	Autre	NI
+FR	FN	EAF
+FR	PS-MDC-PRG	SD
+FR	RPR-DL	EPP
+FR	RPRd-MPF	EFD
+FR	PCF	GUE
+FR	Autre	NI
+FR	MPF	EFD
+FR	Verts	G
+FR	UPM-NC - Union for a Popular Movement - New Centre	EPP
+FR	PS - Socialist Party	SD
+FR	DivEco/Verts - The Greens/Europe Écologie	G
+FR	MoDem - Democratic Movement	ALDE
+FR	DivD - Miscellaneous Right-wing	NI
+FR	FN - National Front	EAF
+FR	DivEG - Miscellaneous extreme right-wing	NI
+FR	PCF - French Communist Party	GUE
+FR	LO-LCR	GUE
+FR	VEC	G
+FR	CPNT	NONE
+GR	PASOK	SD
+GR	ND	EPP
+GR	ANOIX	NONE
+GR	KKE	GUE
+GR	SYN	GUE
+GR	DIKKI	NONE
+GR	LA.O.S	EFD
+HU	FIDESZ	EPP
+HU	MDF	ECR
+HU	MSZP	SD
+HU	SZDSZ	ALDE
+HU	FIDESZ-KDNP	EPP
+HU	JOBBIK	NI
+IE	Fine Gael	EPP
+IE	Fianna Fáil	ALDE
+IE	Labour Party	SD
+IE	Green Party	G
+IE	Progressive Democrats	ALDE
+IE	Ind./Others	NI
+IE	Sinn Féin	GUE
+IE	Independents/ others	NI
+IE	FF	ALDE
+IE	FG	EPP
+IE	Lab	SD
+IE	LI	NONE
+IE	SF	GUE
+IE	Ind	NI
+IE	Ind./Others	NI
+IE	Independents/ others	NI
+IE	LI	NONE
+IE	Ind	NI
+IT	L'ULIVO - Olive Tree (L'Ulivo)	SD
+IT	FI - 'Forward Italy' (Forza Italia)	EPP
+IT	AN - National Alliance (Alleanza Nazionale)	UEN
+IT	PRC - Communist Refoundation Party (Partito della Rifondazione Comunista, RIF.COM.)	GUE
+IT	UDC - Union of Christian and Centre Democrats (Unione dei Democratici Cristiani e di Centro)	EPP
+IT	PdL -  People of Freedom	EPP
+IT	PD - Democratic Party	SD
+IT	LN - North League	UEN
+IT	IdV - Italy of Values	ALDE
+IT	UdC - Union of the Centre	EPP
+LA	VA-TB/LNNK	ECR
+LA	JL	EPP
+LA	PCTVL	G
+LA	TP	EPP
+LA	SLC	NONE
+LA	Other	NI
+LA	PS	EPP
+LA	SC	GUE
+LA	LPP/LC	ALDE
+LA	Other	NI
+LT	DP	ALDE
+LT	LSP	GUE
+LT	TS	EPP
+LT	LCS	ALDE
+LT	VNDPS	UEN
+LT	LDP	NONE
+LT	KmS	NONE
+LT	LSDP	ALDE
+LT	TT	EFD
+LT	LLRA	ECR
+LT	LRLS	ALDE
+LU	LSAP	SD
+LU	Greng	G
+LU	CSV	EPP
+LU	ADR	ALDE
+LU	DP	ALDE
+LU	Gréng	G
+MT	MLP	SD
+MT	PN	EPP
+MT	AD	G
+NL	CDA	EPP
+NL	D66	ALDE
+NL	GL	G
+NL	PvdA	SD
+NL	SP	GUE
+NL	SGP/GPV/RPF	EFD
+NL	VVD	ALDE
+NL	S/G/R	EFD
+NL	CU-SGP	EPP
+NL	Eut Tr	G
+NL	PVV	EAF
+NL	CU/SGP	EPP
+PL	PO - Civic Platform	EPP
+PL	PiS - Law and Justice	ECR
+PL	SLD-UP - Coalition Democratic Left Alliance-Labor Union	SD
+PL	PSL - Polish People's Party	EPP
+PL	PO - Civic Platform (Platforma Obywatelska)	EPP
+PL	LPR - League of Polish Families (Liga Polskich Rodzin)	NONE
+PL	PiS - Law and Justice (Prawo i Sprawiedliwossc)	ECR
+PL	SRP - Self-Defence of the Republic of Poland (Samoobrona Rzeczypospolitej Polskiej)	UEN
+PL	SLD-UP - Democratic Left Alliance/Labour Union	SD
+PL	UW - Freedom Union (Unia Wolnosci)	NONE
+PL	PSL - Polish Peasant Party (Polskie Stronnictwo Ludowe)	EPP
+PL	SdPI - Polish Social Democracy (Socjaldemokracja Polska)	NONE
+PL	Other	NI
+PT	PS - Socialist Party (Partido Socialista)	SD
+PT	PPD/PSD-CDS-PP - Social Democratic Party (Partido Social Democrata) + Democratic and Social Centre - People's Party (Centro Democrático e Social - Partido Popular)	SD
+PT	PCP-PEV (CDU) - Portuguese Communist Party (Portuguese: Partido Comunista Português) - Ecologist Party	GUE
+PT	BE - Left Bloc (Bloco de Esquerda)	GUE
+PT	PPD/PSD - Social Democratic Party	SD
+PT	PS - Socialist Party	SD
+PT	BE - Left Bloc	GUE
+PT	PCP-PEV (CDU) - Communist Party - Ecologist Party	GUE
+PT	CDS-PP - Democratic and Social Centre - People's Party	EPP
+RO	PD	EPP
+RO	PNL	ALDE
+RO	PSD	SD
+RO	UDMR	EPP
+RO	PLD	EPP
+RO	PDL	EPP
+RO	PSD+PC	SD
+RO	PRM	NI
+SE	SAP	SD
+SE	M	EPP
+SE	JL	ID
+SE	VP	GUE
+SE	FP	ALDE
+SE	C	ALDE
+SE	MP	G
+SE	KD	EPP
+SE	PP	G
+SI	NSi	EPP
+SI	LDS-DeSUS	NI
+SI	SDS	EPP
+SI	ZLSD	SD
+SI	SLS	EPP
+SI	SNS	NONE
+SI	SD	SD
+SI	LDS	ALDE
+SI	ZARES	ALDE
+SI	DeSUS	NI
+SK	SMK-MKP: Party of the Hungarian Coalition (Strana madarskej koalície - Magyar Koalíció Pártja)	EPP
+SK	Slovak Democratic and Christian Union (Slovenská demokratická a krestanská únia)	EPP
+SK	Direction (SMER)	SD
+SK	LS-HZDS: People's Party - Movement for a Democratic Slovakia (Ludová strana - Hnutie za demokratické Slovensko)	ALDE
+SK	Christian Democratic Movement (Krestanskodemokratické hnutie)	EPP
+SK	The Direction - Social Democracy (Smer - sociálna demokracia)	SD
+SK	SDKU-DS: The Slovak Democratic and Christian Union - Democratic Party (Slovenská demokratická a krest(anská únia - Demokratická strana)	EPP
+SK	SMK-MKP: The Party of the Hungarian Coalition (Magyar Koalíció Pártja/Strana mad(arskej koalície)	EPP
+SK	Slovak National Party (Slovenská národná strana)	EFD
+UK	Con	ECR
+UK	Lab	SD
+UK	UKIP	EFD
+UK	LD	ALDE
+UK	Grn	G
+UK	Conservative Party	ECR
+UK	UK Independence Party	EFD
+UK	Labour Party	SD
+UK	Liberal Democrats	ALDE
+UK	Green Party	G
+UK	British National Party	NI
+UK	Other	NI
