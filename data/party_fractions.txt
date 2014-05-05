@@ -232,13 +232,13 @@ PL	PiS - Law and Justice	ECR
 PL	SLD-UP - Coalition Democratic Left Alliance-Labor Union	SD
 PL	PSL - Polish People's Party	EPP
 PL	PO - Civic Platform (Platforma Obywatelska)	EPP
-PL	LPR - League of Polish Families (Liga Polskich Rodzin)	NONE
+PL	LPR - League of Polish Families (Liga Polskich Rodzin)	ID
 PL	PiS - Law and Justice (Prawo i Sprawiedliwossc)	ECR
 PL	SRP - Self-Defence of the Republic of Poland (Samoobrona Rzeczypospolitej Polskiej)	UEN
 PL	SLD-UP - Democratic Left Alliance/Labour Union	SD
-PL	UW - Freedom Union (Unia Wolnosci)	NONE
+PL	UW - Freedom Union (Unia Wolnosci)	ALDE
 PL	PSL - Polish Peasant Party (Polskie Stronnictwo Ludowe)	EPP
-PL	SdPI - Polish Social Democracy (Socjaldemokracja Polska)	NONE
+PL	SdPI - Polish Social Democracy (Socjaldemokracja Polska)	SD
 PL	Other	NI
 PT	PS - Socialist Party (Partido Socialista)	SD
 PT	PPD/PSD-CDS-PP - Social Democratic Party (Partido Social Democrata) + Democratic and Social Centre - People's Party (Centro Democrático e Social - Partido Popular)	SD
