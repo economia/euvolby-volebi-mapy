@@ -5,7 +5,7 @@
 /node_modules
 /lib
 /www/data.js
-/data/tiles
+/www/tiles
 /srv/publisher.ls
 /www/screen.css
 /www/external.css

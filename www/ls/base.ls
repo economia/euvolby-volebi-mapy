@@ -36,12 +36,12 @@ baseLayer = new L.TileLayer do
 
 getLayer = (code, year) ->
     new L.TileLayer do
-        *   "../data/tiles/#code-#year/{z}/{x}/{y}.png"
+        *   "./tiles/#code-#year/{z}/{x}/{y}.png"
         *   zIndex: 2
 
 grids =
-    \2004 : new L.UtfGrid "../data/tiles/json-all-2004/{z}/{x}/{y}.json", useJsonP: no
-    \2009 : new L.UtfGrid "../data/tiles/json-all-2009/{z}/{x}/{y}.json", useJsonP: no
+    \2004 : new L.UtfGrid "./tiles/json-all-2004/{z}/{x}/{y}.json", useJsonP: no
+    \2009 : new L.UtfGrid "./tiles/json-all-2009/{z}/{x}/{y}.json", useJsonP: no
 
 for let year, grid of grids
     grid.on \mouseover ({data}) ->
