@@ -5,8 +5,22 @@
 .ig
     @import basics
 .ig.base
-    leftColumn = 85px
-    width 650px
-    height 650px
-    overflow hidden
-    position relative
+    position absolute
+    top 0px
+    left 0px
+    bottom 0px
+    width 100%
+    select
+        position absolute
+        top 0px
+        right 0px
+        z-index 5
+        &:last-child
+            top 30px
+
+.leaflet-control-zoom a
+    text-decoration none
+    color #333
+
+.tooltip
+    margin-top -25px
