@@ -1,5 +1,34 @@
 ig.utils = utils = {}
 
+utils.abbr =
+    \AT : "Rakousko"
+    \BE : "Belgie"
+    \BG : "Bulharsko"
+    \CY : "Kypr"
+    \CZ : "Česká republika"
+    \DE : "Německo"
+    \DK : "Dánsko"
+    \EE : "Estonsko"
+    \ES : "Španělsko"
+    \FI : "Finsko"
+    \FR : "Francie"
+    \GR : "Řecko"
+    \HU : "Maďarsko"
+    \IE : "Irsko"
+    \IT : "Itálie"
+    \LA : "Lotyšsko"
+    \LT : "Litva"
+    \LU : "Luxembursko"
+    \MT : "Malta"
+    \NL : "Nizozemí"
+    \PL : "Polsko"
+    \PT : "Portugalsko"
+    \RO : "Rumunsko"
+    \SE : "Svédsko"
+    \SI : "Slovinsko"
+    \SK : "Slovensko"
+    \UK : "Anglie"
+
 utils.draw-bg = (baseElement, padding = {}) ->
     bgElement = document.createElement \div
         ..className    = "ig-background"
@@ -60,3 +89,13 @@ utils.draw-bg = (element, padding = {}) ->
     ihned = document.querySelector '#ihned'
     if ihned
         that.parentNode.insertBefore bg, ihned
+
+utils.formatPrice = (price) ->
+    price .= toString!
+    out = []
+    len = price.length
+    for i in [0 til len]
+        out.unshift price[len - i - 1]
+        if 2 == i % 3 and i isnt len - 1
+            out.unshift ' '
+    out.join ''

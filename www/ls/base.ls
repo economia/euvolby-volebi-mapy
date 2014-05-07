@@ -44,14 +44,29 @@ grids =
     \2009 : new L.UtfGrid "./tiles/json-all-2009/{z}/{x}/{y}.json", useJsonP: no
 
 for let year, grid of grids
-    grid.on \mouseover ({data}) ->
-        [parties, sum, nuts, name] = data
-
-        list = for party, index in <[SD EPP EAF G ALDE NI GUE ECR UEN]>
-            "#{party}: #{parties[index]} (#{(parties[index] / sum * 100).toFixed 2}%)"
-        tooltip.display "<b>#{name}</b> #nuts<br />" + list.join "<br />"
+    grid.on \mouseover ({data}) -> drawTooltip data
     grid.on \mouseout -> tooltip.hide!
 
+drawTooltip = (data) ->
+    [parties, sum, nuts, name] = data
+    if not sum or nuts == "LU000"
+        sum = 0
+        for party, index in <[SD EPP EAF G ALDE NI GUE ECR UEN]>
+            sum += parties[index]
+    mostVotes = null
+    if currentLayerCode == "winners"
+        mostVotes = Math.max ...parties
+
+    list = for party, index in <[SD EPP EAF G ALDE NI GUE ECR UEN]>
+        text = "#{party}: #{ig.utils.formatPrice parties[index]} (#{(parties[index] / sum * 100).toFixed 2}%)"
+        if party.toLowerCase! is currentLayerCode or mostVotes == parties[index]
+            text = "<b>#text</b>"
+        text
+    header = if nuts.length > 2
+        "<b>Oblast #{name}</b>, #{ig.utils.abbr[nuts.substr 0 2]}"
+    else
+        "<b>#{ig.utils.abbr[nuts.substr 0 2]}</b>"
+    tooltip.display "#header<br />" + list.join "<br />"
 
 currentLayer = getLayer currentLayerCode, currentYear
 currentGrid = grids[currentYear]
