@@ -1,4 +1,3 @@
-
 tooltip = new Tooltip!
 map = L.map do
     *   ig.containers.base
@@ -6,6 +5,7 @@ map = L.map do
         maxZoom: 7,
         zoom: 4,
         center: [51.5, 9]
+
 currentLayerCode = \winners
 currentYear = 2009
 layers =
@@ -86,9 +86,7 @@ setDisplay = (layerCode, year) ->
     currentGrid := grids[year]
     map.addLayer currentLayer
     map.addLayer currentGrid
-    # <~ setTimeout _, 500
     map.removeLayer oldLayer
-
 
 $container = ig.containers.base
 
@@ -97,7 +95,8 @@ $select = $ "<select />"
     ..on \change ->
         setLayer $select.val!
     ..on \mouseover -> tooltip.hide!
-$select2 = $ "<div />"
+
+$yearSelector = $ "<div />"
     ..attr \class \yearSelector
     ..append "<input type='radio' name='year' value='2004' id='select-year-2004' />"
     ..append "<label for='select-year-2004'>2004</label>"
@@ -106,6 +105,7 @@ $select2 = $ "<div />"
     ..appendTo $container
     ..on \change (evt) -> setYear evt.target.value
     ..on \mouseover -> tooltip.hide!
+
 for {name, code} in layers
     $element = $ "<option>"
         ..html name
@@ -116,7 +116,3 @@ map
     ..addLayer baseLayer
     ..addLayer currentLayer
     ..addLayer currentGrid
-
-switchLayer = (code) ->
-
-
