@@ -11,24 +11,35 @@ currentYear = 2009
 layers =
     *   name: "Vítězové voleb"
         code: "winners"
-    *   name: "EPP - lidové strany, KDU-ČSL"
-        code: "epp"
-    *   name: "GUE - komunisté, KSČM"
-        code: "gue"
-    *   name: "ALDE - liberální demokraté, TOP09"
-        code: "alde"
-    *   name: "NI - mimo frakci"
-        code: "ni"
-    *   name: "EAF - liberálové"
-        code: "eaf"
-    *   name: "ECR - konzervativci, ODS"
-        code: "ecr"
-    *   name: "G - zelení"
-        code: "g"
-    *   name: "SD - sociální demokraté"
+        legendColors: <[#ff7f00 #fdbf6f #a6cee3 #33a02c #1f78b4 #999999 #e31a1c #a65628 #ffff33]>
+        legendNames: <[SD EPP EAF G ALDE NI GUE ECR UEN]>
+    *   name: "SD &ndash; sociální demokraté, ČSSD"
         code: "sd"
-    *   name: "UEN - nacionalisté"
+        legendColors: <[#ffffcc #b10026]>
+    *   name: "EPP &ndash; lidové strany, KDU-ČSL"
+        code: "epp"
+        legendColors: <[#ffffe5 #8c2d04]>
+    *   name: "EAF &ndash; liberálové"
+        code: "eaf"
+        legendColors: <[#fff7fb #016450]>
+    *   name: "G &ndash; zelení"
+        code: "g"
+        legendColors: <[#f7fcf5 #005a32]>
+    *   name: "ALDE &ndash; liberální demokraté, TOP09"
+        code: "alde"
+        legendColors: <[#f7fbff #084594]>
+    *   name: "NI &ndash; mimo frakci"
+        code: "ni"
+        legendColors: <[#ffffff #252525]>
+    *   name: "GUE &ndash; komunisté, KSČM"
+        code: "gue"
+        legendColors: <[#fff5f0 #99000d]>
+    *   name: "ECR &ndash; konzervativci, ODS"
+        code: "ecr"
+        legendColors: <[#fff7fb #034e7b]>
+    *   name: "UEN &ndash; nacionalisté"
         code: "uen"
+        legendColors: <[#fcfbfd #4a1486]>
 baseLayer = new L.TileLayer do
     *   "http://staticmaps.ihned.cz/tiles-world-osm//{z}/{x}/{y}.png"
     *   zIndex: 1
@@ -44,8 +55,12 @@ grids =
     \2009 : new L.UtfGrid "./tiles/json-all-2009/{z}/{x}/{y}.json", useJsonP: no
 
 for let year, grid of grids
-    grid.on \mouseover ({data}) -> drawTooltip data
-    grid.on \mouseout -> tooltip.hide!
+    grid.on \mouseover ({data}) ->
+        return if legendTooltipDisplayed
+        drawTooltip data
+    grid.on \mouseout ->
+        return if legendTooltipDisplayed
+        tooltip.hide!
 
 drawTooltip = (data) ->
     [parties, sum, nuts, name] = data
@@ -87,8 +102,34 @@ setDisplay = (layerCode, year) ->
     map.addLayer currentLayer
     map.addLayer currentGrid
     map.removeLayer oldLayer
+    drawLegend!
+legendTooltipDisplayed = no
+drawLegend = ->
+    $legend.empty!
+    $legend.attr \class "legend #currentLayerCode"
+    [layer] = layers.filter -> it.code is currentLayerCode
+    {legendNames, legendColors} = layer
+    if not legendNames
+        legendNames = ["Nejmenší podpora" "Největší podpora"]
+    for let color, index in legendColors
+        name = legendNames[index]
+        $d = $ "<div />"
+            ..html name
+            ..css \background-color color
+            ..appendTo $legend
+        if currentLayerCode == \winners
+            $d.on \mouseover ->
+                legendTooltipDisplayed := yes
+                tooltip.display layers[index + 1].name
+            $d.on \mouseout ->
+                legendTooltipDisplayed := no
+                tooltip.hide!
 
-$container = ig.containers.base
+$container = $ ig.containers.base
+
+$legend = $ "<div />"
+    ..attr \class \legend
+    ..appendTo $container
 
 $select = $ "<select />"
     ..appendTo $container
@@ -116,3 +157,4 @@ map
     ..addLayer baseLayer
     ..addLayer currentLayer
     ..addLayer currentGrid
+drawLegend!
