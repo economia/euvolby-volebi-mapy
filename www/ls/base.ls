@@ -1,6 +1,8 @@
 tooltip = new Tooltip!
+mapContainer = document.createElement \div
+ig.containers.base.appendChild mapContainer
 map = L.map do
-    *   ig.containers.base
+    *   mapContainer
     *   minZoom: 3,
         maxZoom: 7,
         zoom: 4,
@@ -119,6 +121,9 @@ drawLegend = ->
             ..appendTo $legend
         if currentLayerCode == \winners
             $d.on \mouseover ->
+                legendTooltipDisplayed := yes
+                tooltip.display layers[index + 1].name
+            $d.on \touchstart ->
                 legendTooltipDisplayed := yes
                 tooltip.display layers[index + 1].name
             $d.on \mouseout ->
