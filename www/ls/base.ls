@@ -7,7 +7,7 @@ map = L.map do
         zoom: 4,
         center: [51.5, 9]
 currentLayerCode = \winners
-currentYear = 2004
+currentYear = 2009
 layers =
     *   name: "Vítězové voleb"
         code: "winners"
@@ -78,14 +78,19 @@ setDisplay = (layerCode, year) ->
 $container = ig.containers.base
 
 $select = $ "<select />"
-   ..appendTo $container
-   ..on \change ->
-        setLayer $select.val!
-$select2 = $ "<select />"
-    ..append "<option value='2004'>2004</option>"
-    ..append "<option value='2009'>2009</option>"
     ..appendTo $container
-    ..on \change -> setYear $select2.val!
+    ..on \change ->
+        setLayer $select.val!
+    ..on \mouseover -> tooltip.hide!
+$select2 = $ "<div />"
+    ..attr \class \yearSelector
+    ..append "<input type='radio' name='year' value='2004' id='select-year-2004' />"
+    ..append "<label for='select-year-2004'>2004</label>"
+    ..append "<input type='radio' name='year' value='2009' id='select-year-2009' checked='checked' />"
+    ..append "<label for='select-year-2009'>2009</label>"
+    ..appendTo $container
+    ..on \change (evt) -> setYear evt.target.value
+    ..on \mouseover -> tooltip.hide!
 for {name, code} in layers
     $element = $ "<option>"
         ..html name

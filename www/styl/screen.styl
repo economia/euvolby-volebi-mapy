@@ -15,8 +15,61 @@
         top 0px
         right 0px
         z-index 5
-        &:last-child
-            top 30px
+    .yearSelector
+        selectorWidth = 60px
+        position absolute
+        top 28px
+        right 3px
+        background white
+        width (selectorWidth + 10px)
+        height 20px
+        overflow hidden
+        border-radius 4px
+        box-shadow black 0px 0px 2px
+        &:hover, &:hover *
+            cursor pointer
+        input
+            display none
+        label
+            font-size 0.9em
+            position absolute
+            top 0px
+            transition left 0.8s
+            left (selectorWidth * -1)
+            z-index 2
+            width (selectorWidth * 2)
+            &:first-of-type
+                margin-left 20px
+                width (selectorWidth * 2 - 20px)
+                padding-right selectorWidth
+            &:last-of-type
+                padding-left selectorWidth
+                text-align right
+                z-index 1
+        input:first-child:checked ~ label
+            left -10px
+        input:first-child:checked ~ label:last-of-type
+            z-index 3
+        label:first-of-type:after
+            position absolute
+            top 0px
+            left (selectorWidth - 20px)
+            width 20px
+            height 20px
+            background HNGreen
+            transition 0.8s
+            border 1px solid darken(HNGreen, 20%)
+            border-radius 4px
+            content ""
+        &:hover label:first-of-type:after
+            background darken(HNGreen, 20%)
+        input:first-child:checked ~ label:first-of-type:after
+            background HNViolet
+            border 1px solid darken(HNViolet, 20%)
+        &:hover input:first-child:checked ~ label:first-of-type:after
+            background darken(HNViolet, 20%)
+
+
 
 .leaflet-control-zoom a
     text-decoration none
@@ -24,3 +77,4 @@
 
 .tooltip
     margin-top -25px
+    min-width 250px
