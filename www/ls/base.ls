@@ -78,12 +78,15 @@ drawTooltip = (data) ->
         text = "#{party}: #{ig.utils.formatPrice parties[index]} (#{(parties[index] / sum * 100).toFixed 2}%)"
         if party.toLowerCase! is currentLayerCode or mostVotes == parties[index]
             text = "<b>#text</b>"
-        text
+        else if \winners isnt currentLayerCode
+            text = "<span class='downlight'>#text</span>"
+        else
+            text
     header = if nuts.length > 2
-        "<b>Oblast #{name}</b>, #{ig.utils.abbr[nuts.substr 0 2]}"
+        "<h2><b>Oblast #{name}</b>, #{ig.utils.abbr[nuts.substr 0 2]}</h2>"
     else
-        "<b>#{ig.utils.abbr[nuts.substr 0 2]}</b>"
-    tooltip.display "#header<br />" + list.join "<br />"
+        "<h2><b>#{ig.utils.abbr[nuts.substr 0 2]}</b></h2>"
+    tooltip.display "#header" + list.join "<br />"
 
 currentLayer = getLayer currentLayerCode, currentYear
 currentGrid = grids[currentYear]
