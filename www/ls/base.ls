@@ -55,10 +55,15 @@ getLayer = (code, year) ->
 grids =
     \2004 : new L.UtfGrid "./tiles/json-all-2004/{z}/{x}/{y}.json", useJsonP: no
     \2009 : new L.UtfGrid "./tiles/json-all-2009/{z}/{x}/{y}.json", useJsonP: no
+map.on \click (evt) ->
+    tooltip.hide!
+    tooltip.onMouseMove evt.originalEvent
 
 for let year, grid of grids
     grid.on \mouseover ({data}) ->
         return if legendTooltipDisplayed
+        drawTooltip data
+    grid.on \click ({data}:evt) ->
         drawTooltip data
     grid.on \mouseout ->
         return if legendTooltipDisplayed
