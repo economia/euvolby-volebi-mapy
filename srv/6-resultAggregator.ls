@@ -56,6 +56,8 @@ tgtYear = 2004
             votes_column := name
         {name, fraction, sum: 0}
 
+    if \LA == file.substr 0, 2
+        country = "LV"
     lines = fileData.split "\n"
     total = 0
     parties = []
