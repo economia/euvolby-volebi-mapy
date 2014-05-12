@@ -35,7 +35,7 @@ better_nuts_existing = {}
 countryParties = {}
 # output = {}
 outputLines = [<[nuts SD EPP EAF G ALDE NI GUE ECR UEN electorate voters]>]
-tgtYear = 2004
+tgtYear = 2009
 <~ async.each files, (file, cb) ->
     (err, fileData) <~ fs.readFile "#__dirname/../data/download/#file"
     fileData .= toString!
@@ -45,16 +45,21 @@ tgtYear = 2004
     if year != tgtYear
         cb!
         return
+    if country != "DK"
+        cb!
+        return
     cols = columns[countryYear]
     votes_column = null
     cols .= map (name) ->
         name .= replace /\n/g ''
         fraction = parties_fractions["#country-#name"]
+        console.log name, fraction
         if name.match /\bvalid\b/i
             votes_column := name
         if votes_column == null and (name.match /\bvotes\b/i or name.match /\bvoters\b/i)
             votes_column := name
         {name, fraction, sum: 0}
+    console.log "----"
 
     if \LA == file.substr 0, 2
         country = "LV"
@@ -79,6 +84,7 @@ tgtYear = 2004
             votes = parseInt fields[index], 10
             continue if not votes
             if fraction_positions[col.fraction]
+                console.log col.name, col.fraction, fraction_positions[col.fraction]
                 output[fraction_positions[col.fraction]] += votes
             else
                 if col.name.match /Electorate/i

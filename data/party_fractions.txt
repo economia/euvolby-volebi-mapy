@@ -78,7 +78,6 @@ DK	Socialist People's Party	G
 DK	The June Movement	ID
 DK	Peoople's Movement against EC	GUE
 DK	Liberal Party	ALDE
-DK	Valid votes	ALDE
 DK	Conservatives	GUE
 DK	Peoples Movement Against EC	ALDE
 DK	Danish People's Party	EFD
