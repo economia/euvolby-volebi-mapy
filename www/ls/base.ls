@@ -45,7 +45,7 @@ layers =
 baseLayer = new L.TileLayer do
     *   "http://staticmaps.ihned.cz/tiles-world-osm//{z}/{x}/{y}.png"
     *   zIndex: 1
-        attribution: 'mapová data &copy; přispěvatelé <a href="http://openstreetmap.org" target="_blank">OpenStreetMap</a>'
+        attribution: 'mapová data &copy; přispěvatelé <a href="http://openstreetmap.org" target="_blank">OpenStreetMap</a>, volební výsledky <a href="http://www.nsd.uib.no/european_election_database/country/belgium/european_parliament_elections.html" target="_blank">European Election Database</a>'
 
 getLayer = (code, year) ->
     new L.TileLayer do
