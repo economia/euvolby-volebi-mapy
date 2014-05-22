@@ -21,13 +21,13 @@ layers =
     *   name: "EPP &ndash; lidové strany, KDU-ČSL"
         code: "epp"
         legendColors: <[#ffffe5 #8c2d04]>
-    *   name: "EAF &ndash; liberálové"
+    *   name: "EAF &ndash; liberálové, Svobodní"
         code: "eaf"
         legendColors: <[#fff7fb #016450]>
     *   name: "G &ndash; zelení"
         code: "g"
         legendColors: <[#f7fcf5 #005a32]>
-    *   name: "ALDE &ndash; liberální demokraté, TOP09"
+    *   name: "ALDE &ndash; liberální demokraté, ANO 2011"
         code: "alde"
         legendColors: <[#f7fbff #084594]>
     *   name: "NI &ndash; mimo frakci"
